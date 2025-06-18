@@ -12,10 +12,6 @@ msgstr ""
 msgid " [{prc}% CI]"
 msgstr ""
 
-#: R\mxls.b.R
-msgid "{\"Excel files\" {.xlsx}}"
-msgstr ""
-
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Lower"
 msgstr ""
@@ -212,6 +208,10 @@ msgstr ""
 msgid "Colored Clusters"
 msgstr ""
 
+#: R\mmf.b.R
+msgid "Column name"
+msgstr ""
+
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
 msgstr ""
@@ -338,21 +338,6 @@ msgstr ""
 msgid "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
 msgstr ""
 
-#: package/analyses/mXLS.title
-#: package/analyses/mXLS.menuTitle
-#: mXLS/options.title
-#: mXLS/options/xlsexport.title
-#: mXLS/ui.title
-#: mXLS/results.title
-#: mXLS/results/text.title
-msgid "Export Data to Excel"
-msgstr ""
-
-#: mXLS/options/vars.title
-#: mXLS/ui[0][0].label
-msgid "Exported Variables"
-msgstr ""
-
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
 msgstr ""
@@ -462,11 +447,9 @@ msgstr ""
 #: package/analyses/mCOR.menuGroup
 #: package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup
-#: package/analyses/mXLS.menuGroup
 #: mCOR/options.menuGroup
 #: mMF/options.menuGroup
 #: mROC/options.menuGroup
-#: mXLS/options.menuGroup
 msgid "jYS"
 msgstr ""
 
@@ -648,11 +631,11 @@ msgid "Number of missing entries"
 msgstr ""
 
 #: R\mmf.b.R
-msgid "Number of missing entries per variable"
+msgid "Number of missing entries by variable"
 msgstr ""
 
 #: mMF/options/npat.title
-msgid "Number of patterns"
+msgid "Number of palettes"
 msgstr ""
 
 #: mMF/options/ntree.title
@@ -807,14 +790,6 @@ msgstr ""
 msgid "ROC graphs"
 msgstr ""
 
-#: R\mxls.b.R
-msgid "Save file as"
-msgstr ""
-
-#: R\mxls.b.R
-msgid "SAVED..."
-msgstr ""
-
 #: mCOR/options/clPos.title
 msgid "Scale position"
 msgstr ""
@@ -939,10 +914,6 @@ msgstr ""
 
 #: mMF/results/estim/fMARtab.template.title
 msgid "Variable - $key"
-msgstr ""
-
-#: R\mmf.b.R
-msgid "Variable name"
 msgstr ""
 
 #: mCOR/ui[5][0]/plots/clustMan.suffix
