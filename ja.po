@@ -1,103 +1,109 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-06-22 04:01+0000\n"
+"Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
+"ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
-msgstr ""
+msgstr " [{prc}%信頼区間]"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "{ciWidth}%信頼区間下限"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "{ciWidth}%信頼区間上限"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
-msgstr ""
+msgstr "欠損値補完あり {varType}"
 
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p < .05, ** p < .01, *** p < .001, 片側検定"
 
 #: R\mmf.b.R
 msgid "**connection of a variable's observed data"
-msgstr ""
+msgstr "** 観測データの接続"
 
 #: R\mmf.b.R
 msgid "*connection of a variable's missingness indicator"
-msgstr ""
+msgstr "*欠損値指標の接続"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
-msgstr ""
+msgstr "*ペアごとの完全な観測値"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix
 #: mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: mCOR/options/signif/0.001.title
+#, fuzzy
 msgid "< 0.001"
-msgstr ""
+msgstr "< 0.001"
 
 #: mCOR/options/signif/0.01.title
+#, fuzzy
 msgid "< 0.01"
-msgstr ""
+msgstr "< 0.01"
 
 #: mCOR/options/signif/0.05.title
+#, fuzzy
 msgid "< 0.05"
-msgstr ""
+msgstr "< 0.05"
 
 #: mCOR/options/signif/0.1.title
+#, fuzzy
 msgid "< 0.1"
-msgstr ""
+msgstr "< 0.1"
 
 #: mMF/ui[1][0]/patplot/npat.suffix
 msgid "0 - auto"
-msgstr ""
+msgstr "0 - 自動"
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 - 特異度"
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
-msgstr ""
+msgstr "100 - 特異度 (%)"
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "相関行列"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
-msgstr ""
+msgstr "アクセント"
 
 #: mCOR/options/clustMet.title
 msgid "Agglomeration method"
-msgstr ""
+msgstr "集塊"
 
 #: mMF/options/alg.title
 msgid "Algorythm"
-msgstr ""
+msgstr "アルゴリズム"
 
 #: mCOR/options/signif/all.title
 msgid "All"
-msgstr ""
+msgstr "すべて"
 
 #: mCOR/options/plotOrder/alphabet.title
 msgid "Alphabetical"
-msgstr ""
+msgstr "アルファベット順"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
@@ -141,7 +147,7 @@ msgstr ""
 
 #: mCOR/options/clPos/b.title
 msgid "Bottom"
-msgstr ""
+msgstr "下"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer qualitative palette"
@@ -221,7 +227,7 @@ msgstr ""
 #: mROC/options/ciAUC.title
 #: mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "信頼区間"
 
 #: mCOR/options/ci.title
 #: mCOR/ui[4][0]/tables/ci.label
@@ -298,7 +304,7 @@ msgstr ""
 
 #: mROC/options/direction.title
 msgid "Direction"
-msgstr ""
+msgstr "向き"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
@@ -353,7 +359,7 @@ msgstr ""
 #: mROC/options/groups.title
 #: mROC/ui[0][2].label
 msgid "Grouping Variable"
-msgstr ""
+msgstr "グループ変数"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
@@ -527,7 +533,7 @@ msgstr ""
 
 #: mCOR/options/method.title
 msgid "Method"
-msgstr ""
+msgstr "方法"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Training + Imputing) are required"
@@ -613,7 +619,7 @@ msgstr ""
 #: mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
 msgid "None"
-msgstr ""
+msgstr "なし"
 
 #: mCOR/options/plotMetU/number.title
 #: mCOR/options/plotMetL/number.title
@@ -752,7 +758,7 @@ msgstr ""
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
-msgstr ""
+msgstr "右"
 
 #: mMF/options/seed.title
 msgid "RNG seed value"
@@ -908,7 +914,7 @@ msgstr ""
 #: mMF/results/estim/mars.columns.title
 #: mMF/results/imput/errors.columns.title
 msgid "Variable"
-msgstr ""
+msgstr "変数"
 
 #: mMF/results/estim/fMARtab.template.title
 msgid "Variable - $key"
