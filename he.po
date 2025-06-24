@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-06-23 19:17+0000\n"
+"PO-Revision-Date: 2025-06-25 01:01+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "he/>\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "רווח סמך תחתון {ciWidth}%"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "רווח סמך עליון {ciWidth}%"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
@@ -160,7 +160,7 @@ msgstr ""
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Lower"
-msgstr ""
+msgstr "רווח סמך תחתון"
 
 #: mROC/options/ciMark.title
 msgid "CI Mark"
@@ -168,11 +168,11 @@ msgstr ""
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Upper"
-msgstr ""
+msgstr "רווח סמך עליון"
 
 #: mROC/options/ciWidth.title
 msgid "CI width"
-msgstr ""
+msgstr "רוחב רווח הסמך"
 
 #: mCOR/options/plotMetU/circle.title
 #: mCOR/options/plotMetL/circle.title
@@ -233,7 +233,7 @@ msgstr ""
 
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
-msgstr ""
+msgstr "רוחב רווח הסמך"
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
