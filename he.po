@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-06-25 01:01+0000\n"
+"PO-Revision-Date: 2025-06-28 13:04+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "he/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
-msgstr ""
+msgstr " [{prc}% רווח סמך]"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Lower"
@@ -39,11 +39,11 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "*connection of a variable's missingness indicator"
-msgstr ""
+msgstr "*חיבור של מחוון הנעלמות של משתנה"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
-msgstr ""
+msgstr "*תצפיות זוגיות מושלמות"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix
 #: mROC/ui[1]/ciAUC/ciWidth.suffix
@@ -52,23 +52,23 @@ msgstr "%"
 
 #: mCOR/options/signif/0.001.title
 msgid "< 0.001"
-msgstr ""
+msgstr "< 0.001"
 
 #: mCOR/options/signif/0.01.title
 msgid "< 0.01"
-msgstr ""
+msgstr "< 0.01"
 
 #: mCOR/options/signif/0.05.title
 msgid "< 0.05"
-msgstr ""
+msgstr "< 0.05"
 
 #: mCOR/options/signif/0.1.title
 msgid "< 0.1"
-msgstr ""
+msgstr "< 0.1"
 
 #: mMF/ui[1][0]/patplot/npat.suffix
 msgid "0 - auto"
-msgstr ""
+msgstr "0 – אוטומטי"
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
@@ -76,55 +76,55 @@ msgstr "סגוליות - 1"
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
-msgstr ""
+msgstr "100 – סגוליות (%)"
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "טבלת מטריצת מתאמים"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
-msgstr ""
+msgstr "מודגש"
 
 #: mCOR/options/clustMet.title
 msgid "Agglomeration method"
-msgstr ""
+msgstr "שיטת הליכוד"
 
 #: mMF/options/alg.title
 msgid "Algorythm"
-msgstr ""
+msgstr "אלגוריתם"
 
 #: mCOR/options/signif/all.title
 msgid "All"
-msgstr ""
+msgstr "הכול"
 
 #: mCOR/options/plotOrder/alphabet.title
 msgid "Alphabetical"
-msgstr ""
+msgstr "בסדר אלף–ביתי"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
-msgstr ""
+msgstr "מערך של חסרים כאקראי"
 
 #: mCOR/options/plotOrder/AOE.title
 msgid "Angular order eigenvectors"
-msgstr ""
+msgstr "וקטורים עצמיים בסדר זוויתי"
 
 #: mCOR/options/clustMet/average.title
 msgid "Average Linkage (UPGMA)"
-msgstr ""
+msgstr "הצמדה ממוצעת (UPGMA)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
-msgstr ""
+msgstr "הערכת ROC למודלי תאי דם"
 
 #: package/datasets/BC ROC classification.name
 msgid "BC ROC classification"
-msgstr ""
+msgstr "סיווג ROC לתאי דם"
 
 #: mCOR/options/adjust/BH.title
 msgid "Benjamini-Hochberg (1995)"
-msgstr ""
+msgstr "בנימיני–הוכברג (1995)"
 
 #: mCOR/options/adjust/BY.title
 msgid "Benjamini-Yekutieli (2001)"
@@ -224,12 +224,12 @@ msgstr ""
 #: mROC/options/ciAUC.title
 #: mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "רווח סמך"
 
 #: mCOR/options/ci.title
 #: mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
-msgstr ""
+msgstr "רווח סמך (רק פירסון)"
 
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
@@ -237,15 +237,15 @@ msgstr "רוחב רווח הסמך"
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
-msgstr ""
+msgstr "יש מתאם"
 
 #: mCOR/options/hyp/neg.title
 msgid "Correlated negatively"
-msgstr ""
+msgstr "מתאם שלילי"
 
 #: mCOR/options/hyp/pos.title
 msgid "Correlated positively"
-msgstr ""
+msgstr "מתאם חיובי"
 
 #: mCOR/options/vars.title
 #: mCOR/ui[0][0].label
