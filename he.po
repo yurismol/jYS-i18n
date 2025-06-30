@@ -350,20 +350,17 @@ msgstr "סימון המתאמים המובהקים"
 #: package.description
 msgid "Graphic extensions of the functionality of popular data analysis methods: cluster tree of correlating variables, multifactor adaptive correlation matrix, multidimensional ROC classification curves, missing data estimation and imputation etc."
 msgstr ""
-"הרחבה גרפית של השימושיות בשיטות ניתוח נתונים נפוצות: עצי אשכולות של משתנים "
-"מתואמים, מטריצת מתאמים רבת גורמים מותאמת, עקומות סיווג ROC רבות ממדים, אומדן "
-"ו  של נתונים חסרים, וכו׳."
 
 #: mCOR/options/group.title
 #: mCOR/ui[0][1].label
 #: mROC/options/groups.title
 #: mROC/ui[0][2].label
 msgid "Grouping Variable"
-msgstr ""
+msgstr "משתנה הקבצה"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
-msgstr ""
+msgstr "Hₐ הוא מתאם שלילי"
 
 #: R\mcor.b.R
 msgid "Hₐ is positive correlation"
@@ -371,39 +368,41 @@ msgstr "Hₐ הוא מתאם חיובי"
 
 #: package/datasets/HI ROC classification.description
 msgid "Healthy/Ill ROC Classification demonstration"
-msgstr ""
+msgstr "הדגמת סיווג ROC בריא/חולה"
 
 #: package/datasets/HI ROC classification.name
 msgid "HI ROC classification"
-msgstr ""
+msgstr "סיווג ROC בריא/חולה"
 
 #: mCOR/options/hclust.title
 msgid "Hierarchical clustering"
-msgstr ""
+msgstr "חלוקה לאשכולות בצורה מדרגית"
 
 #: mCOR/results/treeplot.title
 msgid "Hierarchical clustering tree"
-msgstr ""
+msgstr "עץ של חלוקה לאשכולות בצורה מדרגית"
 
 #: mCOR/options/adjust/hochberg.title
 msgid "Hochberg (1988)"
-msgstr ""
+msgstr "הוכברג (1988)"
 
 #: mCOR/options/adjust/holm.title
 msgid "Holm (1979)"
-msgstr ""
+msgstr "הולם (1979)"
 
 #: mCOR/options/adjust/hommel.title
 msgid "Hommel (1988)"
-msgstr ""
+msgstr "הומל (1988)"
 
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
-msgstr ""
+msgstr "השערה"
 
 #: R\mmf.b.R
 msgid "If at least one p<sub>value</sub> MAR is not significant, and the p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not At Random)."
 msgstr ""
+"אם לפחות ערך p אחד של החסרים באקראי אינו מובהק וערך ה־p של החסרים לחלוטין "
+"באקראי מובהק, הנתונים חסרים לא באקראי (NMAR)."
 
 #: R\mmf.b.R
 msgid "imp"
@@ -419,12 +418,12 @@ msgstr ""
 
 #: mROC/options/perc.title
 msgid "In percent"
-msgstr ""
+msgstr "באחוזים"
 
 #: mMF/options/imputevar.title
 #: mMF/ui[0][1].label
 msgid "Incomplete Variables"
-msgstr ""
+msgstr "משתנים לא מושלמים"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
@@ -441,12 +440,12 @@ msgstr ""
 #: mCOR/options/clustMat.title
 #: mCOR/results/rplots.title
 msgid "Intercluster Matrices"
-msgstr ""
+msgstr "מטריצות בין־אשכולות"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label
 #: mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
-msgstr ""
+msgstr "רווח"
 
 #: package/analyses/mCOR.menuGroup
 #: package/analyses/mROC.menuGroup
@@ -455,20 +454,20 @@ msgstr ""
 #: mMF/options.menuGroup
 #: mROC/options.menuGroup
 msgid "jYS"
-msgstr ""
+msgstr "jYS"
 
 #: package.title
 msgid "jYS Extended Functions"
-msgstr ""
+msgstr "פונקציות מורחבות של jYS"
 
 #: mCOR/options/method/kendall.title
 msgid "Kendall (τ)"
-msgstr ""
+msgstr "קנדל (τ)"
 
 #: mCOR/results/matrix.columns.title
 #: mCOR/results/matrix.columns.content
 msgid "Kendall Tau"
-msgstr ""
+msgstr "טאו של קנדל"
 
 #: mROC/options/legacy.title
 msgid "Legacy format of Specificity axis"
