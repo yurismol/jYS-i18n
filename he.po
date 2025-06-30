@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-06-28 13:04+0000\n"
+"PO-Revision-Date: 2025-06-30 11:10+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "he/>\n"
@@ -27,7 +27,7 @@ msgstr "רווח סמך עליון {ciWidth}%"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
-msgstr ""
+msgstr "{varType} עם ערכי ייחוס"
 
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
@@ -35,7 +35,7 @@ msgstr "* p < .05, ** p < .01, *** p < .001, חד זנבי"
 
 #: R\mmf.b.R
 msgid "**connection of a variable's observed data"
-msgstr ""
+msgstr "**קשר הנתונים הנצפים של המשתנה"
 
 #: R\mmf.b.R
 msgid "*connection of a variable's missingness indicator"
@@ -128,23 +128,23 @@ msgstr "בנימיני–הוכברג (1995)"
 
 #: mCOR/options/adjust/BY.title
 msgid "Benjamini-Yekutieli (2001)"
-msgstr ""
+msgstr "בנימיני–יקותיאלי (2001)"
 
 #: mROC/options/BW.title
 msgid "Black & White"
-msgstr ""
+msgstr "שחור ולבן"
 
 #: package/datasets/BC ROC classification.description
 msgid "Blood cells multiple ROC Classification demonstration"
-msgstr ""
+msgstr "הדגמת סיווג ROC מרובה לתאי דם"
 
 #: mCOR/options/adjust/bonferroni.title
 msgid "Bonferroni (1961)"
-msgstr ""
+msgstr "בונפרוני (1961)"
 
 #: mCOR/options/clPos/b.title
 msgid "Bottom"
-msgstr ""
+msgstr "תחתון"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer qualitative palette"
@@ -152,7 +152,7 @@ msgstr ""
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
-msgstr ""
+msgstr "הצמדת המרכז (UPGMC)"
 
 #: package/datasets/CHD Models ROC Estimation.name
 msgid "CHD Models ROC Estimation"
@@ -164,7 +164,7 @@ msgstr "רווח סמך תחתון"
 
 #: mROC/options/ciMark.title
 msgid "CI Mark"
-msgstr ""
+msgstr "סימון רווח הסמך"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Upper"
@@ -177,11 +177,11 @@ msgstr "רוחב רווח הסמך"
 #: mCOR/options/plotMetU/circle.title
 #: mCOR/options/plotMetL/circle.title
 msgid "Circle"
-msgstr ""
+msgstr "עיגול"
 
 #: mMF/results/estim/mars.title
 msgid "Classify missing at random (MAR)"
-msgstr ""
+msgstr "סיווג החסרים כאקראי (MAR)"
 
 #: mMF/results/estim/mcar.title
 msgid "Classify missing completely at random (MCAR)"
@@ -215,7 +215,7 @@ msgstr ""
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
-msgstr ""
+msgstr "הצמדה מלאה"
 
 #: mROC/results/text.title
 msgid "Conditions"
@@ -526,7 +526,7 @@ msgstr ""
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
-msgstr ""
+msgstr "הצמדת החציון"
 
 #: mCOR/options/method.title
 msgid "Method"
