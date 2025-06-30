@@ -104,7 +104,7 @@ msgstr "בסדר אלף–ביתי"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
-msgstr "מערך של חסרים כאקראי"
+msgstr "מערך של חסרים באקראי"
 
 #: mCOR/options/plotOrder/AOE.title
 msgid "Angular order eigenvectors"
@@ -181,16 +181,16 @@ msgstr "עיגול"
 
 #: mMF/results/estim/mars.title
 msgid "Classify missing at random (MAR)"
-msgstr "סיווג החסרים כאקראי (MAR)"
+msgstr "סיווג החסרים באקראי (MAR)"
 
 #: mMF/results/estim/mcar.title
 msgid "Classify missing completely at random (MCAR)"
-msgstr ""
+msgstr "סיווג החסרים לחלוטין באקראי (MCAR)"
 
 #: mROC/options/class.title
 #: mROC/ui[0][1].label
 msgid "Classifying variable"
-msgstr ""
+msgstr "משתנה מסווג"
 
 #: mROC/options/theBest/bestC.title
 msgid "Closest Best"
@@ -202,16 +202,16 @@ msgstr ""
 
 #: mCOR/options/numClust.title
 msgid "Clusters"
-msgstr ""
+msgstr "אשכולות"
 
 #: mCOR/options/plotMetU/color.title
 #: mCOR/options/plotMetL/color.title
 msgid "Color"
-msgstr ""
+msgstr "צבע"
 
 #: mCOR/options/clustCol.title
 msgid "Colored Clusters"
-msgstr ""
+msgstr "אשכולות צבועים"
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
@@ -219,7 +219,7 @@ msgstr "הצמדה מלאה"
 
 #: mROC/results/text.title
 msgid "Conditions"
-msgstr ""
+msgstr "תנאים"
 
 #: mROC/options/ciAUC.title
 #: mROC/ui[1]/ciAUC.label
@@ -250,11 +250,11 @@ msgstr "מתאם חיובי"
 #: mCOR/options/vars.title
 #: mCOR/ui[0][0].label
 msgid "Correlating Variables"
-msgstr ""
+msgstr "משתנים מתואמים"
 
 #: R\mmf.b.R
 msgid "Correlation"
-msgstr ""
+msgstr "מתאם"
 
 #: package/analyses/mCOR.title
 #: package/analyses/mCOR.menuTitle
@@ -262,26 +262,26 @@ msgstr ""
 #: mCOR/options.title
 #: mCOR/results.title
 msgid "Correlation clustering"
-msgstr ""
+msgstr "אִשכול המתאם"
 
 #: package/datasets/Correlation clustering.description
 msgid "Correlation Clustering demonstration"
-msgstr ""
+msgstr "הדגמת אשכול המתאם"
 
 #: mCOR/ui.title
 #: mCOR/results/matrix.title
 #: mCOR/results/plot.title
 msgid "Correlation Matrix"
-msgstr ""
+msgstr "מטריצת מתאמים"
 
 #: mCOR/options/tables.title
 #: mCOR/options/plots.title
 msgid "Correlation matrix"
-msgstr ""
+msgstr "מטריצת מתאמים"
 
 #: mCOR/results/text.title
 msgid "Correlations"
-msgstr ""
+msgstr "מתאמים"
 
 #: mMF/results/estim/cplot.title
 msgid "Correlations between variables"
@@ -289,37 +289,37 @@ msgstr "מתאמים בין משתנים"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "D²"
-msgstr ""
+msgstr "D²"
 
 #: mROC/options/palBrewer/Dark2.title
 msgid "Dark2"
-msgstr ""
+msgstr "חשוך2"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
-msgstr ""
+msgstr "דרגות<br>חופש (df)"
 
 #: mROC/options/direction.title
 msgid "Direction"
-msgstr ""
+msgstr "כיוון"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
-msgstr ""
+msgstr "קו נקודות"
 
 #: mCOR/options/plotMetU/ellipse.title
 #: mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
-msgstr ""
+msgstr "אליפסה"
 
 #: R\mmf.b.R
 msgid "Empty data table"
-msgstr ""
+msgstr "טבלת הנתונים הריקים"
 
 #: mCOR/options/plotMetU/empty.title
 #: mCOR/options/plotMetL/empty.title
 msgid "Emtpy"
-msgstr ""
+msgstr "ריק"
 
 #: mMF/results/imput/errors.title
 msgid "Estimated out-of-bag (OOB) imputation error"
@@ -328,16 +328,16 @@ msgstr ""
 #: mMF/options/fullmars.title
 #: mMF/results/estim/fMARtab.title
 msgid "Evaluation of MAR explainers"
-msgstr ""
+msgstr "הערכת מסבירי החסרים באקראי"
 
 #: mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "Explanatory"
-msgstr ""
+msgstr "מסביר"
 
 #: R\mmf.b.R
 msgid "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
-msgstr ""
+msgstr "מסביר – משתנה המתאים לחסרים באקראי עם ערך p מינימלי."
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
