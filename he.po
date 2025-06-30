@@ -116,7 +116,7 @@ msgstr "הצמדה ממוצעת (UPGMA)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
-msgstr "הערכת ROC למודלי תאי דם"
+msgstr "אומדן ROC למודלי תאי דם"
 
 #: package/datasets/BC ROC classification.name
 msgid "BC ROC classification"
@@ -401,7 +401,7 @@ msgstr "השערה"
 #: R\mmf.b.R
 msgid "If at least one p<sub>value</sub> MAR is not significant, and the p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not At Random)."
 msgstr ""
-"אם לפחות ערך p אחד של החסרים באקראי אינו מובהק וערך ה־p של החסרים לחלוטין "
+"אם לפחות ערך p אחד של החסרים באקראי אינו מובהק והערך p של החסרים לחלוטין "
 "באקראי מובהק, הנתונים חסרים לא באקראי (NMAR)."
 
 #: R\mmf.b.R
@@ -471,7 +471,7 @@ msgstr "טאו של קנדל"
 
 #: mROC/options/legacy.title
 msgid "Legacy format of Specificity axis"
-msgstr ""
+msgstr "ציר סגוליות של תבנית מדור קודם"
 
 #: mROC/options/legBox.title
 msgid "Legend Box"
@@ -479,48 +479,50 @@ msgstr ""
 
 #: mROC/options/lwd.title
 msgid "Line width"
-msgstr ""
+msgstr "רוחב הקו"
 
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
-msgstr ""
+msgstr "החלק התחתון"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
-msgstr ""
+msgstr "אשכולות ידניים"
 
 #: R\mmf.b.R
 msgid "MAR - missing at random (if each p<sub>value</sub> is significant, there is evidence the data is MAR);"
-msgstr ""
+msgstr "MAR – חסרים באקראי (אם כל ערכי ה־p מובהקים זה מעיד שהנתונים הם MAR);"
 
 #: mMF/results/estim/mcar.description
 #: mMF/results/estim/mars.description
 msgid "MAR classification table"
-msgstr ""
+msgstr "טבלת סיווג חסרים באקראי"
 
 #: mROC/options/mAst.title
 msgid "Mark significance *<0.05, **<0.01, ***<0.001"
-msgstr ""
+msgstr "סימון המובהקות *<0.05, **<0.01, ***<0.001"
 
 #: R\mcor.b.R
 msgid "Matrix #{i}"
-msgstr ""
+msgstr "מטריצה #{i}"
 
 #: mMF/options/maxiter.title
 msgid "Maximum number of iterations"
-msgstr ""
+msgstr "המספר החזרורים המקסימלי"
 
 #: mMF/results/estim/mcar.columns.content
 msgid "MCAR"
-msgstr ""
+msgstr "חסרים לחלוטין באקראי"
 
 #: R\mmf.b.R
 msgid "MCAR - missing completely at random (if the p<sub>value</sub> is not significant, there is evidence the data is MCAR)."
 msgstr ""
+"MCAR – חסרים לחלוטין באקראי (אם ערכי ה־p אינם מובהקים, זה מעיד שהנתונים "
+"חסרים לחלוטין באקראי)."
 
 #: mMF/options/isMAR.title
 msgid "MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
-msgstr ""
+msgstr "אומדן MCAR (חסרים לחלוטין באקראי) ו־MAR (חסרים באקראי)"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
@@ -532,7 +534,7 @@ msgstr "הצמדת החציון"
 
 #: mCOR/options/method.title
 msgid "Method"
-msgstr ""
+msgstr "שיטה"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Training + Imputing) are required"
@@ -548,16 +550,16 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "missing"
-msgstr ""
+msgstr "חסרים"
 
 #: mMF/results/estim/plot.title
 msgid "Missing data patterns"
-msgstr ""
+msgstr "תבניות נתונים חסרים"
 
 #: mMF/ui[1].label
 #: mMF/results/estim.title
 msgid "Missing Values Estimation"
-msgstr ""
+msgstr "תבניות ערכים חסרים"
 
 #: package/analyses/mMF.title
 #: package/analyses/mMF.menuTitle
@@ -579,7 +581,7 @@ msgstr ""
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Missing<br>Patterns"
-msgstr ""
+msgstr "תבניות<br>החסרים"
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
@@ -602,7 +604,7 @@ msgstr ""
 #: mMF/results/estim/mars.columns.title
 #: mMF/results/imput/errors.columns.title
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: R\mmf.b.R
 msgid "N - number of imputted values;"
@@ -610,7 +612,7 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "N - number of missing values;"
-msgstr ""
+msgstr "N – מספר הערכים החסרים;"
 
 #: mCOR/options/adjust/none.title
 #: mCOR/options/clPos/n.title
@@ -618,12 +620,12 @@ msgstr ""
 #: mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
 msgid "None"
-msgstr ""
+msgstr "כלום"
 
 #: mCOR/options/plotMetU/number.title
 #: mCOR/options/plotMetL/number.title
 msgid "Number"
-msgstr ""
+msgstr "מספר"
 
 #: mMF/options/pmmk.description.ui
 msgid "Number of candidate non-missing values to sample from in the predictive mean matching steps. 0 to avoid this step"
@@ -643,11 +645,11 @@ msgstr ""
 
 #: mMF/options/ntree.title
 msgid "Number of trees to grow in each forest"
-msgstr ""
+msgstr "מספר העצים שיש לגדל בכל יער"
 
 #: R\mmf.b.R
 msgid "observed"
-msgstr ""
+msgstr "נצפה"
 
 #: mMF/results/imput/errors.description
 msgid "OOB errors table"
@@ -655,7 +657,7 @@ msgstr ""
 
 #: mCOR/options/plotOrder/original.title
 msgid "Original"
-msgstr ""
+msgstr "מקורי"
 
 #: R\mmf.b.R
 msgid "OutFlux**"
@@ -664,13 +666,13 @@ msgstr ""
 #: mCOR/options/pval.title
 #: mCOR/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "ערך p"
 
 #: mMF/results/estim/mcar.columns.title
 #: mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "p<sub>value</sub>"
-msgstr ""
+msgstr "ערך p"
 
 #: mROC/options/palBrewer/Paired.title
 msgid "Paired"
