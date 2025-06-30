@@ -337,19 +337,22 @@ msgstr "מסביר"
 
 #: R\mmf.b.R
 msgid "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
-msgstr "מסביר – משתנה המתאים לחסרים באקראי עם ערך p מינימלי."
+msgstr "מסביר – משתנה המתכתב עם החסרים באקראי בעל ערך p מינימלי."
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
-msgstr ""
+msgstr "הרכיב העיקרי הראשון"
 
 #: mCOR/options/flag.title
 msgid "Flag significant correlations"
-msgstr ""
+msgstr "סימון המתאמים המובהקים"
 
 #: package.description
 msgid "Graphic extensions of the functionality of popular data analysis methods: cluster tree of correlating variables, multifactor adaptive correlation matrix, multidimensional ROC classification curves, missing data estimation and imputation etc."
 msgstr ""
+"הרחבה גרפית של השימושיות בשיטות ניתוח נתונים נפוצות: עצי אשכולות של משתנים "
+"מתואמים, מטריצת מתאמים רבת גורמים מותאמת, עקומות סיווג ROC רבות ממדים, אומדן "
+"ו  של נתונים חסרים, וכו׳."
 
 #: mCOR/options/group.title
 #: mCOR/ui[0][1].label
@@ -589,7 +592,7 @@ msgstr "MSE – ממוצע ריבועי השגיאות (למשתנים רציפ�
 
 #: mCOR/options/adjust.title
 msgid "Multiple comparision correction"
-msgstr ""
+msgstr "תיקון השוואות מרובות"
 
 #: mMF/options/imputeOV.title
 msgid "Multiple imputation for missing data"
