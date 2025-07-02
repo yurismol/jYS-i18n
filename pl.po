@@ -203,11 +203,11 @@ msgstr ""
 
 #: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
-msgstr ""
+msgstr "Kolor"
 
 #: mCOR/options/clustCol.title
 msgid "Colored Clusters"
-msgstr ""
+msgstr "Kolorowe klastry"
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
@@ -225,7 +225,7 @@ msgstr ""
 
 #: mROC/results/text.title
 msgid "Conditions"
-msgstr ""
+msgstr "Warunki"
 
 #: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
@@ -233,7 +233,7 @@ msgstr "Przedział ufności"
 
 #: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
-msgstr ""
+msgstr "Przedział ufności (tylko Pearson)"
 
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
@@ -651,20 +651,20 @@ msgstr ""
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
-msgstr "p-value"
+msgstr "wartość p"
 
 #: mMF/results/estim/mcar.columns.title mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "p<sub>value</sub>"
-msgstr ""
+msgstr "p<sub>wartość</sub>"
 
 #: mROC/options/palBrewer/Paired.title
 msgid "Paired"
-msgstr ""
+msgstr "Sparowane"
 
 #: mROC/options/palBrewer/Pastel1.title
 msgid "Pastel1"
-msgstr ""
+msgstr "Pastelowy1"
 
 #: R\mmf.b.R
 msgid "Pattern frequency"
@@ -672,7 +672,7 @@ msgstr ""
 
 #: mCOR/options/method/pearson.title
 msgid "Pearson (r)"
-msgstr ""
+msgstr "Pearson (r)"
 
 #: R\mcor.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
@@ -680,7 +680,7 @@ msgstr ""
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "r Pearsona"
 
 #: R\mmf.b.R
 msgid "per pattern"
@@ -688,7 +688,7 @@ msgstr ""
 
 #: mMF/results/imput/errors.columns.title
 msgid "PFC"
-msgstr ""
+msgstr "PFC"
 
 #: R\mmf.b.R
 msgid ""
@@ -701,11 +701,11 @@ msgstr ""
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
-msgstr ""
+msgstr "Wykres korelacji między zmiennymi"
 
 #: mMF/ui[1][0][2].label
 msgid "Plot options"
-msgstr ""
+msgstr "Opcje wykresów"
 
 #: mMF/options/patplot.title
 msgid "Plot the missing data patterns"
@@ -713,7 +713,7 @@ msgstr ""
 
 #: mCOR/ui[5].label mMF/ui[1][0][1].label
 msgid "Plots"
-msgstr ""
+msgstr "Wykresy"
 
 #: mROC/options/polygon.title
 msgid "Polygon"
@@ -725,11 +725,11 @@ msgstr ""
 
 #: mROC/options/vars.title mROC/ui[0][0].label
 msgid "Predictors"
-msgstr ""
+msgstr "Predyktory"
 
 #: mCOR/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr ""
+msgstr "utwórz wykres macierzy korelacji."
 
 #: R\mmf.b.R
 msgid ""
@@ -738,7 +738,7 @@ msgstr ""
 
 #: mCOR/options/plotOrder.title
 msgid "Reorder"
-msgstr ""
+msgstr "Zmień kolejności"
 
 #: mMF/options/setseed.title
 msgid "Reproducible random number generation (RNG) results"
@@ -779,7 +779,7 @@ msgstr ""
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
-msgstr ""
+msgstr "Pozycja skali"
 
 #: package/datasets/SDI ROC classification.name
 msgid "SDI ROC classification"
@@ -787,35 +787,35 @@ msgstr ""
 
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
-msgstr ""
+msgstr "Wybierz grupę"
 
 #: R\mroc.b.R
 msgid "Sensitivity"
-msgstr ""
+msgstr "Czułość"
 
 #: R\mroc.b.R
 msgid "Sensitivity (%)"
-msgstr ""
+msgstr "Czułość (%)"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
-msgstr ""
+msgstr "Zbiór1"
 
 #: mROC/options/palBrewer/Set2.title
 msgid "Set2"
-msgstr ""
+msgstr "Zbiór2"
 
 #: mROC/options/palBrewer/Set3.title
 msgid "Set3"
-msgstr ""
+msgstr "Zbiór3"
 
 #: mCOR/options/plotMetU/shade.title mCOR/options/plotMetL/shade.title
 msgid "Shade"
-msgstr ""
+msgstr "Odcień"
 
 #: mCOR/options/signif.title
 msgid "Significance"
-msgstr ""
+msgstr "Istotność"
 
 #: R\mcor.b.R
 msgid "Simultaneous multiple correlation comparisons using {n} method"
@@ -886,7 +886,7 @@ msgstr ""
 
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
-msgstr ""
+msgstr "Górna część"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 msgid "Variable"
@@ -894,11 +894,11 @@ msgstr "Zmienna"
 
 #: mMF/results/estim/fMARtab.template.title
 msgid "Variable - $key"
-msgstr ""
+msgstr "Zmienna - $key"
 
 #: R\mmf.b.R
 msgid "Variable name"
-msgstr ""
+msgstr "Nazwa zmiennej"
 
 #: mCOR/ui[5][0]/plots/clustMan.suffix
 msgid "variable numbers by commas"
@@ -906,7 +906,7 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Variable to impute"
-msgstr ""
+msgstr "Zmienna do imputacji"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
@@ -930,8 +930,8 @@ msgstr ""
 
 #: mROC/options/theBest/bestY.title
 msgid "Youden Best"
-msgstr ""
+msgstr "Youden Best"
 
 #: mROC/options/theBest/bssY.title
 msgid "Youden Best (Sp, Se)"
-msgstr ""
+msgstr "Youden Best (Sp, Se)"
