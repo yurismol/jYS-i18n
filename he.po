@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-06-30 11:10+0000\n"
+"PO-Revision-Date: 2025-07-02 18:01+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "he/>\n"
@@ -147,7 +147,7 @@ msgstr "תחתון"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
-msgstr ""
+msgstr "לוח הצבעים האיכותני של ברואר"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -214,16 +214,12 @@ msgid "Complete Linkage"
 msgstr "הצמדה מלאה"
 
 #: mMF/options/learnvar.title mMF/ui[0][0].label
-#, fuzzy
-#| msgid "Incomplete Variables"
 msgid "Complete Variables"
-msgstr "משתנים לא מושלמים"
+msgstr "משתנים מושלמים"
 
 #: mMF/options/compinres.title
-#, fuzzy
-#| msgid "Incomplete Variables"
 msgid "Complete variables in plots"
-msgstr "משתנים לא מושלמים"
+msgstr "משתנים מושלמים בתרשימים"
 
 #: mROC/results/text.title
 msgid "Conditions"
@@ -587,8 +583,6 @@ msgid "MSE - mean squared error (for Continuous variables);"
 msgstr "MSE – ממוצע ריבועי השגיאות (למשתנים רציפים);"
 
 #: mCOR/options/adjust.title
-#, fuzzy
-#| msgid "Multiple comparision correction"
 msgid "Multiple comparison correction"
 msgstr "תיקון השוואות מרובות"
 
@@ -624,6 +618,8 @@ msgid ""
 "Number of candidate non-missing values to sample from in the predictive mean "
 "matching steps. 0 to avoid this step"
 msgstr ""
+"מספר הערכים שאינם חסרים המועמדים לשמש כמדגם בשלבי התאמת הממוצע המנבא. 0 כדי "
+"להימנע משלב זה"
 
 #: R\mmf.b.R
 msgid "Number of missing entries"
@@ -635,7 +631,7 @@ msgstr ""
 
 #: mMF/options/npat.title
 msgid "Number of patterns"
-msgstr ""
+msgstr "מספר התבניות"
 
 #: mMF/options/ntree.title
 msgid "Number of trees to grow in each forest"
@@ -668,31 +664,31 @@ msgstr "ערך p"
 
 #: mROC/options/palBrewer/Paired.title
 msgid "Paired"
-msgstr ""
+msgstr "מזווג"
 
 #: mROC/options/palBrewer/Pastel1.title
 msgid "Pastel1"
-msgstr ""
+msgstr "פסטל1"
 
 #: R\mmf.b.R
 msgid "Pattern frequency"
-msgstr ""
+msgstr "תדירות התבנית"
 
 #: mCOR/options/method/pearson.title
 msgid "Pearson (r)"
-msgstr ""
+msgstr "פירסון (r)"
 
 #: R\mcor.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "אי אפשר לחשב מתאם פירסון לערכים לא מספריים"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "r של פירסון"
 
 #: R\mmf.b.R
 msgid "per pattern"
-msgstr ""
+msgstr "לפי תבנית"
 
 #: mMF/results/imput/errors.columns.title
 msgid "PFC"
@@ -705,7 +701,7 @@ msgstr ""
 
 #: mCOR/options/plotMetU/pie.title mCOR/options/plotMetL/pie.title
 msgid "Pie"
-msgstr ""
+msgstr "עיגולי"
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
@@ -713,31 +709,31 @@ msgstr "תרשים מתאמים בין משתנים"
 
 #: mMF/ui[1][0][2].label
 msgid "Plot options"
-msgstr ""
+msgstr "אפשרויות התרשים"
 
 #: mMF/options/patplot.title
 msgid "Plot the missing data patterns"
-msgstr ""
+msgstr "יצירת תרשים של דפוס הנתונים החסרים"
 
 #: mCOR/ui[5].label mMF/ui[1][0][1].label
 msgid "Plots"
-msgstr ""
+msgstr "תרשימים"
 
 #: mROC/options/polygon.title
 msgid "Polygon"
-msgstr ""
+msgstr "מצולע"
 
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
-msgstr ""
+msgstr "שלבי התאמת הממוצע המנבא (PMM)"
 
 #: mROC/options/vars.title mROC/ui[0][0].label
 msgid "Predictors"
-msgstr ""
+msgstr "מנבאים"
 
 #: mCOR/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr ""
+msgstr "תרשים מטריצת מתאמים."
 
 #: R\mmf.b.R
 msgid ""
@@ -746,7 +742,7 @@ msgstr ""
 
 #: mCOR/options/plotOrder.title
 msgid "Reorder"
-msgstr ""
+msgstr "סידור מחדש"
 
 #: mMF/options/setseed.title
 msgid "Reproducible random number generation (RNG) results"
@@ -799,23 +795,23 @@ msgstr ""
 
 #: R\mroc.b.R
 msgid "Sensitivity"
-msgstr ""
+msgstr "רגישות"
 
 #: R\mroc.b.R
 msgid "Sensitivity (%)"
-msgstr ""
+msgstr "רגישות (%)"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
-msgstr ""
+msgstr "מערך1"
 
 #: mROC/options/palBrewer/Set2.title
 msgid "Set2"
-msgstr ""
+msgstr "מערך2"
 
 #: mROC/options/palBrewer/Set3.title
 msgid "Set3"
-msgstr ""
+msgstr "מערך3"
 
 #: mCOR/options/plotMetU/shade.title mCOR/options/plotMetL/shade.title
 msgid "Shade"
@@ -823,7 +819,7 @@ msgstr ""
 
 #: mCOR/options/signif.title
 msgid "Significance"
-msgstr ""
+msgstr "מובהקות"
 
 #: R\mcor.b.R
 msgid "Simultaneous multiple correlation comparisons using {n} method"
@@ -863,11 +859,11 @@ msgstr ""
 
 #: mROC/results/splots.title
 msgid "Splitted ROC by predictors"
-msgstr ""
+msgstr "ROC מחולק על פי מנבאים"
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
-msgstr ""
+msgstr "ריבוע"
 
 #: mROC/options/cmpDeLong/succ.title
 msgid "Successively"
