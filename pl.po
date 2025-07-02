@@ -257,13 +257,13 @@ msgstr "Skorelowane zmienne"
 
 #: R\mmf.b.R
 msgid "Correlation"
-msgstr "KOrelacja"
+msgstr "Korelacja"
 
 #: package/analyses/mCOR.title package/analyses/mCOR.menuTitle
 #: package/datasets/Correlation clustering.name mCOR/options.title
 #: mCOR/results.title
 msgid "Correlation clustering"
-msgstr ""
+msgstr "Klastrowanie korelacji"
 
 #: package/datasets/Correlation clustering.description
 msgid "Correlation Clustering demonstration"
@@ -271,31 +271,31 @@ msgstr ""
 
 #: mCOR/ui.title mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation Matrix"
-msgstr ""
+msgstr "Macierz korelacji"
 
 #: mCOR/options/tables.title mCOR/options/plots.title
 msgid "Correlation matrix"
-msgstr ""
+msgstr "Macierz korelacji"
 
 #: mCOR/results/text.title
 msgid "Correlations"
-msgstr ""
+msgstr "Korelacje"
 
 #: mMF/results/estim/cplot.title
 msgid "Correlations between variables"
-msgstr ""
+msgstr "Korelacje między zmiennymi"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "D²"
-msgstr ""
+msgstr "D²"
 
 #: mROC/options/palBrewer/Dark2.title
 msgid "Dark2"
-msgstr ""
+msgstr "Ciemny2"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
-msgstr ""
+msgstr "Stopień <br>swobody (df)"
 
 #: mROC/options/direction.title
 msgid "Direction"
@@ -303,19 +303,19 @@ msgstr "Kierunek"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
-msgstr ""
+msgstr "Linia przerywana"
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
-msgstr ""
+msgstr "Elipsa"
 
 #: R\mmf.b.R
 msgid "Empty data table"
-msgstr ""
+msgstr "Pusta tabela danych"
 
 #: mCOR/options/plotMetU/empty.title mCOR/options/plotMetL/empty.title
 msgid "Emtpy"
-msgstr ""
+msgstr "Puste"
 
 #: mMF/results/imput/errors.title
 msgid "Estimated out-of-bag (OOB) imputation error"
@@ -382,19 +382,19 @@ msgstr ""
 
 #: mCOR/options/adjust/hochberg.title
 msgid "Hochberg (1988)"
-msgstr ""
+msgstr "Hochberg (1988)"
 
 #: mCOR/options/adjust/holm.title
 msgid "Holm (1979)"
-msgstr ""
+msgstr "Holm (1979)"
 
 #: mCOR/options/adjust/hommel.title
 msgid "Hommel (1988)"
-msgstr ""
+msgstr "Hommel (1988)"
 
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
-msgstr ""
+msgstr "Hipoteza"
 
 #: R\mmf.b.R
 msgid ""
@@ -493,19 +493,19 @@ msgstr ""
 
 #: mROC/options/mAst.title
 msgid "Mark significance *<0.05, **<0.01, ***<0.001"
-msgstr ""
+msgstr "Oznacz istotność *<0,05, **<0,01, ***<0,001"
 
 #: R\mcor.b.R
 msgid "Matrix #{i}"
-msgstr ""
+msgstr "Macierz #{i}"
 
 #: mMF/options/maxiter.title
 msgid "Maximum number of iterations"
-msgstr ""
+msgstr "Maksymalna liczba iteracji"
 
 #: mMF/results/estim/mcar.columns.content
 msgid "MCAR"
-msgstr ""
+msgstr "MCAR"
 
 #: R\mmf.b.R
 msgid ""
@@ -540,29 +540,29 @@ msgstr ""
 
 #: mMF/options/alg/mF.title
 msgid "missForest (2012)"
-msgstr ""
+msgstr "missForest (2012)"
 
 #: R\mmf.b.R
 msgid "missing"
-msgstr ""
+msgstr "brakujące"
 
 #: mMF/results/estim/plot.title
 msgid "Missing data patterns"
-msgstr ""
+msgstr "Wzorce braków danych"
 
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
-msgstr ""
+msgstr "Estymacja braków danych"
 
 #: package/analyses/mMF.title package/analyses/mMF.menuTitle mMF/options.title
 #: mMF/ui.title mMF/results.title
 msgid "Missing Values Estimation and Imputation"
-msgstr ""
+msgstr "Estymacja i imputacja braków danych"
 
 #: package/datasets/Missing Values Imputation.name mMF/ui[2].label
 #: mMF/results/imput.title
 msgid "Missing Values Imputation"
-msgstr ""
+msgstr "Imputacja braków danych"
 
 #: package/datasets/Missing Values Imputation.description
 msgid "Missing values imputation using the prediction power of Random Forests"
@@ -574,7 +574,7 @@ msgstr ""
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
-msgstr ""
+msgstr "missRanger (2021)"
 
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
@@ -651,7 +651,7 @@ msgstr ""
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "p-value"
 
 #: mMF/results/estim/mcar.columns.title mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
