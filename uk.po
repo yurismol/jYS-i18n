@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-06-25 01:01+0000\n"
-"Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/jys-"
-"i18n/uk/>\n"
+"PO-Revision-Date: 2025-07-02 18:01+0000\n"
+"Last-Translator: Максим Горпиніч <gorpinicmaksim5@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
+"jys-i18n/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -146,10 +146,8 @@ msgid "Bottom"
 msgstr "Внизу"
 
 #: mROC/options/palBrewer.title
-#, fuzzy
-#| msgid "Brewer qualitative palette"
 msgid "Brewer's qualitative palette"
-msgstr "Якісна палітра від Brewer"
+msgstr "Якісна палітра Брюера"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -216,16 +214,12 @@ msgid "Complete Linkage"
 msgstr "Повне з'єднання"
 
 #: mMF/options/learnvar.title mMF/ui[0][0].label
-#, fuzzy
-#| msgid "Incomplete Variables"
 msgid "Complete Variables"
-msgstr "Неповні змінні"
+msgstr "Повні змінні"
 
 #: mMF/options/compinres.title
-#, fuzzy
-#| msgid "Incomplete Variables"
 msgid "Complete variables in plots"
-msgstr "Неповні змінні"
+msgstr "Повні змінні на графіках"
 
 #: mROC/results/text.title
 msgid "Conditions"
@@ -547,11 +541,8 @@ msgid "Method"
 msgstr "Метод"
 
 #: R\mmf.b.R
-#, fuzzy
-#| msgid "Minimum {minVar} variables (Training + Imputing) are required"
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
-msgstr ""
-"Потрібна мінімальна кількість змінних (навчання + імпутування) – {minVar}"
+msgstr "Потрібна мінімальна кількість змінних {minVar} (повні + неповні)"
 
 #: R\mmf.b.R
 msgid "Minimum 2 impute variables are required"
@@ -602,8 +593,6 @@ msgid "MSE - mean squared error (for Continuous variables);"
 msgstr "MSE - середньоквадратична помилка (для неперервних змінних);"
 
 #: mCOR/options/adjust.title
-#, fuzzy
-#| msgid "Multiple comparision correction"
 msgid "Multiple comparison correction"
 msgstr "Корекція множинних порівнянь"
 
@@ -648,11 +637,11 @@ msgstr "Кількість відсутніх записів"
 
 #: R\mmf.b.R
 msgid "Number of missing entries per variable"
-msgstr ""
+msgstr "Кількість відсутніх записів на змінну"
 
 #: mMF/options/npat.title
 msgid "Number of patterns"
-msgstr ""
+msgstr "Кількість візерунків"
 
 #: mMF/options/ntree.title
 msgid "Number of trees to grow in each forest"
@@ -731,7 +720,7 @@ msgstr "Побудуйте графіки кореляцій між змінни
 
 #: mMF/ui[1][0][2].label
 msgid "Plot options"
-msgstr ""
+msgstr "Варіанти сюжету"
 
 #: mMF/options/patplot.title
 msgid "Plot the missing data patterns"
@@ -792,10 +781,8 @@ msgid "ROC classification"
 msgstr "ROC класифікація"
 
 #: mROC/options/cmpDeLong.title
-#, fuzzy
-#| msgid "ROC comparision"
 msgid "ROC comparison"
-msgstr "ROC порівняння"
+msgstr "Порівняння ROC"
 
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
@@ -928,7 +915,7 @@ msgstr "Змінна - $key"
 
 #: R\mmf.b.R
 msgid "Variable name"
-msgstr ""
+msgstr "Ім'я змінної"
 
 #: mCOR/ui[5][0]/plots/clustMan.suffix
 msgid "variable numbers by commas"
