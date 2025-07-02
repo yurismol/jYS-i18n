@@ -3,11 +3,11 @@ msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
 "PO-Revision-Date: 2025-06-25 01:01+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
-"jys-i18n/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/jys-"
+"i18n/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
@@ -45,8 +45,7 @@ msgstr "*підключення індикатора відсутності зм
 msgid "*pairwise complete observations"
 msgstr "*попарно повні спостереження"
 
-#: mCOR/ui[4][0]/tables/ci/ciWidth.suffix
-#: mROC/ui[1]/ciAUC/ciWidth.suffix
+#: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
 msgstr "%"
 
@@ -66,7 +65,7 @@ msgstr "< 0.05"
 msgid "< 0.1"
 msgstr "< 0.1"
 
-#: mMF/ui[1][0]/patplot/npat.suffix
+#: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
 msgstr "0 - авто"
 
@@ -147,7 +146,9 @@ msgid "Bottom"
 msgstr "Внизу"
 
 #: mROC/options/palBrewer.title
-msgid "Brewer qualitative palette"
+#, fuzzy
+#| msgid "Brewer qualitative palette"
+msgid "Brewer's qualitative palette"
 msgstr "Якісна палітра від Brewer"
 
 #: mCOR/options/clustMet/centroid.title
@@ -174,8 +175,7 @@ msgstr "CI Верхній"
 msgid "CI width"
 msgstr "CI ширина"
 
-#: mCOR/options/plotMetU/circle.title
-#: mCOR/options/plotMetL/circle.title
+#: mCOR/options/plotMetU/circle.title mCOR/options/plotMetL/circle.title
 msgid "Circle"
 msgstr "Коло"
 
@@ -187,8 +187,7 @@ msgstr "Класифікувати відсутні випадковим чин�
 msgid "Classify missing completely at random (MCAR)"
 msgstr "Класифікувати зниклі безвісти повністю випадковим чином (MCAR)"
 
-#: mROC/options/class.title
-#: mROC/ui[0][1].label
+#: mROC/options/class.title mROC/ui[0][1].label
 msgid "Classifying variable"
 msgstr "Класифікація змінної"
 
@@ -204,8 +203,7 @@ msgstr "Найближчий найкращий (Іспанія, Пд.-Сх.)"
 msgid "Clusters"
 msgstr "Кластери"
 
-#: mCOR/options/plotMetU/color.title
-#: mCOR/options/plotMetL/color.title
+#: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
 msgstr "Колір"
 
@@ -217,17 +215,27 @@ msgstr "Кольорові кластери"
 msgid "Complete Linkage"
 msgstr "Повне з'єднання"
 
+#: mMF/options/learnvar.title mMF/ui[0][0].label
+#, fuzzy
+#| msgid "Incomplete Variables"
+msgid "Complete Variables"
+msgstr "Неповні змінні"
+
+#: mMF/options/compinres.title
+#, fuzzy
+#| msgid "Incomplete Variables"
+msgid "Complete variables in plots"
+msgstr "Неповні змінні"
+
 #: mROC/results/text.title
 msgid "Conditions"
 msgstr "Умови"
 
-#: mROC/options/ciAUC.title
-#: mROC/ui[1]/ciAUC.label
+#: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
 msgstr "Довірчий інтервал"
 
-#: mCOR/options/ci.title
-#: mCOR/ui[4][0]/tables/ci.label
+#: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
 msgstr "Довірчий інтервал (лише за Пірсоном)"
 
@@ -247,8 +255,7 @@ msgstr "Негативно корелює"
 msgid "Correlated positively"
 msgstr "Позитивно корелює"
 
-#: mCOR/options/vars.title
-#: mCOR/ui[0][0].label
+#: mCOR/options/vars.title mCOR/ui[0][0].label
 msgid "Correlating Variables"
 msgstr "Кореляційні змінні"
 
@@ -256,10 +263,8 @@ msgstr "Кореляційні змінні"
 msgid "Correlation"
 msgstr "Кореляція"
 
-#: package/analyses/mCOR.title
-#: package/analyses/mCOR.menuTitle
-#: package/datasets/Correlation clustering.name
-#: mCOR/options.title
+#: package/analyses/mCOR.title package/analyses/mCOR.menuTitle
+#: package/datasets/Correlation clustering.name mCOR/options.title
 #: mCOR/results.title
 msgid "Correlation clustering"
 msgstr "Кореляційна кластеризація"
@@ -268,14 +273,11 @@ msgstr "Кореляційна кластеризація"
 msgid "Correlation Clustering demonstration"
 msgstr "Демонстрація кореляційної кластеризації"
 
-#: mCOR/ui.title
-#: mCOR/results/matrix.title
-#: mCOR/results/plot.title
+#: mCOR/ui.title mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation Matrix"
 msgstr "Кореляційна матриця"
 
-#: mCOR/options/tables.title
-#: mCOR/options/plots.title
+#: mCOR/options/tables.title mCOR/options/plots.title
 msgid "Correlation matrix"
 msgstr "Кореляційна матриця"
 
@@ -307,8 +309,7 @@ msgstr "Напрямок"
 msgid "Dotted line"
 msgstr "Пунктирна лінія"
 
-#: mCOR/options/plotMetU/ellipse.title
-#: mCOR/options/plotMetL/ellipse.title
+#: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
 msgstr "Еліпс"
 
@@ -316,8 +317,7 @@ msgstr "Еліпс"
 msgid "Empty data table"
 msgstr "Порожня таблиця даних"
 
-#: mCOR/options/plotMetU/empty.title
-#: mCOR/options/plotMetL/empty.title
+#: mCOR/options/plotMetU/empty.title mCOR/options/plotMetL/empty.title
 msgid "Emtpy"
 msgstr "Порожній"
 
@@ -325,8 +325,7 @@ msgstr "Порожній"
 msgid "Estimated out-of-bag (OOB) imputation error"
 msgstr "Очікувана помилка імпутації \"за межами пакету\" (OOB)"
 
-#: mMF/options/fullmars.title
-#: mMF/results/estim/fMARtab.title
+#: mMF/options/fullmars.title mMF/results/estim/fMARtab.title
 msgid "Evaluation of MAR explainers"
 msgstr "Оцінювання пояснювальних документів MAR"
 
@@ -336,7 +335,8 @@ msgid "Explanatory"
 msgstr "Пояснювальний"
 
 #: R\mmf.b.R
-msgid "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
+msgid ""
+"Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
 msgstr ""
 "Пояснювальна - змінна, що відповідає MAR з мінімальним p<sub>значення</sub>."
 
@@ -349,16 +349,18 @@ msgid "Flag significant correlations"
 msgstr "Позначення значущих кореляцій"
 
 #: package.description
-msgid "Graphic extensions of the functionality of popular data analysis methods: cluster tree of correlating variables, multifactor adaptive correlation matrix, multidimensional ROC classification curves, missing data estimation and imputation etc."
+msgid ""
+"Graphic extensions of the functionality of popular data analysis methods: "
+"cluster tree of correlating variables, multifactor adaptive correlation "
+"matrix, multidimensional ROC classification curves, missing data estimation "
+"and imputation etc."
 msgstr ""
 "Графічні розширення функціональності популярних методів аналізу даних: "
 "кластерне дерево корелюючих змінних, багатофакторна адаптивна матриця "
 "кореляції, багатовимірні ROC-криві класифікації, оцінка та імпутація "
 "відсутніх даних тощо."
 
-#: mCOR/options/group.title
-#: mCOR/ui[0][1].label
-#: mROC/options/groups.title
+#: mCOR/options/group.title mCOR/ui[0][1].label mROC/options/groups.title
 #: mROC/ui[0][2].label
 msgid "Grouping Variable"
 msgstr "Групування змінних"
@@ -404,7 +406,10 @@ msgid "Hypothesis"
 msgstr "Гіпотеза"
 
 #: R\mmf.b.R
-msgid "If at least one p<sub>value</sub> MAR is not significant, and the p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not At Random)."
+msgid ""
+"If at least one p<sub>value</sub> MAR is not significant, and the "
+"p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not "
+"At Random)."
 msgstr ""
 "Якщо хоча б один p<sub>value</sub> MAR не є значним, і p<sub>value</sub> "
 "Якщо в MCAR є значущим, то дані є MNAR (відсутні не випадково)."
@@ -425,8 +430,7 @@ msgstr "Враховані промахи"
 msgid "In percent"
 msgstr "У відсотках"
 
-#: mMF/options/imputevar.title
-#: mMF/ui[0][1].label
+#: mMF/options/imputevar.title mMF/ui[0][1].label
 msgid "Incomplete Variables"
 msgstr "Неповні змінні"
 
@@ -442,21 +446,16 @@ msgstr "Графік припливу-відпливу для шаблонів �
 msgid "Influx*"
 msgstr "Приплив*"
 
-#: mCOR/options/clustMat.title
-#: mCOR/results/rplots.title
+#: mCOR/options/clustMat.title mCOR/results/rplots.title
 msgid "Intercluster Matrices"
 msgstr "Міжкластерні матриці"
 
-#: mCOR/ui[4][0]/tables/ci/ciWidth.label
-#: mROC/ui[1]/ciAUC/ciWidth.label
+#: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
 msgstr "Інтервал"
 
-#: package/analyses/mCOR.menuGroup
-#: package/analyses/mROC.menuGroup
-#: package/analyses/mMF.menuGroup
-#: mCOR/options.menuGroup
-#: mMF/options.menuGroup
+#: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
+#: package/analyses/mMF.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
 #: mROC/options.menuGroup
 msgid "jYS"
 msgstr "jYS"
@@ -469,8 +468,7 @@ msgstr "Розширені функції jYS"
 msgid "Kendall (τ)"
 msgstr "Кендалл (τ)"
 
-#: mCOR/results/matrix.columns.title
-#: mCOR/results/matrix.columns.content
+#: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Kendall Tau"
 msgstr "Рік Кендалла"
 
@@ -495,13 +493,14 @@ msgid "Manual Clusters"
 msgstr "Ручні кластери"
 
 #: R\mmf.b.R
-msgid "MAR - missing at random (if each p<sub>value</sub> is significant, there is evidence the data is MAR);"
+msgid ""
+"MAR - missing at random (if each p<sub>value</sub> is significant, there is "
+"evidence the data is MAR);"
 msgstr ""
 "MAR - відсутній випадковим чином (якщо кожне p <sub>значення</sub> є "
 "значним, є докази того, що дані відповідають вимогам MAR);"
 
-#: mMF/results/estim/mcar.description
-#: mMF/results/estim/mars.description
+#: mMF/results/estim/mcar.description mMF/results/estim/mars.description
 msgid "MAR classification table"
 msgstr "Таблиця класифікації MAR"
 
@@ -522,13 +521,16 @@ msgid "MCAR"
 msgstr "MCAR"
 
 #: R\mmf.b.R
-msgid "MCAR - missing completely at random (if the p<sub>value</sub> is not significant, there is evidence the data is MCAR)."
+msgid ""
+"MCAR - missing completely at random (if the p<sub>value</sub> is not "
+"significant, there is evidence the data is MCAR)."
 msgstr ""
 "MCAR - повністю випадково відсутній (якщо p<sub>значення</sub> не є "
 "значущим, є докази того, що дані відповідають вимогам MCAR)."
 
 #: mMF/options/isMAR.title
-msgid "MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
+msgid ""
+"MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
 msgstr ""
 "Оцінка MCAR (повна випадкова відсутність) та MAR (випадкова відсутність)"
 
@@ -545,7 +547,9 @@ msgid "Method"
 msgstr "Метод"
 
 #: R\mmf.b.R
-msgid "Minimum {minVar} variables (Training + Imputing) are required"
+#, fuzzy
+#| msgid "Minimum {minVar} variables (Training + Imputing) are required"
+msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
 msgstr ""
 "Потрібна мінімальна кількість змінних (навчання + імпутування) – {minVar}"
 
@@ -565,21 +569,16 @@ msgstr "відсутній"
 msgid "Missing data patterns"
 msgstr "Відсутні шаблони даних"
 
-#: mMF/ui[1].label
-#: mMF/results/estim.title
+#: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
 msgstr "Оцінка відсутніх значень"
 
-#: package/analyses/mMF.title
-#: package/analyses/mMF.menuTitle
-#: mMF/options.title
-#: mMF/ui.title
-#: mMF/results.title
+#: package/analyses/mMF.title package/analyses/mMF.menuTitle mMF/options.title
+#: mMF/ui.title mMF/results.title
 msgid "Missing Values Estimation and Imputation"
 msgstr "Оцінка та імпутація відсутніх значень"
 
-#: package/datasets/Missing Values Imputation.name
-#: mMF/ui[2].label
+#: package/datasets/Missing Values Imputation.name mMF/ui[2].label
 #: mMF/results/imput.title
 msgid "Missing Values Imputation"
 msgstr "Імпутація відсутніх значень"
@@ -603,17 +602,17 @@ msgid "MSE - mean squared error (for Continuous variables);"
 msgstr "MSE - середньоквадратична помилка (для неперервних змінних);"
 
 #: mCOR/options/adjust.title
-msgid "Multiple comparision correction"
+#, fuzzy
+#| msgid "Multiple comparision correction"
+msgid "Multiple comparison correction"
 msgstr "Корекція множинних порівнянь"
 
 #: mMF/options/imputeOV.title
 msgid "Multiple imputation for missing data"
 msgstr "Множинна імпутація для відсутніх даних"
 
-#: mCOR/options/n.title
-#: mCOR/results/matrix.columns.content
-#: mMF/results/estim/mars.columns.title
-#: mMF/results/imput/errors.columns.title
+#: mCOR/options/n.title mCOR/results/matrix.columns.content
+#: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 msgid "N"
 msgstr "N"
 
@@ -625,21 +624,20 @@ msgstr "N - кількість імпутованих значень;"
 msgid "N - number of missing values;"
 msgstr "N - кількість відсутніх значень;"
 
-#: mCOR/options/adjust/none.title
-#: mCOR/options/clPos/n.title
-#: mROC/options/theBest/none.title
-#: mROC/options/cmpDeLong/none.title
+#: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
+#: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
 msgid "None"
 msgstr "Жоден"
 
-#: mCOR/options/plotMetU/number.title
-#: mCOR/options/plotMetL/number.title
+#: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
 msgstr "Номер"
 
 #: mMF/options/pmmk.description.ui
-msgid "Number of candidate non-missing values to sample from in the predictive mean matching steps. 0 to avoid this step"
+msgid ""
+"Number of candidate non-missing values to sample from in the predictive mean "
+"matching steps. 0 to avoid this step"
 msgstr ""
 "Кількість кандидатів, що не пропущені, для вибірки на етапах зіставлення "
 "прогнозованого середнього. 0, щоб уникнути цього кроку"
@@ -676,13 +674,11 @@ msgstr "Оригінал"
 msgid "OutFlux**"
 msgstr "OutFlux**"
 
-#: mCOR/options/pval.title
-#: mCOR/results/matrix.columns.content
+#: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
 msgstr "p-значення"
 
-#: mMF/results/estim/mcar.columns.title
-#: mMF/results/estim/mars.columns.title
+#: mMF/results/estim/mcar.columns.title mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "p<sub>value</sub>"
 msgstr "p<sub>значення</sub>"
@@ -707,8 +703,7 @@ msgstr "Пірсон (r)"
 msgid "Pearson correlation cannot be calculated for non-numeric values"
 msgstr "Кореляцію Пірсона неможливо розрахувати для нечислових значень"
 
-#: mCOR/results/matrix.columns.title
-#: mCOR/results/matrix.columns.content
+#: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Pearson's r"
 msgstr "Пірсона r"
 
@@ -721,12 +716,12 @@ msgid "PFC"
 msgstr "PFC"
 
 #: R\mmf.b.R
-msgid "PFC - proportion of falsely classified (for Nominal and Ordinal variables);"
+msgid ""
+"PFC - proportion of falsely classified (for Nominal and Ordinal variables);"
 msgstr ""
 "PFC - частка хибно класифікованих (для номінальних та порядкових змінних);"
 
-#: mCOR/options/plotMetU/pie.title
-#: mCOR/options/plotMetL/pie.title
+#: mCOR/options/plotMetU/pie.title mCOR/options/plotMetL/pie.title
 msgid "Pie"
 msgstr "Пиріг"
 
@@ -734,11 +729,15 @@ msgstr "Пиріг"
 msgid "Plot correlations between variables"
 msgstr "Побудуйте графіки кореляцій між змінними"
 
+#: mMF/ui[1][0][2].label
+msgid "Plot options"
+msgstr ""
+
 #: mMF/options/patplot.title
 msgid "Plot the missing data patterns"
 msgstr "Побудуйте шаблони відсутніх даних"
 
-#: mCOR/ui[5].label
+#: mCOR/ui[5].label mMF/ui[1][0][1].label
 msgid "Plots"
 msgstr "Ділянки"
 
@@ -750,8 +749,7 @@ msgstr "Багатокутник"
 msgid "Predictive Mean Matching (PMM) steps"
 msgstr "Кроки прогнозного зіставлення середніх значень (PMM)"
 
-#: mROC/options/vars.title
-#: mROC/ui[0][0].label
+#: mROC/options/vars.title mROC/ui[0][0].label
 msgid "Predictors"
 msgstr "Предиктори"
 
@@ -760,7 +758,8 @@ msgid "provide a correlation matrix plot."
 msgstr "надайте графік матриці кореляції."
 
 #: R\mmf.b.R
-msgid "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
+msgid ""
+"PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
 msgstr "PVU - частка непоясненої дисперсії 1-R² (для безперервних змінних);"
 
 #: mCOR/options/plotOrder.title
@@ -779,8 +778,7 @@ msgstr "Праворуч"
 msgid "RNG seed value"
 msgstr "Початкове значення генератора випадкових чисел (RNG)"
 
-#: mROC/options/sepROC.title
-#: mROC/results/plots.title
+#: mROC/options/sepROC.title mROC/results/plots.title
 msgid "ROC by groups"
 msgstr "ROC за групами"
 
@@ -788,20 +786,18 @@ msgstr "ROC за групами"
 msgid "ROC by predictors"
 msgstr "ROC прогнозистами"
 
-#: package/analyses/mROC.title
-#: package/analyses/mROC.menuTitle
-#: mROC/options.title
-#: mROC/ui.title
-#: mROC/results.title
+#: package/analyses/mROC.title package/analyses/mROC.menuTitle
+#: mROC/options.title mROC/ui.title mROC/results.title
 msgid "ROC classification"
 msgstr "ROC класифікація"
 
 #: mROC/options/cmpDeLong.title
-msgid "ROC comparision"
+#, fuzzy
+#| msgid "ROC comparision"
+msgid "ROC comparison"
 msgstr "ROC порівняння"
 
-#: package/datasets/BC Models ROC Estimation.description
-#: package/datasets/CHD Models ROC Estimation.description
+#: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
 msgstr "ROC Демонстрація оцінки для біноміальних логістичних моделей"
 
@@ -817,8 +813,7 @@ msgstr "Положення масштабу"
 msgid "SDI ROC classification"
 msgstr "SDI ROC класифікація"
 
-#: mCOR/options/selgroup.title
-#: mROC/options/selgroup.title
+#: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
 msgstr "Виберіть групу"
 
@@ -842,8 +837,7 @@ msgstr "Набір2"
 msgid "Set3"
 msgstr "Набір3"
 
-#: mCOR/options/plotMetU/shade.title
-#: mCOR/options/plotMetL/shade.title
+#: mCOR/options/plotMetU/shade.title mCOR/options/plotMetL/shade.title
 msgid "Shade"
 msgstr "Тінь"
 
@@ -867,8 +861,7 @@ msgstr "Схилені назви"
 msgid "Spearman (ρ)"
 msgstr "Спірмен (ρ)"
 
-#: mCOR/results/matrix.columns.title
-#: mCOR/results/matrix.columns.content
+#: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Spearman's Rho"
 msgstr "Ро Спірмена"
 
@@ -892,8 +885,7 @@ msgstr "Розділені криві"
 msgid "Splitted ROC by predictors"
 msgstr "Розділена ROC за предикторами"
 
-#: mCOR/options/plotMetU/square.title
-#: mCOR/options/plotMetL/square.title
+#: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
 msgstr "Квадрат"
 
@@ -910,7 +902,10 @@ msgid "The Best point on ROC"
 msgstr "Найкращий момент на ROC"
 
 #: R\mroc.b.R
-msgid "The classifying variable '{}' does not have exactly two levels; ROC classification can only be performed on classifying variables with two levels."
+msgid ""
+"The classifying variable '{}' does not have exactly two levels; ROC "
+"classification can only be performed on classifying variables with two "
+"levels."
 msgstr ""
 "Класифікуюча змінна '{}' не має рівно двох рівнів; ROC-класифікацію можна "
 "виконувати лише для класифікуючих змінних з двома рівнями."
@@ -919,17 +914,11 @@ msgstr ""
 msgid "Total number of missing entries {}"
 msgstr "Загальна кількість відсутніх записів {}"
 
-#: mMF/options/learnvar.title
-#: mMF/ui[0][0].label
-msgid "Training Variables"
-msgstr "Навчальні змінні"
-
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
 msgstr "Верхня частина"
 
-#: mMF/results/estim/mars.columns.title
-#: mMF/results/imput/errors.columns.title
+#: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 msgid "Variable"
 msgstr "Змінна"
 
@@ -976,3 +965,6 @@ msgstr "Юден Бест"
 #: mROC/options/theBest/bssY.title
 msgid "Youden Best (Sp, Se)"
 msgstr "Юден Бест (Sp, Se)"
+
+#~ msgid "Training Variables"
+#~ msgstr "Навчальні змінні"
