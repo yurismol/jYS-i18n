@@ -222,11 +222,11 @@ msgstr "全変数"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
-msgstr "プロットの全変数"
+msgstr "全変数をプロット"
 
 #: mROC/results/text.title
 msgid "Conditions"
-msgstr ""
+msgstr "条件"
 
 #: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
@@ -234,53 +234,53 @@ msgstr "信頼区間"
 
 #: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
-msgstr ""
+msgstr "信頼区間（ピアソンのみ）"
 
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
-msgstr ""
+msgstr "信頼区間幅"
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
-msgstr ""
+msgstr "相関"
 
 #: mCOR/options/hyp/neg.title
 msgid "Correlated negatively"
-msgstr ""
+msgstr "負の相関"
 
 #: mCOR/options/hyp/pos.title
 msgid "Correlated positively"
-msgstr ""
+msgstr "正の相関"
 
 #: mCOR/options/vars.title mCOR/ui[0][0].label
 msgid "Correlating Variables"
-msgstr ""
+msgstr "相関変数"
 
 #: R\mmf.b.R
 msgid "Correlation"
-msgstr ""
+msgstr "相関"
 
 #: package/analyses/mCOR.title package/analyses/mCOR.menuTitle
 #: package/datasets/Correlation clustering.name mCOR/options.title
 #: mCOR/results.title
 msgid "Correlation clustering"
-msgstr ""
+msgstr "相関クラスタリング"
 
 #: package/datasets/Correlation clustering.description
 msgid "Correlation Clustering demonstration"
-msgstr ""
+msgstr "相関クラスタリングのデモ"
 
 #: mCOR/ui.title mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation Matrix"
-msgstr ""
+msgstr "相関行列"
 
 #: mCOR/options/tables.title mCOR/options/plots.title
 msgid "Correlation matrix"
-msgstr ""
+msgstr "相関行列"
 
 #: mCOR/results/text.title
 msgid "Correlations"
-msgstr ""
+msgstr "相関"
 
 #: mMF/results/estim/cplot.title
 msgid "Correlations between variables"
