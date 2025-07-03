@@ -90,7 +90,7 @@ msgstr "アクセント"
 
 #: mCOR/options/clustMet.title
 msgid "Agglomeration method"
-msgstr "集塊"
+msgstr "集塊法"
 
 #: mMF/options/alg.title
 msgid "Algorythm"
@@ -126,11 +126,11 @@ msgstr "BC ROC分類"
 
 #: mCOR/options/adjust/BH.title
 msgid "Benjamini-Hochberg (1995)"
-msgstr ""
+msgstr "Benjamini-Hochberg (1995)"
 
 #: mCOR/options/adjust/BY.title
 msgid "Benjamini-Yekutieli (2001)"
-msgstr ""
+msgstr "Benjamini-Yekutieli (2001)"
 
 #: mROC/options/BW.title
 msgid "Black & White"
@@ -142,7 +142,7 @@ msgstr "血球のマルチROC分類デモ"
 
 #: mCOR/options/adjust/bonferroni.title
 msgid "Bonferroni (1961)"
-msgstr ""
+msgstr "Bonferroni (1961)"
 
 #: mCOR/options/clPos/b.title
 msgid "Bottom"
@@ -150,7 +150,7 @@ msgstr "下"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
-msgstr "Brewerの定性パレット"
+msgstr "カラーパレット"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -210,7 +210,7 @@ msgstr "色"
 
 #: mCOR/options/clustCol.title
 msgid "Colored Clusters"
-msgstr "色つきクラスタ"
+msgstr "色分け"
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
@@ -246,11 +246,11 @@ msgstr "相関あり"
 
 #: mCOR/options/hyp/neg.title
 msgid "Correlated negatively"
-msgstr "負の相関"
+msgstr "負の相関あり"
 
 #: mCOR/options/hyp/pos.title
 msgid "Correlated positively"
-msgstr "正の相関"
+msgstr "正の相関あり"
 
 #: mCOR/options/vars.title mCOR/ui[0][0].label
 msgid "Correlating Variables"
@@ -296,7 +296,7 @@ msgstr "ダーク2"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
-msgstr "自由度（df）"
+msgstr "自由度 (df)"
 
 #: mROC/options/direction.title
 msgid "Direction"
@@ -386,15 +386,15 @@ msgstr "階層的クラスタリングツリー"
 
 #: mCOR/options/adjust/hochberg.title
 msgid "Hochberg (1988)"
-msgstr ""
+msgstr "Hochberg (1988)"
 
 #: mCOR/options/adjust/holm.title
 msgid "Holm (1979)"
-msgstr ""
+msgstr "Holm (1979)"
 
 #: mCOR/options/adjust/hommel.title
 msgid "Hommel (1988)"
-msgstr ""
+msgstr "Hommel (1988)"
 
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
@@ -423,7 +423,7 @@ msgstr "補完済欠損値"
 
 #: mROC/options/perc.title
 msgid "In percent"
-msgstr "パーセント"
+msgstr "パーセント表示"
 
 #: mMF/options/imputevar.title mMF/ui[0][1].label
 msgid "Incomplete Variables"
@@ -453,7 +453,7 @@ msgstr "間隔"
 #: package/analyses/mMF.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
 #: mROC/options.menuGroup
 msgid "jYS"
-msgstr ""
+msgstr "jYS"
 
 #: package.title
 msgid "jYS Extended Functions"
@@ -461,7 +461,7 @@ msgstr "jYS拡張機能"
 
 #: mCOR/options/method/kendall.title
 msgid "Kendall (τ)"
-msgstr "ケンドール（τ）"
+msgstr "ケンドール (τ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Kendall Tau"
@@ -491,47 +491,50 @@ msgstr "手動クラスタ"
 msgid ""
 "MAR - missing at random (if each p<sub>value</sub> is significant, there is "
 "evidence the data is MAR);"
-msgstr "MAR（無作為欠損）　"
-"すべてのp<sub>値</sub>が有意であれば、データがMARである証拠となります。"
+msgstr "MAR　"
+"すべてのp<sub>値</sub>が有意であれば、データがMAR（無作為欠損）である証拠とな"
+"ります。"
 
 #: mMF/results/estim/mcar.description mMF/results/estim/mars.description
 msgid "MAR classification table"
-msgstr ""
+msgstr "MAR分類表"
 
 #: mROC/options/mAst.title
 msgid "Mark significance *<0.05, **<0.01, ***<0.001"
-msgstr ""
+msgstr "有意なものに印 *<0.05, **<0.01, ***<0.001"
 
 #: R\mcor.b.R
 msgid "Matrix #{i}"
-msgstr ""
+msgstr "行列 #{i}"
 
 #: mMF/options/maxiter.title
 msgid "Maximum number of iterations"
-msgstr ""
+msgstr "反復回数上限"
 
 #: mMF/results/estim/mcar.columns.content
 msgid "MCAR"
-msgstr ""
+msgstr "MCAR"
 
 #: R\mmf.b.R
 msgid ""
 "MCAR - missing completely at random (if the p<sub>value</sub> is not "
 "significant, there is evidence the data is MCAR)."
-msgstr ""
+msgstr "MCAR　"
+"p<sub>値</sub>が有意でない場合、データがMCAR（完全無作為欠損）である証拠とな"
+"ります。"
 
 #: mMF/options/isMAR.title
 msgid ""
 "MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
-msgstr ""
+msgstr "MCAR（完全無作為欠損）およびMAR（無作為欠損）推定"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
-msgstr ""
+msgstr "マクイッティ連結法（WPGMA）"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
-msgstr ""
+msgstr "中央値連結法"
 
 #: mCOR/options/method.title
 msgid "Method"
@@ -539,74 +542,74 @@ msgstr "方法"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
-msgstr ""
+msgstr "最低でも {minVar} 個の変数（完全変数＋欠損変数）が必要です"
 
 #: R\mmf.b.R
 msgid "Minimum 2 impute variables are required"
-msgstr ""
+msgstr "最低でも2つの補完変数が必要です"
 
 #: mMF/options/alg/mF.title
 msgid "missForest (2012)"
-msgstr ""
+msgstr "missForest (2012)"
 
 #: R\mmf.b.R
 msgid "missing"
-msgstr ""
+msgstr "欠損"
 
 #: mMF/results/estim/plot.title
 msgid "Missing data patterns"
-msgstr ""
+msgstr "欠損値パターン"
 
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
-msgstr ""
+msgstr "欠損値推定"
 
 #: package/analyses/mMF.title package/analyses/mMF.menuTitle mMF/options.title
 #: mMF/ui.title mMF/results.title
 msgid "Missing Values Estimation and Imputation"
-msgstr ""
+msgstr "欠損値推定・補完"
 
 #: package/datasets/Missing Values Imputation.name mMF/ui[2].label
 #: mMF/results/imput.title
 msgid "Missing Values Imputation"
-msgstr ""
+msgstr "欠損値補完"
 
 #: package/datasets/Missing Values Imputation.description
 msgid "Missing values imputation using the prediction power of Random Forests"
-msgstr ""
+msgstr "ランダムフォレストによる欠損値補完"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Missing<br>Patterns"
-msgstr ""
+msgstr "欠損パターン"
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
-msgstr ""
+msgstr "missRanger (2021)"
 
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
-msgstr ""
+msgstr "MSE　平均二乗誤差（連続変数用）"
 
 #: mCOR/options/adjust.title
 msgid "Multiple comparison correction"
-msgstr ""
+msgstr "多重比較補正"
 
 #: mMF/options/imputeOV.title
 msgid "Multiple imputation for missing data"
-msgstr ""
+msgstr "欠損値の多重補完"
 
 #: mCOR/options/n.title mCOR/results/matrix.columns.content
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: R\mmf.b.R
 msgid "N - number of imputted values;"
-msgstr ""
+msgstr "N　補完値の個数"
 
 #: R\mmf.b.R
 msgid "N - number of missing values;"
-msgstr ""
+msgstr "N　欠損値の個数"
 
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
@@ -616,140 +619,141 @@ msgstr "なし"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
-msgstr ""
+msgstr "個数"
 
 #: mMF/options/pmmk.description.ui
 msgid ""
 "Number of candidate non-missing values to sample from in the predictive mean "
 "matching steps. 0 to avoid this step"
-msgstr ""
+msgstr "予測平均マッチング法でサンプリングする候補の非欠損値の個数（0にするとこの手順"
+"はスキップされます）"
 
 #: R\mmf.b.R
 msgid "Number of missing entries"
-msgstr ""
+msgstr "欠損値数"
 
 #: R\mmf.b.R
 msgid "Number of missing entries per variable"
-msgstr ""
+msgstr "変数ごとの欠損値数"
 
 #: mMF/options/npat.title
 msgid "Number of patterns"
-msgstr ""
+msgstr "パターン数"
 
 #: mMF/options/ntree.title
 msgid "Number of trees to grow in each forest"
-msgstr ""
+msgstr "各フォレストで生成する木の数"
 
 #: R\mmf.b.R
 msgid "observed"
-msgstr ""
+msgstr "観測値"
 
 #: mMF/results/imput/errors.description
 msgid "OOB errors table"
-msgstr ""
+msgstr "OOB誤差表"
 
 #: mCOR/options/plotOrder/original.title
 msgid "Original"
-msgstr ""
+msgstr "オリジナル"
 
 #: R\mmf.b.R
 msgid "OutFlux**"
-msgstr ""
+msgstr "流出**"
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "p値"
 
 #: mMF/results/estim/mcar.columns.title mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "p<sub>value</sub>"
-msgstr ""
+msgstr "p<sub>値</sub>"
 
 #: mROC/options/palBrewer/Paired.title
 msgid "Paired"
-msgstr ""
+msgstr "ペア"
 
 #: mROC/options/palBrewer/Pastel1.title
 msgid "Pastel1"
-msgstr ""
+msgstr "パステル1"
 
 #: R\mmf.b.R
 msgid "Pattern frequency"
-msgstr ""
+msgstr "パターン頻度"
 
 #: mCOR/options/method/pearson.title
 msgid "Pearson (r)"
-msgstr ""
+msgstr "ピアソン (r)"
 
 #: R\mcor.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "非数値データではピアソン相関を計算できません"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "ピアソンのr"
 
 #: R\mmf.b.R
 msgid "per pattern"
-msgstr ""
+msgstr "パターンごと"
 
 #: mMF/results/imput/errors.columns.title
 msgid "PFC"
-msgstr ""
+msgstr "誤分類率"
 
 #: R\mmf.b.R
 msgid ""
 "PFC - proportion of falsely classified (for Nominal and Ordinal variables);"
-msgstr ""
+msgstr "誤分類率（PFC）　名義変数および順序変数で誤分類された値の割合"
 
 #: mCOR/options/plotMetU/pie.title mCOR/options/plotMetL/pie.title
 msgid "Pie"
-msgstr ""
+msgstr "円グラフ"
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
-msgstr ""
+msgstr "変数間の相関を図示"
 
 #: mMF/ui[1][0][2].label
 msgid "Plot options"
-msgstr ""
+msgstr "作図オプション"
 
 #: mMF/options/patplot.title
 msgid "Plot the missing data patterns"
-msgstr ""
+msgstr "欠損パターンを図示"
 
 #: mCOR/ui[5].label mMF/ui[1][0][1].label
 msgid "Plots"
-msgstr ""
+msgstr "作図"
 
 #: mROC/options/polygon.title
 msgid "Polygon"
-msgstr ""
+msgstr "ポリゴン"
 
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
-msgstr ""
+msgstr "予測平均マッチング（PMM）のステップ"
 
 #: mROC/options/vars.title mROC/ui[0][0].label
 msgid "Predictors"
-msgstr ""
+msgstr "予測変数"
 
 #: mCOR/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr ""
+msgstr "相関行列の図を作成します。"
 
 #: R\mmf.b.R
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
-msgstr ""
+msgstr "PVU（未説明分散比率）　連続変数に対する未説明な分散の割合（1−R²）"
 
 #: mCOR/options/plotOrder.title
 msgid "Reorder"
-msgstr ""
+msgstr "並べ替え"
 
 #: mMF/options/setseed.title
 msgid "Reproducible random number generation (RNG) results"
-msgstr ""
+msgstr "再現可能な乱数生成（RNG）の結果"
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
@@ -757,143 +761,145 @@ msgstr "右"
 
 #: mMF/options/seed.title
 msgid "RNG seed value"
-msgstr ""
+msgstr "乱数シード値"
 
 #: mROC/options/sepROC.title mROC/results/plots.title
 msgid "ROC by groups"
-msgstr ""
+msgstr "グループ別ROC"
 
 #: mROC/results/plot.title
 msgid "ROC by predictors"
-msgstr ""
+msgstr "予測変数別ROC"
 
 #: package/analyses/mROC.title package/analyses/mROC.menuTitle
 #: mROC/options.title mROC/ui.title mROC/results.title
 msgid "ROC classification"
-msgstr ""
+msgstr "ROC分類"
 
 #: mROC/options/cmpDeLong.title
 msgid "ROC comparison"
-msgstr ""
+msgstr "ROC比較"
 
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
-msgstr ""
+msgstr "二項ロジスティックモデルにおけるROC推定のデモ"
 
 #: mROC/ui[1].label
 msgid "ROC graphs"
-msgstr ""
+msgstr "ROCグラフ"
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
-msgstr ""
+msgstr "スケールの位置"
 
 #: package/datasets/SDI ROC classification.name
 msgid "SDI ROC classification"
-msgstr ""
+msgstr "SDIのROC分類"
 
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
-msgstr ""
+msgstr "グループ選択"
 
 #: R\mroc.b.R
 msgid "Sensitivity"
-msgstr ""
+msgstr "感度"
 
 #: R\mroc.b.R
 msgid "Sensitivity (%)"
-msgstr ""
+msgstr "感度（％）"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
-msgstr ""
+msgstr "セット1"
 
 #: mROC/options/palBrewer/Set2.title
 msgid "Set2"
-msgstr ""
+msgstr "セット2"
 
 #: mROC/options/palBrewer/Set3.title
 msgid "Set3"
-msgstr ""
+msgstr "セット3"
 
 #: mCOR/options/plotMetU/shade.title mCOR/options/plotMetL/shade.title
 msgid "Shade"
-msgstr ""
+msgstr "塗り"
 
 #: mCOR/options/signif.title
 msgid "Significance"
-msgstr ""
+msgstr "有意性"
 
 #: R\mcor.b.R
 msgid "Simultaneous multiple correlation comparisons using {n} method"
-msgstr ""
+msgstr "{n} 法による相関の同時多重比較"
 
 #: mCOR/options/clustMet/single.title
 msgid "Single Linkage"
-msgstr ""
+msgstr "最短距離法"
 
 #: mMF/options/anghead.title
 msgid "Slanted Titles"
-msgstr ""
+msgstr "斜体タイトル"
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
-msgstr ""
+msgstr "スピアマン (ρ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Spearman's Rho"
-msgstr ""
+msgstr "スピアマンのロー"
 
 #: R\mroc.b.R
 msgid "Specificity"
-msgstr ""
+msgstr "特異性"
 
 #: R\mroc.b.R
 msgid "Specificity (%)"
-msgstr ""
+msgstr "特異性（％）"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
-msgstr ""
+msgstr "精子奇形指数のROC分類デモ"
 
 #: mROC/options/splitROC.title
 msgid "Split curves"
-msgstr ""
+msgstr "曲線分割"
 
 #: mROC/results/splots.title
 msgid "Splitted ROC by predictors"
-msgstr ""
+msgstr "予測変数別ROC曲線"
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
-msgstr ""
+msgstr "四角"
 
 #: mROC/options/cmpDeLong/succ.title
 msgid "Successively"
-msgstr ""
+msgstr "逐次的"
 
 #: mCOR/ui[4].label
 msgid "Tables"
-msgstr ""
+msgstr "表"
 
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
-msgstr ""
+msgstr "ROC曲線上の最適点"
 
 #: R\mroc.b.R
 msgid ""
 "The classifying variable '{}' does not have exactly two levels; ROC "
 "classification can only be performed on classifying variables with two "
 "levels."
-msgstr ""
+msgstr "分類変数 '{}' "
+"のが2水準になっていません。ROC分類は、水準数が2の分類変数に対してのみ実行でき"
+"ます。"
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
-msgstr ""
+msgstr "欠損値 {} の総数"
 
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
-msgstr ""
+msgstr "上部"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 msgid "Variable"
@@ -901,44 +907,44 @@ msgstr "変数"
 
 #: mMF/results/estim/fMARtab.template.title
 msgid "Variable - $key"
-msgstr ""
+msgstr "変数 - $key"
 
 #: R\mmf.b.R
 msgid "Variable name"
-msgstr ""
+msgstr "変数名"
 
 #: mCOR/ui[5][0]/plots/clustMan.suffix
 msgid "variable numbers by commas"
-msgstr ""
+msgstr "変数番号をコンマ区切りで入力"
 
 #: R\mmf.b.R
 msgid "Variable to impute"
-msgstr ""
+msgstr "補完対象変数"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
-msgstr ""
+msgstr "ウォード法（D2）"
 
 #: mCOR/options/clustMet/ward.D.title
 msgid "Ward´s Linkage"
-msgstr ""
+msgstr "ウォード法"
 
 #: mROC/options/cmpDeLong/wcontr.title
 msgid "With control"
-msgstr ""
+msgstr "コントロールと比較"
 
 #: R\mmf.b.R
 msgid "with missing data on other variables"
-msgstr ""
+msgstr "他の変数に欠損値がある場合"
 
 #: R\mmf.b.R
 msgid "with observed data on other variables"
-msgstr ""
+msgstr "他の変数に観測データがある場合"
 
 #: mROC/options/theBest/bestY.title
 msgid "Youden Best"
-msgstr ""
+msgstr "ユーデン指数最大"
 
 #: mROC/options/theBest/bssY.title
 msgid "Youden Best (Sp, Se)"
-msgstr ""
+msgstr "ユーデン指数最大（特異度・感度）"
