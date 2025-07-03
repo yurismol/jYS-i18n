@@ -49,22 +49,18 @@ msgid "%"
 msgstr "%"
 
 #: mCOR/options/signif/0.001.title
-#, fuzzy
 msgid "< 0.001"
 msgstr "< 0.001"
 
 #: mCOR/options/signif/0.01.title
-#, fuzzy
 msgid "< 0.01"
 msgstr "< 0.01"
 
 #: mCOR/options/signif/0.05.title
-#, fuzzy
 msgid "< 0.05"
 msgstr "< 0.05"
 
 #: mCOR/options/signif/0.1.title
-#, fuzzy
 msgid "< 0.1"
 msgstr "< 0.1"
 
@@ -194,11 +190,11 @@ msgstr "分類変数"
 
 #: mROC/options/theBest/bestC.title
 msgid "Closest Best"
-msgstr "左上隅から最短距離"
+msgstr "左上隅から距離最短"
 
 #: mROC/options/theBest/bssC.title
 msgid "Closest Best (Sp, Se)"
-msgstr "左上隅から最短距離（感度・特異度）"
+msgstr "左上隅から距離最短（特異度・感度）"
 
 #: mCOR/options/numClust.title
 msgid "Clusters"
