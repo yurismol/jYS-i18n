@@ -106,27 +106,27 @@ msgstr "アルファベット順"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
-msgstr ""
+msgstr "MARの配列"
 
 #: mCOR/options/plotOrder/AOE.title
 msgid "Angular order eigenvectors"
-msgstr ""
+msgstr "角順序固有ベクトル"
 
 #: mCOR/options/clustMet/average.title
 msgid "Average Linkage (UPGMA)"
-msgstr ""
+msgstr "平均連結法（UPGMA）"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
-msgstr ""
+msgstr "BCモデルROC推定"
 
 #: package/datasets/BC ROC classification.name
 msgid "BC ROC classification"
-msgstr ""
+msgstr "BC ROC分類"
 
 #: mCOR/options/adjust/BH.title
 msgid "Benjamini-Hochberg (1995)"
-msgstr ""
+msgstr "Benjamini-Hochberg (1995)"
 
 #: mCOR/options/adjust/BY.title
 msgid "Benjamini-Yekutieli (2001)"
@@ -218,7 +218,7 @@ msgstr "完全連結"
 
 #: mMF/options/learnvar.title mMF/ui[0][0].label
 msgid "Complete Variables"
-msgstr "完全変数"
+msgstr "全変数"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
