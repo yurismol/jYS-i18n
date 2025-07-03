@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-06-22 04:01+0000\n"
+"PO-Revision-Date: 2025-07-04 04:01+0000\n"
 "Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ja/>\n"
@@ -214,13 +214,11 @@ msgstr ""
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
-msgstr ""
+msgstr "完全連結"
 
 #: mMF/options/learnvar.title mMF/ui[0][0].label
-#, fuzzy
-#| msgid "Grouping Variable"
 msgid "Complete Variables"
-msgstr "グループ変数"
+msgstr "完全変数"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
