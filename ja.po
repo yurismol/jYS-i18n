@@ -194,11 +194,11 @@ msgstr "分類変数"
 
 #: mROC/options/theBest/bestC.title
 msgid "Closest Best"
-msgstr "最も近い最適値"
+msgstr "左上隅から最短距離"
 
 #: mROC/options/theBest/bssC.title
 msgid "Closest Best (Sp, Se)"
-msgstr "最も近い最適値（感度・特異度）"
+msgstr "左上隅から最短距離（感度・特異度）"
 
 #: mCOR/options/numClust.title
 msgid "Clusters"
@@ -619,7 +619,7 @@ msgstr "なし"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
-msgstr "個数"
+msgstr "数値"
 
 #: mMF/options/pmmk.description.ui
 msgid ""
@@ -822,7 +822,7 @@ msgstr "セット3"
 
 #: mCOR/options/plotMetU/shade.title mCOR/options/plotMetL/shade.title
 msgid "Shade"
-msgstr "塗り"
+msgstr "シェード"
 
 #: mCOR/options/signif.title
 msgid "Significance"
@@ -838,7 +838,7 @@ msgstr "最短距離法"
 
 #: mMF/options/anghead.title
 msgid "Slanted Titles"
-msgstr "斜体タイトル"
+msgstr "タイトル斜め表示"
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
