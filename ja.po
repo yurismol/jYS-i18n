@@ -126,7 +126,7 @@ msgstr "BC ROC分類"
 
 #: mCOR/options/adjust/BH.title
 msgid "Benjamini-Hochberg (1995)"
-msgstr "Benjamini-Hochberg (1995)"
+msgstr ""
 
 #: mCOR/options/adjust/BY.title
 msgid "Benjamini-Yekutieli (2001)"
@@ -134,11 +134,11 @@ msgstr ""
 
 #: mROC/options/BW.title
 msgid "Black & White"
-msgstr ""
+msgstr "モノクロ"
 
 #: package/datasets/BC ROC classification.description
 msgid "Blood cells multiple ROC Classification demonstration"
-msgstr ""
+msgstr "血球のマルチROC分類デモ"
 
 #: mCOR/options/adjust/bonferroni.title
 msgid "Bonferroni (1961)"
@@ -150,67 +150,67 @@ msgstr "下"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
-msgstr ""
+msgstr "Brewerの定性パレット"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
-msgstr ""
+msgstr "重心連結法（UPGMC）"
 
 #: package/datasets/CHD Models ROC Estimation.name
 msgid "CHD Models ROC Estimation"
-msgstr ""
+msgstr "CHDモデルのROC推定"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Lower"
-msgstr ""
+msgstr "信頼区間下限"
 
 #: mROC/options/ciMark.title
 msgid "CI Mark"
-msgstr ""
+msgstr "信頼区間マーク"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Upper"
-msgstr ""
+msgstr "信頼区間上限"
 
 #: mROC/options/ciWidth.title
 msgid "CI width"
-msgstr ""
+msgstr "信頼区間幅"
 
 #: mCOR/options/plotMetU/circle.title mCOR/options/plotMetL/circle.title
 msgid "Circle"
-msgstr ""
+msgstr "円"
 
 #: mMF/results/estim/mars.title
 msgid "Classify missing at random (MAR)"
-msgstr ""
+msgstr "無作為欠損（MAR）分類"
 
 #: mMF/results/estim/mcar.title
 msgid "Classify missing completely at random (MCAR)"
-msgstr ""
+msgstr "完全無作為欠損（MCAR）分類"
 
 #: mROC/options/class.title mROC/ui[0][1].label
 msgid "Classifying variable"
-msgstr ""
+msgstr "分類変数"
 
 #: mROC/options/theBest/bestC.title
 msgid "Closest Best"
-msgstr ""
+msgstr "最も近い最適値"
 
 #: mROC/options/theBest/bssC.title
 msgid "Closest Best (Sp, Se)"
-msgstr ""
+msgstr "最も近い最適値（感度・特異度）"
 
 #: mCOR/options/numClust.title
 msgid "Clusters"
-msgstr ""
+msgstr "クラスタ"
 
 #: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
-msgstr ""
+msgstr "色"
 
 #: mCOR/options/clustCol.title
 msgid "Colored Clusters"
-msgstr ""
+msgstr "色つきクラスタ"
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
@@ -222,7 +222,7 @@ msgstr "全変数"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
-msgstr ""
+msgstr "プロットの全変数"
 
 #: mROC/results/text.title
 msgid "Conditions"
