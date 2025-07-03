@@ -242,7 +242,7 @@ msgstr "信頼区間幅"
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
-msgstr "相関"
+msgstr "相関あり"
 
 #: mCOR/options/hyp/neg.title
 msgid "Correlated negatively"
@@ -284,19 +284,19 @@ msgstr "相関"
 
 #: mMF/results/estim/cplot.title
 msgid "Correlations between variables"
-msgstr ""
+msgstr "変数間の相関"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "D²"
-msgstr ""
+msgstr "D²"
 
 #: mROC/options/palBrewer/Dark2.title
 msgid "Dark2"
-msgstr ""
+msgstr "ダーク2"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
-msgstr ""
+msgstr "自由度（df）"
 
 #: mROC/options/direction.title
 msgid "Direction"
@@ -304,45 +304,45 @@ msgstr "向き"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
-msgstr ""
+msgstr "点線"
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
-msgstr ""
+msgstr "楕円"
 
 #: R\mmf.b.R
 msgid "Empty data table"
-msgstr ""
+msgstr "空のデータテーブル"
 
 #: mCOR/options/plotMetU/empty.title mCOR/options/plotMetL/empty.title
 msgid "Emtpy"
-msgstr ""
+msgstr "空白"
 
 #: mMF/results/imput/errors.title
 msgid "Estimated out-of-bag (OOB) imputation error"
-msgstr ""
+msgstr "推定OOB補完誤差"
 
 #: mMF/options/fullmars.title mMF/results/estim/fMARtab.title
 msgid "Evaluation of MAR explainers"
-msgstr ""
+msgstr "MAR説明モデルの評価"
 
 #: mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "Explanatory"
-msgstr ""
+msgstr "説明変数"
 
 #: R\mmf.b.R
 msgid ""
 "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
-msgstr ""
+msgstr "説明変数 - 最小のp<sub>値</sub>をもつMARに対応する変数です。"
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
-msgstr ""
+msgstr "第1主成分"
 
 #: mCOR/options/flag.title
 msgid "Flag significant correlations"
-msgstr ""
+msgstr "有意な相関に印"
 
 #: package.description
 msgid ""
@@ -351,6 +351,9 @@ msgid ""
 "matrix, multidimensional ROC classification curves, missing data estimation "
 "and imputation etc."
 msgstr ""
+"代表的なデータ分析手法の機能を拡張するグラフィック機能：相関変数のクラスター"
+"ツリー、多因子適応型相関行列、多次元ROC分類曲線、欠損データの推定および補完な"
+"ど。"
 
 #: mCOR/options/group.title mCOR/ui[0][1].label mROC/options/groups.title
 #: mROC/ui[0][2].label
@@ -359,27 +362,27 @@ msgstr "グループ変数"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
-msgstr ""
+msgstr "対立仮説は負の相関"
 
 #: R\mcor.b.R
 msgid "Hₐ is positive correlation"
-msgstr ""
+msgstr "対立仮説は正の相関"
 
 #: package/datasets/HI ROC classification.description
 msgid "Healthy/Ill ROC Classification demonstration"
-msgstr ""
+msgstr "健常／病者ROC分類デモ"
 
 #: package/datasets/HI ROC classification.name
 msgid "HI ROC classification"
-msgstr ""
+msgstr "健常／疾患ROC分類"
 
 #: mCOR/options/hclust.title
 msgid "Hierarchical clustering"
-msgstr ""
+msgstr "階層的クラスタ"
 
 #: mCOR/results/treeplot.title
 msgid "Hierarchical clustering tree"
-msgstr ""
+msgstr "階層的クラスタリングツリー"
 
 #: mCOR/options/adjust/hochberg.title
 msgid "Hochberg (1988)"
