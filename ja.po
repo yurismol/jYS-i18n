@@ -70,15 +70,15 @@ msgstr "< 0.1"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
-msgstr "0 - 自動"
+msgstr "0 − 自動"
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
-msgstr "1 - 特異度"
+msgstr "1 − 特異度"
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
-msgstr "100 - 特異度 (%)"
+msgstr "100 − 特異度 (%)"
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
@@ -218,11 +218,11 @@ msgstr "完全連結"
 
 #: mMF/options/learnvar.title mMF/ui[0][0].label
 msgid "Complete Variables"
-msgstr "全変数"
+msgstr "完全変数"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
-msgstr "全変数をプロット"
+msgstr "完全変数をプロット"
 
 #: mROC/results/text.title
 msgid "Conditions"
@@ -334,7 +334,7 @@ msgstr "説明変数"
 #: R\mmf.b.R
 msgid ""
 "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
-msgstr "説明変数 - 最小のp<sub>値</sub>をもつMARに対応する変数です。"
+msgstr "説明変数　最小のp<sub>値</sub>をもつMARに対応する変数です。"
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
@@ -378,7 +378,7 @@ msgstr "健常／疾患ROC分類"
 
 #: mCOR/options/hclust.title
 msgid "Hierarchical clustering"
-msgstr "階層的クラスタ"
+msgstr "階層的クラスタリング"
 
 #: mCOR/results/treeplot.title
 msgid "Hierarchical clustering tree"
@@ -398,7 +398,7 @@ msgstr ""
 
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
-msgstr ""
+msgstr "仮説"
 
 #: R\mmf.b.R
 msgid ""
@@ -406,46 +406,48 @@ msgid ""
 "p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not "
 "At Random)."
 msgstr ""
+"少なくとも1つのMARのp<sub>値</sub>が有意でなく、かつMCARのp<sub>値</sub>が有"
+"意である場合、そのデータはMNAR（非無作為欠損）となります。"
 
 #: R\mmf.b.R
 msgid "imp"
-msgstr ""
+msgstr "補完"
 
 #: R\mmf.b.R
 msgid "Imputation model predictor"
-msgstr ""
+msgstr "補完モデル予測変数"
 
 #: mMF/results/imputeOV.title
 msgid "Imputed misses"
-msgstr ""
+msgstr "補完済欠損値"
 
 #: mROC/options/perc.title
 msgid "In percent"
-msgstr ""
+msgstr "パーセント"
 
 #: mMF/options/imputevar.title mMF/ui[0][1].label
 msgid "Incomplete Variables"
-msgstr ""
+msgstr "欠損変数"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
-msgstr ""
+msgstr "流入・流出プロット"
 
 #: mMF/options/fluxplot.title
 msgid "Influx-outflux plot for missing data patterns"
-msgstr ""
+msgstr "欠損パターンの流入・流出プロット"
 
 #: R\mmf.b.R
 msgid "Influx*"
-msgstr ""
+msgstr "流入*"
 
 #: mCOR/options/clustMat.title mCOR/results/rplots.title
 msgid "Intercluster Matrices"
-msgstr ""
+msgstr "クラスター間行列"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
-msgstr ""
+msgstr "間隔"
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
@@ -455,41 +457,42 @@ msgstr ""
 
 #: package.title
 msgid "jYS Extended Functions"
-msgstr ""
+msgstr "jYS拡張機能"
 
 #: mCOR/options/method/kendall.title
 msgid "Kendall (τ)"
-msgstr ""
+msgstr "ケンドール（τ）"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Kendall Tau"
-msgstr ""
+msgstr "ケンドールのタウ"
 
 #: mROC/options/legacy.title
 msgid "Legacy format of Specificity axis"
-msgstr ""
+msgstr "従来形式の特異度軸"
 
 #: mROC/options/legBox.title
 msgid "Legend Box"
-msgstr ""
+msgstr "凡例枠"
 
 #: mROC/options/lwd.title
 msgid "Line width"
-msgstr ""
+msgstr "線の太さ"
 
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
-msgstr ""
+msgstr "下部"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
-msgstr ""
+msgstr "手動クラスタ"
 
 #: R\mmf.b.R
 msgid ""
 "MAR - missing at random (if each p<sub>value</sub> is significant, there is "
 "evidence the data is MAR);"
-msgstr ""
+msgstr "MAR（無作為欠損）　"
+"すべてのp<sub>値</sub>が有意であれば、データがMARである証拠となります。"
 
 #: mMF/results/estim/mcar.description mMF/results/estim/mars.description
 msgid "MAR classification table"
