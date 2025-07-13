@@ -1,18 +1,20 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-07-14 13:01+0000\n"
+"Last-Translator: Ismael69dejesus <ismaeldevjesusmoralesmorales@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
+"es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
-msgstr ""
+msgstr " Hola a todos"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Lower"
@@ -929,4 +931,4 @@ msgstr ""
 
 #: mROC/options/theBest/bssY.title
 msgid "Youden Best (Sp, Se)"
-msgstr ""
+msgstr "Ola."
