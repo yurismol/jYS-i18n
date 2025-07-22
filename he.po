@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-02 18:01+0000\n"
+"PO-Revision-Date: 2025-07-23 17:01+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "he/>\n"
@@ -501,7 +501,7 @@ msgstr "מטריצה #{i}"
 
 #: mMF/options/maxiter.title
 msgid "Maximum number of iterations"
-msgstr "המספר החזרורים המקסימלי"
+msgstr "כמות החזרורים המקסימלית"
 
 #: mMF/results/estim/mcar.columns.content
 msgid "MCAR"
@@ -522,7 +522,7 @@ msgstr "אומדן MCAR (חסרים לחלוטין באקראי) ו־MAR (חסר
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
-msgstr ""
+msgstr "הצמדת מקוויטי (WPGMA)"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
@@ -623,11 +623,11 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Number of missing entries"
-msgstr ""
+msgstr "כמות הכניסות החסרות"
 
 #: R\mmf.b.R
 msgid "Number of missing entries per variable"
-msgstr ""
+msgstr "כמות הכניסות החסרות לכל משתנה"
 
 #: mMF/options/npat.title
 msgid "Number of patterns"
@@ -692,12 +692,12 @@ msgstr "לפי תבנית"
 
 #: mMF/results/imput/errors.columns.title
 msgid "PFC"
-msgstr ""
+msgstr "PFC"
 
 #: R\mmf.b.R
 msgid ""
 "PFC - proportion of falsely classified (for Nominal and Ordinal variables);"
-msgstr ""
+msgstr "PFC – יחס המסווגים לא נכון (למשתנים מסדר שמני וסדר)."
 
 #: mCOR/options/plotMetU/pie.title mCOR/options/plotMetL/pie.title
 msgid "Pie"
@@ -738,7 +738,7 @@ msgstr "תרשים מטריצת מתאמים."
 #: R\mmf.b.R
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
-msgstr ""
+msgstr "PVU – יחס השונות הבלתי מוסברת 1-R² (למשתנים רציפים)."
 
 #: mCOR/options/plotOrder.title
 msgid "Reorder"
@@ -746,40 +746,40 @@ msgstr "סידור מחדש"
 
 #: mMF/options/setseed.title
 msgid "Reproducible random number generation (RNG) results"
-msgstr ""
+msgstr "תוצאות מחולל מספרים אקראיים (RNG) הניתנות לשחזור"
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
-msgstr ""
+msgstr "ימין"
 
 #: mMF/options/seed.title
 msgid "RNG seed value"
-msgstr ""
+msgstr "ערך הגרעין של RNG"
 
 #: mROC/options/sepROC.title mROC/results/plots.title
 msgid "ROC by groups"
-msgstr ""
+msgstr "ROC לפי קבוצות"
 
 #: mROC/results/plot.title
 msgid "ROC by predictors"
-msgstr ""
+msgstr "ROC לפי מנבאים"
 
 #: package/analyses/mROC.title package/analyses/mROC.menuTitle
 #: mROC/options.title mROC/ui.title mROC/results.title
 msgid "ROC classification"
-msgstr ""
+msgstr "סיווג ROC"
 
 #: mROC/options/cmpDeLong.title
 msgid "ROC comparison"
-msgstr ""
+msgstr "השוואת ROC"
 
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
-msgstr ""
+msgstr "הדגמת אומדן ROC למודלים לוגיטיים בינומיים"
 
 #: mROC/ui[1].label
 msgid "ROC graphs"
-msgstr ""
+msgstr "גרפי ROC"
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
@@ -787,11 +787,11 @@ msgstr "מיקום הסולם"
 
 #: package/datasets/SDI ROC classification.name
 msgid "SDI ROC classification"
-msgstr ""
+msgstr "סיווג ROC מיקום העיוות בזרע"
 
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
-msgstr ""
+msgstr "בחירת קבוצה"
 
 #: R\mroc.b.R
 msgid "Sensitivity"
@@ -815,7 +815,7 @@ msgstr "מערך3"
 
 #: mCOR/options/plotMetU/shade.title mCOR/options/plotMetL/shade.title
 msgid "Shade"
-msgstr ""
+msgstr "צל"
 
 #: mCOR/options/signif.title
 msgid "Significance"
@@ -823,7 +823,7 @@ msgstr "מובהקות"
 
 #: R\mcor.b.R
 msgid "Simultaneous multiple correlation comparisons using {n} method"
-msgstr ""
+msgstr "השוואות מתאם מרובות בו זמנית בשיטת {n}"
 
 #: mCOR/options/clustMet/single.title
 msgid "Single Linkage"
@@ -831,15 +831,15 @@ msgstr "הצמדה יחידה"
 
 #: mMF/options/anghead.title
 msgid "Slanted Titles"
-msgstr ""
+msgstr "כותרות בשיפוע"
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
-msgstr ""
+msgstr "ספירמן (ρ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Spearman's Rho"
-msgstr ""
+msgstr "רו של ספירמן"
 
 #: R\mroc.b.R
 msgid "Specificity"
@@ -847,15 +847,15 @@ msgstr "סגוליות"
 
 #: R\mroc.b.R
 msgid "Specificity (%)"
-msgstr ""
+msgstr "סגוליות (%)"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
-msgstr ""
+msgstr "הדגמת סיווג ROC – מיקום העיוות בזרע"
 
 #: mROC/options/splitROC.title
 msgid "Split curves"
-msgstr ""
+msgstr "פיצול העקומות"
 
 #: mROC/results/splots.title
 msgid "Splitted ROC by predictors"
@@ -867,11 +867,11 @@ msgstr "ריבוע"
 
 #: mROC/options/cmpDeLong/succ.title
 msgid "Successively"
-msgstr ""
+msgstr "ברצף"
 
 #: mCOR/ui[4].label
 msgid "Tables"
-msgstr ""
+msgstr "טבלאות"
 
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
@@ -883,14 +883,16 @@ msgid ""
 "classification can only be performed on classifying variables with two "
 "levels."
 msgstr ""
+"למשתנה המסווג ”{}“ אין בדיוק שתי רמות. ניתן לערוך סיווג ROC על משתנים "
+"מסווגים בעלי שתי רמות."
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
-msgstr ""
+msgstr "המספר הכולל של הכניסות החסרות {}"
 
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
-msgstr ""
+msgstr "החלק העליון"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 msgid "Variable"
@@ -898,15 +900,15 @@ msgstr "משתנה"
 
 #: mMF/results/estim/fMARtab.template.title
 msgid "Variable - $key"
-msgstr ""
+msgstr "משתנה – $key"
 
 #: R\mmf.b.R
 msgid "Variable name"
-msgstr ""
+msgstr "שם המשתנה"
 
 #: mCOR/ui[5][0]/plots/clustMan.suffix
 msgid "variable numbers by commas"
-msgstr ""
+msgstr "המספרים של המשתנה מופרדים בפסיקים"
 
 #: R\mmf.b.R
 msgid "Variable to impute"
@@ -914,11 +916,11 @@ msgstr ""
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
-msgstr ""
+msgstr "הצמדת D2 של ורד"
 
 #: mCOR/options/clustMet/ward.D.title
 msgid "Ward´s Linkage"
-msgstr ""
+msgstr "הצמדה של ורד"
 
 #: mROC/options/cmpDeLong/wcontr.title
 msgid "With control"
@@ -926,11 +928,11 @@ msgstr "עם בקרה"
 
 #: R\mmf.b.R
 msgid "with missing data on other variables"
-msgstr ""
+msgstr "עם נתונים חסרים במשתנים אחרים"
 
 #: R\mmf.b.R
 msgid "with observed data on other variables"
-msgstr ""
+msgstr "עם נתונים נצפים במשתנים אחרים"
 
 #: mROC/options/theBest/bestY.title
 msgid "Youden Best"
