@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-14 13:01+0000\n"
-"Last-Translator: Ismael69dejesus <ismaeldevjesusmoralesmorales@gmail.com>\n"
+"PO-Revision-Date: 2025-07-26 19:05+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "es/>\n"
 "Language: es\n"
@@ -14,15 +14,15 @@ msgstr ""
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
-msgstr " Hola a todos"
+msgstr " [{prc}% IC]"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "{ciWidth}% IC inferior"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "{ciWidth}% IC superior"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: mCOR/options/signif/0.001.title
 msgid "< 0.001"
@@ -82,19 +82,19 @@ msgstr ""
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
-msgstr ""
+msgstr "Énfasis"
 
 #: mCOR/options/clustMet.title
 msgid "Agglomeration method"
-msgstr ""
+msgstr "Método de aglomeración"
 
 #: mMF/options/alg.title
 msgid "Algorythm"
-msgstr ""
+msgstr "Algoritmo"
 
 #: mCOR/options/signif/all.title
 msgid "All"
-msgstr ""
+msgstr "Todo"
 
 #: mCOR/options/plotOrder/alphabet.title
 msgid "Alphabetical"
@@ -202,7 +202,7 @@ msgstr ""
 
 #: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
-msgstr ""
+msgstr "Color"
 
 #: mCOR/options/clustCol.title
 msgid "Colored Clusters"
@@ -214,7 +214,7 @@ msgstr ""
 
 #: mMF/options/learnvar.title mMF/ui[0][0].label
 msgid "Complete Variables"
-msgstr ""
+msgstr "Variables completas"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
@@ -222,11 +222,11 @@ msgstr ""
 
 #: mROC/results/text.title
 msgid "Conditions"
-msgstr ""
+msgstr "Condiciones"
 
 #: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "Intervalo de confianza"
 
 #: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
@@ -254,7 +254,7 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Correlation"
-msgstr ""
+msgstr "Correlación"
 
 #: package/analyses/mCOR.title package/analyses/mCOR.menuTitle
 #: package/datasets/Correlation clustering.name mCOR/options.title
@@ -268,19 +268,19 @@ msgstr ""
 
 #: mCOR/ui.title mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation Matrix"
-msgstr ""
+msgstr "Matriz de correlación"
 
 #: mCOR/options/tables.title mCOR/options/plots.title
 msgid "Correlation matrix"
-msgstr ""
+msgstr "Matriz de correlación"
 
 #: mCOR/results/text.title
 msgid "Correlations"
-msgstr ""
+msgstr "Correlaciones"
 
 #: mMF/results/estim/cplot.title
 msgid "Correlations between variables"
-msgstr ""
+msgstr "Correlaciones entre variables"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "D²"
@@ -296,11 +296,11 @@ msgstr ""
 
 #: mROC/options/direction.title
 msgid "Direction"
-msgstr ""
+msgstr "Dirección"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
-msgstr ""
+msgstr "Línea punteada"
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
@@ -308,11 +308,11 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Empty data table"
-msgstr ""
+msgstr "Tabla de datos vacía"
 
 #: mCOR/options/plotMetU/empty.title mCOR/options/plotMetL/empty.title
 msgid "Emtpy"
-msgstr ""
+msgstr "Vacío"
 
 #: mMF/results/imput/errors.title
 msgid "Estimated out-of-bag (OOB) imputation error"
@@ -418,7 +418,7 @@ msgstr ""
 
 #: mMF/options/imputevar.title mMF/ui[0][1].label
 msgid "Incomplete Variables"
-msgstr ""
+msgstr "Variables incompletas"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
@@ -677,7 +677,7 @@ msgstr ""
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "r de Pearson"
 
 #: R\mmf.b.R
 msgid "per pattern"
@@ -788,11 +788,11 @@ msgstr ""
 
 #: R\mroc.b.R
 msgid "Sensitivity"
-msgstr ""
+msgstr "Sensibilidad"
 
 #: R\mroc.b.R
 msgid "Sensitivity (%)"
-msgstr ""
+msgstr "Sensibilidad (%)"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
@@ -836,11 +836,11 @@ msgstr ""
 
 #: R\mroc.b.R
 msgid "Specificity"
-msgstr ""
+msgstr "Especificidad"
 
 #: R\mroc.b.R
 msgid "Specificity (%)"
-msgstr ""
+msgstr "Especificidad (%)"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
@@ -864,7 +864,7 @@ msgstr ""
 
 #: mCOR/ui[4].label
 msgid "Tables"
-msgstr ""
+msgstr "Tablas"
 
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
@@ -895,7 +895,7 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Variable name"
-msgstr ""
+msgstr "Nombre de la variable"
 
 #: mCOR/ui[5][0]/plots/clustMan.suffix
 msgid "variable numbers by commas"
@@ -931,4 +931,4 @@ msgstr ""
 
 #: mROC/options/theBest/bssY.title
 msgid "Youden Best (Sp, Se)"
-msgstr "Ola."
+msgstr "Youden Best (Sp, Se)"
