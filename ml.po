@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-26 19:05+0000\n"
+"PO-Revision-Date: 2025-07-28 05:01+0000\n"
 "Last-Translator: \"Dr. Chinchu C.\" <chinchu.c@gmail.com>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/"
 "jys-i18n/ml/>\n"
@@ -34,15 +34,15 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "**connection of a variable's observed data"
-msgstr ""
+msgstr "**ഒരു വേരിയബിളിന്റെ നിരീക്ഷിക്കപ്പെട്ട ഡേറ്റയുടെ കണക്ഷൻ"
 
 #: R\mmf.b.R
 msgid "*connection of a variable's missingness indicator"
-msgstr ""
+msgstr "*ഒരു വേരിയബിളിന്റെ missingness ഇൻഡിക്കേറ്ററിന്റെ കണക്ഷൻ"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
-msgstr ""
+msgstr "*pairwise പൂർണ്ണ ഒബ്സർവേഷനുകൾ"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
@@ -50,27 +50,27 @@ msgstr "%"
 
 #: mCOR/options/signif/0.001.title
 msgid "< 0.001"
-msgstr ""
+msgstr "< 0.001"
 
 #: mCOR/options/signif/0.01.title
 msgid "< 0.01"
-msgstr ""
+msgstr "< 0.01"
 
 #: mCOR/options/signif/0.05.title
 msgid "< 0.05"
-msgstr ""
+msgstr "< 0.05"
 
 #: mCOR/options/signif/0.1.title
 msgid "< 0.1"
-msgstr ""
+msgstr "< 0.1"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
-msgstr ""
+msgstr "0 - ഓട്ടോ"
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 - സ്പെസിഫിസിറ്റി"
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
@@ -118,31 +118,31 @@ msgstr ""
 
 #: package/datasets/BC ROC classification.name
 msgid "BC ROC classification"
-msgstr ""
+msgstr "BC ROC വർഗ്ഗീകരണം"
 
 #: mCOR/options/adjust/BH.title
 msgid "Benjamini-Hochberg (1995)"
-msgstr ""
+msgstr "ബെഞ്ചമിനി-ഹോച്ച്ബെർഗ് (1995)"
 
 #: mCOR/options/adjust/BY.title
 msgid "Benjamini-Yekutieli (2001)"
-msgstr ""
+msgstr "ബെഞ്ചമിനി-യെകുറ്റിയേലി (2001)"
 
 #: mROC/options/BW.title
 msgid "Black & White"
-msgstr ""
+msgstr "കറുപ്പും വെളുപ്പും"
 
 #: package/datasets/BC ROC classification.description
 msgid "Blood cells multiple ROC Classification demonstration"
-msgstr ""
+msgstr "രക്തകോശങ്ങളുടെ multiple ROC Classification പ്രദർശനം"
 
 #: mCOR/options/adjust/bonferroni.title
 msgid "Bonferroni (1961)"
-msgstr ""
+msgstr "ബോൺഫെറോണി (1961)"
 
 #: mCOR/options/clPos/b.title
 msgid "Bottom"
-msgstr ""
+msgstr "താഴെ"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
@@ -226,7 +226,7 @@ msgstr ""
 
 #: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "കോൺഫിഡൻസ് ഇടവേള"
 
 #: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
@@ -351,7 +351,7 @@ msgstr ""
 #: mCOR/options/group.title mCOR/ui[0][1].label mROC/options/groups.title
 #: mROC/ui[0][2].label
 msgid "Grouping Variable"
-msgstr ""
+msgstr "ഗ്രൂപ്പിങ്ങ് വേരിയബിൾ"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
