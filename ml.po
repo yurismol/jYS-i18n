@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-29 07:10+0000\n"
+"PO-Revision-Date: 2025-07-30 10:25+0000\n"
 "Last-Translator: \"Dr. Chinchu C.\" <chinchu.c@gmail.com>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/"
 "jys-i18n/ml/>\n"
@@ -418,53 +418,53 @@ msgstr ""
 
 #: mMF/options/imputevar.title mMF/ui[0][1].label
 msgid "Incomplete Variables"
-msgstr ""
+msgstr "പൂർണ്ണമല്ലാത്ത വേരിയബിളുകൾ"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
-msgstr ""
+msgstr "Influx-outflux പ്ലോട്ട്"
 
 #: mMF/options/fluxplot.title
 msgid "Influx-outflux plot for missing data patterns"
-msgstr ""
+msgstr "ഇല്ലാത്ത ഡേറ്റാ പാറ്റേണുകളുടെ ഒരു Influx-outflux പ്ലോട്ട്"
 
 #: R\mmf.b.R
 msgid "Influx*"
-msgstr ""
+msgstr "Influx*"
 
 #: mCOR/options/clustMat.title mCOR/results/rplots.title
 msgid "Intercluster Matrices"
-msgstr ""
+msgstr "ഇന്റർക്ലസ്റ്റർ Matrices"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
-msgstr ""
+msgstr "ഇടവേള"
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
 #: mROC/options.menuGroup
 msgid "jYS"
-msgstr ""
+msgstr "jYS"
 
 #: package.title
 msgid "jYS Extended Functions"
-msgstr ""
+msgstr "jYS എക്സ്റ്റെന്റഡ് ഫങ്ഷനുകൾ"
 
 #: mCOR/options/method/kendall.title
 msgid "Kendall (τ)"
-msgstr ""
+msgstr "കെൺഡാൾ (τ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Kendall Tau"
-msgstr ""
+msgstr "കെൺഡാൾ ടൗ"
 
 #: mROC/options/legacy.title
 msgid "Legacy format of Specificity axis"
-msgstr ""
+msgstr "സ്‌പെസിഫിസിറ്റി ആക്സിസിന്റെ പഴയ ഫോർമാറ്റ്"
 
 #: mROC/options/legBox.title
 msgid "Legend Box"
-msgstr ""
+msgstr "വിവരണ ബോക്സ്"
 
 #: mROC/options/lwd.title
 msgid "Line width"
@@ -514,14 +514,15 @@ msgstr ""
 msgid ""
 "MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
 msgstr ""
+"MCAR (Missing Completely at Random), MAR (Missing at Random) എസ്റ്റിമേഷനുകൾ"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
-msgstr ""
+msgstr "McQuitty ലിങ്കേജ് (WPGMA)"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
-msgstr ""
+msgstr "മീഡിയൻ ലിങ്കേജ്"
 
 #: mCOR/options/method.title
 msgid "Method"
@@ -533,37 +534,37 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Minimum 2 impute variables are required"
-msgstr ""
+msgstr "കുറഞ്ഞത് 2 impute വേരിയബിളുകൾ വേണം"
 
 #: mMF/options/alg/mF.title
 msgid "missForest (2012)"
-msgstr ""
+msgstr "മിസ്സ്ഫോറെസ്റ്റ് (2012)"
 
 #: R\mmf.b.R
 msgid "missing"
-msgstr ""
+msgstr "മിസ്സിങ്ങ്"
 
 #: mMF/results/estim/plot.title
 msgid "Missing data patterns"
-msgstr ""
+msgstr "കാണാനില്ലാത്ത ഡേറ്റാ പാറ്റേണുകൾ"
 
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
-msgstr ""
+msgstr "ഇല്ലാത്ത മൂല്യങ്ങൾ കണക്കാക്കൽ"
 
 #: package/analyses/mMF.title package/analyses/mMF.menuTitle mMF/options.title
 #: mMF/ui.title mMF/results.title
 msgid "Missing Values Estimation and Imputation"
-msgstr ""
+msgstr "ഇല്ലാത്ത മൂല്യങ്ങളുടെ കണക്കാക്കലും ഇംപ്യൂട്ടേഷനും"
 
 #: package/datasets/Missing Values Imputation.name mMF/ui[2].label
 #: mMF/results/imput.title
 msgid "Missing Values Imputation"
-msgstr ""
+msgstr "ഇല്ലാത്ത മൂല്യങ്ങളുടെ ഇംപ്യൂട്ടേഷൻ"
 
 #: package/datasets/Missing Values Imputation.description
 msgid "Missing values imputation using the prediction power of Random Forests"
-msgstr ""
+msgstr "Random Forests പ്രവചനം ഉപയോഗിച്ചുള്ള ഇല്ലാത്ത മൂല്യങ്ങളുടെ ഇംപ്യൂട്ടേഷൻ"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Missing<br>Patterns"
@@ -613,96 +614,99 @@ msgid ""
 "Number of candidate non-missing values to sample from in the predictive mean "
 "matching steps. 0 to avoid this step"
 msgstr ""
+"predictive mean matching stepsൽ നിന്ന് സാമ്പിൾ ചെയ്യേണ്ട നഷ്ടപ്പെട്ടതല്ലാത്ത candidate "
+"മൂല്യങ്ങളുടെ എണ്ണം. ഈ ഘട്ടം ഒഴിവാക്കാൻ 0"
 
 #: R\mmf.b.R
 msgid "Number of missing entries"
-msgstr ""
+msgstr "ലഭ്യമല്ലാത്ത എൻട്രികളുടെ എണ്ണം"
 
 #: R\mmf.b.R
 msgid "Number of missing entries per variable"
-msgstr ""
+msgstr "ഓരോ വേരിയബിളിലും ലഭ്യമല്ലാത്ത എൻട്രികളുടെ എണ്ണം"
 
 #: mMF/options/npat.title
 msgid "Number of patterns"
-msgstr ""
+msgstr "പാറ്റേണുകളുടെ എണ്ണം"
 
 #: mMF/options/ntree.title
 msgid "Number of trees to grow in each forest"
-msgstr ""
+msgstr "ഓരോ കാട്ടിലും വളർത്തേണ്ട മരങ്ങളുടെ എണ്ണം"
 
 #: R\mmf.b.R
 msgid "observed"
-msgstr ""
+msgstr "കണ്ടത്"
 
 #: mMF/results/imput/errors.description
 msgid "OOB errors table"
-msgstr ""
+msgstr "OOB എറർ ടേബിൾ"
 
 #: mCOR/options/plotOrder/original.title
 msgid "Original"
-msgstr ""
+msgstr "ഒറിജിനൽ"
 
 #: R\mmf.b.R
 msgid "OutFlux**"
-msgstr ""
+msgstr "ഔട്ട്ഫ്ലക്സ്**"
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "p-വാല്യൂ"
 
 #: mMF/results/estim/mcar.columns.title mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "p<sub>value</sub>"
-msgstr ""
+msgstr "p<sub>വാല്യൂ</sub>"
 
 #: mROC/options/palBrewer/Paired.title
 msgid "Paired"
-msgstr ""
+msgstr "ജോടി"
 
 #: mROC/options/palBrewer/Pastel1.title
 msgid "Pastel1"
-msgstr ""
+msgstr "Pastel1"
 
 #: R\mmf.b.R
 msgid "Pattern frequency"
-msgstr ""
+msgstr "പാറ്റേൺ ആവൃത്തി"
 
 #: mCOR/options/method/pearson.title
 msgid "Pearson (r)"
-msgstr ""
+msgstr "പിയേഴ്സൺ (r)"
 
 #: R\mcor.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "സംഖ്യയല്ലാത്ത മൂല്യങ്ങൾക്ക് പിയേഴ്സൺ കോറിലേഷൻ കണക്കുകൂട്ടാൻ പറ്റില്ല"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "പിയേഴ്സൺ r"
 
 #: R\mmf.b.R
 msgid "per pattern"
-msgstr ""
+msgstr "പാറ്റേൺ അനുസരിച്ച്"
 
 #: mMF/results/imput/errors.columns.title
 msgid "PFC"
-msgstr ""
+msgstr "PFC"
 
 #: R\mmf.b.R
 msgid ""
 "PFC - proportion of falsely classified (for Nominal and Ordinal variables);"
 msgstr ""
+"PFC - തെറ്റായി വർഗ്ഗീകരിച്ചതിന്റെ അനുപാതം (നോമിനൽ, ഓർഡിനൽ വേരിയബിളുകൾക്ക്);"
 
 #: mCOR/options/plotMetU/pie.title mCOR/options/plotMetL/pie.title
 msgid "Pie"
-msgstr ""
+msgstr "പൈ"
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
-msgstr ""
+msgstr "വേരിയബിളുകൾ തമ്മിലുള്ള കോറിലേഷൻ പ്ലോട്ട് ചെയ്യുക"
 
 #: mMF/ui[1][0][2].label
 msgid "Plot options"
-msgstr ""
+msgstr "പ്ലോട്ട് ഓപ്ഷനുകൾ"
 
 #: mMF/options/patplot.title
 msgid "Plot the missing data patterns"
@@ -743,7 +747,7 @@ msgstr ""
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
-msgstr ""
+msgstr "വലത്"
 
 #: mMF/options/seed.title
 msgid "RNG seed value"
@@ -812,43 +816,43 @@ msgstr ""
 
 #: mCOR/options/signif.title
 msgid "Significance"
-msgstr ""
+msgstr "സ്റ്റാറ്റിസ്റ്റിക്കൽ പ്രാധാന്യം"
 
 #: R\mcor.b.R
 msgid "Simultaneous multiple correlation comparisons using {n} method"
-msgstr ""
+msgstr "{n} രീതി ഉപയോഗിച്ചുള്ള ഒരേസമയ multiple correlation താരതമ്യങ്ങൾ"
 
 #: mCOR/options/clustMet/single.title
 msgid "Single Linkage"
-msgstr ""
+msgstr "ഒറ്റ ലിങ്കേജ്"
 
 #: mMF/options/anghead.title
 msgid "Slanted Titles"
-msgstr ""
+msgstr "ചരിഞ്ഞ തലക്കെട്ടുകൾ"
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
-msgstr ""
+msgstr "സ്പിയർമാൻ (ρ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Spearman's Rho"
-msgstr ""
+msgstr "സ്പിയർമാൻ Rho"
 
 #: R\mroc.b.R
 msgid "Specificity"
-msgstr ""
+msgstr "സ്പെസിഫിസിറ്റി"
 
 #: R\mroc.b.R
 msgid "Specificity (%)"
-msgstr ""
+msgstr "സ്പെസിഫിസിറ്റി (%)"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
-msgstr ""
+msgstr "Sperm Deformity Index ROC Classification പ്രദർശനം"
 
 #: mROC/options/splitROC.title
 msgid "Split curves"
-msgstr ""
+msgstr "വിഭജിച്ച കർവുകൾ"
 
 #: mROC/results/splots.title
 msgid "Splitted ROC by predictors"
@@ -887,7 +891,7 @@ msgstr ""
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 msgid "Variable"
-msgstr ""
+msgstr "വേരിയബിൾ"
 
 #: mMF/results/estim/fMARtab.template.title
 msgid "Variable - $key"
@@ -903,11 +907,11 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Variable to impute"
-msgstr ""
+msgstr "ഇംപ്യൂട്ട് ചെയ്യേണ്ട വേരിയബിൾ"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
-msgstr ""
+msgstr "വാർഡ് D2 ലിങ്കേജ്"
 
 #: mCOR/options/clustMet/ward.D.title
 msgid "Ward´s Linkage"
