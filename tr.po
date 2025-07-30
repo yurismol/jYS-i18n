@@ -1,14 +1,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-07-31 11:02+0000\n"
+"Last-Translator: Musab Ustun <musabyusufustun@outlook.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
+"tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -349,7 +351,7 @@ msgstr ""
 #: mCOR/options/group.title mCOR/ui[0][1].label mROC/options/groups.title
 #: mROC/ui[0][2].label
 msgid "Grouping Variable"
-msgstr ""
+msgstr "Gruplama Değişkeni"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
