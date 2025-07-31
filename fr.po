@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-28 05:02+0000\n"
-"Last-Translator: aazes <aazes012@gmail.com>\n"
+"PO-Revision-Date: 2025-08-01 13:01+0000\n"
+"Last-Translator: Charly Marie <charly.marie.pro@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "fr/>\n"
 "Language: fr\n"
@@ -226,7 +226,7 @@ msgstr ""
 
 #: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "Intervalle de confiance"
 
 #: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
