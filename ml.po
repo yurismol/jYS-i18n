@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-31 11:02+0000\n"
+"PO-Revision-Date: 2025-08-01 13:01+0000\n"
 "Last-Translator: \"Dr. Chinchu C.\" <chinchu.c@gmail.com>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/"
 "jys-i18n/ml/>\n"
@@ -238,7 +238,7 @@ msgstr "കോൺഫിഡൻസ് ഇടവേള വലിപ്പം ശത
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
-msgstr "Correlated"
+msgstr "കോറിലേഷൻ ഉണ്ട്"
 
 #: mCOR/options/hyp/neg.title
 msgid "Correlated negatively"
@@ -438,7 +438,7 @@ msgstr "ഇന്റർക്ലസ്റ്റർ Matrices"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
-msgstr "ഇടവേള"
+msgstr "അകലം"
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
