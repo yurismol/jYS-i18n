@@ -1,14 +1,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-08-15 18:01+0000\n"
+"Last-Translator: Tomi Sifa <yuzurukotomi0@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/jamovi/"
+"jys-i18n/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.13\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -28,7 +30,7 @@ msgstr ""
 
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p < .05, ** p < .01, *** p < .001, satu ekor"
 
 #: R\mmf.b.R
 msgid "**connection of a variable's observed data"
@@ -44,7 +46,7 @@ msgstr ""
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: mCOR/options/signif/0.001.title
 msgid "< 0.001"
