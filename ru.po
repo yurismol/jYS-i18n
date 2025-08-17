@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-08 08:01+0000\n"
+"PO-Revision-Date: 2025-08-18 16:01+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ru/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -30,8 +30,6 @@ msgid "{varType} with imputed values"
 msgstr "{varType} с заполненными пропусками"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "{varType} with imputed values"
 msgid "{varType} without outliers"
 msgstr "{varType} с заполненными пропусками"
 
@@ -74,6 +72,7 @@ msgstr "< 0.1"
 #: R\mmf.b.R
 msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
 msgstr ""
+"<h2>Справка</h2><div>Пожалуйста, выберите полные и неполные переменные</div>"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
@@ -85,7 +84,7 @@ msgstr "1 - Специфичность"
 
 #: mOUT/options/fence/1.5.title
 msgid "1.5"
-msgstr ""
+msgstr "1.5"
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
@@ -93,39 +92,39 @@ msgstr "100 - Специфичность (%)"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
-msgstr ""
+msgstr "2.2"
 
 #: mOUT/options/tholdZS/2.5.title mOUT/options/tholdmZS/2.5.title
 msgid "2.5"
-msgstr ""
+msgstr "2.5"
 
 #: mOUT/options/fence/3.0.title mOUT/options/tholdmZS/3.0.title
 msgid "3.0"
-msgstr ""
+msgstr "3.0"
 
 #: mOUT/options/tholdZS/3.0.title
 msgid "3.0 (standard)"
-msgstr ""
+msgstr "3.0 (стандарт)"
 
 #: mOUT/options/tholdZS/3.5.title
 msgid "3.5"
-msgstr ""
+msgstr "3.5"
 
 #: mOUT/options/tholdmZS/3.5.title
 msgid "3.5 (standard)"
-msgstr ""
+msgstr "3,5 (стандарт)"
 
 #: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
 msgid "4.0"
-msgstr ""
+msgstr "4.0"
 
 #: mOUT/options/tholdZS/4.5.title mOUT/options/tholdmZS/4.5.title
 msgid "4.5"
-msgstr ""
+msgstr "4.5"
 
 #: mOUT/options/tholdZS/5.0.title mOUT/options/tholdmZS/5.0.title
 msgid "5.0"
-msgstr ""
+msgstr "5.0"
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
@@ -197,7 +196,7 @@ msgstr "Внизу"
 
 #: mOUT/options/boxpl.title mOUT/results/plots.title
 msgid "Boxplots with outliers"
-msgstr ""
+msgstr "Боксплоты с выбросами"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
@@ -205,7 +204,7 @@ msgstr "Категориальная палитра Брюэр"
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
-msgstr ""
+msgstr "Рассчитанные заборы для выбросов"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -412,7 +411,7 @@ msgstr ""
 
 #: R\mout.b.R
 msgid "Group"
-msgstr ""
+msgstr "Группа"
 
 #: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
 #: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
@@ -461,7 +460,7 @@ msgstr "Гипотеза"
 
 #: package/datasets/Outliers identification and removal.description
 msgid "Identification, analysis and removal of data outliers by groups"
-msgstr ""
+msgstr "Выявление, анализ и удаление выбросов данных по группам"
 
 #: R\mmf.b.R
 msgid ""
@@ -515,11 +514,11 @@ msgstr "Интервал"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
-msgstr ""
+msgstr "Высота забора IQR"
 
 #: mOUT/options/outlcheck/IQR.title
 msgid "IQR Tukey's fences"
-msgstr ""
+msgstr "IQR заборы Тьюки"
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
@@ -554,7 +553,7 @@ msgstr "Толщина линии"
 
 #: R\mout.b.R
 msgid "Lower fence"
-msgstr ""
+msgstr "Нижний забор"
 
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
@@ -611,13 +610,11 @@ msgstr "МакКитти связи"
 
 #: R\mout.b.R
 msgid "Mean"
-msgstr ""
+msgstr "Среднее"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Median Linkage"
 msgid "Median"
-msgstr "Медианной связи"
+msgstr "Медиана"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
@@ -677,7 +674,7 @@ msgstr "missRanger (2021)"
 
 #: mOUT/options/outlcheck/mZS.title
 msgid "Modified Z-score"
-msgstr ""
+msgstr "Модифицированная Z-оценка"
 
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
@@ -706,7 +703,7 @@ msgstr "N - количество пропущенных значений;"
 
 #: R\mout.b.R
 msgid "N of outliers"
-msgstr ""
+msgstr "Количество выбросов"
 
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
@@ -760,29 +757,29 @@ msgstr "Отток**"
 
 #: R\mout.b.R
 msgid "outl"
-msgstr ""
+msgstr "выбр"
 
 #: mOUT/results/stat/outstat.title
 msgid "Outliers fences"
-msgstr ""
+msgstr "Заборы для выбросов"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
-msgstr ""
+msgstr "Идентификация выбросов"
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: package/datasets/Outliers identification and removal.name mOUT/options.title
 #: mOUT/ui.title mOUT/results.title
 msgid "Outliers identification and removal"
-msgstr ""
+msgstr "Идентификация и удаление выбросов"
 
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
-msgstr ""
+msgstr "Метод выявления выбросов"
 
 #: mOUT/ui[2].label
 msgid "Outliers removal"
-msgstr ""
+msgstr "Удаление выбросов"
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
@@ -875,7 +872,7 @@ msgstr "PVU — доля необъясненной дисперсии 1-R² (д
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
 msgid "Remove outliers"
-msgstr ""
+msgstr "Удалить выбросы"
 
 #: mCOR/options/plotOrder.title
 msgid "Reorder"
@@ -1027,7 +1024,7 @@ msgstr ""
 
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
-msgstr ""
+msgstr "Порог для Z-оценки"
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
@@ -1035,7 +1032,7 @@ msgstr "Общее количество пропусков {}"
 
 #: R\mout.b.R
 msgid "Upper fence"
-msgstr ""
+msgstr "Верхний забор"
 
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
@@ -1063,10 +1060,8 @@ msgid "Variable to impute"
 msgstr "Переменная для восстановления"
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
-#, fuzzy
-#| msgid "Variable to impute"
 msgid "Variables with outliers"
-msgstr "Переменная для восстановления"
+msgstr "Переменные с выбросами"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
@@ -1098,7 +1093,7 @@ msgstr "По Юдену (Спец, Чувств)"
 
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
-msgstr ""
+msgstr "Z-оценка"
 
 #~ msgid "Correlation Matrix"
 #~ msgstr "Корреляционная Матрица"
