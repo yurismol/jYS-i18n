@@ -29,6 +29,12 @@ msgstr "רווח סמך עליון {ciWidth}%"
 msgid "{varType} with imputed values"
 msgstr "{varType} עם ערכי ייחוס"
 
+#: R\mout.b.R
+#, fuzzy
+#| msgid "{varType} with imputed values"
+msgid "{varType} without outliers"
+msgstr "{varType} עם ערכי ייחוס"
+
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
 msgstr "* p < .05, ** p < .01, *** p < .001, חד זנבי"
@@ -65,6 +71,10 @@ msgstr "< 0.05"
 msgid "< 0.1"
 msgstr "< 0.1"
 
+#: R\mmf.b.R
+msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
+msgstr ""
+
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
 msgstr "0 – אוטומטי"
@@ -73,9 +83,49 @@ msgstr "0 – אוטומטי"
 msgid "1 - Specificity"
 msgstr "סגוליות - 1"
 
+#: mOUT/options/fence/1.5.title
+msgid "1.5"
+msgstr ""
+
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
 msgstr "100 – סגוליות (%)"
+
+#: mOUT/options/fence/2.2.title
+msgid "2.2"
+msgstr ""
+
+#: mOUT/options/tholdZS/2.5.title mOUT/options/tholdmZS/2.5.title
+msgid "2.5"
+msgstr ""
+
+#: mOUT/options/fence/3.0.title mOUT/options/tholdmZS/3.0.title
+msgid "3.0"
+msgstr ""
+
+#: mOUT/options/tholdZS/3.0.title
+msgid "3.0 (standard)"
+msgstr ""
+
+#: mOUT/options/tholdZS/3.5.title
+msgid "3.5"
+msgstr ""
+
+#: mOUT/options/tholdmZS/3.5.title
+msgid "3.5 (standard)"
+msgstr ""
+
+#: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
+msgid "4.0"
+msgstr ""
+
+#: mOUT/options/tholdZS/4.5.title mOUT/options/tholdmZS/4.5.title
+msgid "4.5"
+msgstr ""
+
+#: mOUT/options/tholdZS/5.0.title mOUT/options/tholdmZS/5.0.title
+msgid "5.0"
+msgstr ""
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
@@ -145,9 +195,17 @@ msgstr "בונפרוני (1961)"
 msgid "Bottom"
 msgstr "תחתון"
 
+#: mOUT/options/boxpl.title mOUT/results/plots.title
+msgid "Boxplots with outliers"
+msgstr ""
+
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
 msgstr "לוח הצבעים האיכותני של ברואר"
+
+#: mOUT/results/stat/outstat.description
+msgid "Calculated fences for outliers"
+msgstr ""
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -267,11 +325,8 @@ msgstr "אִשכול המתאם"
 msgid "Correlation Clustering demonstration"
 msgstr "הדגמת אשכול המתאם"
 
-#: mCOR/ui.title mCOR/results/matrix.title mCOR/results/plot.title
-msgid "Correlation Matrix"
-msgstr "מטריצת מתאמים"
-
-#: mCOR/options/tables.title mCOR/options/plots.title
+#: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
+#: mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation matrix"
 msgstr "מטריצת מתאמים"
 
@@ -349,8 +404,12 @@ msgid ""
 "and imputation etc."
 msgstr ""
 
-#: mCOR/options/group.title mCOR/ui[0][1].label mROC/options/groups.title
-#: mROC/ui[0][2].label
+#: R\mout.b.R
+msgid "Group"
+msgstr ""
+
+#: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
+#: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
 msgid "Grouping Variable"
 msgstr "משתנה הקבצה"
 
@@ -393,6 +452,10 @@ msgstr "הומל (1988)"
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
 msgstr "השערה"
+
+#: package/datasets/Outliers identification and removal.description
+msgid "Identification, analysis and removal of data outliers by groups"
+msgstr ""
 
 #: R\mmf.b.R
 msgid ""
@@ -443,8 +506,17 @@ msgstr "מטריצות בין־אשכולות"
 msgid "Interval"
 msgstr "רווח"
 
+#: mOUT/options/fence.title
+msgid "IQR fence height"
+msgstr ""
+
+#: mOUT/options/outlcheck/IQR.title
+msgid "IQR Tukey's fences"
+msgstr ""
+
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
-#: package/analyses/mMF.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
+#: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
+#: mCOR/options.menuGroup mMF/options.menuGroup mOUT/options.menuGroup
 #: mROC/options.menuGroup
 msgid "jYS"
 msgstr "jYS"
@@ -472,6 +544,10 @@ msgstr ""
 #: mROC/options/lwd.title
 msgid "Line width"
 msgstr "רוחב הקו"
+
+#: R\mout.b.R
+msgid "Lower fence"
+msgstr ""
 
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
@@ -523,6 +599,16 @@ msgstr "אומדן MCAR (חסרים לחלוטין באקראי) ו־MAR (חסר
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
 msgstr "הצמדת מקוויטי (WPGMA)"
+
+#: R\mout.b.R
+msgid "Mean"
+msgstr ""
+
+#: R\mout.b.R
+#, fuzzy
+#| msgid "Median Linkage"
+msgid "Median"
+msgstr "הצמדת החציון"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
@@ -578,6 +664,10 @@ msgstr "תבניות<br>החסרים"
 msgid "missRanger (2021)"
 msgstr ""
 
+#: mOUT/options/outlcheck/mZS.title
+msgid "Modified Z-score"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
 msgstr "MSE – ממוצע ריבועי השגיאות (למשתנים רציפים);"
@@ -602,6 +692,10 @@ msgstr ""
 #: R\mmf.b.R
 msgid "N - number of missing values;"
 msgstr "N – מספר הערכים החסרים;"
+
+#: R\mout.b.R
+msgid "N of outliers"
+msgstr ""
 
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
@@ -651,6 +745,32 @@ msgstr "מקורי"
 
 #: R\mmf.b.R
 msgid "OutFlux**"
+msgstr ""
+
+#: R\mout.b.R
+msgid "outl"
+msgstr ""
+
+#: mOUT/results/stat/outstat.title
+msgid "Outliers fences"
+msgstr ""
+
+#: mOUT/ui[1].label mOUT/results/stat.title
+msgid "Outliers identification"
+msgstr ""
+
+#: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
+#: package/datasets/Outliers identification and removal.name mOUT/options.title
+#: mOUT/ui.title mOUT/results.title
+msgid "Outliers identification and removal"
+msgstr ""
+
+#: mOUT/options/outlcheck.title
+msgid "Outliers identifying method"
+msgstr ""
+
+#: mOUT/ui[2].label
+msgid "Outliers removal"
 msgstr ""
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
@@ -739,6 +859,10 @@ msgstr "תרשים מטריצת מתאמים."
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
 msgstr "PVU – יחס השונות הבלתי מוסברת 1-R² (למשתנים רציפים)."
+
+#: mOUT/options/remOut.title mOUT/results/remOut.title
+msgid "Remove outliers"
+msgstr ""
 
 #: mCOR/options/plotOrder.title
 msgid "Reorder"
@@ -886,15 +1010,24 @@ msgstr ""
 "למשתנה המסווג ”{}“ אין בדיוק שתי רמות. ניתן לערוך סיווג ROC על משתנים "
 "מסווגים בעלי שתי רמות."
 
+#: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
+msgid "Threshold for Z-score"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
 msgstr "המספר הכולל של הכניסות החסרות {}"
+
+#: R\mout.b.R
+msgid "Upper fence"
+msgstr ""
 
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
 msgstr "החלק העליון"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
+#: mOUT/results/stat/outstat.columns.title
 msgid "Variable"
 msgstr "משתנה"
 
@@ -912,6 +1045,10 @@ msgstr "המספרים של המשתנה מופרדים בפסיקים"
 
 #: R\mmf.b.R
 msgid "Variable to impute"
+msgstr ""
+
+#: mOUT/options/vars.title mOUT/ui[0][0].label
+msgid "Variables with outliers"
 msgstr ""
 
 #: mCOR/options/clustMet/ward.D2.title
@@ -941,3 +1078,10 @@ msgstr ""
 #: mROC/options/theBest/bssY.title
 msgid "Youden Best (Sp, Se)"
 msgstr ""
+
+#: mOUT/options/outlcheck/ZS.title
+msgid "Z-score"
+msgstr ""
+
+#~ msgid "Correlation Matrix"
+#~ msgstr "מטריצת מתאמים"

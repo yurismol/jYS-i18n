@@ -6,7 +6,7 @@ msgstr ""
 "Language-Team: none\n"
 "Language: ug\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
@@ -26,6 +26,10 @@ msgstr ""
 msgid "{varType} with imputed values"
 msgstr ""
 
+#: R\mout.b.R
+msgid "{varType} without outliers"
+msgstr ""
+
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
 msgstr ""
@@ -42,8 +46,7 @@ msgstr ""
 msgid "*pairwise complete observations"
 msgstr ""
 
-#: mCOR/ui[4][0]/tables/ci/ciWidth.suffix
-#: mROC/ui[1]/ciAUC/ciWidth.suffix
+#: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
 msgstr ""
 
@@ -63,6 +66,10 @@ msgstr ""
 msgid "< 0.1"
 msgstr ""
 
+#: R\mmf.b.R
+msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
+msgstr ""
+
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
 msgstr ""
@@ -71,8 +78,48 @@ msgstr ""
 msgid "1 - Specificity"
 msgstr ""
 
+#: mOUT/options/fence/1.5.title
+msgid "1.5"
+msgstr ""
+
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
+msgstr ""
+
+#: mOUT/options/fence/2.2.title
+msgid "2.2"
+msgstr ""
+
+#: mOUT/options/tholdZS/2.5.title mOUT/options/tholdmZS/2.5.title
+msgid "2.5"
+msgstr ""
+
+#: mOUT/options/fence/3.0.title mOUT/options/tholdmZS/3.0.title
+msgid "3.0"
+msgstr ""
+
+#: mOUT/options/tholdZS/3.0.title
+msgid "3.0 (standard)"
+msgstr ""
+
+#: mOUT/options/tholdZS/3.5.title
+msgid "3.5"
+msgstr ""
+
+#: mOUT/options/tholdmZS/3.5.title
+msgid "3.5 (standard)"
+msgstr ""
+
+#: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
+msgid "4.0"
+msgstr ""
+
+#: mOUT/options/tholdZS/4.5.title mOUT/options/tholdmZS/4.5.title
+msgid "4.5"
+msgstr ""
+
+#: mOUT/options/tholdZS/5.0.title mOUT/options/tholdmZS/5.0.title
+msgid "5.0"
 msgstr ""
 
 #: mCOR/results/matrix.description
@@ -143,8 +190,16 @@ msgstr ""
 msgid "Bottom"
 msgstr ""
 
+#: mOUT/options/boxpl.title mOUT/results/plots.title
+msgid "Boxplots with outliers"
+msgstr ""
+
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
+msgstr ""
+
+#: mOUT/results/stat/outstat.description
+msgid "Calculated fences for outliers"
 msgstr ""
 
 #: mCOR/options/clustMet/centroid.title
@@ -171,8 +226,7 @@ msgstr ""
 msgid "CI width"
 msgstr ""
 
-#: mCOR/options/plotMetU/circle.title
-#: mCOR/options/plotMetL/circle.title
+#: mCOR/options/plotMetU/circle.title mCOR/options/plotMetL/circle.title
 msgid "Circle"
 msgstr ""
 
@@ -184,8 +238,7 @@ msgstr ""
 msgid "Classify missing completely at random (MCAR)"
 msgstr ""
 
-#: mROC/options/class.title
-#: mROC/ui[0][1].label
+#: mROC/options/class.title mROC/ui[0][1].label
 msgid "Classifying variable"
 msgstr ""
 
@@ -201,8 +254,7 @@ msgstr ""
 msgid "Clusters"
 msgstr ""
 
-#: mCOR/options/plotMetU/color.title
-#: mCOR/options/plotMetL/color.title
+#: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
 msgstr ""
 
@@ -214,8 +266,7 @@ msgstr ""
 msgid "Complete Linkage"
 msgstr ""
 
-#: mMF/options/learnvar.title
-#: mMF/ui[0][0].label
+#: mMF/options/learnvar.title mMF/ui[0][0].label
 msgid "Complete Variables"
 msgstr ""
 
@@ -227,13 +278,11 @@ msgstr ""
 msgid "Conditions"
 msgstr ""
 
-#: mROC/options/ciAUC.title
-#: mROC/ui[1]/ciAUC.label
+#: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
 msgstr ""
 
-#: mCOR/options/ci.title
-#: mCOR/ui[4][0]/tables/ci.label
+#: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
 msgstr ""
 
@@ -253,8 +302,7 @@ msgstr ""
 msgid "Correlated positively"
 msgstr ""
 
-#: mCOR/options/vars.title
-#: mCOR/ui[0][0].label
+#: mCOR/options/vars.title mCOR/ui[0][0].label
 msgid "Correlating Variables"
 msgstr ""
 
@@ -262,10 +310,8 @@ msgstr ""
 msgid "Correlation"
 msgstr ""
 
-#: package/analyses/mCOR.title
-#: package/analyses/mCOR.menuTitle
-#: package/datasets/Correlation clustering.name
-#: mCOR/options.title
+#: package/analyses/mCOR.title package/analyses/mCOR.menuTitle
+#: package/datasets/Correlation clustering.name mCOR/options.title
 #: mCOR/results.title
 msgid "Correlation clustering"
 msgstr ""
@@ -274,14 +320,8 @@ msgstr ""
 msgid "Correlation Clustering demonstration"
 msgstr ""
 
-#: mCOR/ui.title
-#: mCOR/results/matrix.title
-#: mCOR/results/plot.title
-msgid "Correlation Matrix"
-msgstr ""
-
-#: mCOR/options/tables.title
-#: mCOR/options/plots.title
+#: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
+#: mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation matrix"
 msgstr ""
 
@@ -313,8 +353,7 @@ msgstr ""
 msgid "Dotted line"
 msgstr ""
 
-#: mCOR/options/plotMetU/ellipse.title
-#: mCOR/options/plotMetL/ellipse.title
+#: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
 msgstr ""
 
@@ -322,8 +361,7 @@ msgstr ""
 msgid "Empty data table"
 msgstr ""
 
-#: mCOR/options/plotMetU/empty.title
-#: mCOR/options/plotMetL/empty.title
+#: mCOR/options/plotMetU/empty.title mCOR/options/plotMetL/empty.title
 msgid "Emtpy"
 msgstr ""
 
@@ -331,8 +369,7 @@ msgstr ""
 msgid "Estimated out-of-bag (OOB) imputation error"
 msgstr ""
 
-#: mMF/options/fullmars.title
-#: mMF/results/estim/fMARtab.title
+#: mMF/options/fullmars.title mMF/results/estim/fMARtab.title
 msgid "Evaluation of MAR explainers"
 msgstr ""
 
@@ -342,7 +379,8 @@ msgid "Explanatory"
 msgstr ""
 
 #: R\mmf.b.R
-msgid "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
+msgid ""
+"Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
 msgstr ""
 
 #: mCOR/options/plotOrder/FPC.title
@@ -354,13 +392,19 @@ msgid "Flag significant correlations"
 msgstr ""
 
 #: package.description
-msgid "Graphic extensions of the functionality of popular data analysis methods: cluster tree of correlating variables, multifactor adaptive correlation matrix, multidimensional ROC classification curves, missing data estimation and imputation etc."
+msgid ""
+"Graphic extensions of the functionality of popular data analysis methods: "
+"cluster tree of correlating variables, multifactor adaptive correlation "
+"matrix, multidimensional ROC classification curves, missing data estimation "
+"and imputation etc."
 msgstr ""
 
-#: mCOR/options/group.title
-#: mCOR/ui[0][1].label
-#: mROC/options/groups.title
-#: mROC/ui[0][2].label
+#: R\mout.b.R
+msgid "Group"
+msgstr ""
+
+#: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
+#: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
 msgid "Grouping Variable"
 msgstr ""
 
@@ -404,8 +448,15 @@ msgstr ""
 msgid "Hypothesis"
 msgstr ""
 
+#: package/datasets/Outliers identification and removal.description
+msgid "Identification, analysis and removal of data outliers by groups"
+msgstr ""
+
 #: R\mmf.b.R
-msgid "If at least one p<sub>value</sub> MAR is not significant, and the p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not At Random)."
+msgid ""
+"If at least one p<sub>value</sub> MAR is not significant, and the "
+"p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not "
+"At Random)."
 msgstr ""
 
 #: R\mmf.b.R
@@ -424,8 +475,7 @@ msgstr ""
 msgid "In percent"
 msgstr ""
 
-#: mMF/options/imputevar.title
-#: mMF/ui[0][1].label
+#: mMF/options/imputevar.title mMF/ui[0][1].label
 msgid "Incomplete Variables"
 msgstr ""
 
@@ -441,21 +491,25 @@ msgstr ""
 msgid "Influx*"
 msgstr ""
 
-#: mCOR/options/clustMat.title
-#: mCOR/results/rplots.title
+#: mCOR/options/clustMat.title mCOR/results/rplots.title
 msgid "Intercluster Matrices"
 msgstr ""
 
-#: mCOR/ui[4][0]/tables/ci/ciWidth.label
-#: mROC/ui[1]/ciAUC/ciWidth.label
+#: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
 msgstr ""
 
-#: package/analyses/mCOR.menuGroup
-#: package/analyses/mROC.menuGroup
-#: package/analyses/mMF.menuGroup
-#: mCOR/options.menuGroup
-#: mMF/options.menuGroup
+#: mOUT/options/fence.title
+msgid "IQR fence height"
+msgstr ""
+
+#: mOUT/options/outlcheck/IQR.title
+msgid "IQR Tukey's fences"
+msgstr ""
+
+#: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
+#: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
+#: mCOR/options.menuGroup mMF/options.menuGroup mOUT/options.menuGroup
 #: mROC/options.menuGroup
 msgid "jYS"
 msgstr ""
@@ -468,8 +522,7 @@ msgstr ""
 msgid "Kendall (τ)"
 msgstr ""
 
-#: mCOR/results/matrix.columns.title
-#: mCOR/results/matrix.columns.content
+#: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Kendall Tau"
 msgstr ""
 
@@ -485,6 +538,10 @@ msgstr ""
 msgid "Line width"
 msgstr ""
 
+#: R\mout.b.R
+msgid "Lower fence"
+msgstr ""
+
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
 msgstr ""
@@ -494,11 +551,12 @@ msgid "Manual Clusters"
 msgstr ""
 
 #: R\mmf.b.R
-msgid "MAR - missing at random (if each p<sub>value</sub> is significant, there is evidence the data is MAR);"
+msgid ""
+"MAR - missing at random (if each p<sub>value</sub> is significant, there is "
+"evidence the data is MAR);"
 msgstr ""
 
-#: mMF/results/estim/mcar.description
-#: mMF/results/estim/mars.description
+#: mMF/results/estim/mcar.description mMF/results/estim/mars.description
 msgid "MAR classification table"
 msgstr ""
 
@@ -519,15 +577,26 @@ msgid "MCAR"
 msgstr ""
 
 #: R\mmf.b.R
-msgid "MCAR - missing completely at random (if the p<sub>value</sub> is not significant, there is evidence the data is MCAR)."
+msgid ""
+"MCAR - missing completely at random (if the p<sub>value</sub> is not "
+"significant, there is evidence the data is MCAR)."
 msgstr ""
 
 #: mMF/options/isMAR.title
-msgid "MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
+msgid ""
+"MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
 msgstr ""
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
+msgstr ""
+
+#: R\mout.b.R
+msgid "Mean"
+msgstr ""
+
+#: R\mout.b.R
+msgid "Median"
 msgstr ""
 
 #: mCOR/options/clustMet/median.title
@@ -558,21 +627,16 @@ msgstr ""
 msgid "Missing data patterns"
 msgstr ""
 
-#: mMF/ui[1].label
-#: mMF/results/estim.title
+#: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
 msgstr ""
 
-#: package/analyses/mMF.title
-#: package/analyses/mMF.menuTitle
-#: mMF/options.title
-#: mMF/ui.title
-#: mMF/results.title
+#: package/analyses/mMF.title package/analyses/mMF.menuTitle mMF/options.title
+#: mMF/ui.title mMF/results.title
 msgid "Missing Values Estimation and Imputation"
 msgstr ""
 
-#: package/datasets/Missing Values Imputation.name
-#: mMF/ui[2].label
+#: package/datasets/Missing Values Imputation.name mMF/ui[2].label
 #: mMF/results/imput.title
 msgid "Missing Values Imputation"
 msgstr ""
@@ -589,6 +653,10 @@ msgstr ""
 msgid "missRanger (2021)"
 msgstr ""
 
+#: mOUT/options/outlcheck/mZS.title
+msgid "Modified Z-score"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
 msgstr ""
@@ -601,10 +669,8 @@ msgstr ""
 msgid "Multiple imputation for missing data"
 msgstr ""
 
-#: mCOR/options/n.title
-#: mCOR/results/matrix.columns.content
-#: mMF/results/estim/mars.columns.title
-#: mMF/results/imput/errors.columns.title
+#: mCOR/options/n.title mCOR/results/matrix.columns.content
+#: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 msgid "N"
 msgstr ""
 
@@ -616,21 +682,24 @@ msgstr ""
 msgid "N - number of missing values;"
 msgstr ""
 
-#: mCOR/options/adjust/none.title
-#: mCOR/options/clPos/n.title
-#: mROC/options/theBest/none.title
-#: mROC/options/cmpDeLong/none.title
+#: R\mout.b.R
+msgid "N of outliers"
+msgstr ""
+
+#: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
+#: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
 msgid "None"
 msgstr ""
 
-#: mCOR/options/plotMetU/number.title
-#: mCOR/options/plotMetL/number.title
+#: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
 msgstr ""
 
 #: mMF/options/pmmk.description.ui
-msgid "Number of candidate non-missing values to sample from in the predictive mean matching steps. 0 to avoid this step"
+msgid ""
+"Number of candidate non-missing values to sample from in the predictive mean "
+"matching steps. 0 to avoid this step"
 msgstr ""
 
 #: R\mmf.b.R
@@ -665,13 +734,37 @@ msgstr ""
 msgid "OutFlux**"
 msgstr ""
 
-#: mCOR/options/pval.title
-#: mCOR/results/matrix.columns.content
+#: R\mout.b.R
+msgid "outl"
+msgstr ""
+
+#: mOUT/results/stat/outstat.title
+msgid "Outliers fences"
+msgstr ""
+
+#: mOUT/ui[1].label mOUT/results/stat.title
+msgid "Outliers identification"
+msgstr ""
+
+#: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
+#: package/datasets/Outliers identification and removal.name mOUT/options.title
+#: mOUT/ui.title mOUT/results.title
+msgid "Outliers identification and removal"
+msgstr ""
+
+#: mOUT/options/outlcheck.title
+msgid "Outliers identifying method"
+msgstr ""
+
+#: mOUT/ui[2].label
+msgid "Outliers removal"
+msgstr ""
+
+#: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
 msgstr ""
 
-#: mMF/results/estim/mcar.columns.title
-#: mMF/results/estim/mars.columns.title
+#: mMF/results/estim/mcar.columns.title mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "p<sub>value</sub>"
 msgstr ""
@@ -696,8 +789,7 @@ msgstr ""
 msgid "Pearson correlation cannot be calculated for non-numeric values"
 msgstr ""
 
-#: mCOR/results/matrix.columns.title
-#: mCOR/results/matrix.columns.content
+#: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Pearson's r"
 msgstr ""
 
@@ -710,11 +802,11 @@ msgid "PFC"
 msgstr ""
 
 #: R\mmf.b.R
-msgid "PFC - proportion of falsely classified (for Nominal and Ordinal variables);"
+msgid ""
+"PFC - proportion of falsely classified (for Nominal and Ordinal variables);"
 msgstr ""
 
-#: mCOR/options/plotMetU/pie.title
-#: mCOR/options/plotMetL/pie.title
+#: mCOR/options/plotMetU/pie.title mCOR/options/plotMetL/pie.title
 msgid "Pie"
 msgstr ""
 
@@ -730,8 +822,7 @@ msgstr ""
 msgid "Plot the missing data patterns"
 msgstr ""
 
-#: mCOR/ui[5].label
-#: mMF/ui[1][0][1].label
+#: mCOR/ui[5].label mMF/ui[1][0][1].label
 msgid "Plots"
 msgstr ""
 
@@ -743,8 +834,7 @@ msgstr ""
 msgid "Predictive Mean Matching (PMM) steps"
 msgstr ""
 
-#: mROC/options/vars.title
-#: mROC/ui[0][0].label
+#: mROC/options/vars.title mROC/ui[0][0].label
 msgid "Predictors"
 msgstr ""
 
@@ -753,7 +843,12 @@ msgid "provide a correlation matrix plot."
 msgstr ""
 
 #: R\mmf.b.R
-msgid "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
+msgid ""
+"PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
+msgstr ""
+
+#: mOUT/options/remOut.title mOUT/results/remOut.title
+msgid "Remove outliers"
 msgstr ""
 
 #: mCOR/options/plotOrder.title
@@ -772,8 +867,7 @@ msgstr ""
 msgid "RNG seed value"
 msgstr ""
 
-#: mROC/options/sepROC.title
-#: mROC/results/plots.title
+#: mROC/options/sepROC.title mROC/results/plots.title
 msgid "ROC by groups"
 msgstr ""
 
@@ -781,11 +875,8 @@ msgstr ""
 msgid "ROC by predictors"
 msgstr ""
 
-#: package/analyses/mROC.title
-#: package/analyses/mROC.menuTitle
-#: mROC/options.title
-#: mROC/ui.title
-#: mROC/results.title
+#: package/analyses/mROC.title package/analyses/mROC.menuTitle
+#: mROC/options.title mROC/ui.title mROC/results.title
 msgid "ROC classification"
 msgstr ""
 
@@ -793,8 +884,7 @@ msgstr ""
 msgid "ROC comparison"
 msgstr ""
 
-#: package/datasets/BC Models ROC Estimation.description
-#: package/datasets/CHD Models ROC Estimation.description
+#: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
 msgstr ""
 
@@ -810,8 +900,7 @@ msgstr ""
 msgid "SDI ROC classification"
 msgstr ""
 
-#: mCOR/options/selgroup.title
-#: mROC/options/selgroup.title
+#: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
 msgstr ""
 
@@ -835,8 +924,7 @@ msgstr ""
 msgid "Set3"
 msgstr ""
 
-#: mCOR/options/plotMetU/shade.title
-#: mCOR/options/plotMetL/shade.title
+#: mCOR/options/plotMetU/shade.title mCOR/options/plotMetL/shade.title
 msgid "Shade"
 msgstr ""
 
@@ -860,8 +948,7 @@ msgstr ""
 msgid "Spearman (ρ)"
 msgstr ""
 
-#: mCOR/results/matrix.columns.title
-#: mCOR/results/matrix.columns.content
+#: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Spearman's Rho"
 msgstr ""
 
@@ -885,8 +972,7 @@ msgstr ""
 msgid "Splitted ROC by predictors"
 msgstr ""
 
-#: mCOR/options/plotMetU/square.title
-#: mCOR/options/plotMetL/square.title
+#: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
 msgstr ""
 
@@ -903,19 +989,30 @@ msgid "The Best point on ROC"
 msgstr ""
 
 #: R\mroc.b.R
-msgid "The classifying variable '{}' does not have exactly two levels; ROC classification can only be performed on classifying variables with two levels."
+msgid ""
+"The classifying variable '{}' does not have exactly two levels; ROC "
+"classification can only be performed on classifying variables with two "
+"levels."
+msgstr ""
+
+#: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
+msgid "Threshold for Z-score"
 msgstr ""
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
 msgstr ""
 
+#: R\mout.b.R
+msgid "Upper fence"
+msgstr ""
+
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
 msgstr ""
 
-#: mMF/results/estim/mars.columns.title
-#: mMF/results/imput/errors.columns.title
+#: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
+#: mOUT/results/stat/outstat.columns.title
 msgid "Variable"
 msgstr ""
 
@@ -933,6 +1030,10 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Variable to impute"
+msgstr ""
+
+#: mOUT/options/vars.title mOUT/ui[0][0].label
+msgid "Variables with outliers"
 msgstr ""
 
 #: mCOR/options/clustMet/ward.D2.title
@@ -961,4 +1062,8 @@ msgstr ""
 
 #: mROC/options/theBest/bssY.title
 msgid "Youden Best (Sp, Se)"
+msgstr ""
+
+#: mOUT/options/outlcheck/ZS.title
+msgid "Z-score"
 msgstr ""

@@ -28,6 +28,12 @@ msgstr "{ciWidth}%信頼区間上限"
 msgid "{varType} with imputed values"
 msgstr "欠損値補完あり {varType}"
 
+#: R\mout.b.R
+#, fuzzy
+#| msgid "{varType} with imputed values"
+msgid "{varType} without outliers"
+msgstr "欠損値補完あり {varType}"
+
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
 msgstr "* p < .05, ** p < .01, *** p < .001, 片側検定"
@@ -64,6 +70,10 @@ msgstr "< 0.05"
 msgid "< 0.1"
 msgstr "< 0.1"
 
+#: R\mmf.b.R
+msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
+msgstr ""
+
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
 msgstr "0 − 自動"
@@ -72,9 +82,49 @@ msgstr "0 − 自動"
 msgid "1 - Specificity"
 msgstr "1 − 特異度"
 
+#: mOUT/options/fence/1.5.title
+msgid "1.5"
+msgstr ""
+
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
 msgstr "100 − 特異度 (%)"
+
+#: mOUT/options/fence/2.2.title
+msgid "2.2"
+msgstr ""
+
+#: mOUT/options/tholdZS/2.5.title mOUT/options/tholdmZS/2.5.title
+msgid "2.5"
+msgstr ""
+
+#: mOUT/options/fence/3.0.title mOUT/options/tholdmZS/3.0.title
+msgid "3.0"
+msgstr ""
+
+#: mOUT/options/tholdZS/3.0.title
+msgid "3.0 (standard)"
+msgstr ""
+
+#: mOUT/options/tholdZS/3.5.title
+msgid "3.5"
+msgstr ""
+
+#: mOUT/options/tholdmZS/3.5.title
+msgid "3.5 (standard)"
+msgstr ""
+
+#: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
+msgid "4.0"
+msgstr ""
+
+#: mOUT/options/tholdZS/4.5.title mOUT/options/tholdmZS/4.5.title
+msgid "4.5"
+msgstr ""
+
+#: mOUT/options/tholdZS/5.0.title mOUT/options/tholdmZS/5.0.title
+msgid "5.0"
+msgstr ""
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
@@ -144,9 +194,17 @@ msgstr "Bonferroni (1961)"
 msgid "Bottom"
 msgstr "下"
 
+#: mOUT/options/boxpl.title mOUT/results/plots.title
+msgid "Boxplots with outliers"
+msgstr ""
+
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
 msgstr "カラーパレット"
+
+#: mOUT/results/stat/outstat.description
+msgid "Calculated fences for outliers"
+msgstr ""
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -266,11 +324,8 @@ msgstr "相関クラスタリング"
 msgid "Correlation Clustering demonstration"
 msgstr "相関クラスタリングのデモ"
 
-#: mCOR/ui.title mCOR/results/matrix.title mCOR/results/plot.title
-msgid "Correlation Matrix"
-msgstr "相関行列"
-
-#: mCOR/options/tables.title mCOR/options/plots.title
+#: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
+#: mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation matrix"
 msgstr "相関行列"
 
@@ -351,8 +406,12 @@ msgstr ""
 "ツリー、多因子適応型相関行列、多次元ROC分類曲線、欠損データの推定および補完な"
 "ど。"
 
-#: mCOR/options/group.title mCOR/ui[0][1].label mROC/options/groups.title
-#: mROC/ui[0][2].label
+#: R\mout.b.R
+msgid "Group"
+msgstr ""
+
+#: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
+#: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
 msgid "Grouping Variable"
 msgstr "グループ変数"
 
@@ -395,6 +454,10 @@ msgstr "Hommel (1988)"
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
 msgstr "仮説"
+
+#: package/datasets/Outliers identification and removal.description
+msgid "Identification, analysis and removal of data outliers by groups"
+msgstr ""
 
 #: R\mmf.b.R
 msgid ""
@@ -445,8 +508,17 @@ msgstr "クラスター間行列"
 msgid "Interval"
 msgstr "間隔"
 
+#: mOUT/options/fence.title
+msgid "IQR fence height"
+msgstr ""
+
+#: mOUT/options/outlcheck/IQR.title
+msgid "IQR Tukey's fences"
+msgstr ""
+
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
-#: package/analyses/mMF.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
+#: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
+#: mCOR/options.menuGroup mMF/options.menuGroup mOUT/options.menuGroup
 #: mROC/options.menuGroup
 msgid "jYS"
 msgstr "jYS"
@@ -475,6 +547,10 @@ msgstr "凡例枠"
 msgid "Line width"
 msgstr "線の太さ"
 
+#: R\mout.b.R
+msgid "Lower fence"
+msgstr ""
+
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
 msgstr "下部"
@@ -487,9 +563,9 @@ msgstr "手動クラスタ"
 msgid ""
 "MAR - missing at random (if each p<sub>value</sub> is significant, there is "
 "evidence the data is MAR);"
-msgstr "MAR　"
-"すべてのp<sub>値</sub>が有意であれば、データがMAR（無作為欠損）である証拠とな"
-"ります。"
+msgstr ""
+"MAR　すべてのp<sub>値</sub>が有意であれば、データがMAR（無作為欠損）である証"
+"拠となります。"
 
 #: mMF/results/estim/mcar.description mMF/results/estim/mars.description
 msgid "MAR classification table"
@@ -515,9 +591,9 @@ msgstr "MCAR"
 msgid ""
 "MCAR - missing completely at random (if the p<sub>value</sub> is not "
 "significant, there is evidence the data is MCAR)."
-msgstr "MCAR　"
-"p<sub>値</sub>が有意でない場合、データがMCAR（完全無作為欠損）である証拠とな"
-"ります。"
+msgstr ""
+"MCAR　p<sub>値</sub>が有意でない場合、データがMCAR（完全無作為欠損）である証"
+"拠となります。"
 
 #: mMF/options/isMAR.title
 msgid ""
@@ -527,6 +603,16 @@ msgstr "MCAR（完全無作為欠損）およびMAR（無作為欠損）推定"
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
 msgstr "マクイッティ連結法（WPGMA）"
+
+#: R\mout.b.R
+msgid "Mean"
+msgstr ""
+
+#: R\mout.b.R
+#, fuzzy
+#| msgid "Median Linkage"
+msgid "Median"
+msgstr "中央値連結法"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
@@ -582,6 +668,10 @@ msgstr "欠損パターン"
 msgid "missRanger (2021)"
 msgstr "missRanger (2021)"
 
+#: mOUT/options/outlcheck/mZS.title
+msgid "Modified Z-score"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
 msgstr "MSE　平均二乗誤差（連続変数用）"
@@ -607,6 +697,10 @@ msgstr "N　補完値の個数"
 msgid "N - number of missing values;"
 msgstr "N　欠損値の個数"
 
+#: R\mout.b.R
+msgid "N of outliers"
+msgstr ""
+
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
@@ -621,7 +715,8 @@ msgstr "数値"
 msgid ""
 "Number of candidate non-missing values to sample from in the predictive mean "
 "matching steps. 0 to avoid this step"
-msgstr "予測平均マッチング法でサンプリングする候補の非欠損値の個数（0にするとこの手順"
+msgstr ""
+"予測平均マッチング法でサンプリングする候補の非欠損値の個数（0にするとこの手順"
 "はスキップされます）"
 
 #: R\mmf.b.R
@@ -655,6 +750,32 @@ msgstr "オリジナル"
 #: R\mmf.b.R
 msgid "OutFlux**"
 msgstr "流出**"
+
+#: R\mout.b.R
+msgid "outl"
+msgstr ""
+
+#: mOUT/results/stat/outstat.title
+msgid "Outliers fences"
+msgstr ""
+
+#: mOUT/ui[1].label mOUT/results/stat.title
+msgid "Outliers identification"
+msgstr ""
+
+#: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
+#: package/datasets/Outliers identification and removal.name mOUT/options.title
+#: mOUT/ui.title mOUT/results.title
+msgid "Outliers identification and removal"
+msgstr ""
+
+#: mOUT/options/outlcheck.title
+msgid "Outliers identifying method"
+msgstr ""
+
+#: mOUT/ui[2].label
+msgid "Outliers removal"
+msgstr ""
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
@@ -742,6 +863,10 @@ msgstr "相関行列の図を作成します。"
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
 msgstr "PVU（未説明分散比率）　連続変数に対する未説明な分散の割合（1−R²）"
+
+#: mOUT/options/remOut.title mOUT/results/remOut.title
+msgid "Remove outliers"
+msgstr ""
 
 #: mCOR/options/plotOrder.title
 msgid "Reorder"
@@ -885,19 +1010,28 @@ msgid ""
 "The classifying variable '{}' does not have exactly two levels; ROC "
 "classification can only be performed on classifying variables with two "
 "levels."
-msgstr "分類変数 '{}' "
-"のが2水準になっていません。ROC分類は、水準数が2の分類変数に対してのみ実行でき"
-"ます。"
+msgstr ""
+"分類変数 '{}' のが2水準になっていません。ROC分類は、水準数が2の分類変数に対し"
+"てのみ実行できます。"
+
+#: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
+msgid "Threshold for Z-score"
+msgstr ""
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
 msgstr "欠損値 {} の総数"
+
+#: R\mout.b.R
+msgid "Upper fence"
+msgstr ""
 
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
 msgstr "上部"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
+#: mOUT/results/stat/outstat.columns.title
 msgid "Variable"
 msgstr "変数"
 
@@ -915,6 +1049,12 @@ msgstr "変数番号をコンマ区切りで入力"
 
 #: R\mmf.b.R
 msgid "Variable to impute"
+msgstr "補完対象変数"
+
+#: mOUT/options/vars.title mOUT/ui[0][0].label
+#, fuzzy
+#| msgid "Variable to impute"
+msgid "Variables with outliers"
 msgstr "補完対象変数"
 
 #: mCOR/options/clustMet/ward.D2.title
@@ -944,3 +1084,10 @@ msgstr "ユーデン指数最大"
 #: mROC/options/theBest/bssY.title
 msgid "Youden Best (Sp, Se)"
 msgstr "ユーデン指数最大（特異度・感度）"
+
+#: mOUT/options/outlcheck/ZS.title
+msgid "Z-score"
+msgstr ""
+
+#~ msgid "Correlation Matrix"
+#~ msgstr "相関行列"

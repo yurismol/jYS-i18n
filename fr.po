@@ -28,6 +28,10 @@ msgstr ""
 msgid "{varType} with imputed values"
 msgstr ""
 
+#: R\mout.b.R
+msgid "{varType} without outliers"
+msgstr ""
+
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
 msgstr ""
@@ -64,6 +68,10 @@ msgstr ""
 msgid "< 0.1"
 msgstr ""
 
+#: R\mmf.b.R
+msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
+msgstr ""
+
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
 msgstr ""
@@ -72,8 +80,48 @@ msgstr ""
 msgid "1 - Specificity"
 msgstr ""
 
+#: mOUT/options/fence/1.5.title
+msgid "1.5"
+msgstr ""
+
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
+msgstr ""
+
+#: mOUT/options/fence/2.2.title
+msgid "2.2"
+msgstr ""
+
+#: mOUT/options/tholdZS/2.5.title mOUT/options/tholdmZS/2.5.title
+msgid "2.5"
+msgstr ""
+
+#: mOUT/options/fence/3.0.title mOUT/options/tholdmZS/3.0.title
+msgid "3.0"
+msgstr ""
+
+#: mOUT/options/tholdZS/3.0.title
+msgid "3.0 (standard)"
+msgstr ""
+
+#: mOUT/options/tholdZS/3.5.title
+msgid "3.5"
+msgstr ""
+
+#: mOUT/options/tholdmZS/3.5.title
+msgid "3.5 (standard)"
+msgstr ""
+
+#: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
+msgid "4.0"
+msgstr ""
+
+#: mOUT/options/tholdZS/4.5.title mOUT/options/tholdmZS/4.5.title
+msgid "4.5"
+msgstr ""
+
+#: mOUT/options/tholdZS/5.0.title mOUT/options/tholdmZS/5.0.title
+msgid "5.0"
 msgstr ""
 
 #: mCOR/results/matrix.description
@@ -144,8 +192,16 @@ msgstr ""
 msgid "Bottom"
 msgstr ""
 
+#: mOUT/options/boxpl.title mOUT/results/plots.title
+msgid "Boxplots with outliers"
+msgstr ""
+
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
+msgstr ""
+
+#: mOUT/results/stat/outstat.description
+msgid "Calculated fences for outliers"
 msgstr ""
 
 #: mCOR/options/clustMet/centroid.title
@@ -266,11 +322,8 @@ msgstr ""
 msgid "Correlation Clustering demonstration"
 msgstr ""
 
-#: mCOR/ui.title mCOR/results/matrix.title mCOR/results/plot.title
-msgid "Correlation Matrix"
-msgstr ""
-
-#: mCOR/options/tables.title mCOR/options/plots.title
+#: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
+#: mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation matrix"
 msgstr ""
 
@@ -348,8 +401,12 @@ msgid ""
 "and imputation etc."
 msgstr ""
 
-#: mCOR/options/group.title mCOR/ui[0][1].label mROC/options/groups.title
-#: mROC/ui[0][2].label
+#: R\mout.b.R
+msgid "Group"
+msgstr ""
+
+#: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
+#: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
 msgid "Grouping Variable"
 msgstr ""
 
@@ -391,6 +448,10 @@ msgstr ""
 
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
+msgstr ""
+
+#: package/datasets/Outliers identification and removal.description
+msgid "Identification, analysis and removal of data outliers by groups"
 msgstr ""
 
 #: R\mmf.b.R
@@ -440,8 +501,17 @@ msgstr ""
 msgid "Interval"
 msgstr ""
 
+#: mOUT/options/fence.title
+msgid "IQR fence height"
+msgstr ""
+
+#: mOUT/options/outlcheck/IQR.title
+msgid "IQR Tukey's fences"
+msgstr ""
+
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
-#: package/analyses/mMF.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
+#: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
+#: mCOR/options.menuGroup mMF/options.menuGroup mOUT/options.menuGroup
 #: mROC/options.menuGroup
 msgid "jYS"
 msgstr ""
@@ -468,6 +538,10 @@ msgstr ""
 
 #: mROC/options/lwd.title
 msgid "Line width"
+msgstr ""
+
+#: R\mout.b.R
+msgid "Lower fence"
 msgstr ""
 
 #: mCOR/options/plotMetL.title
@@ -517,6 +591,14 @@ msgstr ""
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
+msgstr ""
+
+#: R\mout.b.R
+msgid "Mean"
+msgstr ""
+
+#: R\mout.b.R
+msgid "Median"
 msgstr ""
 
 #: mCOR/options/clustMet/median.title
@@ -573,6 +655,10 @@ msgstr ""
 msgid "missRanger (2021)"
 msgstr ""
 
+#: mOUT/options/outlcheck/mZS.title
+msgid "Modified Z-score"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
 msgstr ""
@@ -596,6 +682,10 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "N - number of missing values;"
+msgstr ""
+
+#: R\mout.b.R
+msgid "N of outliers"
 msgstr ""
 
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
@@ -644,6 +734,32 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "OutFlux**"
+msgstr ""
+
+#: R\mout.b.R
+msgid "outl"
+msgstr ""
+
+#: mOUT/results/stat/outstat.title
+msgid "Outliers fences"
+msgstr ""
+
+#: mOUT/ui[1].label mOUT/results/stat.title
+msgid "Outliers identification"
+msgstr ""
+
+#: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
+#: package/datasets/Outliers identification and removal.name mOUT/options.title
+#: mOUT/ui.title mOUT/results.title
+msgid "Outliers identification and removal"
+msgstr ""
+
+#: mOUT/options/outlcheck.title
+msgid "Outliers identifying method"
+msgstr ""
+
+#: mOUT/ui[2].label
+msgid "Outliers removal"
 msgstr ""
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
@@ -731,6 +847,10 @@ msgstr ""
 #: R\mmf.b.R
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
+msgstr ""
+
+#: mOUT/options/remOut.title mOUT/results/remOut.title
+msgid "Remove outliers"
 msgstr ""
 
 #: mCOR/options/plotOrder.title
@@ -877,8 +997,16 @@ msgid ""
 "levels."
 msgstr ""
 
+#: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
+msgid "Threshold for Z-score"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
+msgstr ""
+
+#: R\mout.b.R
+msgid "Upper fence"
 msgstr ""
 
 #: mCOR/options/plotMetU.title
@@ -886,6 +1014,7 @@ msgid "Upper part"
 msgstr ""
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
+#: mOUT/results/stat/outstat.columns.title
 msgid "Variable"
 msgstr ""
 
@@ -903,6 +1032,10 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Variable to impute"
+msgstr ""
+
+#: mOUT/options/vars.title mOUT/ui[0][0].label
+msgid "Variables with outliers"
 msgstr ""
 
 #: mCOR/options/clustMet/ward.D2.title
@@ -931,4 +1064,8 @@ msgstr ""
 
 #: mROC/options/theBest/bssY.title
 msgid "Youden Best (Sp, Se)"
+msgstr ""
+
+#: mOUT/options/outlcheck/ZS.title
+msgid "Z-score"
 msgstr ""
