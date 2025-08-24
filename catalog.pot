@@ -411,7 +411,7 @@ msgid "Flag significant correlations"
 msgstr ""
 
 #: package.description
-msgid "Graphic extensions of the functionality of popular data analysis methods: cluster tree of correlating variables, multifactor adaptive correlation matrix, multidimensional ROC classification curves, missing data estimation and imputation etc."
+msgid "Graphic extensions of the functionality of popular data analysis methods: cluster tree of correlating variables, multifactor adaptive correlation matrix, multidimensional ROC classification curves, missing data estimation and imputation, outliers identificatioon and removal etc."
 msgstr ""
 
 #: R\mout.b.R
