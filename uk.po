@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-18 16:01+0000\n"
+"PO-Revision-Date: 2025-08-24 11:52+0000\n"
 "Last-Translator: Максим Горпиніч <gorpinicmaksim0@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/jys-"
-"i18n/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
+"jys-i18n/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -492,7 +492,7 @@ msgstr "Неповні змінні"
 
 #: mOUT/results/oind.template.columns.title
 msgid "Indices (Rows)"
-msgstr ""
+msgstr "Індекси (рядки)"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
@@ -763,10 +763,8 @@ msgid "Outliers fences"
 msgstr "Огорожі для винятків"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Outliers fences"
 msgid "Outliers found"
-msgstr "Огорожі для винятків"
+msgstr "Знайдені викиди"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
@@ -777,34 +775,28 @@ msgid "Outliers identification and removal"
 msgstr "Виявлення та видалення викидів"
 
 #: mOUT/ui[1][0].label
-#, fuzzy
-#| msgid "Outliers identifying method"
 msgid "Outliers identification method"
-msgstr "Метод виявлення викидів"
+msgstr "Метод ідентифікації викидів"
 
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
 msgstr "Метод виявлення викидів"
 
 #: mOUT/options/outind.title mOUT/results/oind.title
-#, fuzzy
-#| msgid "Outliers fences"
 msgid "Outliers indices"
-msgstr "Огорожі для винятків"
+msgstr "Індекси викидів"
 
 #: mOUT/ui[2].label
 msgid "Outliers removal"
 msgstr "Вилучення викидів"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Outliers removal"
 msgid "Outliers removed"
-msgstr "Вилучення викидів"
+msgstr "Вилучено викиди"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"
-msgstr ""
+msgstr "Вихідна інформація"
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
@@ -1054,10 +1046,8 @@ msgstr "Загальна кількість відсутніх записів {}
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
-#, fuzzy
-#| msgid "Outliers identification and removal"
 msgid "Univariate outliers identification and removal"
-msgstr "Виявлення та видалення викидів"
+msgstr "Визначення та видалення одновимірних викидів"
 
 #: R\mout.b.R
 msgid "Upper fence"
