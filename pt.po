@@ -417,7 +417,7 @@ msgstr ""
 "adaptativa multifator, curvas de classificação ROC multidimensional, "
 "estimativa de dados ausentes e imputação etc."
 
-#: R\mout.b.R
+#: R\mout.b.R mOUT/results/oind.template.columns.title
 msgid "Group"
 msgstr ""
 
@@ -501,6 +501,10 @@ msgstr "Em %"
 #: mMF/options/imputevar.title mMF/ui[0][1].label
 msgid "Incomplete Variables"
 msgstr "Variáveis incompletas"
+
+#: mOUT/results/oind.template.columns.title
+msgid "Indices (Rows)"
+msgstr ""
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
@@ -716,10 +720,6 @@ msgstr "N - número de valores imputados;"
 msgid "N - number of missing values;"
 msgstr ""
 
-#: R\mout.b.R
-msgid "N of outliers"
-msgstr ""
-
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
@@ -775,26 +775,46 @@ msgstr "OutFlux**"
 msgid "outl"
 msgstr ""
 
-#: mOUT/results/stat/outstat.title
+#: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
+msgstr ""
+
+#: R\mout.b.R
+msgid "Outliers found"
 msgstr ""
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
 msgstr ""
 
-#: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
-#: package/datasets/Outliers identification and removal.name mOUT/options.title
-#: mOUT/ui.title mOUT/results.title
+#: package/datasets/Outliers identification and removal.name
 msgid "Outliers identification and removal"
 msgstr ""
+
+#: mOUT/ui[1][0].label
+#, fuzzy
+#| msgid "Agglomeration method"
+msgid "Outliers identification method"
+msgstr "Método de aglomeração"
 
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
 msgstr ""
 
+#: mOUT/options/outind.title mOUT/results/oind.title
+msgid "Outliers indices"
+msgstr ""
+
 #: mOUT/ui[2].label
 msgid "Outliers removal"
+msgstr ""
+
+#: R\mout.b.R
+msgid "Outliers removed"
+msgstr ""
+
+#: mOUT/ui[1][1].label
+msgid "Output information"
 msgstr ""
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
@@ -1042,6 +1062,11 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
+msgstr ""
+
+#: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
+#: mOUT/options.title mOUT/ui.title mOUT/results.title
+msgid "Univariate outliers identification and removal"
 msgstr ""
 
 #: R\mout.b.R

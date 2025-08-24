@@ -404,7 +404,7 @@ msgstr ""
 "ツリー、多因子適応型相関行列、多次元ROC分類曲線、欠損データの推定および補完な"
 "ど。"
 
-#: R\mout.b.R
+#: R\mout.b.R mOUT/results/oind.template.columns.title
 msgid "Group"
 msgstr "グループ"
 
@@ -485,6 +485,10 @@ msgstr "パーセント表示"
 #: mMF/options/imputevar.title mMF/ui[0][1].label
 msgid "Incomplete Variables"
 msgstr "欠損変数"
+
+#: mOUT/results/oind.template.columns.title
+msgid "Indices (Rows)"
+msgstr ""
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
@@ -693,10 +697,6 @@ msgstr "N　補完値の個数"
 msgid "N - number of missing values;"
 msgstr "N　欠損値の個数"
 
-#: R\mout.b.R
-msgid "N of outliers"
-msgstr "外れ値の個数"
-
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
@@ -751,27 +751,53 @@ msgstr "流出**"
 msgid "outl"
 msgstr ""
 
-#: mOUT/results/stat/outstat.title
+#: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
+msgstr "外れ値のフェンス"
+
+#: R\mout.b.R
+#, fuzzy
+#| msgid "Outliers fences"
+msgid "Outliers found"
 msgstr "外れ値のフェンス"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
 msgstr "外れ値の同定"
 
-#: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
-#: package/datasets/Outliers identification and removal.name mOUT/options.title
-#: mOUT/ui.title mOUT/results.title
+#: package/datasets/Outliers identification and removal.name
 msgid "Outliers identification and removal"
 msgstr "外れ値の同定と除去"
+
+#: mOUT/ui[1][0].label
+#, fuzzy
+#| msgid "Outliers identifying method"
+msgid "Outliers identification method"
+msgstr "外れ値の同定法"
 
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
 msgstr "外れ値の同定法"
 
+#: mOUT/options/outind.title mOUT/results/oind.title
+#, fuzzy
+#| msgid "Outliers fences"
+msgid "Outliers indices"
+msgstr "外れ値のフェンス"
+
 #: mOUT/ui[2].label
 msgid "Outliers removal"
 msgstr "外れ値の除去"
+
+#: R\mout.b.R
+#, fuzzy
+#| msgid "Outliers removal"
+msgid "Outliers removed"
+msgstr "外れ値の除去"
+
+#: mOUT/ui[1][1].label
+msgid "Output information"
+msgstr ""
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
@@ -1018,6 +1044,13 @@ msgstr "Z得点の閾値"
 msgid "Total number of missing entries {}"
 msgstr "欠損値 {} の総数"
 
+#: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
+#: mOUT/options.title mOUT/ui.title mOUT/results.title
+#, fuzzy
+#| msgid "Outliers identification and removal"
+msgid "Univariate outliers identification and removal"
+msgstr "外れ値の同定と除去"
+
 #: R\mout.b.R
 msgid "Upper fence"
 msgstr "フェンス上限"
@@ -1082,6 +1115,9 @@ msgstr "ユーデン指数最大（特異度・感度）"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z得点"
+
+#~ msgid "N of outliers"
+#~ msgstr "外れ値の個数"
 
 #~ msgid "Correlation Matrix"
 #~ msgstr "相関行列"

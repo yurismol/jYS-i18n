@@ -409,7 +409,7 @@ msgstr ""
 "корреляционная матрица, многомерные кривые ROC-классификации, оценка "
 "случайности и восстановление пропущенных данных и т.д."
 
-#: R\mout.b.R
+#: R\mout.b.R mOUT/results/oind.template.columns.title
 msgid "Group"
 msgstr "Группа"
 
@@ -491,6 +491,10 @@ msgstr "В процентах"
 #: mMF/options/imputevar.title mMF/ui[0][1].label
 msgid "Incomplete Variables"
 msgstr "Неполные переменные"
+
+#: mOUT/results/oind.template.columns.title
+msgid "Indices (Rows)"
+msgstr ""
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
@@ -701,10 +705,6 @@ msgstr "N - количество восстановленных значений
 msgid "N - number of missing values;"
 msgstr "N - количество пропущенных значений;"
 
-#: R\mout.b.R
-msgid "N of outliers"
-msgstr "Количество выбросов"
-
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
@@ -759,27 +759,53 @@ msgstr "Отток**"
 msgid "outl"
 msgstr "выбр"
 
-#: mOUT/results/stat/outstat.title
+#: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
+msgstr "Заборы для выбросов"
+
+#: R\mout.b.R
+#, fuzzy
+#| msgid "Outliers fences"
+msgid "Outliers found"
 msgstr "Заборы для выбросов"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
 msgstr "Идентификация выбросов"
 
-#: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
-#: package/datasets/Outliers identification and removal.name mOUT/options.title
-#: mOUT/ui.title mOUT/results.title
+#: package/datasets/Outliers identification and removal.name
 msgid "Outliers identification and removal"
 msgstr "Идентификация и удаление выбросов"
+
+#: mOUT/ui[1][0].label
+#, fuzzy
+#| msgid "Outliers identifying method"
+msgid "Outliers identification method"
+msgstr "Метод выявления выбросов"
 
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
 msgstr "Метод выявления выбросов"
 
+#: mOUT/options/outind.title mOUT/results/oind.title
+#, fuzzy
+#| msgid "Outliers fences"
+msgid "Outliers indices"
+msgstr "Заборы для выбросов"
+
 #: mOUT/ui[2].label
 msgid "Outliers removal"
 msgstr "Удаление выбросов"
+
+#: R\mout.b.R
+#, fuzzy
+#| msgid "Outliers removal"
+msgid "Outliers removed"
+msgstr "Удаление выбросов"
+
+#: mOUT/ui[1][1].label
+msgid "Output information"
+msgstr ""
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
@@ -1030,6 +1056,13 @@ msgstr "Порог для Z-оценки"
 msgid "Total number of missing entries {}"
 msgstr "Общее количество пропусков {}"
 
+#: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
+#: mOUT/options.title mOUT/ui.title mOUT/results.title
+#, fuzzy
+#| msgid "Outliers identification and removal"
+msgid "Univariate outliers identification and removal"
+msgstr "Идентификация и удаление выбросов"
+
 #: R\mout.b.R
 msgid "Upper fence"
 msgstr "Верхний забор"
@@ -1094,6 +1127,9 @@ msgstr "По Юдену (Спец, Чувств)"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z-оценка"
+
+#~ msgid "N of outliers"
+#~ msgstr "Количество выбросов"
 
 #~ msgid "Correlation Matrix"
 #~ msgstr "Корреляционная Матрица"
