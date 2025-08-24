@@ -394,11 +394,17 @@ msgid "Flag significant correlations"
 msgstr "有意な相関に印"
 
 #: package.description
+#, fuzzy
+#| msgid ""
+#| "Graphic extensions of the functionality of popular data analysis methods: "
+#| "cluster tree of correlating variables, multifactor adaptive correlation "
+#| "matrix, multidimensional ROC classification curves, missing data "
+#| "estimation and imputation etc."
 msgid ""
 "Graphic extensions of the functionality of popular data analysis methods: "
 "cluster tree of correlating variables, multifactor adaptive correlation "
 "matrix, multidimensional ROC classification curves, missing data estimation "
-"and imputation etc."
+"and imputation, outliers identificatioon and removal etc."
 msgstr ""
 "代表的なデータ分析手法の機能を拡張するグラフィック機能：相関変数のクラスター"
 "ツリー、多因子適応型相関行列、多次元ROC分類曲線、欠損データの推定および補完な"

@@ -401,7 +401,7 @@ msgid ""
 "Graphic extensions of the functionality of popular data analysis methods: "
 "cluster tree of correlating variables, multifactor adaptive correlation "
 "matrix, multidimensional ROC classification curves, missing data estimation "
-"and imputation etc."
+"and imputation, outliers identificatioon and removal etc."
 msgstr ""
 
 #: R\mout.b.R mOUT/results/oind.template.columns.title

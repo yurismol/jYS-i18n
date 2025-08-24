@@ -406,11 +406,17 @@ msgid "Flag significant correlations"
 msgstr "Sinalizar correlações significativas"
 
 #: package.description
+#, fuzzy
+#| msgid ""
+#| "Graphic extensions of the functionality of popular data analysis methods: "
+#| "cluster tree of correlating variables, multifactor adaptive correlation "
+#| "matrix, multidimensional ROC classification curves, missing data "
+#| "estimation and imputation etc."
 msgid ""
 "Graphic extensions of the functionality of popular data analysis methods: "
 "cluster tree of correlating variables, multifactor adaptive correlation "
 "matrix, multidimensional ROC classification curves, missing data estimation "
-"and imputation etc."
+"and imputation, outliers identificatioon and removal etc."
 msgstr ""
 "Extensões gráficas da funcionalidade de métodos populares de análise de "
 "dados: árvore de cluster de variáveis correlacionantes, matriz de correlação "
