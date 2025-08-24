@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-18 16:01+0000\n"
+"PO-Revision-Date: 2025-08-24 11:52+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ru/>\n"
@@ -494,7 +494,7 @@ msgstr "Неполные переменные"
 
 #: mOUT/results/oind.template.columns.title
 msgid "Indices (Rows)"
-msgstr ""
+msgstr "Индексы (Строки)"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
@@ -764,10 +764,8 @@ msgid "Outliers fences"
 msgstr "Заборы для выбросов"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Outliers fences"
 msgid "Outliers found"
-msgstr "Заборы для выбросов"
+msgstr "Найдено выбросов"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
@@ -778,8 +776,6 @@ msgid "Outliers identification and removal"
 msgstr "Идентификация и удаление выбросов"
 
 #: mOUT/ui[1][0].label
-#, fuzzy
-#| msgid "Outliers identifying method"
 msgid "Outliers identification method"
 msgstr "Метод выявления выбросов"
 
@@ -788,24 +784,20 @@ msgid "Outliers identifying method"
 msgstr "Метод выявления выбросов"
 
 #: mOUT/options/outind.title mOUT/results/oind.title
-#, fuzzy
-#| msgid "Outliers fences"
 msgid "Outliers indices"
-msgstr "Заборы для выбросов"
+msgstr "Индексы выбросов"
 
 #: mOUT/ui[2].label
 msgid "Outliers removal"
 msgstr "Удаление выбросов"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Outliers removal"
 msgid "Outliers removed"
-msgstr "Удаление выбросов"
+msgstr "Удалено выбросов"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"
-msgstr ""
+msgstr "Выходная информация"
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
@@ -1058,10 +1050,8 @@ msgstr "Общее количество пропусков {}"
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
-#, fuzzy
-#| msgid "Outliers identification and removal"
 msgid "Univariate outliers identification and removal"
-msgstr "Идентификация и удаление выбросов"
+msgstr "Одномерное выявление и удаление выбросов"
 
 #: R\mout.b.R
 msgid "Upper fence"
