@@ -415,6 +415,7 @@ msgid "Graphic extensions of the functionality of popular data analysis methods:
 msgstr ""
 
 #: R\mout.b.R
+#: mOUT/results/oind.template.columns.title
 msgid "Group"
 msgstr ""
 
@@ -494,6 +495,10 @@ msgstr ""
 #: mMF/options/imputevar.title
 #: mMF/ui[0][1].label
 msgid "Incomplete Variables"
+msgstr ""
+
+#: mOUT/results/oind.template.columns.title
+msgid "Indices (Rows)"
 msgstr ""
 
 #: mMF/results/estim/fplot.title
@@ -709,10 +714,6 @@ msgstr ""
 msgid "N - number of missing values;"
 msgstr ""
 
-#: R\mout.b.R
-msgid "N of outliers"
-msgstr ""
-
 #: mCOR/options/adjust/none.title
 #: mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title
@@ -766,8 +767,13 @@ msgstr ""
 msgid "outl"
 msgstr ""
 
+#: mOUT/options/outfence.title
 #: mOUT/results/stat/outstat.title
 msgid "Outliers fences"
+msgstr ""
+
+#: R\mout.b.R
+msgid "Outliers found"
 msgstr ""
 
 #: mOUT/ui[1].label
@@ -775,21 +781,33 @@ msgstr ""
 msgid "Outliers identification"
 msgstr ""
 
-#: package/analyses/mOUT.title
-#: package/analyses/mOUT.menuTitle
 #: package/datasets/Outliers identification and removal.name
-#: mOUT/options.title
-#: mOUT/ui.title
-#: mOUT/results.title
 msgid "Outliers identification and removal"
+msgstr ""
+
+#: mOUT/ui[1][0].label
+msgid "Outliers identification method"
 msgstr ""
 
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
 msgstr ""
 
+#: mOUT/options/outind.title
+#: mOUT/results/oind.title
+msgid "Outliers indices"
+msgstr ""
+
 #: mOUT/ui[2].label
 msgid "Outliers removal"
+msgstr ""
+
+#: R\mout.b.R
+msgid "Outliers removed"
+msgstr ""
+
+#: mOUT/ui[1][1].label
+msgid "Output information"
 msgstr ""
 
 #: mCOR/options/pval.title
@@ -1045,6 +1063,14 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
+msgstr ""
+
+#: package/analyses/mOUT.title
+#: package/analyses/mOUT.menuTitle
+#: mOUT/options.title
+#: mOUT/ui.title
+#: mOUT/results.title
+msgid "Univariate outliers identification and removal"
 msgstr ""
 
 #: R\mout.b.R
