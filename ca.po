@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-06-23 19:17+0000\n"
-"Last-Translator: Albert Coll i Bordas <acollbordas@gmail.com>\n"
+"PO-Revision-Date: 2025-08-26 19:02+0000\n"
+"Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ca/>\n"
 "Language: ca\n"
@@ -10,390 +10,393 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
-msgstr ""
+msgstr " [{prc}% IC]"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "{ciWidth}% IC inferior"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "{ciWidth}% IC superior"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
-msgstr ""
+msgstr "{varType} amb valors imputats"
 
 #: R\mout.b.R
 msgid "{varType} without outliers"
-msgstr ""
+msgstr "{varType} sense valors extrems"
 
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p < 0,05 ; ** p < 0,01 ; *** p < 0,001, una cua"
 
 #: R\mmf.b.R
 msgid "**connection of a variable's observed data"
-msgstr ""
+msgstr "**connexió de les dades observades d'una variable"
 
 #: R\mmf.b.R
 msgid "*connection of a variable's missingness indicator"
-msgstr ""
+msgstr "*connexió d'un indicador perdut d'una variable"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
-msgstr ""
+msgstr "*observacions completes aparellades"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: mCOR/options/signif/0.001.title
 msgid "< 0.001"
-msgstr ""
+msgstr "< 0,001"
 
 #: mCOR/options/signif/0.01.title
 msgid "< 0.01"
-msgstr ""
+msgstr "< 0,01"
 
 #: mCOR/options/signif/0.05.title
 msgid "< 0.05"
-msgstr ""
+msgstr "< 0,05"
 
 #: mCOR/options/signif/0.1.title
 msgid "< 0.1"
-msgstr ""
+msgstr "< 0,1"
 
 #: R\mmf.b.R
 msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
 msgstr ""
+"<h2>Ajuda</h2><div>Si us plau, selecciona variables completes i "
+"incompletes</div>"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
-msgstr ""
+msgstr "0 - auto"
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 - Especificitat"
 
 #: mOUT/options/fence/1.5.title
 msgid "1.5"
-msgstr ""
+msgstr "1,5"
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
-msgstr ""
+msgstr "100 - Especificitat (%)"
 
 #: mOUT/options/fence/2.2.title
+#, fuzzy
 msgid "2.2"
-msgstr ""
+msgstr "2,2"
 
 #: mOUT/options/tholdZS/2.5.title mOUT/options/tholdmZS/2.5.title
 msgid "2.5"
-msgstr ""
+msgstr "2,5"
 
 #: mOUT/options/fence/3.0.title mOUT/options/tholdmZS/3.0.title
 msgid "3.0"
-msgstr ""
+msgstr "3,0"
 
 #: mOUT/options/tholdZS/3.0.title
 msgid "3.0 (standard)"
-msgstr ""
+msgstr "3,0 (estàndard)"
 
 #: mOUT/options/tholdZS/3.5.title
 msgid "3.5"
-msgstr ""
+msgstr "3,5"
 
 #: mOUT/options/tholdmZS/3.5.title
 msgid "3.5 (standard)"
-msgstr ""
+msgstr "3,5 (estàndard)"
 
 #: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
 msgid "4.0"
-msgstr ""
+msgstr "4,0"
 
 #: mOUT/options/tholdZS/4.5.title mOUT/options/tholdmZS/4.5.title
 msgid "4.5"
-msgstr ""
+msgstr "4,5"
 
 #: mOUT/options/tholdZS/5.0.title mOUT/options/tholdmZS/5.0.title
 msgid "5.0"
-msgstr ""
+msgstr "5,0"
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "una taula matriu de correlació"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
-msgstr ""
+msgstr "Èmfasis"
 
 #: mCOR/options/clustMet.title
 msgid "Agglomeration method"
-msgstr ""
+msgstr "Mètode d'Aglomeració"
 
 #: mMF/options/alg.title
 msgid "Algorythm"
-msgstr ""
+msgstr "Algorisme"
 
 #: mCOR/options/signif/all.title
 msgid "All"
-msgstr ""
+msgstr "Tot"
 
 #: mCOR/options/plotOrder/alphabet.title
 msgid "Alphabetical"
-msgstr ""
+msgstr "Alfabètic"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
-msgstr ""
+msgstr "an conjunt de MARs"
 
 #: mCOR/options/plotOrder/AOE.title
 msgid "Angular order eigenvectors"
-msgstr ""
+msgstr "Vectors propis en ordre angular (AOE)"
 
 #: mCOR/options/clustMet/average.title
 msgid "Average Linkage (UPGMA)"
-msgstr ""
+msgstr "Vinculació Mitjana (UPGMA)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
-msgstr ""
+msgstr "Estimació ROC de Models BC"
 
 #: package/datasets/BC ROC classification.name
 msgid "BC ROC classification"
-msgstr ""
+msgstr "Classificació ROC de BC"
 
 #: mCOR/options/adjust/BH.title
 msgid "Benjamini-Hochberg (1995)"
-msgstr ""
+msgstr "Benjamini-Hochberg (1995)"
 
 #: mCOR/options/adjust/BY.title
 msgid "Benjamini-Yekutieli (2001)"
-msgstr ""
+msgstr "Benjamini-Yekutieli (2001)"
 
 #: mROC/options/BW.title
 msgid "Black & White"
-msgstr ""
+msgstr "Negre & Blanc"
 
 #: package/datasets/BC ROC classification.description
 msgid "Blood cells multiple ROC Classification demonstration"
-msgstr ""
+msgstr "Demostració de múltiple Classificació ROC de BC (Cèl·lules sanguínies)"
 
 #: mCOR/options/adjust/bonferroni.title
 msgid "Bonferroni (1961)"
-msgstr ""
+msgstr "Bonferroni (1961)"
 
 #: mCOR/options/clPos/b.title
 msgid "Bottom"
-msgstr ""
+msgstr "A baix"
 
 #: mOUT/options/boxpl.title mOUT/results/plots.title
 msgid "Boxplots with outliers"
-msgstr ""
+msgstr "Gràfics de Caixa amb valors extrems"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
-msgstr ""
+msgstr "Paleta qualitativa de Brewer"
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
-msgstr ""
+msgstr "Vores calculades pels valors extrems"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
-msgstr ""
+msgstr "Vinculació Centroide (UPGMC)"
 
 #: package/datasets/CHD Models ROC Estimation.name
 msgid "CHD Models ROC Estimation"
-msgstr ""
+msgstr "Estimació ROC de Models CHD"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Lower"
-msgstr ""
+msgstr "IC Inferior"
 
 #: mROC/options/ciMark.title
 msgid "CI Mark"
-msgstr ""
+msgstr "Marca d'IC"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Upper"
-msgstr ""
+msgstr "IC Superior"
 
 #: mROC/options/ciWidth.title
 msgid "CI width"
-msgstr ""
+msgstr "Amplada d'IC"
 
 #: mCOR/options/plotMetU/circle.title mCOR/options/plotMetL/circle.title
 msgid "Circle"
-msgstr ""
+msgstr "Cercle"
 
 #: mMF/results/estim/mars.title
 msgid "Classify missing at random (MAR)"
-msgstr ""
+msgstr "Classificació aleatòria de valors perduts (MAR)"
 
 #: mMF/results/estim/mcar.title
 msgid "Classify missing completely at random (MCAR)"
-msgstr ""
+msgstr "Classificació totalment aleatòria de valors perduts (MCAR)"
 
 #: mROC/options/class.title mROC/ui[0][1].label
 msgid "Classifying variable"
-msgstr ""
+msgstr "Variable de Classificació"
 
 #: mROC/options/theBest/bestC.title
 msgid "Closest Best"
-msgstr ""
+msgstr "Millor més proper"
 
 #: mROC/options/theBest/bssC.title
 msgid "Closest Best (Sp, Se)"
-msgstr ""
+msgstr "Millor més proper (Sp, Se)"
 
 #: mCOR/options/numClust.title
 msgid "Clusters"
-msgstr ""
+msgstr "Grups"
 
 #: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
-msgstr ""
+msgstr "Color"
 
 #: mCOR/options/clustCol.title
 msgid "Colored Clusters"
-msgstr ""
+msgstr "Grups Acolorits"
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
-msgstr ""
+msgstr "Vinculació Completa"
 
 #: mMF/options/learnvar.title mMF/ui[0][0].label
-#, fuzzy
-#| msgid "Variable"
 msgid "Complete Variables"
-msgstr "Variable"
+msgstr "Variables Completes"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
-msgstr ""
+msgstr "Variables Completes als gràfics"
 
 #: mROC/results/text.title
 msgid "Conditions"
-msgstr ""
+msgstr "Condicions"
 
 #: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "Interval de confiança"
 
 #: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
-msgstr ""
+msgstr "Interval de Confiança (només Pearson)"
 
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
-msgstr ""
+msgstr "Amplada d'Interval de Confiança"
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
-msgstr ""
+msgstr "Correlacionat"
 
 #: mCOR/options/hyp/neg.title
 msgid "Correlated negatively"
-msgstr ""
+msgstr "Correlacionat negativament"
 
 #: mCOR/options/hyp/pos.title
 msgid "Correlated positively"
-msgstr ""
+msgstr "Correlacionat positivament"
 
 #: mCOR/options/vars.title mCOR/ui[0][0].label
 msgid "Correlating Variables"
-msgstr ""
+msgstr "Variables Correlacionades"
 
 #: R\mmf.b.R
 msgid "Correlation"
-msgstr ""
+msgstr "Correlació"
 
 #: package/analyses/mCOR.title package/analyses/mCOR.menuTitle
 #: package/datasets/Correlation clustering.name mCOR/options.title
 #: mCOR/results.title
 msgid "Correlation clustering"
-msgstr ""
+msgstr "Agrupament per correlació"
 
 #: package/datasets/Correlation clustering.description
 msgid "Correlation Clustering demonstration"
-msgstr ""
+msgstr "Demostració d'Agrupament per Correlació"
 
 #: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
 #: mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation matrix"
-msgstr ""
+msgstr "Matriu de Correlació"
 
 #: mCOR/results/text.title
 msgid "Correlations"
-msgstr ""
+msgstr "Correlacions"
 
 #: mMF/results/estim/cplot.title
 msgid "Correlations between variables"
-msgstr ""
+msgstr "Correlacions entre variables"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "D²"
-msgstr ""
+msgstr "D²"
 
 #: mROC/options/palBrewer/Dark2.title
 msgid "Dark2"
-msgstr ""
+msgstr "Dark2"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
-msgstr ""
+msgstr "Grau de<br>Llibertat (df)"
 
 #: mROC/options/direction.title
 msgid "Direction"
-msgstr ""
+msgstr "Direcció"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
-msgstr ""
+msgstr "Línia punteada"
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
-msgstr ""
+msgstr "Elipse"
 
 #: R\mmf.b.R
 msgid "Empty data table"
-msgstr ""
+msgstr "Taula de dades buida"
 
 #: mCOR/options/plotMetU/empty.title mCOR/options/plotMetL/empty.title
 msgid "Emtpy"
-msgstr ""
+msgstr "Buit"
 
 #: mMF/results/imput/errors.title
 msgid "Estimated out-of-bag (OOB) imputation error"
-msgstr ""
+msgstr "Error d'estimació d'imputació out-of-bag (OOB)"
 
 #: mMF/options/fullmars.title mMF/results/estim/fMARtab.title
 msgid "Evaluation of MAR explainers"
-msgstr ""
+msgstr "Avaluació d'explicacions d'imputació aleatoria (MAR)"
 
 #: mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "Explanatory"
-msgstr ""
+msgstr "Explicatiu"
 
 #: R\mmf.b.R
 msgid ""
 "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
 msgstr ""
+"Explicatiu - variable corresponent a imputació MAR amb mínim "
+"p<sub>valor</sub>."
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
-msgstr ""
+msgstr "Primer Component Principal (FPC)"
 
 #: mCOR/options/flag.title
 msgid "Flag significant correlations"
-msgstr ""
+msgstr "Marcar correlacions significatives"
 
 #: package.description
 msgid ""
@@ -402,19 +405,24 @@ msgid ""
 "matrix, multidimensional ROC classification curves, missing data estimation "
 "and imputation, outliers identificatioon and removal etc."
 msgstr ""
+"Extensions gràfiques de les funcionalitats de mètodes reconeguts d'anàlisi "
+"de dades: Arbres d'agrupació de variables correlacionades, Matriu de "
+"correlació adaptativa multifactorial, Curves multidimensionals ROC de "
+"classificació, Estimació i imputació de dades perdudes, Identificació i "
+"eliminació de valors extrems, etc."
 
 #: R\mout.b.R mOUT/results/oind.template.columns.title
 msgid "Group"
-msgstr ""
+msgstr "Grup"
 
 #: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
 #: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
 msgid "Grouping Variable"
-msgstr ""
+msgstr "Variable d'Agrupació"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
-msgstr ""
+msgstr "Hₐ assumeix correlació negativa"
 
 #: R\mcor.b.R
 msgid "Hₐ is positive correlation"
@@ -422,31 +430,31 @@ msgstr "Hₐ és correlació positiva"
 
 #: package/datasets/HI ROC classification.description
 msgid "Healthy/Ill ROC Classification demonstration"
-msgstr ""
+msgstr "Demostració de Classificació ROC Healthy/III"
 
 #: package/datasets/HI ROC classification.name
 msgid "HI ROC classification"
-msgstr ""
+msgstr "Classificació ROC tipus HI"
 
 #: mCOR/options/hclust.title
 msgid "Hierarchical clustering"
-msgstr ""
+msgstr "Agrupació jeràrquica"
 
 #: mCOR/results/treeplot.title
 msgid "Hierarchical clustering tree"
-msgstr ""
+msgstr "Arbre d'agrupació jeràrquica"
 
 #: mCOR/options/adjust/hochberg.title
 msgid "Hochberg (1988)"
-msgstr ""
+msgstr "Hochberg (1988)"
 
 #: mCOR/options/adjust/holm.title
 msgid "Holm (1979)"
-msgstr ""
+msgstr "Holm (1979)"
 
 #: mCOR/options/adjust/hommel.title
 msgid "Hommel (1988)"
-msgstr ""
+msgstr "Hommel (1988)"
 
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
@@ -601,11 +609,11 @@ msgstr ""
 
 #: R\mout.b.R
 msgid "Mean"
-msgstr ""
+msgstr "Mitjana"
 
 #: R\mout.b.R
 msgid "Median"
-msgstr ""
+msgstr "Mediana"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
@@ -613,7 +621,7 @@ msgstr ""
 
 #: mCOR/options/method.title
 msgid "Method"
-msgstr ""
+msgstr "Mètode"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
@@ -694,7 +702,7 @@ msgstr ""
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
 msgid "None"
-msgstr ""
+msgstr "Cap"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
@@ -883,7 +891,7 @@ msgstr ""
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
-msgstr ""
+msgstr "Dreta"
 
 #: mMF/options/seed.title
 msgid "RNG seed value"
