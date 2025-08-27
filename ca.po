@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-26 19:02+0000\n"
+"PO-Revision-Date: 2025-08-28 08:02+0000\n"
 "Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ca/>\n"
@@ -91,7 +91,6 @@ msgid "100 - Specificity (%)"
 msgstr "100 - Especificitat (%)"
 
 #: mOUT/options/fence/2.2.title
-#, fuzzy
 msgid "2.2"
 msgstr "2,2"
 
@@ -458,11 +457,11 @@ msgstr "Hommel (1988)"
 
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
-msgstr ""
+msgstr "Hipòtesis"
 
 #: package/datasets/Outliers identification and removal.description
 msgid "Identification, analysis and removal of data outliers by groups"
-msgstr ""
+msgstr "Identificació, anàlisi i eliminació de dades extremes per grups"
 
 #: R\mmf.b.R
 msgid ""
@@ -470,142 +469,150 @@ msgid ""
 "p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not "
 "At Random)."
 msgstr ""
+"Si com a mínim un p<sub>valor</sub> MAR no és significatiu, i el "
+"p<sub>valor</sub> a MCAR és significatiu llavors la dada es considera MNAR ("
+"Perdut Not Aleatori)."
 
 #: R\mmf.b.R
 msgid "imp"
-msgstr ""
+msgstr "imp"
 
 #: R\mmf.b.R
 msgid "Imputation model predictor"
-msgstr ""
+msgstr "Predictor per model d'imputació"
 
 #: mMF/results/imputeOV.title
 msgid "Imputed misses"
-msgstr ""
+msgstr "Pèrdues imputades"
 
 #: mROC/options/perc.title
 msgid "In percent"
-msgstr ""
+msgstr "En percentatge"
 
 #: mMF/options/imputevar.title mMF/ui[0][1].label
 msgid "Incomplete Variables"
-msgstr ""
+msgstr "Variables incompletes"
 
 #: mOUT/results/oind.template.columns.title
 msgid "Indices (Rows)"
-msgstr ""
+msgstr "Indexes (Files)"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
-msgstr ""
+msgstr "Gràfic d'Influx (In-Out)"
 
 #: mMF/options/fluxplot.title
 msgid "Influx-outflux plot for missing data patterns"
-msgstr ""
+msgstr "Gràfic d'Influx (In-Out) per a patrons de dades perdudes"
 
 #: R\mmf.b.R
 msgid "Influx*"
-msgstr ""
+msgstr "Influx*"
 
 #: mCOR/options/clustMat.title mCOR/results/rplots.title
 msgid "Intercluster Matrices"
-msgstr ""
+msgstr "Matrius Intergrupals"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
-msgstr ""
+msgstr "Interval"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
-msgstr ""
+msgstr "Alçada de la banda IQR"
 
 #: mOUT/options/outlcheck/IQR.title
 msgid "IQR Tukey's fences"
-msgstr ""
+msgstr "Bandes IQR de Tukey"
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
 #: mCOR/options.menuGroup mMF/options.menuGroup mOUT/options.menuGroup
 #: mROC/options.menuGroup
 msgid "jYS"
-msgstr ""
+msgstr "jYS"
 
 #: package.title
 msgid "jYS Extended Functions"
-msgstr ""
+msgstr "jYS Funcions ampliades)"
 
 #: mCOR/options/method/kendall.title
 msgid "Kendall (τ)"
-msgstr ""
+msgstr "Kendall (τ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Kendall Tau"
-msgstr ""
+msgstr "Tau de Kendall"
 
 #: mROC/options/legacy.title
 msgid "Legacy format of Specificity axis"
-msgstr ""
+msgstr "Format tradicional d'Eixos d'Especificitat"
 
 #: mROC/options/legBox.title
 msgid "Legend Box"
-msgstr ""
+msgstr "Caixa de Legenda"
 
 #: mROC/options/lwd.title
 msgid "Line width"
-msgstr ""
+msgstr "Amplada de Línia"
 
 #: R\mout.b.R
 msgid "Lower fence"
-msgstr ""
+msgstr "Banda inferior"
 
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
-msgstr ""
+msgstr "Part inferior"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
-msgstr ""
+msgstr "Grups manuals"
 
 #: R\mmf.b.R
 msgid ""
 "MAR - missing at random (if each p<sub>value</sub> is significant, there is "
 "evidence the data is MAR);"
 msgstr ""
+"MAR - Perduts aleatòriament (si cada p<sub>valor</sub> és significatiu, hi "
+"ha evidencia que les dades son MAR);"
 
 #: mMF/results/estim/mcar.description mMF/results/estim/mars.description
 msgid "MAR classification table"
-msgstr ""
+msgstr "Taula de classificació MAR"
 
 #: mROC/options/mAst.title
 msgid "Mark significance *<0.05, **<0.01, ***<0.001"
-msgstr ""
+msgstr "Marca de significativitat: *<0,05; **<0,01; ***<0,001"
 
 #: R\mcor.b.R
 msgid "Matrix #{i}"
-msgstr ""
+msgstr "Matriu #{i}"
 
 #: mMF/options/maxiter.title
 msgid "Maximum number of iterations"
-msgstr ""
+msgstr "Màxim nombre d'iteracions"
 
 #: mMF/results/estim/mcar.columns.content
 msgid "MCAR"
-msgstr ""
+msgstr "MCAR"
 
 #: R\mmf.b.R
 msgid ""
 "MCAR - missing completely at random (if the p<sub>value</sub> is not "
 "significant, there is evidence the data is MCAR)."
 msgstr ""
+"MCAR - Perduts Completament Aleatoris (si el p<sub>valor</sub> no és "
+"significatiu, hi ha evidencia que les dades son MCAR)."
 
 #: mMF/options/isMAR.title
 msgid ""
 "MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
 msgstr ""
+"Estimació MCAR (Perduts Completament Aleatoris) i MAR (Perduts Aleatoris)"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
-msgstr ""
+msgstr "Vinculació McQuitty (WPGMA)"
 
 #: R\mout.b.R
 msgid "Mean"
@@ -617,7 +624,7 @@ msgstr "Mediana"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
-msgstr ""
+msgstr "Vinculació Mediana"
 
 #: mCOR/options/method.title
 msgid "Method"
@@ -625,78 +632,80 @@ msgstr "Mètode"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
-msgstr ""
+msgstr "Es requereix un mínim de {minVar} variables (Completes + Incompletes)"
 
 #: R\mmf.b.R
 msgid "Minimum 2 impute variables are required"
-msgstr ""
+msgstr "Es requereix un mínim de 2 variables imputades"
 
 #: mMF/options/alg/mF.title
 msgid "missForest (2012)"
-msgstr ""
+msgstr "missForest (2012)"
 
 #: R\mmf.b.R
 msgid "missing"
-msgstr ""
+msgstr "perdut"
 
 #: mMF/results/estim/plot.title
 msgid "Missing data patterns"
-msgstr ""
+msgstr "Patrons de dades perdudes"
 
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
-msgstr ""
+msgstr "Estimació de Valors perduts"
 
 #: package/analyses/mMF.title package/analyses/mMF.menuTitle mMF/options.title
 #: mMF/ui.title mMF/results.title
 msgid "Missing Values Estimation and Imputation"
-msgstr ""
+msgstr "Estimació i Imputació de Valors perduts"
 
 #: package/datasets/Missing Values Imputation.name mMF/ui[2].label
 #: mMF/results/imput.title
 msgid "Missing Values Imputation"
-msgstr ""
+msgstr "Imputació de Valors perduts"
 
 #: package/datasets/Missing Values Imputation.description
 msgid "Missing values imputation using the prediction power of Random Forests"
 msgstr ""
+"Imputació de Valors perduts utilitzant el poder predictiu de Boscos "
+"Aleatoris (RF)"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Missing<br>Patterns"
-msgstr ""
+msgstr "Patrons<br>Perduts"
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
-msgstr ""
+msgstr "missRanger (2021)"
 
 #: mOUT/options/outlcheck/mZS.title
 msgid "Modified Z-score"
-msgstr ""
+msgstr "Puntuació-Z modificada"
 
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
-msgstr ""
+msgstr "MSE - error de mitjana quadrada (per a variables Contínues);"
 
 #: mCOR/options/adjust.title
 msgid "Multiple comparison correction"
-msgstr ""
+msgstr "Correcció per múltiples comparacions"
 
 #: mMF/options/imputeOV.title
 msgid "Multiple imputation for missing data"
-msgstr ""
+msgstr "Imputació múltiple per a dades perdudes"
 
 #: mCOR/options/n.title mCOR/results/matrix.columns.content
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: R\mmf.b.R
 msgid "N - number of imputted values;"
-msgstr ""
+msgstr "N - nombre de valors imputats;"
 
 #: R\mmf.b.R
 msgid "N - number of missing values;"
-msgstr ""
+msgstr "N - nombre de valors perduts;"
 
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
@@ -706,188 +715,193 @@ msgstr "Cap"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
-msgstr ""
+msgstr "Nombre"
 
 #: mMF/options/pmmk.description.ui
 msgid ""
 "Number of candidate non-missing values to sample from in the predictive mean "
 "matching steps. 0 to avoid this step"
 msgstr ""
+"Nombre de valors no-perduts susceptibles de ser mostrejats al pasos "
+"d'Emparellament Predictiu de Mitjanes. 0 per estalviar aquest pas"
 
 #: R\mmf.b.R
 msgid "Number of missing entries"
-msgstr ""
+msgstr "Nombre d'entrades perdudes"
 
 #: R\mmf.b.R
 msgid "Number of missing entries per variable"
-msgstr ""
+msgstr "Nombre d'entrades perdudes per variable"
 
 #: mMF/options/npat.title
 msgid "Number of patterns"
-msgstr ""
+msgstr "Nombre de patrons"
 
 #: mMF/options/ntree.title
 msgid "Number of trees to grow in each forest"
-msgstr ""
+msgstr "Nombre d'arbres per fer créixer a cada bosc"
 
 #: R\mmf.b.R
 msgid "observed"
-msgstr ""
+msgstr "observat"
 
 #: mMF/results/imput/errors.description
 msgid "OOB errors table"
-msgstr ""
+msgstr "Taula d'errors OOB"
 
 #: mCOR/options/plotOrder/original.title
 msgid "Original"
-msgstr ""
+msgstr "Original"
 
 #: R\mmf.b.R
 msgid "OutFlux**"
-msgstr ""
+msgstr "OutFlux**"
 
 #: R\mout.b.R
 msgid "outl"
-msgstr ""
+msgstr "outl"
 
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
-msgstr ""
+msgstr "Bandes de valors extrems"
 
 #: R\mout.b.R
 msgid "Outliers found"
-msgstr ""
+msgstr "Valors extrems trobats"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
-msgstr ""
+msgstr "Identificació de valors extrems"
 
 #: package/datasets/Outliers identification and removal.name
 msgid "Outliers identification and removal"
-msgstr ""
+msgstr "Identificació i eliminació de valors extrems"
 
 #: mOUT/ui[1][0].label
 msgid "Outliers identification method"
-msgstr ""
+msgstr "Mètode d'identificació de valors extrems"
 
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
-msgstr ""
+msgstr "Mètode per identificar valors extrems"
 
 #: mOUT/options/outind.title mOUT/results/oind.title
 msgid "Outliers indices"
-msgstr ""
+msgstr "Indexes de valors extrems"
 
 #: mOUT/ui[2].label
 msgid "Outliers removal"
-msgstr ""
+msgstr "Eliminació de valors extrems"
 
 #: R\mout.b.R
 msgid "Outliers removed"
-msgstr ""
+msgstr "Valors extrems eliminats"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"
-msgstr ""
+msgstr "Informació de resultats"
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "p-valor"
 
 #: mMF/results/estim/mcar.columns.title mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "p<sub>value</sub>"
-msgstr ""
+msgstr "p<sub>valor</sub>"
 
 #: mROC/options/palBrewer/Paired.title
 msgid "Paired"
-msgstr ""
+msgstr "Aparellat"
 
 #: mROC/options/palBrewer/Pastel1.title
 msgid "Pastel1"
-msgstr ""
+msgstr "Pastel1"
 
 #: R\mmf.b.R
 msgid "Pattern frequency"
-msgstr ""
+msgstr "Freqüència del patró"
 
 #: mCOR/options/method/pearson.title
 msgid "Pearson (r)"
-msgstr ""
+msgstr "Pearson (r)"
 
 #: R\mcor.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "La correlació de Pearson no pot ser calculada per a valors no-numèrics"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "r de Pearson"
 
 #: R\mmf.b.R
 msgid "per pattern"
-msgstr ""
+msgstr "per patró"
 
 #: mMF/results/imput/errors.columns.title
 msgid "PFC"
-msgstr ""
+msgstr "PFC"
 
 #: R\mmf.b.R
 msgid ""
 "PFC - proportion of falsely classified (for Nominal and Ordinal variables);"
 msgstr ""
+"PFC - proporció de falses classificacions (per a variables Nominals i "
+"Ordinals);"
 
 #: mCOR/options/plotMetU/pie.title mCOR/options/plotMetL/pie.title
 msgid "Pie"
-msgstr ""
+msgstr "Sectors"
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
-msgstr ""
+msgstr "Gràfica de correlació entre variables"
 
 #: mMF/ui[1][0][2].label
 msgid "Plot options"
-msgstr ""
+msgstr "Opcions de gràfica"
 
 #: mMF/options/patplot.title
 msgid "Plot the missing data patterns"
-msgstr ""
+msgstr "Gràfica de patrons de dades perdudes"
 
 #: mCOR/ui[5].label mMF/ui[1][0][1].label
 msgid "Plots"
-msgstr ""
+msgstr "Gràfiques"
 
 #: mROC/options/polygon.title
 msgid "Polygon"
-msgstr ""
+msgstr "Polígon"
 
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
-msgstr ""
+msgstr "Pasos de Emparellament Predictiu de Mitjanes (PMM)"
 
 #: mROC/options/vars.title mROC/ui[0][0].label
 msgid "Predictors"
-msgstr ""
+msgstr "Predictors"
 
 #: mCOR/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr ""
+msgstr "proporciona una gràfica matricial de correlació."
 
 #: R\mmf.b.R
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
 msgstr ""
+"PVU - proporció de variance no-explicada 1-R² (per a variables Contínues);"
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
 msgid "Remove outliers"
-msgstr ""
+msgstr "Eliminar valors extrems"
 
 #: mCOR/options/plotOrder.title
 msgid "Reorder"
-msgstr ""
+msgstr "Reordenar"
 
 #: mMF/options/setseed.title
 msgid "Reproducible random number generation (RNG) results"
-msgstr ""
+msgstr "Resultats de generació aleatoria de nombres aleatoris reproduïble (RNG)"
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
@@ -895,128 +909,129 @@ msgstr "Dreta"
 
 #: mMF/options/seed.title
 msgid "RNG seed value"
-msgstr ""
+msgstr "Valor llavor per RNG"
 
 #: mROC/options/sepROC.title mROC/results/plots.title
 msgid "ROC by groups"
-msgstr ""
+msgstr "ROC per grups"
 
 #: mROC/results/plot.title
 msgid "ROC by predictors"
-msgstr ""
+msgstr "ROC per predictors"
 
 #: package/analyses/mROC.title package/analyses/mROC.menuTitle
 #: mROC/options.title mROC/ui.title mROC/results.title
 msgid "ROC classification"
-msgstr ""
+msgstr "Classificació ROC"
 
 #: mROC/options/cmpDeLong.title
 msgid "ROC comparison"
-msgstr ""
+msgstr "Comparació ROC"
 
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
-msgstr ""
+msgstr "Demostració d'estimació ROC per a models logistics binomials"
 
 #: mROC/ui[1].label
 msgid "ROC graphs"
-msgstr ""
+msgstr "Gràfiques ROC"
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
-msgstr ""
+msgstr "Posició a l'escala"
 
 #: package/datasets/SDI ROC classification.name
 msgid "SDI ROC classification"
-msgstr ""
+msgstr "Classificació ROC tipus SDI"
 
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
-msgstr ""
+msgstr "Seleccionar grup"
 
 #: R\mroc.b.R
 msgid "Sensitivity"
-msgstr ""
+msgstr "Sensibilitat"
 
 #: R\mroc.b.R
 msgid "Sensitivity (%)"
-msgstr ""
+msgstr "Sensibilitat (%)"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
-msgstr ""
+msgstr "Set1"
 
 #: mROC/options/palBrewer/Set2.title
 msgid "Set2"
-msgstr ""
+msgstr "Set2"
 
 #: mROC/options/palBrewer/Set3.title
 msgid "Set3"
-msgstr ""
+msgstr "Set3"
 
 #: mCOR/options/plotMetU/shade.title mCOR/options/plotMetL/shade.title
 msgid "Shade"
-msgstr ""
+msgstr "Shade"
 
 #: mCOR/options/signif.title
 msgid "Significance"
-msgstr ""
+msgstr "Significactivitat"
 
 #: R\mcor.b.R
 msgid "Simultaneous multiple correlation comparisons using {n} method"
 msgstr ""
+"Comparacions simultànies de correlació múltiple utilitzant el mètode {n}"
 
 #: mCOR/options/clustMet/single.title
 msgid "Single Linkage"
-msgstr ""
+msgstr "Vinculació Simple"
 
 #: mMF/options/anghead.title
 msgid "Slanted Titles"
-msgstr ""
+msgstr "Títols girats"
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
-msgstr ""
+msgstr "Spearman (ρ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Spearman's Rho"
-msgstr ""
+msgstr "Rho de Spearman"
 
 #: R\mroc.b.R
 msgid "Specificity"
-msgstr ""
+msgstr "Especificitat"
 
 #: R\mroc.b.R
 msgid "Specificity (%)"
-msgstr ""
+msgstr "Especificitat (%)"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
-msgstr ""
+msgstr "Demostració de Classificació ROC de l'Index de Deformitat d'Esperma"
 
 #: mROC/options/splitROC.title
 msgid "Split curves"
-msgstr ""
+msgstr "Divideix les curves"
 
 #: mROC/results/splots.title
 msgid "Splitted ROC by predictors"
-msgstr ""
+msgstr "ROC dividit per predictors"
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
-msgstr ""
+msgstr "Quadrat"
 
 #: mROC/options/cmpDeLong/succ.title
 msgid "Successively"
-msgstr ""
+msgstr "Successivament"
 
 #: mCOR/ui[4].label
 msgid "Tables"
-msgstr ""
+msgstr "Taules"
 
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
-msgstr ""
+msgstr "El Millor punt al ROC"
 
 #: R\mroc.b.R
 msgid ""
@@ -1024,27 +1039,30 @@ msgid ""
 "classification can only be performed on classifying variables with two "
 "levels."
 msgstr ""
+"La variable de classificació '{}' no te exactament dues categories; la "
+"classificació ROC només pot fer-se sobre variables classificatòries amb dues "
+"categories."
 
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
-msgstr ""
+msgstr "Umbral per a Puntuació-Z"
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
-msgstr ""
+msgstr "Nombre total d'entrades perdudes {}"
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
 msgid "Univariate outliers identification and removal"
-msgstr ""
+msgstr "Identificació i eliminació de valors extrems univariable"
 
 #: R\mout.b.R
 msgid "Upper fence"
-msgstr ""
+msgstr "Banda superior"
 
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
-msgstr ""
+msgstr "Part superior"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
@@ -1053,52 +1071,52 @@ msgstr "Variable"
 
 #: mMF/results/estim/fMARtab.template.title
 msgid "Variable - $key"
-msgstr ""
+msgstr "Variable - $key"
 
 #: R\mmf.b.R
 msgid "Variable name"
-msgstr ""
+msgstr "Nom de la variable"
 
 #: mCOR/ui[5][0]/plots/clustMan.suffix
 msgid "variable numbers by commas"
-msgstr ""
+msgstr "nombres de variable per comes"
 
 #: R\mmf.b.R
 msgid "Variable to impute"
-msgstr ""
+msgstr "Variable a imputar"
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
 msgid "Variables with outliers"
-msgstr ""
+msgstr "Variables amb valors extrems"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
-msgstr ""
+msgstr "Vinculació de Ward D2"
 
 #: mCOR/options/clustMet/ward.D.title
 msgid "Ward´s Linkage"
-msgstr ""
+msgstr "Vinculació de Ward"
 
 #: mROC/options/cmpDeLong/wcontr.title
 msgid "With control"
-msgstr ""
+msgstr "Amb control"
 
 #: R\mmf.b.R
 msgid "with missing data on other variables"
-msgstr ""
+msgstr "amb valors perduts a altres variables"
 
 #: R\mmf.b.R
 msgid "with observed data on other variables"
-msgstr ""
+msgstr "amb valors observats a altres variables"
 
 #: mROC/options/theBest/bestY.title
 msgid "Youden Best"
-msgstr ""
+msgstr "Òptim de Youden"
 
 #: mROC/options/theBest/bssY.title
 msgid "Youden Best (Sp, Se)"
-msgstr ""
+msgstr "Òptim de Youden (Sp, Se)"
 
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
-msgstr ""
+msgstr "Puntuació-Z"
