@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-12 11:02+0000\n"
-"Last-Translator: Simeon Tthhuueett <simeontthhuueett@gmail.com>\n"
+"PO-Revision-Date: 2025-08-29 09:01+0000\n"
+"Last-Translator: lolly76 <thelolly76@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "fr/>\n"
 "Language: fr\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13.1-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -416,7 +416,7 @@ msgstr ""
 
 #: R\mcor.b.R
 msgid "Hₐ is positive correlation"
-msgstr ""
+msgstr "Hₐ est une corrélation positive"
 
 #: package/datasets/HI ROC classification.description
 msgid "Healthy/Ill ROC Classification demonstration"
@@ -1039,7 +1039,7 @@ msgstr ""
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
 msgid "Variable"
-msgstr ""
+msgstr "Variable"
 
 #: mMF/results/estim/fMARtab.template.title
 msgid "Variable - $key"
