@@ -50,8 +50,8 @@ msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
 msgstr ""
-"*p<0.05 - Гипотеза о нормальности распределения отвергнута тестом "
-"Шапиро-Уилка"
+"*p<0.05 - Гипотеза о нормальности распределения отвергнута тестом Шапиро-"
+"Уилка"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
@@ -633,7 +633,7 @@ msgstr "Медиана"
 msgid "Median Linkage"
 msgstr "Медианной связи"
 
-#: mCOR/options/method.title
+#: mCOR/options/method.title mOUT/ui[1][0].label
 msgid "Method"
 msgstr "Метод"
 
@@ -1064,10 +1064,6 @@ msgstr "Порог для Z-оценки"
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
 msgstr "Общее количество пропусков {}"
-
-#: mOUT/ui[1][0].label
-msgid "Univariate methods"
-msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title

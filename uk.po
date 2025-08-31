@@ -629,7 +629,7 @@ msgstr "Медіана"
 msgid "Median Linkage"
 msgstr "Медіанний зв'язок"
 
-#: mCOR/options/method.title
+#: mCOR/options/method.title mOUT/ui[1][0].label
 msgid "Method"
 msgstr "Метод"
 
@@ -1061,10 +1061,6 @@ msgstr "Поріг для Z-оцінки"
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
 msgstr "Загальна кількість відсутніх записів {}"
-
-#: mOUT/ui[1][0].label
-msgid "Univariate methods"
-msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title

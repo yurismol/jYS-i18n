@@ -624,7 +624,7 @@ msgstr "הצמדת החציון"
 msgid "Median Linkage"
 msgstr "הצמדת החציון"
 
-#: mCOR/options/method.title
+#: mCOR/options/method.title mOUT/ui[1][0].label
 msgid "Method"
 msgstr "שיטה"
 
@@ -1049,10 +1049,6 @@ msgstr ""
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
 msgstr "המספר הכולל של הכניסות החסרות {}"
-
-#: mOUT/ui[1][0].label
-msgid "Univariate methods"
-msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title

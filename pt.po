@@ -649,7 +649,7 @@ msgstr "Ligação mediana"
 msgid "Median Linkage"
 msgstr "Ligação mediana"
 
-#: mCOR/options/method.title
+#: mCOR/options/method.title mOUT/ui[1][0].label
 msgid "Method"
 msgstr "Método"
 
@@ -1080,10 +1080,6 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
-msgstr ""
-
-#: mOUT/ui[1][0].label
-msgid "Univariate methods"
 msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle

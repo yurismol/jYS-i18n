@@ -632,7 +632,7 @@ msgstr "Mediana"
 msgid "Median Linkage"
 msgstr "Vinculació Mediana"
 
-#: mCOR/options/method.title
+#: mCOR/options/method.title mOUT/ui[1][0].label
 msgid "Method"
 msgstr "Mètode"
 
@@ -1069,10 +1069,6 @@ msgstr "Umbral per a Puntuació-Z"
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
 msgstr "Nombre total d'entrades perdudes {}"
-
-#: mOUT/ui[1][0].label
-msgid "Univariate methods"
-msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
