@@ -3,8 +3,8 @@ msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
 "PO-Revision-Date: 2025-08-25 12:03+0000\n"
 "Last-Translator: Максим Горпиніч <gorpinicmaksim0@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
-"jys-i18n/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/jys-"
+"i18n/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,6 +44,12 @@ msgstr "**зв'язок спостережуваних даних змінної
 #: R\mmf.b.R
 msgid "*connection of a variable's missingness indicator"
 msgstr "*підключення індикатора відсутності змінної"
+
+#: R\mout.b.R
+msgid ""
+"*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
+"Wilk test"
+msgstr ""
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
@@ -408,7 +414,7 @@ msgstr ""
 "кореляції, багатовимірні ROC-криві класифікації, оцінка та імпутація "
 "відсутніх даних, ідентифікація та видалення викидів тощо."
 
-#: R\mout.b.R mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Group"
 msgstr "Група"
 
@@ -490,7 +496,7 @@ msgstr "У відсотках"
 msgid "Incomplete Variables"
 msgstr "Неповні змінні"
 
-#: mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Indices (Rows)"
 msgstr "Індекси (рядки)"
 
@@ -710,6 +716,10 @@ msgstr "N - кількість відсутніх значень;"
 msgid "None"
 msgstr "Жоден"
 
+#: R\mout.b.R
+msgid "Normality<br>p-value"
+msgstr ""
+
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
 msgstr "Номер"
@@ -774,10 +784,6 @@ msgstr "Визначення викидів"
 msgid "Outliers identification and removal"
 msgstr "Виявлення та видалення викидів"
 
-#: mOUT/ui[1][0].label
-msgid "Outliers identification method"
-msgstr "Метод ідентифікації викидів"
-
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
 msgstr "Метод виявлення викидів"
@@ -791,7 +797,15 @@ msgid "Outliers removal"
 msgstr "Вилучення викидів"
 
 #: R\mout.b.R
-msgid "Outliers removed"
+#, fuzzy
+#| msgid "Outliers found"
+msgid "Outliers<br>found"
+msgstr "Знайдені викиди"
+
+#: R\mout.b.R
+#, fuzzy
+#| msgid "Outliers removed"
+msgid "Outliers<br>removed"
 msgstr "Вилучено викиди"
 
 #: mOUT/ui[1][1].label
@@ -1023,6 +1037,10 @@ msgstr "Послідовно"
 msgid "Tables"
 msgstr "Столи"
 
+#: mOUT/options/norm.title
+msgid "Test for normality"
+msgstr ""
+
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
 msgstr "Найкращий момент на ROC"
@@ -1043,6 +1061,10 @@ msgstr "Поріг для Z-оцінки"
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
 msgstr "Загальна кількість відсутніх записів {}"
+
+#: mOUT/ui[1][0].label
+msgid "Univariate methods"
+msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
@@ -1079,8 +1101,10 @@ msgid "Variable to impute"
 msgstr "Змінна для імпутування"
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
-msgid "Variables with outliers"
-msgstr "Змінні з викидами"
+#, fuzzy
+#| msgid "Variable"
+msgid "Variables"
+msgstr "Змінна"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
@@ -1113,6 +1137,12 @@ msgstr "Юден Бест (Sp, Se)"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z-оцінка"
+
+#~ msgid "Outliers identification method"
+#~ msgstr "Метод ідентифікації викидів"
+
+#~ msgid "Variables with outliers"
+#~ msgstr "Змінні з викидами"
 
 #~ msgid "N of outliers"
 #~ msgstr "N викидів"

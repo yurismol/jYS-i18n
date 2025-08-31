@@ -47,6 +47,12 @@ msgstr "**קשר הנתונים הנצפים של המשתנה"
 msgid "*connection of a variable's missingness indicator"
 msgstr "*חיבור של מחוון הנעלמות של משתנה"
 
+#: R\mout.b.R
+msgid ""
+"*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
+"Wilk test"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
 msgstr "*תצפיות זוגיות מושלמות"
@@ -404,7 +410,7 @@ msgid ""
 "and imputation, outliers identificatioon and removal etc."
 msgstr ""
 
-#: R\mout.b.R mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Group"
 msgstr ""
 
@@ -486,7 +492,7 @@ msgstr "באחוזים"
 msgid "Incomplete Variables"
 msgstr "משתנים לא מושלמים"
 
-#: mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Indices (Rows)"
 msgstr ""
 
@@ -703,6 +709,10 @@ msgstr "N – מספר הערכים החסרים;"
 msgid "None"
 msgstr "כלום"
 
+#: R\mout.b.R
+msgid "Normality<br>p-value"
+msgstr ""
+
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
 msgstr "מספר"
@@ -767,12 +777,6 @@ msgstr ""
 msgid "Outliers identification and removal"
 msgstr ""
 
-#: mOUT/ui[1][0].label
-#, fuzzy
-#| msgid "Agglomeration method"
-msgid "Outliers identification method"
-msgstr "שיטת הליכוד"
-
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
 msgstr ""
@@ -786,7 +790,11 @@ msgid "Outliers removal"
 msgstr ""
 
 #: R\mout.b.R
-msgid "Outliers removed"
+msgid "Outliers<br>found"
+msgstr ""
+
+#: R\mout.b.R
+msgid "Outliers<br>removed"
 msgstr ""
 
 #: mOUT/ui[1][1].label
@@ -1017,6 +1025,10 @@ msgstr "ברצף"
 msgid "Tables"
 msgstr "טבלאות"
 
+#: mOUT/options/norm.title
+msgid "Test for normality"
+msgstr ""
+
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
 msgstr ""
@@ -1037,6 +1049,10 @@ msgstr ""
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
 msgstr "המספר הכולל של הכניסות החסרות {}"
+
+#: mOUT/ui[1][0].label
+msgid "Univariate methods"
+msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
@@ -1073,8 +1089,10 @@ msgid "Variable to impute"
 msgstr ""
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
-msgid "Variables with outliers"
-msgstr ""
+#, fuzzy
+#| msgid "Variable"
+msgid "Variables"
+msgstr "משתנה"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
@@ -1107,6 +1125,11 @@ msgstr ""
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Agglomeration method"
+#~ msgid "Outliers identification method"
+#~ msgstr "שיטת הליכוד"
 
 #~ msgid "Correlation Matrix"
 #~ msgstr "מטריצת מתאמים"

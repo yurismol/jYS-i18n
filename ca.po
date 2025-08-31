@@ -44,6 +44,12 @@ msgstr "**connexió de les dades observades d'una variable"
 msgid "*connection of a variable's missingness indicator"
 msgstr "*connexió d'un indicador perdut d'una variable"
 
+#: R\mout.b.R
+msgid ""
+"*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
+"Wilk test"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
 msgstr "*observacions completes aparellades"
@@ -71,8 +77,8 @@ msgstr "< 0,1"
 #: R\mmf.b.R
 msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
 msgstr ""
-"<h2>Ajuda</h2><div>Si us plau, selecciona variables completes i "
-"incompletes</div>"
+"<h2>Ajuda</h2><div>Si us plau, selecciona variables completes i incompletes</"
+"div>"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
@@ -386,8 +392,8 @@ msgstr "Explicatiu"
 msgid ""
 "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
 msgstr ""
-"Explicatiu - variable corresponent a imputació MAR amb mínim "
-"p<sub>valor</sub>."
+"Explicatiu - variable corresponent a imputació MAR amb mínim p<sub>valor</"
+"sub>."
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
@@ -410,7 +416,7 @@ msgstr ""
 "classificació, Estimació i imputació de dades perdudes, Identificació i "
 "eliminació de valors extrems, etc."
 
-#: R\mout.b.R mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Group"
 msgstr "Grup"
 
@@ -470,8 +476,8 @@ msgid ""
 "At Random)."
 msgstr ""
 "Si com a mínim un p<sub>valor</sub> MAR no és significatiu, i el "
-"p<sub>valor</sub> a MCAR és significatiu llavors la dada es considera MNAR ("
-"Perdut Not Aleatori)."
+"p<sub>valor</sub> a MCAR és significatiu llavors la dada es considera MNAR "
+"(Perdut Not Aleatori)."
 
 #: R\mmf.b.R
 msgid "imp"
@@ -493,7 +499,7 @@ msgstr "En percentatge"
 msgid "Incomplete Variables"
 msgstr "Variables incompletes"
 
-#: mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Indices (Rows)"
 msgstr "Indexes (Files)"
 
@@ -713,6 +719,10 @@ msgstr "N - nombre de valors perduts;"
 msgid "None"
 msgstr "Cap"
 
+#: R\mout.b.R
+msgid "Normality<br>p-value"
+msgstr ""
+
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
 msgstr "Nombre"
@@ -777,10 +787,6 @@ msgstr "Identificació de valors extrems"
 msgid "Outliers identification and removal"
 msgstr "Identificació i eliminació de valors extrems"
 
-#: mOUT/ui[1][0].label
-msgid "Outliers identification method"
-msgstr "Mètode d'identificació de valors extrems"
-
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
 msgstr "Mètode per identificar valors extrems"
@@ -794,7 +800,15 @@ msgid "Outliers removal"
 msgstr "Eliminació de valors extrems"
 
 #: R\mout.b.R
-msgid "Outliers removed"
+#, fuzzy
+#| msgid "Outliers found"
+msgid "Outliers<br>found"
+msgstr "Valors extrems trobats"
+
+#: R\mout.b.R
+#, fuzzy
+#| msgid "Outliers removed"
+msgid "Outliers<br>removed"
 msgstr "Valors extrems eliminats"
 
 #: mOUT/ui[1][1].label
@@ -901,7 +915,8 @@ msgstr "Reordenar"
 
 #: mMF/options/setseed.title
 msgid "Reproducible random number generation (RNG) results"
-msgstr "Resultats de generació aleatoria de nombres aleatoris reproduïble (RNG)"
+msgstr ""
+"Resultats de generació aleatoria de nombres aleatoris reproduïble (RNG)"
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
@@ -1029,6 +1044,10 @@ msgstr "Successivament"
 msgid "Tables"
 msgstr "Taules"
 
+#: mOUT/options/norm.title
+msgid "Test for normality"
+msgstr ""
+
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
 msgstr "El Millor punt al ROC"
@@ -1050,6 +1069,10 @@ msgstr "Umbral per a Puntuació-Z"
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
 msgstr "Nombre total d'entrades perdudes {}"
+
+#: mOUT/ui[1][0].label
+msgid "Univariate methods"
+msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
@@ -1086,8 +1109,10 @@ msgid "Variable to impute"
 msgstr "Variable a imputar"
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
-msgid "Variables with outliers"
-msgstr "Variables amb valors extrems"
+#, fuzzy
+#| msgid "Variable"
+msgid "Variables"
+msgstr "Variable"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
@@ -1120,3 +1145,9 @@ msgstr "Òptim de Youden (Sp, Se)"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Puntuació-Z"
+
+#~ msgid "Outliers identification method"
+#~ msgstr "Mètode d'identificació de valors extrems"
+
+#~ msgid "Variables with outliers"
+#~ msgstr "Variables amb valors extrems"

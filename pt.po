@@ -46,6 +46,12 @@ msgstr "**conexão dos dados observados de uma variável"
 msgid "*connection of a variable's missingness indicator"
 msgstr "*conexão do indicador de dados em falta de uma variável"
 
+#: R\mout.b.R
+msgid ""
+"*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
+"Wilk test"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
 msgstr "*observações completas por pares"
@@ -423,7 +429,7 @@ msgstr ""
 "adaptativa multifator, curvas de classificação ROC multidimensional, "
 "estimativa de dados ausentes e imputação etc."
 
-#: R\mout.b.R mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Group"
 msgstr ""
 
@@ -508,7 +514,7 @@ msgstr "Em %"
 msgid "Incomplete Variables"
 msgstr "Variáveis incompletas"
 
-#: mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Indices (Rows)"
 msgstr ""
 
@@ -732,6 +738,10 @@ msgstr ""
 msgid "None"
 msgstr "Nenhum"
 
+#: R\mout.b.R
+msgid "Normality<br>p-value"
+msgstr ""
+
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
 msgstr "Número"
@@ -797,12 +807,6 @@ msgstr ""
 msgid "Outliers identification and removal"
 msgstr ""
 
-#: mOUT/ui[1][0].label
-#, fuzzy
-#| msgid "Agglomeration method"
-msgid "Outliers identification method"
-msgstr "Método de aglomeração"
-
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
 msgstr ""
@@ -816,7 +820,11 @@ msgid "Outliers removal"
 msgstr ""
 
 #: R\mout.b.R
-msgid "Outliers removed"
+msgid "Outliers<br>found"
+msgstr ""
+
+#: R\mout.b.R
+msgid "Outliers<br>removed"
 msgstr ""
 
 #: mOUT/ui[1][1].label
@@ -1051,6 +1059,10 @@ msgstr ""
 msgid "Tables"
 msgstr ""
 
+#: mOUT/options/norm.title
+msgid "Test for normality"
+msgstr ""
+
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
 msgstr ""
@@ -1068,6 +1080,10 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
+msgstr ""
+
+#: mOUT/ui[1][0].label
+msgid "Univariate methods"
 msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
@@ -1105,8 +1121,10 @@ msgid "Variable to impute"
 msgstr ""
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
-msgid "Variables with outliers"
-msgstr ""
+#, fuzzy
+#| msgid "Variable"
+msgid "Variables"
+msgstr "Variável"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
@@ -1139,6 +1157,11 @@ msgstr ""
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Agglomeration method"
+#~ msgid "Outliers identification method"
+#~ msgstr "Método de aglomeração"
 
 #~ msgid "Correlation Matrix"
 #~ msgstr "Matriz de Correlações"

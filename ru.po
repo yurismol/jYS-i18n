@@ -45,6 +45,12 @@ msgstr "**связь наблюдаемых данных переменной"
 msgid "*connection of a variable's missingness indicator"
 msgstr "*связь показателя пропусков переменной"
 
+#: R\mout.b.R
+msgid ""
+"*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
+"Wilk test"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
 msgstr "*попарно в полных наблюдениях"
@@ -410,7 +416,7 @@ msgstr ""
 "случайности и восстановление пропущенных данных, выявление и удаление "
 "выбросов и т.д."
 
-#: R\mout.b.R mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Group"
 msgstr "Группа"
 
@@ -493,7 +499,7 @@ msgstr "В процентах"
 msgid "Incomplete Variables"
 msgstr "Неполные переменные"
 
-#: mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Indices (Rows)"
 msgstr "Индексы (Строки)"
 
@@ -712,6 +718,10 @@ msgstr "N - количество пропущенных значений;"
 msgid "None"
 msgstr "Нет"
 
+#: R\mout.b.R
+msgid "Normality<br>p-value"
+msgstr ""
+
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
 msgstr "Число"
@@ -776,10 +786,6 @@ msgstr "Идентификация выбросов"
 msgid "Outliers identification and removal"
 msgstr "Идентификация и удаление выбросов"
 
-#: mOUT/ui[1][0].label
-msgid "Outliers identification method"
-msgstr "Метод выявления выбросов"
-
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
 msgstr "Метод выявления выбросов"
@@ -793,7 +799,15 @@ msgid "Outliers removal"
 msgstr "Удаление выбросов"
 
 #: R\mout.b.R
-msgid "Outliers removed"
+#, fuzzy
+#| msgid "Outliers found"
+msgid "Outliers<br>found"
+msgstr "Найдено выбросов"
+
+#: R\mout.b.R
+#, fuzzy
+#| msgid "Outliers removed"
+msgid "Outliers<br>removed"
 msgstr "Удалено выбросов"
 
 #: mOUT/ui[1][1].label
@@ -1028,6 +1042,10 @@ msgstr "Последовательно"
 msgid "Tables"
 msgstr "Таблицы"
 
+#: mOUT/options/norm.title
+msgid "Test for normality"
+msgstr ""
+
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
 msgstr "Лучшая точка ROC"
@@ -1048,6 +1066,10 @@ msgstr "Порог для Z-оценки"
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
 msgstr "Общее количество пропусков {}"
+
+#: mOUT/ui[1][0].label
+msgid "Univariate methods"
+msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
@@ -1084,8 +1106,10 @@ msgid "Variable to impute"
 msgstr "Переменная для восстановления"
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
-msgid "Variables with outliers"
-msgstr "Переменные с выбросами"
+#, fuzzy
+#| msgid "Variable"
+msgid "Variables"
+msgstr "Переменная"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
@@ -1118,6 +1142,12 @@ msgstr "По Юдену (Спец, Чувств)"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z-оценка"
+
+#~ msgid "Outliers identification method"
+#~ msgstr "Метод выявления выбросов"
+
+#~ msgid "Variables with outliers"
+#~ msgstr "Переменные с выбросами"
 
 #~ msgid "N of outliers"
 #~ msgstr "Количество выбросов"

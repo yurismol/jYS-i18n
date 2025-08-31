@@ -44,6 +44,12 @@ msgstr "**ഒരു വേരിയബിളിന്റെ നിരീക്�
 msgid "*connection of a variable's missingness indicator"
 msgstr "*ഒരു വേരിയബിളിന്റെ missingness ഇൻഡിക്കേറ്ററിന്റെ കണക്ഷൻ"
 
+#: R\mout.b.R
+msgid ""
+"*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
+"Wilk test"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
 msgstr "*pairwise പൂർണ്ണ ഒബ്സർവേഷനുകൾ"
@@ -401,7 +407,7 @@ msgid ""
 "and imputation, outliers identificatioon and removal etc."
 msgstr ""
 
-#: R\mout.b.R mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Group"
 msgstr ""
 
@@ -481,7 +487,7 @@ msgstr ""
 msgid "Incomplete Variables"
 msgstr "പൂർണ്ണമല്ലാത്ത വേരിയബിളുകൾ"
 
-#: mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Indices (Rows)"
 msgstr ""
 
@@ -697,6 +703,10 @@ msgstr ""
 msgid "None"
 msgstr ""
 
+#: R\mout.b.R
+msgid "Normality<br>p-value"
+msgstr ""
+
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
 msgstr ""
@@ -761,10 +771,6 @@ msgstr ""
 msgid "Outliers identification and removal"
 msgstr ""
 
-#: mOUT/ui[1][0].label
-msgid "Outliers identification method"
-msgstr ""
-
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
 msgstr ""
@@ -778,7 +784,11 @@ msgid "Outliers removal"
 msgstr ""
 
 #: R\mout.b.R
-msgid "Outliers removed"
+msgid "Outliers<br>found"
+msgstr ""
+
+#: R\mout.b.R
+msgid "Outliers<br>removed"
 msgstr ""
 
 #: mOUT/ui[1][1].label
@@ -1009,6 +1019,10 @@ msgstr ""
 msgid "Tables"
 msgstr ""
 
+#: mOUT/options/norm.title
+msgid "Test for normality"
+msgstr ""
+
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
 msgstr ""
@@ -1026,6 +1040,10 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
+msgstr ""
+
+#: mOUT/ui[1][0].label
+msgid "Univariate methods"
 msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
@@ -1064,9 +1082,9 @@ msgstr "ഇംപ്യൂട്ട് ചെയ്യേണ്ട വേരി�
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
 #, fuzzy
-#| msgid "Variable to impute"
-msgid "Variables with outliers"
-msgstr "ഇംപ്യൂട്ട് ചെയ്യേണ്ട വേരിയബിൾ"
+#| msgid "Variable"
+msgid "Variables"
+msgstr "വേരിയബിൾ"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
@@ -1099,3 +1117,8 @@ msgstr ""
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Variable to impute"
+#~ msgid "Variables with outliers"
+#~ msgstr "ഇംപ്യൂട്ട് ചെയ്യേണ്ട വേരിയബിൾ"

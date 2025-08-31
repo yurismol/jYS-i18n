@@ -44,6 +44,12 @@ msgstr "** 観測データの接続"
 msgid "*connection of a variable's missingness indicator"
 msgstr "*欠損値指標の接続"
 
+#: R\mout.b.R
+msgid ""
+"*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
+"Wilk test"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
 msgstr "*ペアごとの完全な観測値"
@@ -410,7 +416,7 @@ msgstr ""
 "ツリー、多因子適応型相関行列、多次元ROC分類曲線、欠損データの推定および補完な"
 "ど。"
 
-#: R\mout.b.R mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Group"
 msgstr "グループ"
 
@@ -492,7 +498,7 @@ msgstr "パーセント表示"
 msgid "Incomplete Variables"
 msgstr "欠損変数"
 
-#: mOUT/results/oind.template.columns.title
+#: R\mout.b.R
 msgid "Indices (Rows)"
 msgstr ""
 
@@ -709,6 +715,10 @@ msgstr "N　欠損値の個数"
 msgid "None"
 msgstr "なし"
 
+#: R\mout.b.R
+msgid "Normality<br>p-value"
+msgstr ""
+
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
 msgstr "数値"
@@ -775,12 +785,6 @@ msgstr "外れ値の同定"
 msgid "Outliers identification and removal"
 msgstr "外れ値の同定と除去"
 
-#: mOUT/ui[1][0].label
-#, fuzzy
-#| msgid "Outliers identifying method"
-msgid "Outliers identification method"
-msgstr "外れ値の同定法"
-
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
 msgstr "外れ値の同定法"
@@ -797,8 +801,14 @@ msgstr "外れ値の除去"
 
 #: R\mout.b.R
 #, fuzzy
+#| msgid "Outliers fences"
+msgid "Outliers<br>found"
+msgstr "外れ値のフェンス"
+
+#: R\mout.b.R
+#, fuzzy
 #| msgid "Outliers removal"
-msgid "Outliers removed"
+msgid "Outliers<br>removed"
 msgstr "外れ値の除去"
 
 #: mOUT/ui[1][1].label
@@ -1029,6 +1039,10 @@ msgstr "逐次的"
 msgid "Tables"
 msgstr "表"
 
+#: mOUT/options/norm.title
+msgid "Test for normality"
+msgstr ""
+
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
 msgstr "ROC曲線上の最適点"
@@ -1049,6 +1063,10 @@ msgstr "Z得点の閾値"
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
 msgstr "欠損値 {} の総数"
+
+#: mOUT/ui[1][0].label
+msgid "Univariate methods"
+msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
@@ -1087,8 +1105,10 @@ msgid "Variable to impute"
 msgstr "補完対象変数"
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
-msgid "Variables with outliers"
-msgstr "外れ値つき変数"
+#, fuzzy
+#| msgid "Variable"
+msgid "Variables"
+msgstr "変数"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
@@ -1121,6 +1141,14 @@ msgstr "ユーデン指数最大（特異度・感度）"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z得点"
+
+#, fuzzy
+#~| msgid "Outliers identifying method"
+#~ msgid "Outliers identification method"
+#~ msgstr "外れ値の同定法"
+
+#~ msgid "Variables with outliers"
+#~ msgstr "外れ値つき変数"
 
 #~ msgid "N of outliers"
 #~ msgstr "外れ値の個数"
