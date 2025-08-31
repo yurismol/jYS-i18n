@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-31 10:33+0000\n"
+"PO-Revision-Date: 2025-09-01 11:01+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ru/>\n"
@@ -890,11 +890,11 @@ msgstr "Шаги предиктивного<br>cреднего сопостав�
 
 #: mROC/options/vars.title mROC/ui[0][0].label
 msgid "Predictors"
-msgstr "Predictors"
+msgstr "Предикторы"
 
 #: mCOR/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr "предоставить график корреляционной матрицы."
+msgstr "представить график корреляционной матрицы."
 
 #: R\mmf.b.R
 msgid ""
@@ -1100,10 +1100,8 @@ msgid "Variable to impute"
 msgstr "Переменная для восстановления"
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
-#, fuzzy
-#| msgid "Variable"
 msgid "Variables"
-msgstr "Переменная"
+msgstr "Переменные"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
