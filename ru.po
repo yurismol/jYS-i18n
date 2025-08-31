@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-25 12:03+0000\n"
+"PO-Revision-Date: 2025-08-31 10:33+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ru/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.13.1-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -50,6 +50,8 @@ msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
 msgstr ""
+"*p<0.05 - Гипотеза о нормальности распределения отвергнута тестом "
+"Шапиро-Уилка"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
@@ -720,7 +722,7 @@ msgstr "Нет"
 
 #: R\mout.b.R
 msgid "Normality<br>p-value"
-msgstr ""
+msgstr "Нормальность<br>p-значение"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
@@ -799,16 +801,12 @@ msgid "Outliers removal"
 msgstr "Удаление выбросов"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Outliers found"
 msgid "Outliers<br>found"
-msgstr "Найдено выбросов"
+msgstr "Найдено<br>выбросов"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Outliers removed"
 msgid "Outliers<br>removed"
-msgstr "Удалено выбросов"
+msgstr "Удалено<br>выбросов"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"
@@ -1044,7 +1042,7 @@ msgstr "Таблицы"
 
 #: mOUT/options/norm.title
 msgid "Test for normality"
-msgstr ""
+msgstr "Оценка нормальности"
 
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
