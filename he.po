@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-23 17:01+0000\n"
+"PO-Revision-Date: 2025-09-03 00:01+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "he/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13.1-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -91,7 +91,7 @@ msgstr "סגוליות - 1"
 
 #: mOUT/options/fence/1.5.title
 msgid "1.5"
-msgstr ""
+msgstr "1.5"
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
@@ -99,15 +99,15 @@ msgstr "100 – סגוליות (%)"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
-msgstr ""
+msgstr "2.2"
 
 #: mOUT/options/tholdZS/2.5.title mOUT/options/tholdmZS/2.5.title
 msgid "2.5"
-msgstr ""
+msgstr "2.5"
 
 #: mOUT/options/fence/3.0.title mOUT/options/tholdmZS/3.0.title
 msgid "3.0"
-msgstr ""
+msgstr "3.0"
 
 #: mOUT/options/tholdZS/3.0.title
 msgid "3.0 (standard)"
@@ -119,19 +119,19 @@ msgstr ""
 
 #: mOUT/options/tholdmZS/3.5.title
 msgid "3.5 (standard)"
-msgstr ""
+msgstr "3.5 (סטנדרטי)"
 
 #: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
 msgid "4.0"
-msgstr ""
+msgstr "4.0"
 
 #: mOUT/options/tholdZS/4.5.title mOUT/options/tholdmZS/4.5.title
 msgid "4.5"
-msgstr ""
+msgstr "4.5"
 
 #: mOUT/options/tholdZS/5.0.title mOUT/options/tholdmZS/5.0.title
 msgid "5.0"
-msgstr ""
+msgstr "5.0"
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
@@ -412,7 +412,7 @@ msgstr ""
 
 #: R\mout.b.R
 msgid "Group"
-msgstr ""
+msgstr "קבוצה"
 
 #: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
 #: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
@@ -612,13 +612,11 @@ msgstr "הצמדת מקוויטי (WPGMA)"
 
 #: R\mout.b.R
 msgid "Mean"
-msgstr ""
+msgstr "ממוצע"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Median Linkage"
 msgid "Median"
-msgstr "הצמדת החציון"
+msgstr "חציון"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
@@ -1027,7 +1025,7 @@ msgstr "טבלאות"
 
 #: mOUT/options/norm.title
 msgid "Test for normality"
-msgstr ""
+msgstr "מבחן לנורמליות"
 
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
@@ -1044,7 +1042,7 @@ msgstr ""
 
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
-msgstr ""
+msgstr "סף לציון Z"
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
@@ -1085,10 +1083,8 @@ msgid "Variable to impute"
 msgstr ""
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
-#, fuzzy
-#| msgid "Variable"
 msgid "Variables"
-msgstr "משתנה"
+msgstr "משתנים"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
@@ -1120,7 +1116,7 @@ msgstr ""
 
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
-msgstr ""
+msgstr "ציון Z"
 
 #, fuzzy
 #~| msgid "Agglomeration method"
