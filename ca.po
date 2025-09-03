@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-28 08:02+0000\n"
+"PO-Revision-Date: 2025-09-04 09:01+0000\n"
 "Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ca/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.13.1-rc\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -49,6 +49,8 @@ msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
 msgstr ""
+"*p<0,05 - La hipòtesi de distribució normal és rebutjada pel test de Shapiro-"
+"Wilk"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
@@ -721,7 +723,7 @@ msgstr "Cap"
 
 #: R\mout.b.R
 msgid "Normality<br>p-value"
-msgstr ""
+msgstr "Normalitat<br>p-valor"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
@@ -800,16 +802,12 @@ msgid "Outliers removal"
 msgstr "Eliminació de valors extrems"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Outliers found"
 msgid "Outliers<br>found"
-msgstr "Valors extrems trobats"
+msgstr "Atípics<br>trobats"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Outliers removed"
 msgid "Outliers<br>removed"
-msgstr "Valors extrems eliminats"
+msgstr "Atípics<br>eliminats"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"
@@ -1046,7 +1044,7 @@ msgstr "Taules"
 
 #: mOUT/options/norm.title
 msgid "Test for normality"
-msgstr ""
+msgstr "Test de normalitat"
 
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
@@ -1105,10 +1103,8 @@ msgid "Variable to impute"
 msgstr "Variable a imputar"
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
-#, fuzzy
-#| msgid "Variable"
 msgid "Variables"
-msgstr "Variable"
+msgstr "Variables"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
