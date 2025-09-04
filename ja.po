@@ -681,7 +681,9 @@ msgid "missRanger (2021)"
 msgstr "missRanger (2021)"
 
 #: mOUT/options/outlcheck/mZS.title
-msgid "Modified Z-score"
+#, fuzzy
+#| msgid "Modified Z-score"
+msgid "Modified Z-score (Hampel filter)"
 msgstr "修正Z得点"
 
 #: R\mmf.b.R
@@ -769,12 +771,6 @@ msgstr ""
 
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
-msgstr "外れ値のフェンス"
-
-#: R\mout.b.R
-#, fuzzy
-#| msgid "Outliers fences"
-msgid "Outliers found"
 msgstr "外れ値のフェンス"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
@@ -1137,6 +1133,11 @@ msgstr "ユーデン指数最大（特異度・感度）"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z得点"
+
+#, fuzzy
+#~| msgid "Outliers fences"
+#~ msgid "Outliers found"
+#~ msgstr "外れ値のフェンス"
 
 #, fuzzy
 #~| msgid "Outliers identifying method"

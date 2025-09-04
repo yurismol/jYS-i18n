@@ -687,7 +687,9 @@ msgid "missRanger (2021)"
 msgstr "missRanger (2021)"
 
 #: mOUT/options/outlcheck/mZS.title
-msgid "Modified Z-score"
+#, fuzzy
+#| msgid "Modified Z-score"
+msgid "Modified Z-score (Hampel filter)"
 msgstr "Puntuació-Z modificada"
 
 #: R\mmf.b.R
@@ -776,10 +778,6 @@ msgstr "outl"
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
 msgstr "Bandes de valors extrems"
-
-#: R\mout.b.R
-msgid "Outliers found"
-msgstr "Valors extrems trobats"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
@@ -1137,6 +1135,9 @@ msgstr "Òptim de Youden (Sp, Se)"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Puntuació-Z"
+
+#~ msgid "Outliers found"
+#~ msgstr "Valors extrems trobats"
 
 #~ msgid "Outliers identification method"
 #~ msgstr "Mètode d'identificació de valors extrems"

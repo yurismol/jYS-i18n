@@ -3,8 +3,8 @@ msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
 "PO-Revision-Date: 2025-09-01 11:01+0000\n"
 "Last-Translator: Максим Горпиніч <gorpinicmaksim0@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/"
-"jys-i18n/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/jamovi/jys-"
+"i18n/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -683,7 +683,9 @@ msgid "missRanger (2021)"
 msgstr "місРейнджер (2021)"
 
 #: mOUT/options/outlcheck/mZS.title
-msgid "Modified Z-score"
+#, fuzzy
+#| msgid "Modified Z-score"
+msgid "Modified Z-score (Hampel filter)"
 msgstr "Модифікований Z-показник"
 
 #: R\mmf.b.R
@@ -772,10 +774,6 @@ msgstr "вихід"
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
 msgstr "Огорожі для винятків"
-
-#: R\mout.b.R
-msgid "Outliers found"
-msgstr "Знайдені викиди"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
@@ -1128,6 +1126,9 @@ msgstr "Юден Бест (Sp, Se)"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z-оцінка"
+
+#~ msgid "Outliers found"
+#~ msgstr "Знайдені викиди"
 
 #~ msgid "Outliers identification method"
 #~ msgstr "Метод ідентифікації викидів"

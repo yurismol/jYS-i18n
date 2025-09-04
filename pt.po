@@ -703,7 +703,7 @@ msgid "missRanger (2021)"
 msgstr "missRanger (2021)"
 
 #: mOUT/options/outlcheck/mZS.title
-msgid "Modified Z-score"
+msgid "Modified Z-score (Hampel filter)"
 msgstr ""
 
 #: R\mmf.b.R
@@ -793,10 +793,6 @@ msgstr ""
 
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
-msgstr ""
-
-#: R\mout.b.R
-msgid "Outliers found"
 msgstr ""
 
 #: mOUT/ui[1].label mOUT/results/stat.title

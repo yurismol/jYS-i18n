@@ -686,7 +686,9 @@ msgid "missRanger (2021)"
 msgstr "missRanger (2021)"
 
 #: mOUT/options/outlcheck/mZS.title
-msgid "Modified Z-score"
+#, fuzzy
+#| msgid "Modified Z-score"
+msgid "Modified Z-score (Hampel filter)"
 msgstr "Модифицированная Z-оценка"
 
 #: R\mmf.b.R
@@ -775,10 +777,6 @@ msgstr "выбр"
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
 msgstr "Заборы для выбросов"
-
-#: R\mout.b.R
-msgid "Outliers found"
-msgstr "Найдено выбросов"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
@@ -1134,6 +1132,9 @@ msgstr "По Юдену (Спец, Чувств)"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z-оценка"
+
+#~ msgid "Outliers found"
+#~ msgstr "Найдено выбросов"
 
 #~ msgid "Outliers identification method"
 #~ msgstr "Метод выявления выбросов"
