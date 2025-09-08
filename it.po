@@ -1,232 +1,239 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-09-09 05:01+0000\n"
+"Last-Translator: Maurizio Agosti <magosti@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
+"it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
-msgstr ""
+msgstr " [{prc}% CI]"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "{ciWidth}% CI Inferiore"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "{ciWidth}% CI Superiore"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
-msgstr ""
+msgstr "{varType} con valori imputati"
 
 #: R\mout.b.R
 msgid "{varType} without outliers"
-msgstr ""
+msgstr "{varType} senza valori anomali"
 
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p < .05, ** p < .01, *** p < .001, a una coda"
 
 #: R\mmf.b.R
 msgid "**connection of a variable's observed data"
-msgstr ""
+msgstr "**collegamento tra una variabile e i suoi dati osservati"
 
 #: R\mmf.b.R
 msgid "*connection of a variable's missingness indicator"
-msgstr ""
+msgstr "*Relazione/associazione dell'indicatore di mancanza di una variabile"
 
 #: R\mout.b.R
 msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
 msgstr ""
+"*p<0,05 - L'ipotesi di distribuzione normale è stata rifiutata dal test di "
+"Shapiro-Wilk"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
-msgstr ""
+msgstr "*osservazioni complete a coppie"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: mCOR/options/signif/0.001.title
 msgid "< 0.001"
-msgstr ""
+msgstr "< 0.001"
 
 #: mCOR/options/signif/0.01.title
 msgid "< 0.01"
-msgstr ""
+msgstr "< 0.01"
 
 #: mCOR/options/signif/0.05.title
 msgid "< 0.05"
-msgstr ""
+msgstr "< 0.05"
 
 #: mCOR/options/signif/0.1.title
 msgid "< 0.1"
-msgstr ""
+msgstr "< 0.1"
 
 #: R\mmf.b.R
 msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
 msgstr ""
+"<h2>Aiuto</h2><div>Si prega di selezionare variabili complete e "
+"incomplete</div>"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
-msgstr ""
+msgstr "0 - auto"
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 - Specificità"
 
 #: mOUT/options/fence/1.5.title
 msgid "1.5"
-msgstr ""
+msgstr "1.5"
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
-msgstr ""
+msgstr "100 - Specificità (%)"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
-msgstr ""
+msgstr "2.2"
 
 #: mOUT/options/tholdZS/2.5.title mOUT/options/tholdmZS/2.5.title
 msgid "2.5"
-msgstr ""
+msgstr "2.5"
 
 #: mOUT/options/fence/3.0.title mOUT/options/tholdmZS/3.0.title
 msgid "3.0"
-msgstr ""
+msgstr "3.0"
 
 #: mOUT/options/tholdZS/3.0.title
 msgid "3.0 (standard)"
-msgstr ""
+msgstr "3.0 (standard)"
 
 #: mOUT/options/tholdZS/3.5.title
 msgid "3.5"
-msgstr ""
+msgstr "3.5"
 
 #: mOUT/options/tholdmZS/3.5.title
 msgid "3.5 (standard)"
-msgstr ""
+msgstr "3,5 (standard)"
 
 #: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
 msgid "4.0"
-msgstr ""
+msgstr "4.0"
 
 #: mOUT/options/tholdZS/4.5.title mOUT/options/tholdmZS/4.5.title
 msgid "4.5"
-msgstr ""
+msgstr "4.5"
 
 #: mOUT/options/tholdZS/5.0.title mOUT/options/tholdmZS/5.0.title
 msgid "5.0"
-msgstr ""
+msgstr "5.0"
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "una tabella della matrice di correlazione"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
-msgstr ""
+msgstr "Accento"
 
 #: mCOR/options/clustMet.title
 msgid "Agglomeration method"
-msgstr ""
+msgstr "Metodo di agglomerazione"
 
 #: mMF/options/alg.title
 msgid "Algorythm"
-msgstr ""
+msgstr "Algoritmo"
 
 #: mCOR/options/signif/all.title
 msgid "All"
-msgstr ""
+msgstr "Tutti"
 
 #: mCOR/options/plotOrder/alphabet.title
 msgid "Alphabetical"
-msgstr ""
+msgstr "In ordine alfabetico"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
-msgstr ""
+msgstr "una serie di MAR"
 
 #: mCOR/options/plotOrder/AOE.title
 msgid "Angular order eigenvectors"
-msgstr ""
+msgstr "Autovettori di ordine angolare"
 
 #: mCOR/options/clustMet/average.title
 msgid "Average Linkage (UPGMA)"
-msgstr ""
+msgstr "Collegamento medio (UPGMA)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
-msgstr ""
+msgstr "Modelli BC Stima ROC"
 
 #: package/datasets/BC ROC classification.name
 msgid "BC ROC classification"
-msgstr ""
+msgstr "Classificazione BC ROC"
 
 #: mCOR/options/adjust/BH.title
 msgid "Benjamini-Hochberg (1995)"
-msgstr ""
+msgstr "Benjamini-Hochberg (1995)"
 
 #: mCOR/options/adjust/BY.title
 msgid "Benjamini-Yekutieli (2001)"
-msgstr ""
+msgstr "Benjamini-Yekutieli (2001)"
 
 #: mROC/options/BW.title
 msgid "Black & White"
-msgstr ""
+msgstr "Bianco e Nero"
 
 #: package/datasets/BC ROC classification.description
 msgid "Blood cells multiple ROC Classification demonstration"
-msgstr ""
+msgstr "Cellule ematiche multiple Dimostrazione della classificazione ROC"
 
 #: mCOR/options/adjust/bonferroni.title
+#, fuzzy
 msgid "Bonferroni (1961)"
-msgstr ""
+msgstr "Bonferroni (1961)"
 
 #: mCOR/options/clPos/b.title
 msgid "Bottom"
-msgstr ""
+msgstr "Parte inferiore"
 
 #: mOUT/options/boxpl.title mOUT/results/plots.title
 msgid "Boxplots with outliers"
-msgstr ""
+msgstr "Boxplot con valori anomali"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
-msgstr ""
+msgstr "La tavolozza qualitativa di Brewer"
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
-msgstr ""
+msgstr "Recinzioni calcolate per i valori anomali"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
-msgstr ""
+msgstr "Collegamento al centroide (UPGMC)"
 
 #: package/datasets/CHD Models ROC Estimation.name
 msgid "CHD Models ROC Estimation"
-msgstr ""
+msgstr "Stima della curva ROC per i modelli CHD"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Lower"
-msgstr ""
+msgstr "CI Inferiore"
 
 #: mROC/options/ciMark.title
 msgid "CI Mark"
-msgstr ""
+msgstr "Contrassegno IC"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Upper"
-msgstr ""
+msgstr "CI Superiore"
 
 #: mROC/options/ciWidth.title
 msgid "CI width"
@@ -234,168 +241,170 @@ msgstr ""
 
 #: mCOR/options/plotMetU/circle.title mCOR/options/plotMetL/circle.title
 msgid "Circle"
-msgstr ""
+msgstr "Cerchio"
 
 #: mMF/results/estim/mars.title
 msgid "Classify missing at random (MAR)"
-msgstr ""
+msgstr "Classificare i dispersi a caso (MAR)"
 
 #: mMF/results/estim/mcar.title
 msgid "Classify missing completely at random (MCAR)"
-msgstr ""
+msgstr "Classificare i mancanti completamente a caso (MCAR)"
 
 #: mROC/options/class.title mROC/ui[0][1].label
 msgid "Classifying variable"
-msgstr ""
+msgstr "Variabile di classificazione"
 
 #: mROC/options/theBest/bestC.title
 msgid "Closest Best"
-msgstr ""
+msgstr "Il migliore più vicino"
 
 #: mROC/options/theBest/bssC.title
 msgid "Closest Best (Sp, Se)"
-msgstr ""
+msgstr "Il migliore più vicino (Sp, Se)"
 
 #: mCOR/options/numClust.title
 msgid "Clusters"
-msgstr ""
+msgstr "Clusters"
 
 #: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
-msgstr ""
+msgstr "Colore"
 
 #: mCOR/options/clustCol.title
 msgid "Colored Clusters"
-msgstr ""
+msgstr "Cluster colorati"
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
-msgstr ""
+msgstr "Collegamento completo"
 
 #: mMF/options/learnvar.title mMF/ui[0][0].label
 msgid "Complete Variables"
-msgstr ""
+msgstr "Variabili complete"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
-msgstr ""
+msgstr "Completare le variabili nei plots"
 
 #: mROC/results/text.title
 msgid "Conditions"
-msgstr ""
+msgstr "Le condizioni"
 
 #: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "Intervallo di fiducia"
 
 #: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
-msgstr ""
+msgstr "Intervallo di confidenza (solo Pearson)"
 
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
-msgstr ""
+msgstr "Ampiezza dell'intervallo di fiducia"
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
-msgstr ""
+msgstr "Correlato"
 
 #: mCOR/options/hyp/neg.title
 msgid "Correlated negatively"
-msgstr ""
+msgstr "Correlato negativamente"
 
 #: mCOR/options/hyp/pos.title
 msgid "Correlated positively"
-msgstr ""
+msgstr "Correlato positivamente"
 
 #: mCOR/options/vars.title mCOR/ui[0][0].label
 msgid "Correlating Variables"
-msgstr ""
+msgstr "Variabili correlate"
 
 #: R\mmf.b.R
 msgid "Correlation"
-msgstr ""
+msgstr "Correlazione"
 
 #: package/analyses/mCOR.title package/analyses/mCOR.menuTitle
 #: package/datasets/Correlation clustering.name mCOR/options.title
 #: mCOR/results.title
 msgid "Correlation clustering"
-msgstr ""
+msgstr "Clustering di correlazione"
 
 #: package/datasets/Correlation clustering.description
 msgid "Correlation Clustering demonstration"
-msgstr ""
+msgstr "Dimostrazione del clustering di correlazione"
 
 #: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
 #: mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation matrix"
-msgstr ""
+msgstr "Matrice di correlazione"
 
 #: mCOR/results/text.title
 msgid "Correlations"
-msgstr ""
+msgstr "Correlazioni"
 
 #: mMF/results/estim/cplot.title
 msgid "Correlations between variables"
-msgstr ""
+msgstr "Correlazioni tra variabili"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "D²"
-msgstr ""
+msgstr "D²"
 
 #: mROC/options/palBrewer/Dark2.title
 msgid "Dark2"
-msgstr ""
+msgstr "Scuro2"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
-msgstr ""
+msgstr "Gradi di Libertà (df)"
 
 #: mROC/options/direction.title
 msgid "Direction"
-msgstr ""
+msgstr "Direzione"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
-msgstr ""
+msgstr "Linea tratteggiata"
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
-msgstr ""
+msgstr "Ellisse"
 
 #: R\mmf.b.R
 msgid "Empty data table"
-msgstr ""
+msgstr "Tabella dati vuota"
 
 #: mCOR/options/plotMetU/empty.title mCOR/options/plotMetL/empty.title
 msgid "Emtpy"
-msgstr ""
+msgstr "Vuoto"
 
 #: mMF/results/imput/errors.title
 msgid "Estimated out-of-bag (OOB) imputation error"
-msgstr ""
+msgstr "Errore di imputazione stimato (OOB)"
 
 #: mMF/options/fullmars.title mMF/results/estim/fMARtab.title
 msgid "Evaluation of MAR explainers"
-msgstr ""
+msgstr "Valutazione degli spiegatori MAR"
 
 #: mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "Explanatory"
-msgstr ""
+msgstr "Spiegazione"
 
 #: R\mmf.b.R
 msgid ""
 "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
 msgstr ""
+"Esplicativo - variabile corrispondente a MAR con valore minimo di p<sub></"
+"sub> ."
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
-msgstr ""
+msgstr "Primo componente principale"
 
 #: mCOR/options/flag.title
 msgid "Flag significant correlations"
-msgstr ""
+msgstr "Segnala correlazioni significative"
 
 #: package.description
 msgid ""
@@ -404,59 +413,66 @@ msgid ""
 "matrix, multidimensional ROC classification curves, missing data estimation "
 "and imputation, outliers identificatioon and removal etc."
 msgstr ""
+"Estensioni grafiche delle funzionalità dei più diffusi metodi di analisi dei "
+"dati: albero dei cluster di variabili correlate, matrice di correlazione "
+"adattiva multifattoriale, curve di classificazione ROC multidimensionali, "
+"stima e imputazione dei dati mancanti, identificazione e rimozione degli "
+"outlier, ecc."
 
 #: R\mout.b.R
 msgid "Group"
-msgstr ""
+msgstr "Gruppo"
 
 #: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
 #: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
 msgid "Grouping Variable"
-msgstr ""
+msgstr "Variabile di Raggruppamento"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
-msgstr ""
+msgstr "Hₐ è una correlazione negativa"
 
 #: R\mcor.b.R
 msgid "Hₐ is positive correlation"
-msgstr ""
+msgstr "Hₐ è una correlazione positiva"
 
 #: package/datasets/HI ROC classification.description
 msgid "Healthy/Ill ROC Classification demonstration"
-msgstr ""
+msgstr "Dimostrazione della classificazione ROC per sani/ malati"
 
 #: package/datasets/HI ROC classification.name
 msgid "HI ROC classification"
-msgstr ""
+msgstr "Classificazione HI ROC"
 
 #: mCOR/options/hclust.title
 msgid "Hierarchical clustering"
-msgstr ""
+msgstr "Clustering gerarchico"
 
 #: mCOR/results/treeplot.title
 msgid "Hierarchical clustering tree"
-msgstr ""
+msgstr "Albero di clustering gerarchico"
 
 #: mCOR/options/adjust/hochberg.title
 msgid "Hochberg (1988)"
-msgstr ""
+msgstr "Hochberg (1988)"
 
 #: mCOR/options/adjust/holm.title
 msgid "Holm (1979)"
-msgstr ""
+msgstr "Holm (1979)"
 
 #: mCOR/options/adjust/hommel.title
 msgid "Hommel (1988)"
-msgstr ""
+msgstr "Hommel (1988)"
 
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
-msgstr ""
+msgstr "Ipotesi"
 
 #: package/datasets/Outliers identification and removal.description
 msgid "Identification, analysis and removal of data outliers by groups"
 msgstr ""
+"Identificazione, analisi e rimozione degli outlier dei dati da parte dei "
+"gruppi"
 
 #: R\mmf.b.R
 msgid ""
@@ -464,14 +480,17 @@ msgid ""
 "p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not "
 "At Random)."
 msgstr ""
+"Se almeno un valore p<sub></sub> MAR non è significativo, e il valore "
+"p<sub></sub> in MCAR è significativo, allora i dati sono MNAR (Missing Not "
+"At Random)."
 
 #: R\mmf.b.R
 msgid "imp"
-msgstr ""
+msgstr "imp"
 
 #: R\mmf.b.R
 msgid "Imputation model predictor"
-msgstr ""
+msgstr "Modello di imputazione predittore"
 
 #: mMF/results/imputeOV.title
 msgid "Imputed misses"
@@ -479,23 +498,23 @@ msgstr ""
 
 #: mROC/options/perc.title
 msgid "In percent"
-msgstr ""
+msgstr "In percentuale"
 
 #: mMF/options/imputevar.title mMF/ui[0][1].label
 msgid "Incomplete Variables"
-msgstr ""
+msgstr "Variabili incomplete"
 
 #: R\mout.b.R
 msgid "Indices (Rows)"
-msgstr ""
+msgstr "Indici (righe)"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
-msgstr ""
+msgstr "Grafico di afflusso e deflusso"
 
 #: mMF/options/fluxplot.title
 msgid "Influx-outflux plot for missing data patterns"
-msgstr ""
+msgstr "Grafico afflusso-flusso per modelli di dati mancanti"
 
 #: R\mmf.b.R
 msgid "Influx*"
@@ -507,7 +526,7 @@ msgstr ""
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
-msgstr ""
+msgstr "Intervallo"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
@@ -1047,7 +1066,7 @@ msgstr ""
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
 msgid "Variable"
-msgstr ""
+msgstr "Variabile"
 
 #: mMF/results/estim/fMARtab.template.title
 msgid "Variable - $key"
