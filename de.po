@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-04 09:01+0000\n"
+"PO-Revision-Date: 2025-09-09 05:01+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "de/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.1-rc\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -49,6 +49,8 @@ msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
 msgstr ""
+"*p<0,05 - Die Hypothese der Normalverteilung wurde durch einen Shapiro-Wilk-"
+"Test verworfen"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
@@ -77,6 +79,8 @@ msgstr "< 0.1"
 #: R\mmf.b.R
 msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
 msgstr ""
+"<h2>Hilfe</h2><div>Bitte wählen Sie vollständige und unvollständige "
+"Variablen aus.</div>"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
@@ -88,7 +92,7 @@ msgstr "1 - Spezifität"
 
 #: mOUT/options/fence/1.5.title
 msgid "1.5"
-msgstr ""
+msgstr "1,5"
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
@@ -96,39 +100,39 @@ msgstr "100 - Spezifität (%)"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
-msgstr ""
+msgstr "2,2"
 
 #: mOUT/options/tholdZS/2.5.title mOUT/options/tholdmZS/2.5.title
 msgid "2.5"
-msgstr ""
+msgstr "2,5"
 
 #: mOUT/options/fence/3.0.title mOUT/options/tholdmZS/3.0.title
 msgid "3.0"
-msgstr ""
+msgstr "3,0"
 
 #: mOUT/options/tholdZS/3.0.title
 msgid "3.0 (standard)"
-msgstr ""
+msgstr "3,0 (Standard)"
 
 #: mOUT/options/tholdZS/3.5.title
 msgid "3.5"
-msgstr ""
+msgstr "3,5"
 
 #: mOUT/options/tholdmZS/3.5.title
 msgid "3.5 (standard)"
-msgstr ""
+msgstr "3,5 (Standard)"
 
 #: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
 msgid "4.0"
-msgstr ""
+msgstr "4,0"
 
 #: mOUT/options/tholdZS/4.5.title mOUT/options/tholdmZS/4.5.title
 msgid "4.5"
-msgstr ""
+msgstr "4,5"
 
 #: mOUT/options/tholdZS/5.0.title mOUT/options/tholdmZS/5.0.title
 msgid "5.0"
-msgstr ""
+msgstr "5,0"
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
@@ -136,7 +140,7 @@ msgstr "eine Korrelationstabelle"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
-msgstr ""
+msgstr "Akzent"
 
 #: mCOR/options/clustMet.title
 msgid "Agglomeration method"
@@ -152,11 +156,11 @@ msgstr "Alle"
 
 #: mCOR/options/plotOrder/alphabet.title
 msgid "Alphabetical"
-msgstr ""
+msgstr "Alphabetisch"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
-msgstr ""
+msgstr "eine Reihe von MARs"
 
 #: mCOR/options/plotOrder/AOE.title
 msgid "Angular order eigenvectors"
@@ -288,7 +292,7 @@ msgstr ""
 
 #: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "Konfidenzintervall"
 
 #: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
@@ -355,7 +359,7 @@ msgstr ""
 
 #: mROC/options/direction.title
 msgid "Direction"
-msgstr ""
+msgstr "Richtung"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
@@ -414,7 +418,7 @@ msgstr ""
 #: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
 #: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
 msgid "Grouping Variable"
-msgstr ""
+msgstr "Gruppierungsvariable"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
@@ -605,11 +609,11 @@ msgstr ""
 
 #: R\mout.b.R
 msgid "Mean"
-msgstr ""
+msgstr "Mittelwert"
 
 #: R\mout.b.R
 msgid "Median"
-msgstr ""
+msgstr "Median"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
@@ -617,7 +621,7 @@ msgstr ""
 
 #: mCOR/options/method.title mOUT/ui[1][0].label
 msgid "Method"
-msgstr ""
+msgstr "Methode"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
@@ -698,7 +702,7 @@ msgstr ""
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
 msgid "None"
-msgstr ""
+msgstr "Keine"
 
 #: R\mout.b.R
 msgid "Normality<br>p-value"
@@ -887,7 +891,7 @@ msgstr ""
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
-msgstr ""
+msgstr "Rechts"
 
 #: mMF/options/seed.title
 msgid "RNG seed value"
