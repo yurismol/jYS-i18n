@@ -1,15 +1,17 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-09-12 10:01+0000\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
+"hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -55,87 +57,87 @@ msgstr ""
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: mCOR/options/signif/0.001.title
 msgid "< 0.001"
-msgstr ""
+msgstr "< 0,001"
 
 #: mCOR/options/signif/0.01.title
 msgid "< 0.01"
-msgstr ""
+msgstr "< 0,01"
 
 #: mCOR/options/signif/0.05.title
 msgid "< 0.05"
-msgstr ""
+msgstr "< 0,05"
 
 #: mCOR/options/signif/0.1.title
 msgid "< 0.1"
-msgstr ""
+msgstr "< 0,1"
 
 #: R\mmf.b.R
 msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
-msgstr ""
+msgstr "<h2>Pomoć</h2><div>Odaberi potpune i nepotpune varijable</div>"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
-msgstr ""
+msgstr "0 – automatski"
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 – specifičnost"
 
 #: mOUT/options/fence/1.5.title
 msgid "1.5"
-msgstr ""
+msgstr "1,5"
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
-msgstr ""
+msgstr "100 – specifičnost (%)"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
-msgstr ""
+msgstr "2,2"
 
 #: mOUT/options/tholdZS/2.5.title mOUT/options/tholdmZS/2.5.title
 msgid "2.5"
-msgstr ""
+msgstr "2,5"
 
 #: mOUT/options/fence/3.0.title mOUT/options/tholdmZS/3.0.title
 msgid "3.0"
-msgstr ""
+msgstr "3,0"
 
 #: mOUT/options/tholdZS/3.0.title
 msgid "3.0 (standard)"
-msgstr ""
+msgstr "3,0 (standardno)"
 
 #: mOUT/options/tholdZS/3.5.title
 msgid "3.5"
-msgstr ""
+msgstr "3,5"
 
 #: mOUT/options/tholdmZS/3.5.title
 msgid "3.5 (standard)"
-msgstr ""
+msgstr "3,5 (standardno)"
 
 #: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
 msgid "4.0"
-msgstr ""
+msgstr "4,0"
 
 #: mOUT/options/tholdZS/4.5.title mOUT/options/tholdmZS/4.5.title
 msgid "4.5"
-msgstr ""
+msgstr "4,5"
 
 #: mOUT/options/tholdZS/5.0.title mOUT/options/tholdmZS/5.0.title
 msgid "5.0"
-msgstr ""
+msgstr "5,0"
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "tablica korelacije"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
-msgstr ""
+msgstr "Istaknuto"
 
 #: mCOR/options/clustMet.title
 msgid "Agglomeration method"
@@ -143,15 +145,15 @@ msgstr ""
 
 #: mMF/options/alg.title
 msgid "Algorythm"
-msgstr ""
+msgstr "Algoritam"
 
 #: mCOR/options/signif/all.title
 msgid "All"
-msgstr ""
+msgstr "Sve"
 
 #: mCOR/options/plotOrder/alphabet.title
 msgid "Alphabetical"
-msgstr ""
+msgstr "Abecednim redom"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
