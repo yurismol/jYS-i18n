@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-12 10:01+0000\n"
+"PO-Revision-Date: 2025-09-12 16:45+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "hr/>\n"
@@ -699,7 +699,7 @@ msgstr ""
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
 msgid "None"
-msgstr ""
+msgstr "Ništa"
 
 #: R\mout.b.R
 msgid "Normality<br>p-value"
