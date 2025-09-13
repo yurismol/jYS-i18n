@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-12 16:45+0000\n"
+"PO-Revision-Date: 2025-09-13 17:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "hr/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: R\mout.b.R
 msgid "{varType} without outliers"
-msgstr ""
+msgstr "{varType} bez ekstremnih vrijednosti"
 
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
@@ -197,11 +197,11 @@ msgstr ""
 
 #: mCOR/options/clPos/b.title
 msgid "Bottom"
-msgstr ""
+msgstr "Dolje"
 
 #: mOUT/options/boxpl.title mOUT/results/plots.title
 msgid "Boxplots with outliers"
-msgstr ""
+msgstr "Box dijagrami s ekstremnim vrijednostima"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
@@ -209,7 +209,7 @@ msgstr ""
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
-msgstr ""
+msgstr "Izračunate granice za ekstremne vrijednosti"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -221,7 +221,7 @@ msgstr ""
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Lower"
-msgstr ""
+msgstr "Donja granica intervala pouzdanosti"
 
 #: mROC/options/ciMark.title
 msgid "CI Mark"
@@ -229,47 +229,47 @@ msgstr ""
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Upper"
-msgstr ""
+msgstr "Gornja granica intervala pouzdanosti"
 
 #: mROC/options/ciWidth.title
 msgid "CI width"
-msgstr ""
+msgstr "Širina intervala pouzdanosti"
 
 #: mCOR/options/plotMetU/circle.title mCOR/options/plotMetL/circle.title
 msgid "Circle"
-msgstr ""
+msgstr "Krug"
 
 #: mMF/results/estim/mars.title
 msgid "Classify missing at random (MAR)"
-msgstr ""
+msgstr "Klasificiraj nedostajuće slučajno (MAR)"
 
 #: mMF/results/estim/mcar.title
 msgid "Classify missing completely at random (MCAR)"
-msgstr ""
+msgstr "Klasificiraj nedostajuće potpuno slučajno (MCAR)"
 
 #: mROC/options/class.title mROC/ui[0][1].label
 msgid "Classifying variable"
-msgstr ""
+msgstr "Klasificiranje varijabli"
 
 #: mROC/options/theBest/bestC.title
 msgid "Closest Best"
-msgstr ""
+msgstr "Najbliža najbolja"
 
 #: mROC/options/theBest/bssC.title
 msgid "Closest Best (Sp, Se)"
-msgstr ""
+msgstr "Najbliža najbolja (specifičnost, osjetljivost)"
 
 #: mCOR/options/numClust.title
 msgid "Clusters"
-msgstr ""
+msgstr "Klasteri"
 
 #: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
-msgstr ""
+msgstr "Boja"
 
 #: mCOR/options/clustCol.title
 msgid "Colored Clusters"
-msgstr ""
+msgstr "Obojeni klasteri"
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
@@ -285,66 +285,66 @@ msgstr ""
 
 #: mROC/results/text.title
 msgid "Conditions"
-msgstr ""
+msgstr "Uvjeti"
 
 #: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "Interval pouzdanosti"
 
 #: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
-msgstr ""
+msgstr "Interval pouzdanosti (samo Pearson)"
 
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
-msgstr ""
+msgstr "Širina intervala pouzdanosti"
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
-msgstr ""
+msgstr "Korelirano"
 
 #: mCOR/options/hyp/neg.title
 msgid "Correlated negatively"
-msgstr ""
+msgstr "Korelirano negativno"
 
 #: mCOR/options/hyp/pos.title
 msgid "Correlated positively"
-msgstr ""
+msgstr "Korelirano pozitivno"
 
 #: mCOR/options/vars.title mCOR/ui[0][0].label
 msgid "Correlating Variables"
-msgstr ""
+msgstr "Koreliranje variabli"
 
 #: R\mmf.b.R
 msgid "Correlation"
-msgstr ""
+msgstr "Koreliracija"
 
 #: package/analyses/mCOR.title package/analyses/mCOR.menuTitle
 #: package/datasets/Correlation clustering.name mCOR/options.title
 #: mCOR/results.title
 msgid "Correlation clustering"
-msgstr ""
+msgstr "Korelacijsko grupiranje"
 
 #: package/datasets/Correlation clustering.description
 msgid "Correlation Clustering demonstration"
-msgstr ""
+msgstr "Demonstracija korelacijskog grupiranja"
 
 #: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
 #: mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation matrix"
-msgstr ""
+msgstr "Tablica korelacija"
 
 #: mCOR/results/text.title
 msgid "Correlations"
-msgstr ""
+msgstr "Korelacije"
 
 #: mMF/results/estim/cplot.title
 msgid "Correlations between variables"
-msgstr ""
+msgstr "Korelacije između varijabli"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "D²"
-msgstr ""
+msgstr "D²"
 
 #: mROC/options/palBrewer/Dark2.title
 msgid "Dark2"
@@ -356,23 +356,23 @@ msgstr ""
 
 #: mROC/options/direction.title
 msgid "Direction"
-msgstr ""
+msgstr "Smjer"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
-msgstr ""
+msgstr "Točkasta linija"
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
-msgstr ""
+msgstr "Trotočka"
 
 #: R\mmf.b.R
 msgid "Empty data table"
-msgstr ""
+msgstr "Prazna tablica podataka"
 
 #: mCOR/options/plotMetU/empty.title mCOR/options/plotMetL/empty.title
 msgid "Emtpy"
-msgstr ""
+msgstr "Prazno"
 
 #: mMF/results/imput/errors.title
 msgid "Estimated out-of-bag (OOB) imputation error"
@@ -407,6 +407,11 @@ msgid ""
 "matrix, multidimensional ROC classification curves, missing data estimation "
 "and imputation, outliers identificatioon and removal etc."
 msgstr ""
+"Grafička proširenja funkcionalnosti popularnih metoda analize podataka: "
+"klaster stablo korelirajućih varijabli, multifaktorska adaptivna matrica "
+"korelacija, višedimenzionalne ROC klasifikacijske krivulje, procjena i "
+"zamjene nedostajućih podataka, identifikacija i uklanjanje ekstremnih "
+"vrijednosti i dr."
 
 #: R\mout.b.R
 msgid "Group"
@@ -415,7 +420,7 @@ msgstr ""
 #: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
 #: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
 msgid "Grouping Variable"
-msgstr ""
+msgstr "Vrijabla grupiranja"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
@@ -460,6 +465,8 @@ msgstr ""
 #: package/datasets/Outliers identification and removal.description
 msgid "Identification, analysis and removal of data outliers by groups"
 msgstr ""
+"Identifikacija, analiza i uklanjanje ekstremnih vrijednosti u podacima po "
+"grupama"
 
 #: R\mmf.b.R
 msgid ""
@@ -606,11 +613,11 @@ msgstr ""
 
 #: R\mout.b.R
 msgid "Mean"
-msgstr ""
+msgstr "Srednja vrijednost"
 
 #: R\mout.b.R
 msgid "Median"
-msgstr ""
+msgstr "Medijan"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
@@ -618,7 +625,7 @@ msgstr ""
 
 #: mCOR/options/method.title mOUT/ui[1][0].label
 msgid "Method"
-msgstr ""
+msgstr "Metoda"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
@@ -634,7 +641,7 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "missing"
-msgstr ""
+msgstr "nedostaje"
 
 #: mMF/results/estim/plot.title
 msgid "Missing data patterns"
@@ -668,7 +675,7 @@ msgstr ""
 
 #: mOUT/options/outlcheck/mZS.title
 msgid "Modified Z-score (Hampel filter)"
-msgstr ""
+msgstr "Promijenjen Z-rezultat (Hampel filtar)"
 
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
@@ -737,64 +744,64 @@ msgstr ""
 
 #: mMF/results/imput/errors.description
 msgid "OOB errors table"
-msgstr ""
+msgstr "Tablica OOB grešaka"
 
 #: mCOR/options/plotOrder/original.title
 msgid "Original"
-msgstr ""
+msgstr "Original"
 
 #: R\mmf.b.R
 msgid "OutFlux**"
-msgstr ""
+msgstr "OutFlux**"
 
 #: R\mout.b.R
 msgid "outl"
-msgstr ""
+msgstr "outl"
 
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
-msgstr ""
+msgstr "Granice za ekstremne vrijednosti"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
-msgstr ""
+msgstr "Identicikacija ekstremnih vrijednosti"
 
 #: package/datasets/Outliers identification and removal.name
 msgid "Outliers identification and removal"
-msgstr ""
+msgstr "Identifikacija i uklanjanje ekstremnih vrijednosti"
 
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
-msgstr ""
+msgstr "Metoda za identifikaciju ekstremnih vrijednosti"
 
 #: mOUT/options/outind.title mOUT/results/oind.title
 msgid "Outliers indices"
-msgstr ""
+msgstr "Indeksi ekstremnih vrijednosti"
 
 #: mOUT/ui[2].label
 msgid "Outliers removal"
-msgstr ""
+msgstr "Uklanjanje ekstremnih vrijednosti"
 
 #: R\mout.b.R
 msgid "Outliers<br>found"
-msgstr ""
+msgstr "Ekstremne vrijednosti<br>pronađene"
 
 #: R\mout.b.R
 msgid "Outliers<br>removed"
-msgstr ""
+msgstr "Ekstremne vrijednosti<br>uklonjene"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"
-msgstr ""
+msgstr "Informacije rezultata"
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "p-vrijednost"
 
 #: mMF/results/estim/mcar.columns.title mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "p<sub>value</sub>"
-msgstr ""
+msgstr "p<sub>vrijednost</sub>"
 
 #: mROC/options/palBrewer/Paired.title
 msgid "Paired"
@@ -806,19 +813,19 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Pattern frequency"
-msgstr ""
+msgstr "Učestalost uzorka"
 
 #: mCOR/options/method/pearson.title
 msgid "Pearson (r)"
-msgstr ""
+msgstr "Pearson (r)"
 
 #: R\mcor.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "Pearsonova korelacija se ne može izračunati za nenumeričke vrijednosti"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "Pearsonov r"
 
 #: R\mmf.b.R
 msgid "per pattern"
@@ -835,27 +842,27 @@ msgstr ""
 
 #: mCOR/options/plotMetU/pie.title mCOR/options/plotMetL/pie.title
 msgid "Pie"
-msgstr ""
+msgstr "Kružni dijagram"
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
-msgstr ""
+msgstr "Prikaži dijagram korelacija između varijabli"
 
 #: mMF/ui[1][0][2].label
 msgid "Plot options"
-msgstr ""
+msgstr "Opcije dijagrama"
 
 #: mMF/options/patplot.title
 msgid "Plot the missing data patterns"
-msgstr ""
+msgstr "Prikaži dijagram uzoraka nedostajućih podataka"
 
 #: mCOR/ui[5].label mMF/ui[1][0][1].label
 msgid "Plots"
-msgstr ""
+msgstr "Dijagrami"
 
 #: mROC/options/polygon.title
 msgid "Polygon"
-msgstr ""
+msgstr "Poligon"
 
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
@@ -876,11 +883,11 @@ msgstr ""
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
 msgid "Remove outliers"
-msgstr ""
+msgstr "Ukloni ekstremne vrijednosti"
 
 #: mCOR/options/plotOrder.title
 msgid "Reorder"
-msgstr ""
+msgstr "Prerasporedi"
 
 #: mMF/options/setseed.title
 msgid "Reproducible random number generation (RNG) results"
@@ -888,7 +895,7 @@ msgstr ""
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
-msgstr ""
+msgstr "Desno"
 
 #: mMF/options/seed.title
 msgid "RNG seed value"
@@ -896,7 +903,7 @@ msgstr ""
 
 #: mROC/options/sepROC.title mROC/results/plots.title
 msgid "ROC by groups"
-msgstr ""
+msgstr "ROC po grupama"
 
 #: mROC/results/plot.title
 msgid "ROC by predictors"
@@ -929,47 +936,47 @@ msgstr ""
 
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
-msgstr ""
+msgstr "Odaberi grupu"
 
 #: R\mroc.b.R
 msgid "Sensitivity"
-msgstr ""
+msgstr "Osjetljivost"
 
 #: R\mroc.b.R
 msgid "Sensitivity (%)"
-msgstr ""
+msgstr "Osjetljivost (%)"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
-msgstr ""
+msgstr "Skup1"
 
 #: mROC/options/palBrewer/Set2.title
 msgid "Set2"
-msgstr ""
+msgstr "Skup2"
 
 #: mROC/options/palBrewer/Set3.title
 msgid "Set3"
-msgstr ""
+msgstr "Skup3"
 
 #: mCOR/options/plotMetU/shade.title mCOR/options/plotMetL/shade.title
 msgid "Shade"
-msgstr ""
+msgstr "Sjena"
 
 #: mCOR/options/signif.title
 msgid "Significance"
-msgstr ""
+msgstr "Značaj"
 
 #: R\mcor.b.R
 msgid "Simultaneous multiple correlation comparisons using {n} method"
-msgstr ""
+msgstr "Simultane usporedbe višestruke korelacije korištenjem metode {n}"
 
 #: mCOR/options/clustMet/single.title
 msgid "Single Linkage"
-msgstr ""
+msgstr "Najbliži susjed"
 
 #: mMF/options/anghead.title
 msgid "Slanted Titles"
-msgstr ""
+msgstr "Ukošeni naslovi"
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
@@ -981,11 +988,11 @@ msgstr ""
 
 #: R\mroc.b.R
 msgid "Specificity"
-msgstr ""
+msgstr "Specifičnost"
 
 #: R\mroc.b.R
 msgid "Specificity (%)"
-msgstr ""
+msgstr "Specifičnost (%)"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
@@ -993,7 +1000,7 @@ msgstr ""
 
 #: mROC/options/splitROC.title
 msgid "Split curves"
-msgstr ""
+msgstr "Rastavi krivulje"
 
 #: mROC/results/splots.title
 msgid "Splitted ROC by predictors"
@@ -1001,15 +1008,15 @@ msgstr ""
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
-msgstr ""
+msgstr "Kvadrat"
 
 #: mROC/options/cmpDeLong/succ.title
 msgid "Successively"
-msgstr ""
+msgstr "Uzastopno"
 
 #: mCOR/ui[4].label
 msgid "Tables"
-msgstr ""
+msgstr "Tablice"
 
 #: mOUT/options/norm.title
 msgid "Test for normality"
@@ -1032,12 +1039,12 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
-msgstr ""
+msgstr "Ukupan broj nedostajućih unosa {}"
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
 msgid "Univariate outliers identification and removal"
-msgstr ""
+msgstr "Identifikacija i uklanjanje univarijatnih ekstremnih vrijednosti"
 
 #: R\mout.b.R
 msgid "Upper fence"
@@ -1050,19 +1057,19 @@ msgstr ""
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
 msgid "Variable"
-msgstr ""
+msgstr "Varijabla"
 
 #: mMF/results/estim/fMARtab.template.title
 msgid "Variable - $key"
-msgstr ""
+msgstr "Varijabla – $key"
 
 #: R\mmf.b.R
 msgid "Variable name"
-msgstr ""
+msgstr "Ime varijable"
 
 #: mCOR/ui[5][0]/plots/clustMan.suffix
 msgid "variable numbers by commas"
-msgstr ""
+msgstr "brojevi varijabli odvojeni zarezom"
 
 #: R\mmf.b.R
 msgid "Variable to impute"
@@ -1070,7 +1077,7 @@ msgstr ""
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
 msgid "Variables"
-msgstr ""
+msgstr "Varijable"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
@@ -1082,24 +1089,24 @@ msgstr ""
 
 #: mROC/options/cmpDeLong/wcontr.title
 msgid "With control"
-msgstr ""
+msgstr "S kontrolom"
 
 #: R\mmf.b.R
 msgid "with missing data on other variables"
-msgstr ""
+msgstr "s nedostajućim podacima na drugim varijablama"
 
 #: R\mmf.b.R
 msgid "with observed data on other variables"
-msgstr ""
+msgstr "s opaženim podacima na drugim varijablama"
 
 #: mROC/options/theBest/bestY.title
 msgid "Youden Best"
-msgstr ""
+msgstr "Najbolji Youden"
 
 #: mROC/options/theBest/bssY.title
 msgid "Youden Best (Sp, Se)"
-msgstr ""
+msgstr "Najbolji Youden (Specifičnost, osjetljivost)"
 
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
-msgstr ""
+msgstr "Z-rezultat"
