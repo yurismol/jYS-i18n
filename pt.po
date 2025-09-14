@@ -285,7 +285,7 @@ msgstr "Clusters coloridos"
 msgid "Complete Linkage"
 msgstr "Ligação completa"
 
-#: mMF/options/learnvar.title mMF/ui[0][0].label
+#: mMF/options/learnvar.title mMF/ui[0][1].label
 msgid "Complete Variables"
 msgstr "Variáveis completas"
 
@@ -510,7 +510,7 @@ msgstr "Valores imputados"
 msgid "In percent"
 msgstr "Em %"
 
-#: mMF/options/imputevar.title mMF/ui[0][1].label
+#: mMF/options/imputevar.title mMF/ui[0][0].label
 msgid "Incomplete Variables"
 msgstr "Variáveis incompletas"
 

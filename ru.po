@@ -278,7 +278,7 @@ msgstr "Цветные кластеры"
 msgid "Complete Linkage"
 msgstr "Полной связи"
 
-#: mMF/options/learnvar.title mMF/ui[0][0].label
+#: mMF/options/learnvar.title mMF/ui[0][1].label
 msgid "Complete Variables"
 msgstr "Полные переменные"
 
@@ -497,7 +497,7 @@ msgstr "Заполненные пропуски"
 msgid "In percent"
 msgstr "В процентах"
 
-#: mMF/options/imputevar.title mMF/ui[0][1].label
+#: mMF/options/imputevar.title mMF/ui[0][0].label
 msgid "Incomplete Variables"
 msgstr "Неполные переменные"
 

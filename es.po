@@ -274,7 +274,7 @@ msgstr ""
 msgid "Complete Linkage"
 msgstr ""
 
-#: mMF/options/learnvar.title mMF/ui[0][0].label
+#: mMF/options/learnvar.title mMF/ui[0][1].label
 msgid "Complete Variables"
 msgstr "Variables completas"
 
@@ -483,7 +483,7 @@ msgstr ""
 msgid "In percent"
 msgstr ""
 
-#: mMF/options/imputevar.title mMF/ui[0][1].label
+#: mMF/options/imputevar.title mMF/ui[0][0].label
 msgid "Incomplete Variables"
 msgstr "Variables incompletas"
 

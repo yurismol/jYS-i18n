@@ -274,7 +274,7 @@ msgstr "色分け"
 msgid "Complete Linkage"
 msgstr "完全連結"
 
-#: mMF/options/learnvar.title mMF/ui[0][0].label
+#: mMF/options/learnvar.title mMF/ui[0][1].label
 msgid "Complete Variables"
 msgstr "完全変数"
 
@@ -494,7 +494,7 @@ msgstr "補完済欠損値"
 msgid "In percent"
 msgstr "パーセント表示"
 
-#: mMF/options/imputevar.title mMF/ui[0][1].label
+#: mMF/options/imputevar.title mMF/ui[0][0].label
 msgid "Incomplete Variables"
 msgstr "欠損変数"
 

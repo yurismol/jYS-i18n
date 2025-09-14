@@ -278,7 +278,7 @@ msgstr "Grups Acolorits"
 msgid "Complete Linkage"
 msgstr "Vinculació Completa"
 
-#: mMF/options/learnvar.title mMF/ui[0][0].label
+#: mMF/options/learnvar.title mMF/ui[0][1].label
 msgid "Complete Variables"
 msgstr "Variables Completes"
 
@@ -497,7 +497,7 @@ msgstr "Pèrdues imputades"
 msgid "In percent"
 msgstr "En percentatge"
 
-#: mMF/options/imputevar.title mMF/ui[0][1].label
+#: mMF/options/imputevar.title mMF/ui[0][0].label
 msgid "Incomplete Variables"
 msgstr "Variables incompletes"
 

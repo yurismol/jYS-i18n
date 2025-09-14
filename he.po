@@ -277,7 +277,7 @@ msgstr "אשכולות צבועים"
 msgid "Complete Linkage"
 msgstr "הצמדה מלאה"
 
-#: mMF/options/learnvar.title mMF/ui[0][0].label
+#: mMF/options/learnvar.title mMF/ui[0][1].label
 msgid "Complete Variables"
 msgstr "משתנים מושלמים"
 
@@ -488,7 +488,7 @@ msgstr ""
 msgid "In percent"
 msgstr "באחוזים"
 
-#: mMF/options/imputevar.title mMF/ui[0][1].label
+#: mMF/options/imputevar.title mMF/ui[0][0].label
 msgid "Incomplete Variables"
 msgstr "משתנים לא מושלמים"
 

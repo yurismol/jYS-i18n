@@ -79,8 +79,8 @@ msgstr "< 0.1"
 #: R\mmf.b.R
 msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
 msgstr ""
-"<h2>Aiuto</h2><div>Si prega di selezionare variabili complete e "
-"incomplete</div>"
+"<h2>Aiuto</h2><div>Si prega di selezionare variabili complete e incomplete</"
+"div>"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
@@ -279,7 +279,7 @@ msgstr "Cluster colorati"
 msgid "Complete Linkage"
 msgstr "Collegamento completo"
 
-#: mMF/options/learnvar.title mMF/ui[0][0].label
+#: mMF/options/learnvar.title mMF/ui[0][1].label
 msgid "Complete Variables"
 msgstr "Variabili complete"
 
@@ -500,7 +500,7 @@ msgstr ""
 msgid "In percent"
 msgstr "In percentuale"
 
-#: mMF/options/imputevar.title mMF/ui[0][1].label
+#: mMF/options/imputevar.title mMF/ui[0][0].label
 msgid "Incomplete Variables"
 msgstr "Variabili incomplete"
 
