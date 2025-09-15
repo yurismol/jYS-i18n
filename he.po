@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-12 10:01+0000\n"
+"PO-Revision-Date: 2025-09-16 03:02+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "he/>\n"
@@ -27,7 +27,7 @@ msgstr "רווח סמך עליון {ciWidth}%"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
-msgstr "{varType} עם ערכי ייחוס"
+msgstr "{varType} עם ערכים מוחלפים"
 
 #: R\mout.b.R
 #, fuzzy
@@ -482,7 +482,7 @@ msgstr ""
 
 #: mMF/results/imputeOV.title
 msgid "Imputed misses"
-msgstr ""
+msgstr "חסרים מוחלפים"
 
 #: mROC/options/perc.title
 msgid "In percent"
@@ -632,7 +632,7 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Minimum 2 impute variables are required"
-msgstr ""
+msgstr "יש צורך בלפחות שני משתנים מוחלפים"
 
 #: mMF/options/alg/mF.title
 msgid "missForest (2012)"
@@ -653,16 +653,16 @@ msgstr "תבניות ערכים חסרים"
 #: package/analyses/mMF.title package/analyses/mMF.menuTitle mMF/options.title
 #: mMF/ui.title mMF/results.title
 msgid "Missing Values Estimation and Imputation"
-msgstr ""
+msgstr "והערכה והחלפה של ערכים חסרים"
 
 #: package/datasets/Missing Values Imputation.name mMF/ui[2].label
 #: mMF/results/imput.title
 msgid "Missing Values Imputation"
-msgstr ""
+msgstr "החלפה של ערכים לסרים"
 
 #: package/datasets/Missing Values Imputation.description
 msgid "Missing values imputation using the prediction power of Random Forests"
-msgstr ""
+msgstr "החלפת ערכים חסרים בעזרת מעריך הניבוי של Random Forests"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Missing<br>Patterns"
@@ -686,7 +686,7 @@ msgstr "תיקון השוואות מרובות"
 
 #: mMF/options/imputeOV.title
 msgid "Multiple imputation for missing data"
-msgstr ""
+msgstr "החלפות מרובות לנתונים חסרים"
 
 #: mCOR/options/n.title mCOR/results/matrix.columns.content
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
@@ -695,7 +695,7 @@ msgstr "N"
 
 #: R\mmf.b.R
 msgid "N - number of imputted values;"
-msgstr ""
+msgstr "N – מספר הערכים המוחלפים;"
 
 #: R\mmf.b.R
 msgid "N - number of missing values;"
@@ -1076,7 +1076,7 @@ msgstr "המספרים של המשתנה מופרדים בפסיקים"
 
 #: R\mmf.b.R
 msgid "Variable to impute"
-msgstr ""
+msgstr "המשתנה שיש להחליף"
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
 msgid "Variables"
