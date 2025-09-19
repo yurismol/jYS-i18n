@@ -1,14 +1,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-09-19 20:01+0000\n"
+"Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/jamovi/jys-i18n/ta/"
+">\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -302,7 +304,7 @@ msgstr ""
 
 #: mCOR/options/hyp/neg.title
 msgid "Correlated negatively"
-msgstr ""
+msgstr "எதிர்மறையாகத் தொடர்புடையது"
 
 #: mCOR/options/hyp/pos.title
 msgid "Correlated positively"
@@ -329,7 +331,7 @@ msgstr ""
 #: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
 #: mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation matrix"
-msgstr ""
+msgstr "தொடர்பு அணி"
 
 #: mCOR/results/text.title
 msgid "Correlations"
@@ -407,12 +409,12 @@ msgstr ""
 
 #: R\mout.b.R
 msgid "Group"
-msgstr ""
+msgstr "குழு"
 
 #: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
 #: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
 msgid "Grouping Variable"
-msgstr ""
+msgstr "தொகுத்தல் மாறி"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
@@ -507,7 +509,7 @@ msgstr ""
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
-msgstr ""
+msgstr "இடைவேளை"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
@@ -696,7 +698,7 @@ msgstr ""
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
 msgid "None"
-msgstr ""
+msgstr "எதுவுமில்லை"
 
 #: R\mout.b.R
 msgid "Normality<br>p-value"
@@ -848,7 +850,7 @@ msgstr ""
 
 #: mCOR/ui[5].label mMF/ui[1][0][1].label
 msgid "Plots"
-msgstr ""
+msgstr "அடுக்கு"
 
 #: mROC/options/polygon.title
 msgid "Polygon"
@@ -1067,7 +1069,7 @@ msgstr ""
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
 msgid "Variables"
-msgstr ""
+msgstr "மாறிகள்"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
