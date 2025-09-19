@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-18 12:01+0000\n"
+"PO-Revision-Date: 2025-09-19 20:02+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "hr/>\n"
@@ -15,15 +15,15 @@ msgstr ""
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
-msgstr ""
+msgstr " [{prc}% intervala pouzdanosti]"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "{ciWidth}% donja granica intervala pouzdanosti"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "{ciWidth}% gornja granica intervala pouzdanosti"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: R\mout.b.R
 msgid "{varType} without outliers"
-msgstr "{varType} bez ekstremnih vrijednosti"
+msgstr "{varType} bez odstupanja"
 
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
@@ -133,7 +133,7 @@ msgstr "5,0"
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
-msgstr "tablica korelacije"
+msgstr "tablica korelacijske matrice"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
@@ -157,7 +157,7 @@ msgstr "Abecednim redom"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
-msgstr ""
+msgstr "niz MAR-ova"
 
 #: mCOR/options/plotOrder/AOE.title
 msgid "Angular order eigenvectors"
@@ -201,7 +201,7 @@ msgstr "Dolje"
 
 #: mOUT/options/boxpl.title mOUT/results/plots.title
 msgid "Boxplots with outliers"
-msgstr "Box dijagrami s ekstremnim vrijednostima"
+msgstr "Box dijagrami s odstupanjima"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
@@ -209,7 +209,7 @@ msgstr ""
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
-msgstr "Izračunate granice za ekstremne vrijednosti"
+msgstr "Izračunate granice za odstupanja"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -225,7 +225,7 @@ msgstr "Donja granica intervala pouzdanosti"
 
 #: mROC/options/ciMark.title
 msgid "CI Mark"
-msgstr ""
+msgstr "Oznaka intervala pouzdanosti"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Upper"
@@ -241,11 +241,11 @@ msgstr "Krug"
 
 #: mMF/results/estim/mars.title
 msgid "Classify missing at random (MAR)"
-msgstr "Klasificiraj nedostajuće slučajno (MAR)"
+msgstr "Klasificiraj slučajno nedostajuće (MAR)"
 
 #: mMF/results/estim/mcar.title
 msgid "Classify missing completely at random (MCAR)"
-msgstr "Klasificiraj nedostajuće potpuno slučajno (MCAR)"
+msgstr "Klasificiraj potpuno slučajno nedostajuće (MCAR)"
 
 #: mROC/options/class.title mROC/ui[0][1].label
 msgid "Classifying variable"
@@ -380,17 +380,19 @@ msgstr ""
 
 #: mMF/options/fullmars.title mMF/results/estim/fMARtab.title
 msgid "Evaluation of MAR explainers"
-msgstr ""
+msgstr "Evaluacija MAR objašnjenja"
 
 #: mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "Explanatory"
-msgstr ""
+msgstr "Objašnjavajuća varijabla"
 
 #: R\mmf.b.R
 msgid ""
 "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
 msgstr ""
+"Objašnjavajuća varijabla – varijabla koja odgovara MAR-u s minimalnom "
+"p<sub>vrijednošću</sub>."
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
@@ -398,7 +400,7 @@ msgstr ""
 
 #: mCOR/options/flag.title
 msgid "Flag significant correlations"
-msgstr ""
+msgstr "Označi značajne korelacije"
 
 #: package.description
 msgid ""
@@ -410,12 +412,11 @@ msgstr ""
 "Grafička proširenja funkcionalnosti popularnih metoda analize podataka: "
 "klaster stablo korelirajućih varijabli, multifaktorska adaptivna matrica "
 "korelacija, višedimenzionalne ROC klasifikacijske krivulje, procjena i "
-"zamjene nedostajućih podataka, identifikacija i uklanjanje ekstremnih "
-"vrijednosti i dr."
+"zamjene nedostajućih podataka, identifikacija i uklanjanje odstupanja i dr."
 
 #: R\mout.b.R
 msgid "Group"
-msgstr ""
+msgstr "Grupa"
 
 #: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
 #: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
@@ -424,11 +425,11 @@ msgstr "Vrijabla grupiranja"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
-msgstr ""
+msgstr "Hₐ je negativna korelacija"
 
 #: R\mcor.b.R
 msgid "Hₐ is positive correlation"
-msgstr ""
+msgstr "Hₐ je pozitivna korelacija"
 
 #: package/datasets/HI ROC classification.description
 msgid "Healthy/Ill ROC Classification demonstration"
@@ -448,25 +449,23 @@ msgstr ""
 
 #: mCOR/options/adjust/hochberg.title
 msgid "Hochberg (1988)"
-msgstr ""
+msgstr "Hochberg (1988)"
 
 #: mCOR/options/adjust/holm.title
 msgid "Holm (1979)"
-msgstr ""
+msgstr "Holm (1979)"
 
 #: mCOR/options/adjust/hommel.title
 msgid "Hommel (1988)"
-msgstr ""
+msgstr "Hommel (1988)"
 
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
-msgstr ""
+msgstr "Hipoteza"
 
 #: package/datasets/Outliers identification and removal.description
 msgid "Identification, analysis and removal of data outliers by groups"
-msgstr ""
-"Identifikacija, analiza i uklanjanje ekstremnih vrijednosti u podacima po "
-"grupama"
+msgstr "Identifikacija, analiza i uklanjanje odstupanja podataka po grupama"
 
 #: R\mmf.b.R
 msgid ""
@@ -474,6 +473,9 @@ msgid ""
 "p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not "
 "At Random)."
 msgstr ""
+"Ako barem jedna p<sub>vrijednost</sub> za MAR nije značajna, a "
+"p<sub>vrijednost</sub> za MCAR je značajna, tada se radi o MNAR podacima (ne "
+"slučajno nedostajući)."
 
 #: R\mmf.b.R
 msgid "imp"
@@ -489,27 +491,27 @@ msgstr ""
 
 #: mROC/options/perc.title
 msgid "In percent"
-msgstr ""
+msgstr "U postotku"
 
 #: mMF/options/imputevar.title mMF/ui[0][0].label
 msgid "Incomplete Variables"
-msgstr ""
+msgstr "Nepotpune varijable"
 
 #: R\mout.b.R
 msgid "Indices (Rows)"
-msgstr ""
+msgstr "Indeksi (retci)"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
-msgstr ""
+msgstr "Influx-outflux dijagram"
 
 #: mMF/options/fluxplot.title
 msgid "Influx-outflux plot for missing data patterns"
-msgstr ""
+msgstr "Influx-outflux dijagram za nedostajuće uzorke podataka"
 
 #: R\mmf.b.R
 msgid "Influx*"
-msgstr ""
+msgstr "Influx*"
 
 #: mCOR/options/clustMat.title mCOR/results/rplots.title
 msgid "Intercluster Matrices"
@@ -521,7 +523,7 @@ msgstr "Interval"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
-msgstr ""
+msgstr "Granica interkvartilnog raspona"
 
 #: mOUT/options/outlcheck/IQR.title
 msgid "IQR Tukey's fences"
@@ -532,84 +534,89 @@ msgstr ""
 #: mCOR/options.menuGroup mMF/options.menuGroup mOUT/options.menuGroup
 #: mROC/options.menuGroup
 msgid "jYS"
-msgstr ""
+msgstr "jYS"
 
 #: package.title
 msgid "jYS Extended Functions"
-msgstr ""
+msgstr "jYS proširene funkcije"
 
 #: mCOR/options/method/kendall.title
 msgid "Kendall (τ)"
-msgstr ""
+msgstr "Kendall (τ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Kendall Tau"
-msgstr ""
+msgstr "Kendall Tau"
 
 #: mROC/options/legacy.title
 msgid "Legacy format of Specificity axis"
-msgstr ""
+msgstr "Stari format osi specifičnosti"
 
 #: mROC/options/legBox.title
 msgid "Legend Box"
-msgstr ""
+msgstr "Okvir legende"
 
 #: mROC/options/lwd.title
 msgid "Line width"
-msgstr ""
+msgstr "Širina linije"
 
 #: R\mout.b.R
 msgid "Lower fence"
-msgstr ""
+msgstr "Donja granica"
 
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
-msgstr ""
+msgstr "Donji dio"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
-msgstr ""
+msgstr "Ručni klasteri"
 
 #: R\mmf.b.R
 msgid ""
 "MAR - missing at random (if each p<sub>value</sub> is significant, there is "
 "evidence the data is MAR);"
 msgstr ""
+"MAR – slučajno nedostajuće (ako je svaka p<sub>vrijednost</sub> značajna, "
+"postoje dokazi da se radi o MAR podacima);"
 
 #: mMF/results/estim/mcar.description mMF/results/estim/mars.description
 msgid "MAR classification table"
-msgstr ""
+msgstr "Tablica MAR klasifikacije"
 
 #: mROC/options/mAst.title
 msgid "Mark significance *<0.05, **<0.01, ***<0.001"
-msgstr ""
+msgstr "Značaj oznake *<0.05, **<0.01, ***<0.001"
 
 #: R\mcor.b.R
 msgid "Matrix #{i}"
-msgstr ""
+msgstr "Matrica #{i}"
 
 #: mMF/options/maxiter.title
 msgid "Maximum number of iterations"
-msgstr ""
+msgstr "Maksimalni broj ponavljanja"
 
 #: mMF/results/estim/mcar.columns.content
 msgid "MCAR"
-msgstr ""
+msgstr "MCAR"
 
 #: R\mmf.b.R
 msgid ""
 "MCAR - missing completely at random (if the p<sub>value</sub> is not "
 "significant, there is evidence the data is MCAR)."
 msgstr ""
+"MCAR – potpuno slučajno nedostajuće (ako p<sub>vrijednost</sub> znije "
+"načajna, postoje dokazi da se radi o MCAR podacima)."
 
 #: mMF/options/isMAR.title
 msgid ""
 "MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
 msgstr ""
+"Procjena za MCAR (potpuno slučajno nedostajuće) i MAR (slučajno nedostajuće)"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
-msgstr ""
+msgstr "McQuitty veza (WPGMA)"
 
 #: R\mout.b.R
 msgid "Mean"
@@ -621,7 +628,7 @@ msgstr "Medijan"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
-msgstr ""
+msgstr "Povezivanje s medijanom"
 
 #: mCOR/options/method.title mOUT/ui[1][0].label
 msgid "Method"
@@ -629,15 +636,15 @@ msgstr "Metoda"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
-msgstr ""
+msgstr "Potrebne su najmanje {minVar} varijable (Potpune + Nepotpune)"
 
 #: R\mmf.b.R
 msgid "Minimum 2 impute variables are required"
-msgstr ""
+msgstr "Potrebne su najmanje 2 varijable za imputaciju"
 
 #: mMF/options/alg/mF.title
 msgid "missForest (2012)"
-msgstr ""
+msgstr "missForest (2012.)"
 
 #: R\mmf.b.R
 msgid "missing"
@@ -659,11 +666,13 @@ msgstr ""
 #: package/datasets/Missing Values Imputation.name mMF/ui[2].label
 #: mMF/results/imput.title
 msgid "Missing Values Imputation"
-msgstr ""
+msgstr "Imputacija nedostajućih vrijednosti"
 
 #: package/datasets/Missing Values Imputation.description
 msgid "Missing values imputation using the prediction power of Random Forests"
 msgstr ""
+"Imputacija nedostajućih vrijednosti korištenjem moći predviđanja slučajne "
+"šume (Random Forests)"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Missing<br>Patterns"
@@ -680,6 +689,7 @@ msgstr "Promijenjen Z-rezultat (Hampel filtar)"
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
 msgstr ""
+"MSE – greška u kvadratnoj srednjoj vrijednosti (za kontinuirane varijable);"
 
 #: mCOR/options/adjust.title
 msgid "Multiple comparison correction"
@@ -692,7 +702,7 @@ msgstr ""
 #: mCOR/options/n.title mCOR/results/matrix.columns.content
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: R\mmf.b.R
 msgid "N - number of imputted values;"
@@ -760,35 +770,35 @@ msgstr "outl"
 
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
-msgstr "Granice za ekstremne vrijednosti"
+msgstr "Granice odstupanja"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
-msgstr "Identicikacija ekstremnih vrijednosti"
+msgstr "Identicikacija odstupanja"
 
 #: package/datasets/Outliers identification and removal.name
 msgid "Outliers identification and removal"
-msgstr "Identifikacija i uklanjanje ekstremnih vrijednosti"
+msgstr "Identifikacija i uklanjanje odstupanja"
 
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
-msgstr "Metoda za identifikaciju ekstremnih vrijednosti"
+msgstr "Metoda za identifikaciju odstupanja"
 
 #: mOUT/options/outind.title mOUT/results/oind.title
 msgid "Outliers indices"
-msgstr "Indeksi ekstremnih vrijednosti"
+msgstr "Indeksi odstupanja"
 
 #: mOUT/ui[2].label
 msgid "Outliers removal"
-msgstr "Uklanjanje ekstremnih vrijednosti"
+msgstr "Uklanjanje odstupanja"
 
 #: R\mout.b.R
 msgid "Outliers<br>found"
-msgstr "Ekstremne vrijednosti<br>pronađene"
+msgstr "Pronađena<br>odstupanja"
 
 #: R\mout.b.R
 msgid "Outliers<br>removed"
-msgstr "Ekstremne vrijednosti<br>uklonjene"
+msgstr "Uklonjena<br>odstupanja"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"
@@ -866,24 +876,24 @@ msgstr "Poligon"
 
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
-msgstr ""
+msgstr "Koraci predviđajućih podudaranja srednjih vrijednosti (PMM)"
 
 #: mROC/options/vars.title mROC/ui[0][0].label
 msgid "Predictors"
-msgstr ""
+msgstr "Prediktori"
 
 #: mCOR/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr ""
+msgstr "navedi dijagram korelacijske matrice."
 
 #: R\mmf.b.R
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
-msgstr ""
+msgstr "PVU – udio neobjašnjene varijance 1-R² (za kontinuirane varijable);"
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
 msgid "Remove outliers"
-msgstr "Ukloni ekstremne vrijednosti"
+msgstr "Ukloni odstupanja"
 
 #: mCOR/options/plotOrder.title
 msgid "Reorder"
@@ -891,7 +901,7 @@ msgstr "Prerasporedi"
 
 #: mMF/options/setseed.title
 msgid "Reproducible random number generation (RNG) results"
-msgstr ""
+msgstr "Reproduktivni rezultati generiranja slučajnih brojeva (RNG)"
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
@@ -928,7 +938,7 @@ msgstr ""
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
-msgstr ""
+msgstr "Položaj skale"
 
 #: package/datasets/SDI ROC classification.name
 msgid "SDI ROC classification"
@@ -1035,7 +1045,7 @@ msgstr ""
 
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
-msgstr ""
+msgstr "Prag za Z rezultat"
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
@@ -1044,15 +1054,15 @@ msgstr "Ukupan broj nedostajućih unosa {}"
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
 msgid "Univariate outliers identification and removal"
-msgstr "Identifikacija i uklanjanje univarijatnih ekstremnih vrijednosti"
+msgstr "Identifikacija i uklanjanje univarijatnih odstupanja"
 
 #: R\mout.b.R
 msgid "Upper fence"
-msgstr ""
+msgstr "Gornja granica"
 
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
-msgstr ""
+msgstr "Gornji dio"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
