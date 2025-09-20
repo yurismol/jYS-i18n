@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-20 02:02+0000\n"
+"PO-Revision-Date: 2025-09-20 21:01+0000\n"
 "Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ja/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -48,7 +48,8 @@ msgstr "*欠損値指標の接続"
 msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
-msgstr ""
+msgstr "*p<0.05 ― "
+"シャピロ・ウィルク検定により、正規分布であるという仮説は棄却されました"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
@@ -400,12 +401,6 @@ msgid "Flag significant correlations"
 msgstr "有意な相関に印"
 
 #: package.description
-#, fuzzy
-#| msgid ""
-#| "Graphic extensions of the functionality of popular data analysis methods: "
-#| "cluster tree of correlating variables, multifactor adaptive correlation "
-#| "matrix, multidimensional ROC classification curves, missing data "
-#| "estimation and imputation etc."
 msgid ""
 "Graphic extensions of the functionality of popular data analysis methods: "
 "cluster tree of correlating variables, multifactor adaptive correlation "
@@ -413,8 +408,8 @@ msgid ""
 "and imputation, outliers identificatioon and removal etc."
 msgstr ""
 "代表的なデータ分析手法の機能を拡張するグラフィック機能：相関変数のクラスター"
-"ツリー、多因子適応型相関行列、多次元ROC分類曲線、欠損データの推定および補完な"
-"ど。"
+"ツリー、多因子適応型相関行列、多次元ROC分類曲線、欠損データの推定および補完、"
+"外れ値の特定と除去など。"
 
 #: R\mout.b.R
 msgid "Group"
@@ -500,7 +495,7 @@ msgstr "欠損変数"
 
 #: R\mout.b.R
 msgid "Indices (Rows)"
-msgstr ""
+msgstr "インデックス（行）"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
@@ -681,10 +676,8 @@ msgid "missRanger (2021)"
 msgstr "missRanger (2021)"
 
 #: mOUT/options/outlcheck/mZS.title
-#, fuzzy
-#| msgid "Modified Z-score"
 msgid "Modified Z-score (Hampel filter)"
-msgstr "修正Z得点"
+msgstr "修正Z得点（ハンペル・フィルター）"
 
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
@@ -719,7 +712,7 @@ msgstr "なし"
 
 #: R\mout.b.R
 msgid "Normality<br>p-value"
-msgstr ""
+msgstr "正規性<br>p値"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
@@ -767,7 +760,7 @@ msgstr "流出**"
 
 #: R\mout.b.R
 msgid "outl"
-msgstr ""
+msgstr "外れ値除去済"
 
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
@@ -786,26 +779,20 @@ msgid "Outliers identifying method"
 msgstr "外れ値の同定法"
 
 #: mOUT/options/outind.title mOUT/results/oind.title
-#, fuzzy
-#| msgid "Outliers fences"
 msgid "Outliers indices"
-msgstr "外れ値のフェンス"
+msgstr "外れ値のインデックス"
 
 #: mOUT/ui[2].label
 msgid "Outliers removal"
 msgstr "外れ値の除去"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Outliers fences"
 msgid "Outliers<br>found"
-msgstr "外れ値のフェンス"
+msgstr "同定された<br>外れ値"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Outliers removal"
 msgid "Outliers<br>removed"
-msgstr "外れ値の除去"
+msgstr "除去された<br>外れ値"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"
@@ -1037,7 +1024,7 @@ msgstr "表"
 
 #: mOUT/options/norm.title
 msgid "Test for normality"
-msgstr ""
+msgstr "正規性の検定"
 
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
@@ -1062,10 +1049,8 @@ msgstr "欠損値 {} の総数"
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
-#, fuzzy
-#| msgid "Outliers identification and removal"
 msgid "Univariate outliers identification and removal"
-msgstr "外れ値の同定と除去"
+msgstr "単変量外れ値の特定と除去"
 
 #: R\mout.b.R
 msgid "Upper fence"
@@ -1097,8 +1082,6 @@ msgid "Variable to impute"
 msgstr "補完対象変数"
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
-#, fuzzy
-#| msgid "Variable"
 msgid "Variables"
 msgstr "変数"
 
