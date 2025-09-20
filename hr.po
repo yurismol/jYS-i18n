@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-19 20:02+0000\n"
+"PO-Revision-Date: 2025-09-20 21:02+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "hr/>\n"
@@ -27,7 +27,7 @@ msgstr "{ciWidth}% gornja granica intervala pouzdanosti"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
-msgstr ""
+msgstr "{varType} s imputiranim vrijednostima"
 
 #: R\mout.b.R
 msgid "{varType} without outliers"
@@ -35,25 +35,26 @@ msgstr "{varType} bez odstupanja"
 
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p < .05, ** p < .01, *** p < .001, jednostrano"
 
 #: R\mmf.b.R
 msgid "**connection of a variable's observed data"
-msgstr ""
+msgstr "**veza opaženih podataka varijable"
 
 #: R\mmf.b.R
 msgid "*connection of a variable's missingness indicator"
-msgstr ""
+msgstr "*veza indikatora nedostajanja varijable"
 
 #: R\mout.b.R
 msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
 msgstr ""
+"*p<0,05 – Hipoteza o normalnoj distribuciji je odbačena od Shapiro-Wilk testa"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
-msgstr ""
+msgstr "*potpuna opažanja po parovima"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
@@ -165,7 +166,7 @@ msgstr ""
 
 #: mCOR/options/clustMet/average.title
 msgid "Average Linkage (UPGMA)"
-msgstr ""
+msgstr "Prosječna povezanost (UPGMA)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
@@ -173,19 +174,19 @@ msgstr ""
 
 #: package/datasets/BC ROC classification.name
 msgid "BC ROC classification"
-msgstr ""
+msgstr "BC ROC klasifikacija"
 
 #: mCOR/options/adjust/BH.title
 msgid "Benjamini-Hochberg (1995)"
-msgstr ""
+msgstr "Benjamini-Hochberg (1995.)"
 
 #: mCOR/options/adjust/BY.title
 msgid "Benjamini-Yekutieli (2001)"
-msgstr ""
+msgstr "Benjamini-Yekutieli (2001.)"
 
 #: mROC/options/BW.title
 msgid "Black & White"
-msgstr ""
+msgstr "Crno-bijelo"
 
 #: package/datasets/BC ROC classification.description
 msgid "Blood cells multiple ROC Classification demonstration"
@@ -193,7 +194,7 @@ msgstr ""
 
 #: mCOR/options/adjust/bonferroni.title
 msgid "Bonferroni (1961)"
-msgstr ""
+msgstr "Bonferroni (1961.)"
 
 #: mCOR/options/clPos/b.title
 msgid "Bottom"
@@ -281,7 +282,7 @@ msgstr ""
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
-msgstr ""
+msgstr "Potpune varijable u dijagramima"
 
 #: mROC/results/text.title
 msgid "Conditions"
@@ -474,20 +475,20 @@ msgid ""
 "At Random)."
 msgstr ""
 "Ako barem jedna p<sub>vrijednost</sub> za MAR nije značajna, a "
-"p<sub>vrijednost</sub> za MCAR je značajna, tada se radi o MNAR podacima (ne "
-"slučajno nedostajući)."
+"p<sub>vrijednost</sub> za MCAR je značajna, tada se radi o MNAR podacima ("
+"nedostaju neslučajno)."
 
 #: R\mmf.b.R
 msgid "imp"
-msgstr ""
+msgstr "imp"
 
 #: R\mmf.b.R
 msgid "Imputation model predictor"
-msgstr ""
+msgstr "Prediktor modela imputacije"
 
 #: mMF/results/imputeOV.title
 msgid "Imputed misses"
-msgstr ""
+msgstr "Imputirane nedostajuće vrijednosti"
 
 #: mROC/options/perc.title
 msgid "In percent"
@@ -577,7 +578,7 @@ msgid ""
 "MAR - missing at random (if each p<sub>value</sub> is significant, there is "
 "evidence the data is MAR);"
 msgstr ""
-"MAR – slučajno nedostajuće (ako je svaka p<sub>vrijednost</sub> značajna, "
+"MAR – slučajno nedostajući (ako je svaka p<sub>vrijednost</sub> značajna, "
 "postoje dokazi da se radi o MAR podacima);"
 
 #: mMF/results/estim/mcar.description mMF/results/estim/mars.description
@@ -605,7 +606,7 @@ msgid ""
 "MCAR - missing completely at random (if the p<sub>value</sub> is not "
 "significant, there is evidence the data is MCAR)."
 msgstr ""
-"MCAR – potpuno slučajno nedostajuće (ako p<sub>vrijednost</sub> znije "
+"MCAR – potpuno slučajno nedostajući (ako p<sub>vrijednost</sub> znije "
 "načajna, postoje dokazi da se radi o MCAR podacima)."
 
 #: mMF/options/isMAR.title
@@ -734,11 +735,11 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Number of missing entries"
-msgstr ""
+msgstr "Broj nedostajućih unosa"
 
 #: R\mmf.b.R
 msgid "Number of missing entries per variable"
-msgstr ""
+msgstr "Broj nedostajućih unosa po varijabli"
 
 #: mMF/options/npat.title
 msgid "Number of patterns"
@@ -750,7 +751,7 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "observed"
-msgstr ""
+msgstr "opaženo"
 
 #: mMF/results/imput/errors.description
 msgid "OOB errors table"
@@ -909,7 +910,7 @@ msgstr "Desno"
 
 #: mMF/options/seed.title
 msgid "RNG seed value"
-msgstr ""
+msgstr "Vrijednost početnog parametra generatora slučajnih brojeva"
 
 #: mROC/options/sepROC.title mROC/results/plots.title
 msgid "ROC by groups"
@@ -917,24 +918,24 @@ msgstr "ROC po grupama"
 
 #: mROC/results/plot.title
 msgid "ROC by predictors"
-msgstr ""
+msgstr "ROC po prediktorima"
 
 #: package/analyses/mROC.title package/analyses/mROC.menuTitle
 #: mROC/options.title mROC/ui.title mROC/results.title
 msgid "ROC classification"
-msgstr ""
+msgstr "ROC klasifikacija"
 
 #: mROC/options/cmpDeLong.title
 msgid "ROC comparison"
-msgstr ""
+msgstr "ROC usporedba"
 
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
-msgstr ""
+msgstr "ROC procjena za demonstraciju binomnih logističkih modela"
 
 #: mROC/ui[1].label
 msgid "ROC graphs"
-msgstr ""
+msgstr "ROC grafikoni"
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
@@ -942,7 +943,7 @@ msgstr "Položaj skale"
 
 #: package/datasets/SDI ROC classification.name
 msgid "SDI ROC classification"
-msgstr ""
+msgstr "SDI ROC klasifikacija"
 
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
@@ -990,11 +991,11 @@ msgstr "Ukošeni naslovi"
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
-msgstr ""
+msgstr "Spearman (ρ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Spearman's Rho"
-msgstr ""
+msgstr "Spearmanov Rho"
 
 #: R\mroc.b.R
 msgid "Specificity"
@@ -1014,7 +1015,7 @@ msgstr "Rastavi krivulje"
 
 #: mROC/results/splots.title
 msgid "Splitted ROC by predictors"
-msgstr ""
+msgstr "Rastavljena ROC krivulja po prediktorima"
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
@@ -1030,11 +1031,11 @@ msgstr "Tablice"
 
 #: mOUT/options/norm.title
 msgid "Test for normality"
-msgstr ""
+msgstr "Test za normalnost"
 
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
-msgstr ""
+msgstr "Najbolja točka na ROC krivulji"
 
 #: R\mroc.b.R
 msgid ""
@@ -1083,7 +1084,7 @@ msgstr "brojevi varijabli odvojeni zarezom"
 
 #: R\mmf.b.R
 msgid "Variable to impute"
-msgstr ""
+msgstr "Varijabla za imputiranje"
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
 msgid "Variables"
@@ -1091,11 +1092,11 @@ msgstr "Varijable"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
-msgstr ""
+msgstr "Wardova D2 povezanost"
 
 #: mCOR/options/clustMet/ward.D.title
 msgid "Ward´s Linkage"
-msgstr ""
+msgstr "Wardova povezanost"
 
 #: mROC/options/cmpDeLong/wcontr.title
 msgid "With control"
