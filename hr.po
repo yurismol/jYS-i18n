@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-20 21:02+0000\n"
+"PO-Revision-Date: 2025-09-21 23:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "hr/>\n"
@@ -474,8 +474,8 @@ msgid ""
 "p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not "
 "At Random)."
 msgstr ""
-"Ako barem jedna p<sub>vrijednost</sub> za MAR nije značajna, a "
-"p<sub>vrijednost</sub> za MCAR je značajna, tada se radi o MNAR podacima ("
+"Ako barem jedna p<sub>vrijednost</sub> MAR-a nije značajna, a "
+"p<sub>vrijednost</sub> u MCAR-u je značajna, tada se radi o MNAR podacima ("
 "nedostaju neslučajno)."
 
 #: R\mmf.b.R
@@ -578,7 +578,7 @@ msgid ""
 "MAR - missing at random (if each p<sub>value</sub> is significant, there is "
 "evidence the data is MAR);"
 msgstr ""
-"MAR – slučajno nedostajući (ako je svaka p<sub>vrijednost</sub> značajna, "
+"MAR – nedostaju slučajno (ako je svaka p<sub>vrijednost</sub> značajna, "
 "postoje dokazi da se radi o MAR podacima);"
 
 #: mMF/results/estim/mcar.description mMF/results/estim/mars.description
@@ -612,8 +612,7 @@ msgstr ""
 #: mMF/options/isMAR.title
 msgid ""
 "MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
-msgstr ""
-"Procjena za MCAR (potpuno slučajno nedostajuće) i MAR (slučajno nedostajuće)"
+msgstr "MCAR (nedostaju potpuno slučajno) i MAR (nedostaju slučajno) procjena"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
@@ -681,7 +680,7 @@ msgstr ""
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
-msgstr ""
+msgstr "missRanger (2021.)"
 
 #: mOUT/options/outlcheck/mZS.title
 msgid "Modified Z-score (Hampel filter)"
@@ -694,11 +693,11 @@ msgstr ""
 
 #: mCOR/options/adjust.title
 msgid "Multiple comparison correction"
-msgstr ""
+msgstr "Korekcija višestruke usporedbe"
 
 #: mMF/options/imputeOV.title
 msgid "Multiple imputation for missing data"
-msgstr ""
+msgstr "Višestruke imputacije za nedostajuće podatke"
 
 #: mCOR/options/n.title mCOR/results/matrix.columns.content
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
@@ -707,11 +706,11 @@ msgstr "N"
 
 #: R\mmf.b.R
 msgid "N - number of imputted values;"
-msgstr ""
+msgstr "N – broj imputiranih vrijednosti;"
 
 #: R\mmf.b.R
 msgid "N - number of missing values;"
-msgstr ""
+msgstr "N – broj nedostajućih vrijednosti;"
 
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
@@ -721,11 +720,11 @@ msgstr "Ništa"
 
 #: R\mout.b.R
 msgid "Normality<br>p-value"
-msgstr ""
+msgstr "Normalnost<br>p-vrijednost"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
-msgstr ""
+msgstr "Broj"
 
 #: mMF/options/pmmk.description.ui
 msgid ""
