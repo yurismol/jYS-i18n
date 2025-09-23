@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-20 21:01+0000\n"
-"Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
+"PO-Revision-Date: 2025-09-24 02:01+0000\n"
+"Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ja/>\n"
 "Language: ja\n"
@@ -796,7 +796,7 @@ msgstr "除去された<br>外れ値"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"
-msgstr ""
+msgstr "出力情報"
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
