@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-21 23:01+0000\n"
+"PO-Revision-Date: 2025-09-24 02:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "hr/>\n"
@@ -142,7 +142,7 @@ msgstr "Istaknuto"
 
 #: mCOR/options/clustMet.title
 msgid "Agglomeration method"
-msgstr ""
+msgstr "Metoda aglomeracije"
 
 #: mMF/options/alg.title
 msgid "Algorythm"
@@ -162,7 +162,7 @@ msgstr "niz MAR-ova"
 
 #: mCOR/options/plotOrder/AOE.title
 msgid "Angular order eigenvectors"
-msgstr ""
+msgstr "Svojstveni vektori po kutnom redoslijedu"
 
 #: mCOR/options/clustMet/average.title
 msgid "Average Linkage (UPGMA)"
@@ -170,7 +170,7 @@ msgstr "Prosječna povezanost (UPGMA)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
-msgstr ""
+msgstr "BC modeli ROC procjene"
 
 #: package/datasets/BC ROC classification.name
 msgid "BC ROC classification"
@@ -190,7 +190,7 @@ msgstr "Crno-bijelo"
 
 #: package/datasets/BC ROC classification.description
 msgid "Blood cells multiple ROC Classification demonstration"
-msgstr ""
+msgstr "Demonstracija višestruke ROC klasifikacije krvnih stanica"
 
 #: mCOR/options/adjust/bonferroni.title
 msgid "Bonferroni (1961)"
@@ -206,7 +206,7 @@ msgstr "Box dijagrami s odstupanjima"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
-msgstr ""
+msgstr "Brewerova kvalitativna paleta"
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
@@ -214,11 +214,11 @@ msgstr "Izračunate granice za odstupanja"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
-msgstr ""
+msgstr "Centroidno povezivanje (UPGMC)"
 
 #: package/datasets/CHD Models ROC Estimation.name
 msgid "CHD Models ROC Estimation"
-msgstr ""
+msgstr "CHD modeli ROC procijena"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Lower"
@@ -262,7 +262,7 @@ msgstr "Najbliža najbolja (specifičnost, osjetljivost)"
 
 #: mCOR/options/numClust.title
 msgid "Clusters"
-msgstr "Klasteri"
+msgstr "Skupovi podataka"
 
 #: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
@@ -270,15 +270,15 @@ msgstr "Boja"
 
 #: mCOR/options/clustCol.title
 msgid "Colored Clusters"
-msgstr "Obojeni klasteri"
+msgstr "Obojeni skupovi podataka"
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
-msgstr ""
+msgstr "Potpuno povezivanje"
 
 #: mMF/options/learnvar.title mMF/ui[0][1].label
 msgid "Complete Variables"
-msgstr ""
+msgstr "Potpune varijable"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
@@ -324,11 +324,11 @@ msgstr "Koreliracija"
 #: package/datasets/Correlation clustering.name mCOR/options.title
 #: mCOR/results.title
 msgid "Correlation clustering"
-msgstr "Korelacijsko grupiranje"
+msgstr "Korelacijsko grupiranje skupova podataka"
 
 #: package/datasets/Correlation clustering.description
 msgid "Correlation Clustering demonstration"
-msgstr "Demonstracija korelacijskog grupiranja"
+msgstr "Demonstracija korelacijskog grupiranja skupova podataka"
 
 #: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
 #: mCOR/results/matrix.title mCOR/results/plot.title
@@ -349,11 +349,11 @@ msgstr "D²"
 
 #: mROC/options/palBrewer/Dark2.title
 msgid "Dark2"
-msgstr ""
+msgstr "Tamna2"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
-msgstr ""
+msgstr "Stupanj <br>slobode (df)"
 
 #: mROC/options/direction.title
 msgid "Direction"
@@ -377,7 +377,7 @@ msgstr "Prazno"
 
 #: mMF/results/imput/errors.title
 msgid "Estimated out-of-bag (OOB) imputation error"
-msgstr ""
+msgstr "Procijenjena OOB greška imputacije"
 
 #: mMF/options/fullmars.title mMF/results/estim/fMARtab.title
 msgid "Evaluation of MAR explainers"
@@ -397,7 +397,7 @@ msgstr ""
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
-msgstr ""
+msgstr "Prva glavna komponenta"
 
 #: mCOR/options/flag.title
 msgid "Flag significant correlations"
@@ -411,9 +411,9 @@ msgid ""
 "and imputation, outliers identificatioon and removal etc."
 msgstr ""
 "Grafička proširenja funkcionalnosti popularnih metoda analize podataka: "
-"klaster stablo korelirajućih varijabli, multifaktorska adaptivna matrica "
-"korelacija, višedimenzionalne ROC klasifikacijske krivulje, procjena i "
-"zamjene nedostajućih podataka, identifikacija i uklanjanje odstupanja i dr."
+"stablo skupova podataka korelirajućih varijabli, multifaktorska adaptivna "
+"matrica korelacija, višedimenzionalne ROC klasifikacijske krivulje, procjena "
+"i zamjene nedostajućih podataka, identifikacija i uklanjanje odstupanja i dr."
 
 #: R\mout.b.R
 msgid "Group"
@@ -434,19 +434,19 @@ msgstr "Hₐ je pozitivna korelacija"
 
 #: package/datasets/HI ROC classification.description
 msgid "Healthy/Ill ROC Classification demonstration"
-msgstr ""
+msgstr "Demnostracija Healthy/Ill ROC klasifikacije"
 
 #: package/datasets/HI ROC classification.name
 msgid "HI ROC classification"
-msgstr ""
+msgstr "HI ROC klasifikacija"
 
 #: mCOR/options/hclust.title
 msgid "Hierarchical clustering"
-msgstr ""
+msgstr "Hijerarhijsko grupiranje skupova podataka"
 
 #: mCOR/results/treeplot.title
 msgid "Hierarchical clustering tree"
-msgstr ""
+msgstr "Hijerarhijsko stablo grupiranja skupova podataka"
 
 #: mCOR/options/adjust/hochberg.title
 msgid "Hochberg (1988)"
@@ -508,7 +508,7 @@ msgstr "Influx-outflux dijagram"
 
 #: mMF/options/fluxplot.title
 msgid "Influx-outflux plot for missing data patterns"
-msgstr "Influx-outflux dijagram za nedostajuće uzorke podataka"
+msgstr "Influx-outflux dijagram za nedostajuće strukture podataka"
 
 #: R\mmf.b.R
 msgid "Influx*"
@@ -516,7 +516,7 @@ msgstr "Influx*"
 
 #: mCOR/options/clustMat.title mCOR/results/rplots.title
 msgid "Intercluster Matrices"
-msgstr ""
+msgstr "Matrice međuskupovnih podataka"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
@@ -524,11 +524,11 @@ msgstr "Interval"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
-msgstr "Granica interkvartilnog raspona"
+msgstr "Visina granice interkvartilnog raspona"
 
 #: mOUT/options/outlcheck/IQR.title
 msgid "IQR Tukey's fences"
-msgstr ""
+msgstr "Tukeyeve granice interkvartilnog raspona"
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
@@ -571,7 +571,7 @@ msgstr "Donji dio"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
-msgstr "Ručni klasteri"
+msgstr "Ručni skupvi podataka"
 
 #: R\mmf.b.R
 msgid ""
@@ -652,16 +652,16 @@ msgstr "nedostaje"
 
 #: mMF/results/estim/plot.title
 msgid "Missing data patterns"
-msgstr ""
+msgstr "Nedostaju strukture podataka"
 
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
-msgstr ""
+msgstr "Procjena nedostajućih vrijednosti"
 
 #: package/analyses/mMF.title package/analyses/mMF.menuTitle mMF/options.title
 #: mMF/ui.title mMF/results.title
 msgid "Missing Values Estimation and Imputation"
-msgstr ""
+msgstr "Procjena i imputacija nedostajućih vrijednosti"
 
 #: package/datasets/Missing Values Imputation.name mMF/ui[2].label
 #: mMF/results/imput.title
@@ -676,7 +676,7 @@ msgstr ""
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Missing<br>Patterns"
-msgstr ""
+msgstr "Nedostaju<br>strukture"
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
@@ -731,6 +731,9 @@ msgid ""
 "Number of candidate non-missing values to sample from in the predictive mean "
 "matching steps. 0 to avoid this step"
 msgstr ""
+"Broj kandidata s ne-nedostajućim vrijednostima iz kojih se uzimaju uzorci u "
+"koracima predvidljivog poklapanja srednje vrijednost. Postavi na 0 za "
+"preskakanje ovog koraka"
 
 #: R\mmf.b.R
 msgid "Number of missing entries"
@@ -742,11 +745,11 @@ msgstr "Broj nedostajućih unosa po varijabli"
 
 #: mMF/options/npat.title
 msgid "Number of patterns"
-msgstr ""
+msgstr "Broj struktura"
 
 #: mMF/options/ntree.title
 msgid "Number of trees to grow in each forest"
-msgstr ""
+msgstr "Broj stabala koja će rasti u svakoj šumi"
 
 #: R\mmf.b.R
 msgid "observed"
@@ -815,15 +818,15 @@ msgstr "p<sub>vrijednost</sub>"
 
 #: mROC/options/palBrewer/Paired.title
 msgid "Paired"
-msgstr ""
+msgstr "Spareni"
 
 #: mROC/options/palBrewer/Pastel1.title
 msgid "Pastel1"
-msgstr ""
+msgstr "Pastelna paleta 1"
 
 #: R\mmf.b.R
 msgid "Pattern frequency"
-msgstr "Učestalost uzorka"
+msgstr "Učestalost strukture"
 
 #: mCOR/options/method/pearson.title
 msgid "Pearson (r)"
@@ -839,16 +842,17 @@ msgstr "Pearsonov r"
 
 #: R\mmf.b.R
 msgid "per pattern"
-msgstr ""
+msgstr "po strukturi"
 
 #: mMF/results/imput/errors.columns.title
 msgid "PFC"
-msgstr ""
+msgstr "PFC"
 
 #: R\mmf.b.R
 msgid ""
 "PFC - proportion of falsely classified (for Nominal and Ordinal variables);"
 msgstr ""
+"PFC – udio pogrešno klasificiranih (za nominalne i ordinalne varijable);"
 
 #: mCOR/options/plotMetU/pie.title mCOR/options/plotMetL/pie.title
 msgid "Pie"
@@ -864,7 +868,7 @@ msgstr "Opcije dijagrama"
 
 #: mMF/options/patplot.title
 msgid "Plot the missing data patterns"
-msgstr "Prikaži dijagram uzoraka nedostajućih podataka"
+msgstr "Prikaži dijagram struktura nedostajućih podataka"
 
 #: mCOR/ui[5].label mMF/ui[1][0][1].label
 msgid "Plots"
@@ -901,7 +905,7 @@ msgstr "Prerasporedi"
 
 #: mMF/options/setseed.title
 msgid "Reproducible random number generation (RNG) results"
-msgstr "Reproduktivni rezultati generiranja slučajnih brojeva (RNG)"
+msgstr "Reproducirajući rezultati generiranja slučajnih brojeva (RNG)"
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
@@ -1006,7 +1010,7 @@ msgstr "Specifičnost (%)"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
-msgstr ""
+msgstr "Demonstracija ROC klasifikacije indeksa deformacije sperme"
 
 #: mROC/options/splitROC.title
 msgid "Split curves"
@@ -1042,6 +1046,8 @@ msgid ""
 "classification can only be performed on classifying variables with two "
 "levels."
 msgstr ""
+"Klasifikacijska varijabla '{}' nema točno dvije razine; ROC klasifikacija se "
+"može izvesti samo na klasifikacijskim varijablama s dvije razine."
 
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
