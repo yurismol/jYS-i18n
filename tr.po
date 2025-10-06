@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-31 11:02+0000\n"
-"Last-Translator: Musab Ustun <musabyusufustun@outlook.com>\n"
+"PO-Revision-Date: 2025-10-07 21:02+0000\n"
+"Last-Translator: Hamza Yalçin <h.yalcin08@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "tr/>\n"
 "Language: tr\n"
@@ -10,394 +10,395 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
-msgstr ""
+msgstr " [%{prc} GA]"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Lower"
-msgstr ""
+msgstr "%{ciWidth} GA Alt"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Upper"
-msgstr ""
+msgstr "%{ciWidth} GA Üst"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
-msgstr ""
+msgstr "{varType} ile doldurulmuş değerler"
 
 #: R\mout.b.R
 msgid "{varType} without outliers"
-msgstr ""
+msgstr "{varType} aykırı değerler olmadan"
 
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p < .05, ** p < .01, *** p < .001, tek yönlü"
 
 #: R\mmf.b.R
 msgid "**connection of a variable's observed data"
-msgstr ""
+msgstr "**bir değişkenin gözlemlenmiş verilerinin bağlantısı"
 
 #: R\mmf.b.R
 msgid "*connection of a variable's missingness indicator"
-msgstr ""
+msgstr "*bir değişkenin eksiklik göstergesinin bağlantısı"
 
 #: R\mout.b.R
 msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
-msgstr ""
+msgstr "*p<0.05 - Normal dağılım hipotezi Shapiro-Wilk testi ile reddedildi"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
-msgstr ""
+msgstr "*ikili tam gözlemler"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: mCOR/options/signif/0.001.title
 msgid "< 0.001"
-msgstr ""
+msgstr "< 0.001"
 
 #: mCOR/options/signif/0.01.title
 msgid "< 0.01"
-msgstr ""
+msgstr "< 0.01"
 
 #: mCOR/options/signif/0.05.title
 msgid "< 0.05"
-msgstr ""
+msgstr "< 0.05"
 
 #: mCOR/options/signif/0.1.title
 msgid "< 0.1"
-msgstr ""
+msgstr "< 0.1"
 
 #: R\mmf.b.R
 msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
-msgstr ""
+msgstr "<h2>Yardım</h2><div>Lütfen tam ve eksik değişkenleri seçin</div>"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
-msgstr ""
+msgstr "0 - otomatik"
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 - Özgüllük"
 
 #: mOUT/options/fence/1.5.title
 msgid "1.5"
-msgstr ""
+msgstr "1.5"
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
-msgstr ""
+msgstr "100 - Özgüllük (%)"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
-msgstr ""
+msgstr "2.2"
 
 #: mOUT/options/tholdZS/2.5.title mOUT/options/tholdmZS/2.5.title
 msgid "2.5"
-msgstr ""
+msgstr "2.5"
 
 #: mOUT/options/fence/3.0.title mOUT/options/tholdmZS/3.0.title
 msgid "3.0"
-msgstr ""
+msgstr "3.0"
 
 #: mOUT/options/tholdZS/3.0.title
 msgid "3.0 (standard)"
-msgstr ""
+msgstr "3.0 (standart)"
 
 #: mOUT/options/tholdZS/3.5.title
 msgid "3.5"
-msgstr ""
+msgstr "3.5"
 
 #: mOUT/options/tholdmZS/3.5.title
 msgid "3.5 (standard)"
-msgstr ""
+msgstr "3.5 (standart)"
 
 #: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
 msgid "4.0"
-msgstr ""
+msgstr "4.0"
 
 #: mOUT/options/tholdZS/4.5.title mOUT/options/tholdmZS/4.5.title
 msgid "4.5"
-msgstr ""
+msgstr "4.5"
 
 #: mOUT/options/tholdZS/5.0.title mOUT/options/tholdmZS/5.0.title
 msgid "5.0"
-msgstr ""
+msgstr "5.0"
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "bir korelasyon matris tablosu"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
-msgstr ""
+msgstr "Vurgu"
 
 #: mCOR/options/clustMet.title
 msgid "Agglomeration method"
-msgstr ""
+msgstr "Kümeleme yöntemi"
 
 #: mMF/options/alg.title
 msgid "Algorythm"
-msgstr ""
+msgstr "Algoritma"
 
 #: mCOR/options/signif/all.title
 msgid "All"
-msgstr ""
+msgstr "Tümü"
 
 #: mCOR/options/plotOrder/alphabet.title
 msgid "Alphabetical"
-msgstr ""
+msgstr "Alfabetik"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
-msgstr ""
+msgstr "MAR'ların bir dizisi"
 
 #: mCOR/options/plotOrder/AOE.title
 msgid "Angular order eigenvectors"
-msgstr ""
+msgstr "Açısal sıra özvektörleri"
 
 #: mCOR/options/clustMet/average.title
 msgid "Average Linkage (UPGMA)"
-msgstr ""
+msgstr "Ortalama Bağlantı (UPGMA)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
-msgstr ""
+msgstr "BC Modelleri ROC Tahmini"
 
 #: package/datasets/BC ROC classification.name
 msgid "BC ROC classification"
-msgstr ""
+msgstr "BC ROC sınıflandırması"
 
 #: mCOR/options/adjust/BH.title
 msgid "Benjamini-Hochberg (1995)"
-msgstr ""
+msgstr "Benjamini-Hochberg (1995)"
 
 #: mCOR/options/adjust/BY.title
 msgid "Benjamini-Yekutieli (2001)"
-msgstr ""
+msgstr "Benjamini-Yekutieli (2001)"
 
 #: mROC/options/BW.title
 msgid "Black & White"
-msgstr ""
+msgstr "Siyah & Beyaz"
 
 #: package/datasets/BC ROC classification.description
 msgid "Blood cells multiple ROC Classification demonstration"
-msgstr ""
+msgstr "Kan hücreleri çoklu ROC Sınıflandırması demonstrasyonu"
 
 #: mCOR/options/adjust/bonferroni.title
 msgid "Bonferroni (1961)"
-msgstr ""
+msgstr "Bonferroni (1961)"
 
 #: mCOR/options/clPos/b.title
 msgid "Bottom"
-msgstr ""
+msgstr "Alt"
 
 #: mOUT/options/boxpl.title mOUT/results/plots.title
 msgid "Boxplots with outliers"
-msgstr ""
+msgstr "Aykırı değerlerle kutu grafikleri"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
-msgstr ""
+msgstr "Brewer'ın nitel paleti"
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
-msgstr ""
+msgstr "Aykırı değerler için hesaplanan sınırlar"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
-msgstr ""
+msgstr "Ağırlık Merkezi Bağlantısı (UPGMC)"
 
 #: package/datasets/CHD Models ROC Estimation.name
 msgid "CHD Models ROC Estimation"
-msgstr ""
+msgstr "CHD Modelleri ROC Tahmini"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Lower"
-msgstr ""
+msgstr "GA Alt"
 
 #: mROC/options/ciMark.title
 msgid "CI Mark"
-msgstr ""
+msgstr "GA İşareti"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Upper"
-msgstr ""
+msgstr "GA Üst"
 
 #: mROC/options/ciWidth.title
 msgid "CI width"
-msgstr ""
+msgstr "GA genişliği"
 
 #: mCOR/options/plotMetU/circle.title mCOR/options/plotMetL/circle.title
 msgid "Circle"
-msgstr ""
+msgstr "Daire"
 
 #: mMF/results/estim/mars.title
 msgid "Classify missing at random (MAR)"
-msgstr ""
+msgstr "Rastgele eksikleri sınıflandır (MAR)"
 
 #: mMF/results/estim/mcar.title
 msgid "Classify missing completely at random (MCAR)"
-msgstr ""
+msgstr "Tamamen rastgele eksikleri sınıflandır (MCAR)"
 
 #: mROC/options/class.title mROC/ui[0][1].label
 msgid "Classifying variable"
-msgstr ""
+msgstr "Sınıflandırma değişkeni"
 
 #: mROC/options/theBest/bestC.title
 msgid "Closest Best"
-msgstr ""
+msgstr "En Yakın En İyi"
 
 #: mROC/options/theBest/bssC.title
 msgid "Closest Best (Sp, Se)"
-msgstr ""
+msgstr "En Yakın En İyi (Öz, Duy)"
 
 #: mCOR/options/numClust.title
 msgid "Clusters"
-msgstr ""
+msgstr "Kümeler"
 
 #: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
-msgstr ""
+msgstr "Renk"
 
 #: mCOR/options/clustCol.title
 msgid "Colored Clusters"
-msgstr ""
+msgstr "Renkli Kümeler"
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
-msgstr ""
+msgstr "Tam Bağlantı"
 
 #: mMF/options/learnvar.title mMF/ui[0][1].label
 msgid "Complete Variables"
-msgstr ""
+msgstr "Tam Değişkenler"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
-msgstr ""
+msgstr "Grafiklerde tam değişkenler"
 
 #: mROC/results/text.title
 msgid "Conditions"
-msgstr ""
+msgstr "Koşullar"
 
 #: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "Güven aralığı"
 
 #: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
-msgstr ""
+msgstr "Güven aralığı (sadece Pearson)"
 
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
-msgstr ""
+msgstr "Güven aralığı genişliği"
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
-msgstr ""
+msgstr "İlişkili"
 
 #: mCOR/options/hyp/neg.title
 msgid "Correlated negatively"
-msgstr ""
+msgstr "Negatif ilişkili"
 
 #: mCOR/options/hyp/pos.title
 msgid "Correlated positively"
-msgstr ""
+msgstr "Pozitif ilişkili"
 
 #: mCOR/options/vars.title mCOR/ui[0][0].label
 msgid "Correlating Variables"
-msgstr ""
+msgstr "Korelasyon Değişkenleri"
 
 #: R\mmf.b.R
 msgid "Correlation"
-msgstr ""
+msgstr "Korelasyon"
 
 #: package/analyses/mCOR.title package/analyses/mCOR.menuTitle
 #: package/datasets/Correlation clustering.name mCOR/options.title
 #: mCOR/results.title
 msgid "Correlation clustering"
-msgstr ""
+msgstr "Korelasyon kümeleme"
 
 #: package/datasets/Correlation clustering.description
 msgid "Correlation Clustering demonstration"
-msgstr ""
+msgstr "Korelasyon Kümeleme demonstrasyonu"
 
 #: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
 #: mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation matrix"
-msgstr ""
+msgstr "Korelasyon matrisi"
 
 #: mCOR/results/text.title
 msgid "Correlations"
-msgstr ""
+msgstr "Korelasyonlar"
 
 #: mMF/results/estim/cplot.title
 msgid "Correlations between variables"
-msgstr ""
+msgstr "Değişkenler arası korelasyonlar"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "D²"
-msgstr ""
+msgstr "D²"
 
 #: mROC/options/palBrewer/Dark2.title
 msgid "Dark2"
-msgstr ""
+msgstr "Karanlık2"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
-msgstr ""
+msgstr "Serbestlik<br>Derecesi (sd)"
 
 #: mROC/options/direction.title
 msgid "Direction"
-msgstr ""
+msgstr "Yön"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
-msgstr ""
+msgstr "Noktalı çizgi"
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
-msgstr ""
+msgstr "Elips"
 
 #: R\mmf.b.R
 msgid "Empty data table"
-msgstr ""
+msgstr "Boş veri tablosu"
 
 #: mCOR/options/plotMetU/empty.title mCOR/options/plotMetL/empty.title
 msgid "Emtpy"
-msgstr ""
+msgstr "Boş"
 
 #: mMF/results/imput/errors.title
 msgid "Estimated out-of-bag (OOB) imputation error"
-msgstr ""
+msgstr "Tahmini out-of-bag (OOB) doldurma hatası"
 
 #: mMF/options/fullmars.title mMF/results/estim/fMARtab.title
 msgid "Evaluation of MAR explainers"
-msgstr ""
+msgstr "MAR açıklayıcılarının değerlendirilmesi"
 
 #: mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "Explanatory"
-msgstr ""
+msgstr "Açıklayıcı"
 
 #: R\mmf.b.R
 msgid ""
 "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
 msgstr ""
+"Açıklayıcı - minimal p<sub>değeri</sub> ile MAR'a karşılık gelen değişken."
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
-msgstr ""
+msgstr "Birinci temel bileşen"
 
 #: mCOR/options/flag.title
 msgid "Flag significant correlations"
-msgstr ""
+msgstr "Anlamlı korelasyonları işaretle"
 
 #: package.description
 msgid ""
@@ -406,10 +407,14 @@ msgid ""
 "matrix, multidimensional ROC classification curves, missing data estimation "
 "and imputation, outliers identificatioon and removal etc."
 msgstr ""
+"Popüler veri analizi yöntemlerinin işlevselliğinin grafiksel uzantıları: "
+"korelasyon değişkenlerinin küme ağacı, çok faktörlü uyarlanabilir korelasyon "
+"matrisi, çok boyutlu ROC sınıflandırma eğrileri, eksik veri tahmini ve "
+"doldurma, aykırı değer tanımlama ve kaldırma vb."
 
 #: R\mout.b.R
 msgid "Group"
-msgstr ""
+msgstr "Grup"
 
 #: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
 #: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
@@ -418,47 +423,48 @@ msgstr "Gruplama Değişkeni"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
-msgstr ""
+msgstr "Hₐ negatif korelasyondur"
 
 #: R\mcor.b.R
 msgid "Hₐ is positive correlation"
-msgstr ""
+msgstr "Hₐ pozitif korelasyondur"
 
 #: package/datasets/HI ROC classification.description
 msgid "Healthy/Ill ROC Classification demonstration"
-msgstr ""
+msgstr "Sağlıklı/Hasta ROC Sınıflandırması demonstrasyonu"
 
 #: package/datasets/HI ROC classification.name
 msgid "HI ROC classification"
-msgstr ""
+msgstr "HI ROC sınıflandırması"
 
 #: mCOR/options/hclust.title
 msgid "Hierarchical clustering"
-msgstr ""
+msgstr "Hiyerarşik kümeleme"
 
 #: mCOR/results/treeplot.title
 msgid "Hierarchical clustering tree"
-msgstr ""
+msgstr "Hiyerarşik kümeleme ağacı"
 
 #: mCOR/options/adjust/hochberg.title
 msgid "Hochberg (1988)"
-msgstr ""
+msgstr "Hochberg (1988)"
 
 #: mCOR/options/adjust/holm.title
 msgid "Holm (1979)"
-msgstr ""
+msgstr "Holm (1979)"
 
 #: mCOR/options/adjust/hommel.title
 msgid "Hommel (1988)"
-msgstr ""
+msgstr "Hommel (1988)"
 
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
-msgstr ""
+msgstr "Hipotez"
 
 #: package/datasets/Outliers identification and removal.description
 msgid "Identification, analysis and removal of data outliers by groups"
 msgstr ""
+"Gruplara göre veri aykırı değerlerinin tanımlanması, analizi ve kaldırılması"
 
 #: R\mmf.b.R
 msgid ""
@@ -466,557 +472,567 @@ msgid ""
 "p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not "
 "At Random)."
 msgstr ""
+"En az bir p<sub>değeri</sub> MAR anlamlı değilse ve MCAR'daki p<sub>değeri</"
+"sub> anlamlı ise, veri MNAR'dır (Rastgele Olmayan Eksik)."
 
 #: R\mmf.b.R
 msgid "imp"
-msgstr ""
+msgstr "doldur"
 
 #: R\mmf.b.R
 msgid "Imputation model predictor"
-msgstr ""
+msgstr "Doldurma modeli yordayıcısı"
 
 #: mMF/results/imputeOV.title
 msgid "Imputed misses"
-msgstr ""
+msgstr "Doldurulmuş eksikler"
 
 #: mROC/options/perc.title
 msgid "In percent"
-msgstr ""
+msgstr "Yüzde olarak"
 
 #: mMF/options/imputevar.title mMF/ui[0][0].label
 msgid "Incomplete Variables"
-msgstr ""
+msgstr "Eksik Değişkenler"
 
 #: R\mout.b.R
 msgid "Indices (Rows)"
-msgstr ""
+msgstr "İndeksler (Satırlar)"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
-msgstr ""
+msgstr "Giriş-çıkış grafiği"
 
 #: mMF/options/fluxplot.title
 msgid "Influx-outflux plot for missing data patterns"
-msgstr ""
+msgstr "Eksik veri desenleri için giriş-çıkış grafiği"
 
 #: R\mmf.b.R
 msgid "Influx*"
-msgstr ""
+msgstr "Giriş*"
 
 #: mCOR/options/clustMat.title mCOR/results/rplots.title
 msgid "Intercluster Matrices"
-msgstr ""
+msgstr "Kümeler Arası Matrisler"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
-msgstr ""
+msgstr "Aralık"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
-msgstr ""
+msgstr "IQR sınır yüksekliği"
 
 #: mOUT/options/outlcheck/IQR.title
 msgid "IQR Tukey's fences"
-msgstr ""
+msgstr "IQR Tukey sınırları"
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
 #: mCOR/options.menuGroup mMF/options.menuGroup mOUT/options.menuGroup
 #: mROC/options.menuGroup
 msgid "jYS"
-msgstr ""
+msgstr "jYS"
 
 #: package.title
 msgid "jYS Extended Functions"
-msgstr ""
+msgstr "jYS Genişletilmiş Fonksiyonlar"
 
 #: mCOR/options/method/kendall.title
 msgid "Kendall (τ)"
-msgstr ""
+msgstr "Kendall (τ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Kendall Tau"
-msgstr ""
+msgstr "Kendall Tau"
 
 #: mROC/options/legacy.title
 msgid "Legacy format of Specificity axis"
-msgstr ""
+msgstr "Özgüllük ekseninin eski formatı"
 
 #: mROC/options/legBox.title
 msgid "Legend Box"
-msgstr ""
+msgstr "Açıklama Kutusu"
 
 #: mROC/options/lwd.title
 msgid "Line width"
-msgstr ""
+msgstr "Çizgi genişliği"
 
 #: R\mout.b.R
 msgid "Lower fence"
-msgstr ""
+msgstr "Alt sınır"
 
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
-msgstr ""
+msgstr "Alt kısım"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
-msgstr ""
+msgstr "Manuel Kümeler"
 
 #: R\mmf.b.R
 msgid ""
 "MAR - missing at random (if each p<sub>value</sub> is significant, there is "
 "evidence the data is MAR);"
 msgstr ""
+"MAR - rastgele eksik (eğer her p<sub>değeri</sub> anlamlı ise, verinin MAR "
+"olduğuna dair kanıt vardır);"
 
 #: mMF/results/estim/mcar.description mMF/results/estim/mars.description
 msgid "MAR classification table"
-msgstr ""
+msgstr "MAR sınıflandırma tablosu"
 
 #: mROC/options/mAst.title
 msgid "Mark significance *<0.05, **<0.01, ***<0.001"
-msgstr ""
+msgstr "Anlamlılık işareti *<0.05, **<0.01, ***<0.001"
 
 #: R\mcor.b.R
 msgid "Matrix #{i}"
-msgstr ""
+msgstr "Matris #{i}"
 
 #: mMF/options/maxiter.title
 msgid "Maximum number of iterations"
-msgstr ""
+msgstr "Maksimum yineleme sayısı"
 
 #: mMF/results/estim/mcar.columns.content
 msgid "MCAR"
-msgstr ""
+msgstr "MCAR"
 
 #: R\mmf.b.R
 msgid ""
 "MCAR - missing completely at random (if the p<sub>value</sub> is not "
 "significant, there is evidence the data is MCAR)."
 msgstr ""
+"MCAR - tamamen rastgele eksik (eğer p<sub>değeri</sub> anlamlı değilse, "
+"verinin MCAR olduğuna dair kanıt vardır)."
 
 #: mMF/options/isMAR.title
 msgid ""
 "MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
-msgstr ""
+msgstr "MCAR (Tamamen Rastgele Kayıp) ve MAR (Rastgele Kayıp) tahmini"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
-msgstr ""
+msgstr "McQuitty Bağlantısı (WPGMA)"
 
 #: R\mout.b.R
 msgid "Mean"
-msgstr ""
+msgstr "Ortalama"
 
 #: R\mout.b.R
 msgid "Median"
-msgstr ""
+msgstr "Medyan"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
-msgstr ""
+msgstr "Medyan Bağlantı"
 
 #: mCOR/options/method.title mOUT/ui[1][0].label
 msgid "Method"
-msgstr ""
+msgstr "Yöntem"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
-msgstr ""
+msgstr "Minimum {minVar} değişken (Tam + Eksik) gereklidir"
 
 #: R\mmf.b.R
 msgid "Minimum 2 impute variables are required"
-msgstr ""
+msgstr "Minimum 2 doldurma değişkeni gereklidir"
 
 #: mMF/options/alg/mF.title
 msgid "missForest (2012)"
-msgstr ""
+msgstr "missForest (2012)"
 
 #: R\mmf.b.R
 msgid "missing"
-msgstr ""
+msgstr "eksik"
 
 #: mMF/results/estim/plot.title
 msgid "Missing data patterns"
-msgstr ""
+msgstr "Eksik veri desenleri"
 
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
-msgstr ""
+msgstr "Eksik Değerler Tahmini"
 
 #: package/analyses/mMF.title package/analyses/mMF.menuTitle mMF/options.title
 #: mMF/ui.title mMF/results.title
 msgid "Missing Values Estimation and Imputation"
-msgstr ""
+msgstr "Eksik Değerler Tahmini ve Doldurma"
 
 #: package/datasets/Missing Values Imputation.name mMF/ui[2].label
 #: mMF/results/imput.title
 msgid "Missing Values Imputation"
-msgstr ""
+msgstr "Eksik Değerler Doldurma"
 
 #: package/datasets/Missing Values Imputation.description
 msgid "Missing values imputation using the prediction power of Random Forests"
 msgstr ""
+"Rastgele Ormanların tahmin gücü kullanılarak eksik değerlerin doldurulması"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Missing<br>Patterns"
-msgstr ""
+msgstr "Eksik<br>Desenler"
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
-msgstr ""
+msgstr "missRanger (2021)"
 
 #: mOUT/options/outlcheck/mZS.title
 msgid "Modified Z-score (Hampel filter)"
-msgstr ""
+msgstr "Değiştirilmiş Z-skoru (Hampel filtresi)"
 
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
-msgstr ""
+msgstr "MSE - ortalama kare hatası (Sürekli değişkenler için);"
 
 #: mCOR/options/adjust.title
 msgid "Multiple comparison correction"
-msgstr ""
+msgstr "Çoklu karşılaştırma düzeltmesi"
 
 #: mMF/options/imputeOV.title
 msgid "Multiple imputation for missing data"
-msgstr ""
+msgstr "Eksik veriler için çoklu doldurma"
 
 #: mCOR/options/n.title mCOR/results/matrix.columns.content
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: R\mmf.b.R
 msgid "N - number of imputted values;"
-msgstr ""
+msgstr "N - doldurulmuş değerlerin sayısı;"
 
 #: R\mmf.b.R
 msgid "N - number of missing values;"
-msgstr ""
+msgstr "N - eksik değerlerin sayısı;"
 
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
 msgid "None"
-msgstr ""
+msgstr "Hiçbiri"
 
 #: R\mout.b.R
 msgid "Normality<br>p-value"
-msgstr ""
+msgstr "Normallik<br>p-değeri"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
-msgstr ""
+msgstr "Sayı"
 
 #: mMF/options/pmmk.description.ui
 msgid ""
 "Number of candidate non-missing values to sample from in the predictive mean "
 "matching steps. 0 to avoid this step"
 msgstr ""
+"Tahmini ortalama eşleştirme adımlarında örneklem alınacak aday eksik olmayan "
+"değerlerin sayısı. Bu adımdan kaçınmak için 0"
 
 #: R\mmf.b.R
 msgid "Number of missing entries"
-msgstr ""
+msgstr "Eksik girişlerin sayısı"
 
 #: R\mmf.b.R
 msgid "Number of missing entries per variable"
-msgstr ""
+msgstr "Değişken başına eksik giriş sayısı"
 
 #: mMF/options/npat.title
 msgid "Number of patterns"
-msgstr ""
+msgstr "Desen sayısı"
 
 #: mMF/options/ntree.title
 msgid "Number of trees to grow in each forest"
-msgstr ""
+msgstr "Her ormanda büyütülecek ağaç sayısı"
 
 #: R\mmf.b.R
 msgid "observed"
-msgstr ""
+msgstr "gözlemlenmiş"
 
 #: mMF/results/imput/errors.description
 msgid "OOB errors table"
-msgstr ""
+msgstr "OOB hataları tablosu"
 
 #: mCOR/options/plotOrder/original.title
 msgid "Original"
-msgstr ""
+msgstr "Orijinal"
 
 #: R\mmf.b.R
 msgid "OutFlux**"
-msgstr ""
+msgstr "Çıkış**"
 
 #: R\mout.b.R
 msgid "outl"
-msgstr ""
+msgstr "aykırı"
 
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
-msgstr ""
+msgstr "Aykırı değer sınırları"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
-msgstr ""
+msgstr "Aykırı değer tanımlama"
 
 #: package/datasets/Outliers identification and removal.name
 msgid "Outliers identification and removal"
-msgstr ""
+msgstr "Aykırı değer tanımlama ve kaldırma"
 
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
-msgstr ""
+msgstr "Aykırı değer tanımlama yöntemi"
 
 #: mOUT/options/outind.title mOUT/results/oind.title
 msgid "Outliers indices"
-msgstr ""
+msgstr "Aykırı değer indeksleri"
 
 #: mOUT/ui[2].label
 msgid "Outliers removal"
-msgstr ""
+msgstr "Aykırı değer kaldırma"
 
 #: R\mout.b.R
 msgid "Outliers<br>found"
-msgstr ""
+msgstr "Bulunan<br>aykırı değerler"
 
 #: R\mout.b.R
 msgid "Outliers<br>removed"
-msgstr ""
+msgstr "Kaldırılan<br>aykırı değerler"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"
-msgstr ""
+msgstr "Çıktı bilgisi"
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "p-değeri"
 
 #: mMF/results/estim/mcar.columns.title mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "p<sub>value</sub>"
-msgstr ""
+msgstr "p<sub>değeri</sub>"
 
 #: mROC/options/palBrewer/Paired.title
 msgid "Paired"
-msgstr ""
+msgstr "Eşleştirilmiş"
 
 #: mROC/options/palBrewer/Pastel1.title
 msgid "Pastel1"
-msgstr ""
+msgstr "Pastel1"
 
 #: R\mmf.b.R
 msgid "Pattern frequency"
-msgstr ""
+msgstr "Desen frekansı"
 
 #: mCOR/options/method/pearson.title
 msgid "Pearson (r)"
-msgstr ""
+msgstr "Pearson (r)"
 
 #: R\mcor.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "Pearson korelasyonu sayısal olmayan değerler için hesaplanamaz"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Pearson's r"
-msgstr ""
+msgstr "Pearson'ın r'si"
 
 #: R\mmf.b.R
 msgid "per pattern"
-msgstr ""
+msgstr "desen başına"
 
 #: mMF/results/imput/errors.columns.title
 msgid "PFC"
-msgstr ""
+msgstr "PFC"
 
 #: R\mmf.b.R
 msgid ""
 "PFC - proportion of falsely classified (for Nominal and Ordinal variables);"
 msgstr ""
+"PFC - yanlış sınıflandırılan oranı (Nominal ve Sıralı değişkenler için);"
 
 #: mCOR/options/plotMetU/pie.title mCOR/options/plotMetL/pie.title
 msgid "Pie"
-msgstr ""
+msgstr "Pasta"
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
-msgstr ""
+msgstr "Değişkenler arası korelasyonları çiz"
 
 #: mMF/ui[1][0][2].label
 msgid "Plot options"
-msgstr ""
+msgstr "Grafik seçenekleri"
 
 #: mMF/options/patplot.title
 msgid "Plot the missing data patterns"
-msgstr ""
+msgstr "Eksik veri desenlerini çiz"
 
 #: mCOR/ui[5].label mMF/ui[1][0][1].label
 msgid "Plots"
-msgstr ""
+msgstr "Grafikler"
 
 #: mROC/options/polygon.title
 msgid "Polygon"
-msgstr ""
+msgstr "Poligon"
 
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
-msgstr ""
+msgstr "Tahmini Ortalama Eşleştirme (PMM) adımları"
 
 #: mROC/options/vars.title mROC/ui[0][0].label
 msgid "Predictors"
-msgstr ""
+msgstr "Yordayıcılar"
 
 #: mCOR/options/plots.description.ui
 msgid "provide a correlation matrix plot."
-msgstr ""
+msgstr "bir korelasyon matris grafiği sağlayın."
 
 #: R\mmf.b.R
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
-msgstr ""
+msgstr "PVU - açıklanmayan varyans oranı 1-R² (Sürekli değişkenler için);"
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
 msgid "Remove outliers"
-msgstr ""
+msgstr "Aykırı değerleri kaldır"
 
 #: mCOR/options/plotOrder.title
 msgid "Reorder"
-msgstr ""
+msgstr "Yeniden sırala"
 
 #: mMF/options/setseed.title
 msgid "Reproducible random number generation (RNG) results"
-msgstr ""
+msgstr "Tekrarlanabilir rastgele sayı üretimi (RNG) sonuçları"
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
-msgstr ""
+msgstr "Sağ"
 
 #: mMF/options/seed.title
 msgid "RNG seed value"
-msgstr ""
+msgstr "RNG seed değeri"
 
 #: mROC/options/sepROC.title mROC/results/plots.title
 msgid "ROC by groups"
-msgstr ""
+msgstr "Gruplara göre ROC"
 
 #: mROC/results/plot.title
 msgid "ROC by predictors"
-msgstr ""
+msgstr "Yordayıcılara göre ROC"
 
 #: package/analyses/mROC.title package/analyses/mROC.menuTitle
 #: mROC/options.title mROC/ui.title mROC/results.title
 msgid "ROC classification"
-msgstr ""
+msgstr "ROC sınıflandırması"
 
 #: mROC/options/cmpDeLong.title
 msgid "ROC comparison"
-msgstr ""
+msgstr "ROC karşılaştırması"
 
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
-msgstr ""
+msgstr "Binom lojistik modelleri için ROC tahmini demonstrasyonu"
 
 #: mROC/ui[1].label
 msgid "ROC graphs"
-msgstr ""
+msgstr "ROC grafikleri"
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
-msgstr ""
+msgstr "Ölçek konumu"
 
 #: package/datasets/SDI ROC classification.name
 msgid "SDI ROC classification"
-msgstr ""
+msgstr "SDI ROC sınıflandırması"
 
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
-msgstr ""
+msgstr "Grup seç"
 
 #: R\mroc.b.R
 msgid "Sensitivity"
-msgstr ""
+msgstr "Duyarlılık"
 
 #: R\mroc.b.R
 msgid "Sensitivity (%)"
-msgstr ""
+msgstr "Duyarlılık (%)"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
-msgstr ""
+msgstr "Set1"
 
 #: mROC/options/palBrewer/Set2.title
 msgid "Set2"
-msgstr ""
+msgstr "Set2"
 
 #: mROC/options/palBrewer/Set3.title
 msgid "Set3"
-msgstr ""
+msgstr "Set3"
 
 #: mCOR/options/plotMetU/shade.title mCOR/options/plotMetL/shade.title
 msgid "Shade"
-msgstr ""
+msgstr "Gölge"
 
 #: mCOR/options/signif.title
 msgid "Significance"
-msgstr ""
+msgstr "Anlamlılık"
 
 #: R\mcor.b.R
 msgid "Simultaneous multiple correlation comparisons using {n} method"
-msgstr ""
+msgstr "{n} yöntemi kullanılarak eşzamanlı çoklu korelasyon karşılaştırmaları"
 
 #: mCOR/options/clustMet/single.title
 msgid "Single Linkage"
-msgstr ""
+msgstr "Tek Bağlantı"
 
 #: mMF/options/anghead.title
 msgid "Slanted Titles"
-msgstr ""
+msgstr "Eğik Başlıklar"
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
-msgstr ""
+msgstr "Spearman (ρ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Spearman's Rho"
-msgstr ""
+msgstr "Spearman's Rho"
 
 #: R\mroc.b.R
 msgid "Specificity"
-msgstr ""
+msgstr "Özgüllük"
 
 #: R\mroc.b.R
 msgid "Specificity (%)"
-msgstr ""
+msgstr "Özgüllük (%)"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
-msgstr ""
+msgstr "Sperm Deformite İndeksi ROC Sınıflandırması demonstrasyonu"
 
 #: mROC/options/splitROC.title
 msgid "Split curves"
-msgstr ""
+msgstr "Eğrileri ayır"
 
 #: mROC/results/splots.title
 msgid "Splitted ROC by predictors"
-msgstr ""
+msgstr "Yordayıcılara göre ayrılmış ROC"
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
-msgstr ""
+msgstr "Kare"
 
 #: mROC/options/cmpDeLong/succ.title
 msgid "Successively"
-msgstr ""
+msgstr "Ardışık"
 
 #: mCOR/ui[4].label
 msgid "Tables"
-msgstr ""
+msgstr "Tablolar"
 
 #: mOUT/options/norm.title
 msgid "Test for normality"
-msgstr ""
+msgstr "Normallik testi"
 
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
-msgstr ""
+msgstr "ROC üzerinde En İyi nokta"
 
 #: R\mroc.b.R
 msgid ""
@@ -1024,83 +1040,84 @@ msgid ""
 "classification can only be performed on classifying variables with two "
 "levels."
 msgstr ""
+"Sınıflandırma değişkeni '{}' tam olarak iki seviyeye sahip değil; ROC "
+"sınıflandırması yalnızca iki seviyeli sınıflandırma değişkenlerinde "
+"yapılabilir."
 
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
-msgstr ""
+msgstr "Z-skoru için eşik"
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
-msgstr ""
+msgstr "Toplam eksik giriş sayısı {}"
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
 msgid "Univariate outliers identification and removal"
-msgstr ""
+msgstr "Tek değişkenli aykırı değer tanımlama ve kaldırma"
 
 #: R\mout.b.R
 msgid "Upper fence"
-msgstr ""
+msgstr "Üst sınır"
 
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
-msgstr ""
+msgstr "Üst kısım"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
 msgid "Variable"
-msgstr ""
+msgstr "Değişken"
 
 #: mMF/results/estim/fMARtab.template.title
 msgid "Variable - $key"
-msgstr ""
+msgstr "Değişken - $key"
 
 #: R\mmf.b.R
 msgid "Variable name"
-msgstr ""
+msgstr "Değişken adı"
 
 #: mCOR/ui[5][0]/plots/clustMan.suffix
 msgid "variable numbers by commas"
-msgstr ""
+msgstr "değişken numaralarını virgülle ayırın"
 
 #: R\mmf.b.R
 msgid "Variable to impute"
-msgstr ""
+msgstr "Doldurulacak değişken"
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
-#, fuzzy
-#| msgid "Grouping Variable"
 msgid "Variables"
-msgstr "Gruplama Değişkeni"
+msgstr "Değişkenler"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
-msgstr ""
+msgstr "Ward'ın D2 Bağlantısı"
 
 #: mCOR/options/clustMet/ward.D.title
 msgid "Ward´s Linkage"
-msgstr ""
+msgstr "Ward'ın Bağlantısı"
 
 #: mROC/options/cmpDeLong/wcontr.title
 msgid "With control"
-msgstr ""
+msgstr "Kontrol ile"
 
 #: R\mmf.b.R
 msgid "with missing data on other variables"
-msgstr ""
+msgstr "diğer değişkenlerde eksik veri ile"
 
 #: R\mmf.b.R
 msgid "with observed data on other variables"
-msgstr ""
+msgstr "diğer değişkenlerde gözlemlenmiş veri ile"
 
 #: mROC/options/theBest/bestY.title
 msgid "Youden Best"
-msgstr ""
+msgstr "Youden En İyi"
 
 #: mROC/options/theBest/bssY.title
 msgid "Youden Best (Sp, Se)"
-msgstr ""
+msgstr "Youden En İyi (Öz, Duy)"
 
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
-msgstr ""
+msgstr "Z-skoru"
