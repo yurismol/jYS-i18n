@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-07-02 18:01+0000\n"
+"PO-Revision-Date: 2025-10-20 04:55+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "pl/>\n"
@@ -9,9 +9,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13-dev\n"
+"Plural-Forms: nplurals=3; plural="
+"(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -30,10 +30,8 @@ msgid "{varType} with imputed values"
 msgstr "{varType} z imputowanymi wartościami"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "{varType} with imputed values"
 msgid "{varType} without outliers"
-msgstr "{varType} z imputowanymi wartościami"
+msgstr "{varType} bez przypadków odstających"
 
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
@@ -45,17 +43,19 @@ msgstr "**połączenie obserwowanych danych zmiennej"
 
 #: R\mmf.b.R
 msgid "*connection of a variable's missingness indicator"
-msgstr ""
+msgstr "*połączenie wskaźnika braku zmiennej"
 
 #: R\mout.b.R
 msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
 msgstr ""
+"*p<0,05 - hipoteza o normalności rozkładu została odrzucona "
+"(test Shapiro-Wilka)"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
-msgstr ""
+msgstr "*obserwacje bez braków danych"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
@@ -79,7 +79,7 @@ msgstr "< 0.1"
 
 #: R\mmf.b.R
 msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
-msgstr ""
+msgstr "<h2>Pomoc</h2><div>Wybierz kompletne i niekompletne zmienne</div>"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
@@ -91,7 +91,7 @@ msgstr "1 - Swoistość"
 
 #: mOUT/options/fence/1.5.title
 msgid "1.5"
-msgstr ""
+msgstr "1.5"
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
@@ -99,39 +99,39 @@ msgstr "100 - Swoistość (%)"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
-msgstr ""
+msgstr "2.2"
 
 #: mOUT/options/tholdZS/2.5.title mOUT/options/tholdmZS/2.5.title
 msgid "2.5"
-msgstr ""
+msgstr "2.5"
 
 #: mOUT/options/fence/3.0.title mOUT/options/tholdmZS/3.0.title
 msgid "3.0"
-msgstr ""
+msgstr "3.0"
 
 #: mOUT/options/tholdZS/3.0.title
 msgid "3.0 (standard)"
-msgstr ""
+msgstr "3.0 (standard)"
 
 #: mOUT/options/tholdZS/3.5.title
 msgid "3.5"
-msgstr ""
+msgstr "3.5"
 
 #: mOUT/options/tholdmZS/3.5.title
 msgid "3.5 (standard)"
-msgstr ""
+msgstr "3.5 (standard)"
 
 #: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
 msgid "4.0"
-msgstr ""
+msgstr "4.0"
 
 #: mOUT/options/tholdZS/4.5.title mOUT/options/tholdmZS/4.5.title
 msgid "4.5"
-msgstr ""
+msgstr "4.5"
 
 #: mOUT/options/tholdZS/5.0.title mOUT/options/tholdmZS/5.0.title
 msgid "5.0"
-msgstr ""
+msgstr "5.0"
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
@@ -139,7 +139,7 @@ msgstr "tabela macierzy korelacji"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
-msgstr ""
+msgstr "Akcent"
 
 #: mCOR/options/clustMet.title
 msgid "Agglomeration method"
@@ -167,15 +167,15 @@ msgstr ""
 
 #: mCOR/options/clustMet/average.title
 msgid "Average Linkage (UPGMA)"
-msgstr ""
+msgstr "Średnie powiązanie (UPGMA)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
-msgstr ""
+msgstr "Modele BC (oszacowanie ROC)"
 
 #: package/datasets/BC ROC classification.name
 msgid "BC ROC classification"
-msgstr ""
+msgstr "Klasyfikacja BC ROC"
 
 #: mCOR/options/adjust/BH.title
 msgid "Benjamini-Hochberg (1995)"
@@ -191,7 +191,7 @@ msgstr "Czarno-biały"
 
 #: package/datasets/BC ROC classification.description
 msgid "Blood cells multiple ROC Classification demonstration"
-msgstr ""
+msgstr "Komórki krwi - wielokrotna demonstracja klasyfikacji ROC"
 
 #: mCOR/options/adjust/bonferroni.title
 msgid "Bonferroni (1961)"
@@ -203,7 +203,7 @@ msgstr "Na dole"
 
 #: mOUT/options/boxpl.title mOUT/results/plots.title
 msgid "Boxplots with outliers"
-msgstr ""
+msgstr "Wykresy skrzynkowe z przypadkami odstającymi"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
@@ -211,15 +211,15 @@ msgstr ""
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
-msgstr ""
+msgstr "Granice dla wartości odstających"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
-msgstr ""
+msgstr "Powiązania centroidów (UPGMC)"
 
 #: package/datasets/CHD Models ROC Estimation.name
 msgid "CHD Models ROC Estimation"
-msgstr ""
+msgstr "Modele CHD (oszacowanie ROC)"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Lower"
@@ -227,7 +227,7 @@ msgstr "Dolny PU"
 
 #: mROC/options/ciMark.title
 msgid "CI Mark"
-msgstr ""
+msgstr "Oznaczenie PU"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Upper"
@@ -243,27 +243,27 @@ msgstr "Okrąg"
 
 #: mMF/results/estim/mars.title
 msgid "Classify missing at random (MAR)"
-msgstr ""
+msgstr "Klasyfikuj braki losowo (MAR)"
 
 #: mMF/results/estim/mcar.title
 msgid "Classify missing completely at random (MCAR)"
-msgstr ""
+msgstr "Klasyfikuj braki całkowicie losowo (MCAR)"
 
 #: mROC/options/class.title mROC/ui[0][1].label
 msgid "Classifying variable"
-msgstr ""
+msgstr "Zmienna klasyfikująca"
 
 #: mROC/options/theBest/bestC.title
 msgid "Closest Best"
-msgstr ""
+msgstr "Najbliższy najlepszy"
 
 #: mROC/options/theBest/bssC.title
 msgid "Closest Best (Sp, Se)"
-msgstr ""
+msgstr "Najbliższy najlepszy (Sp, Se)"
 
 #: mCOR/options/numClust.title
 msgid "Clusters"
-msgstr ""
+msgstr "Skupienia"
 
 #: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
@@ -275,13 +275,11 @@ msgstr "Kolorowe klastry"
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
-msgstr ""
+msgstr "Kompletne połączenie"
 
 #: mMF/options/learnvar.title mMF/ui[0][1].label
-#, fuzzy
-#| msgid "Grouping Variable"
 msgid "Complete Variables"
-msgstr "Zmienna grupująca"
+msgstr "Kompletne zmienne"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
@@ -549,29 +547,31 @@ msgstr ""
 
 #: mROC/options/legBox.title
 msgid "Legend Box"
-msgstr ""
+msgstr "Legenda"
 
 #: mROC/options/lwd.title
 msgid "Line width"
-msgstr ""
+msgstr "Szerokość linii"
 
 #: R\mout.b.R
 msgid "Lower fence"
-msgstr ""
+msgstr "Dolna granica"
 
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
-msgstr ""
+msgstr "Dolna część"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
-msgstr ""
+msgstr "Klastry ręcznie"
 
 #: R\mmf.b.R
 msgid ""
 "MAR - missing at random (if each p<sub>value</sub> is significant, there is "
 "evidence the data is MAR);"
 msgstr ""
+"MAR - braki losowe (jeśli każda wartość p<sub></sub> jest istotna, istnieją "
+"dowody na to, że dane są danymi typu MAR);"
 
 #: mMF/results/estim/mcar.description mMF/results/estim/mars.description
 msgid "MAR classification table"
