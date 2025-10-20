@@ -25,6 +25,10 @@ msgstr "{ciWidth}% donja granica intervala pouzdanosti"
 msgid "{ciWidth}% CI Upper"
 msgstr "{ciWidth}% gornja granica intervala pouzdanosti"
 
+#: R\mui.b.R
+msgid "{varType} proposed decision"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
 msgstr "{varType} s imputiranim vrijednostima"
@@ -84,6 +88,10 @@ msgstr "<h2>Pomoć</h2><div>Odaberi potpune i nepotpune varijable</div>"
 msgid "0 - auto"
 msgstr "0 – automatski"
 
+#: mUI/ui[0][1]/refval.label
+msgid "0 ="
+msgstr ""
+
 #: R\mroc.b.R
 msgid "1 - Specificity"
 msgstr "1 – specifičnost"
@@ -95,6 +103,12 @@ msgstr "1,5"
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
 msgstr "100 – specifičnost (%)"
+
+#: mOUT/options/tholdZS/2.0.title mOUT/options/tholdmZS/2.0.title
+#, fuzzy
+#| msgid "2.2"
+msgid "2.0"
+msgstr "2,2"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
@@ -168,6 +182,15 @@ msgstr "Svojstveni vektori po kutnom redoslijedu"
 msgid "Average Linkage (UPGMA)"
 msgstr "Prosječna povezanost (UPGMA)"
 
+#: R\mui.b.R
+msgid "Balance"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"Balance - balance between correct and incorrect classified (TP+TN)/(FP+FN)"
+msgstr ""
+
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
 msgstr "BC modeli ROC procjene"
@@ -183,6 +206,10 @@ msgstr "Benjamini-Hochberg (1995.)"
 #: mCOR/options/adjust/BY.title
 msgid "Benjamini-Yekutieli (2001)"
 msgstr "Benjamini-Yekutieli (2001.)"
+
+#: mUI/options/model/binormal.title
+msgid "Binormal"
+msgstr ""
 
 #: mROC/options/BW.title
 msgid "Black & White"
@@ -211,6 +238,12 @@ msgstr "Brewerova kvalitativna paleta"
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
 msgstr "Izračunate granice za odstupanja"
+
+#: R\mui.b.R
+msgid ""
+"CCR - Correct Classification Rate or accuracy of the positive and negative "
+"classifications (TP+TN)/(TN+FP+FN+TP)"
+msgstr ""
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -248,7 +281,8 @@ msgstr "Klasificiraj slučajno nedostajuće (MAR)"
 msgid "Classify missing completely at random (MCAR)"
 msgstr "Klasificiraj potpuno slučajno nedostajuće (MCAR)"
 
-#: mROC/options/class.title mROC/ui[0][1].label
+#: mROC/options/class.title mROC/ui[0][1].label mUI/options/ref.title
+#: mUI/ui[0][1].label
 msgid "Classifying variable"
 msgstr "Klasificiranje varijabli"
 
@@ -284,6 +318,18 @@ msgstr "Potpune varijable"
 msgid "Complete variables in plots"
 msgstr "Potpune varijable u dijagramima"
 
+#: R\mui.b.R
+msgid "Concordance"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"Concordance - C-Statistic or AUC. The probability that a random chosen "
+"patient with the condition is correctly ranked higher than a randomly chosen "
+"patient without the condition. Equal to AUC, with for the more certain "
+"interval a higher outcome than the overall concordance"
+msgstr ""
+
 #: mROC/results/text.title
 msgid "Conditions"
 msgstr "Uvjeti"
@@ -299,6 +345,12 @@ msgstr "Interval pouzdanosti (samo Pearson)"
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
 msgstr "Širina intervala pouzdanosti"
+
+#: mUI/ui[0][0].label
+#, fuzzy
+#| msgid "ROC by predictors"
+msgid "Continuous predictors"
+msgstr "ROC po prediktorima"
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
@@ -351,13 +403,25 @@ msgstr "D²"
 msgid "Dark2"
 msgstr "Tamna2"
 
+#: R\mui.b.R
+msgid "decision"
+msgstr ""
+
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
 msgstr "Stupanj <br>slobode (df)"
 
-#: mROC/options/direction.title
+#: mUI/options/UImethod/noUI.title
+msgid "Dichotomization (no uncertainty)"
+msgstr ""
+
+#: mROC/options/direction.title mUI/results/stat/uistat.columns.title
 msgid "Direction"
 msgstr "Smjer"
+
+#: mUI/options/model.title
+msgid "Distribution model"
+msgstr ""
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
@@ -475,8 +539,8 @@ msgid ""
 "At Random)."
 msgstr ""
 "Ako barem jedna p<sub>vrijednost</sub> MAR-a nije značajna, a "
-"p<sub>vrijednost</sub> u MCAR-u je značajna, tada se radi o MNAR podacima ("
-"nedostaju neslučajno)."
+"p<sub>vrijednost</sub> u MCAR-u je značajna, tada se radi o MNAR podacima "
+"(nedostaju neslučajno)."
 
 #: R\mmf.b.R
 msgid "imp"
@@ -518,9 +582,31 @@ msgstr "Influx*"
 msgid "Intercluster Matrices"
 msgstr "Matrice međuskupovnih podataka"
 
+#: mUI/results/stat/uistat.columns.title
+#, fuzzy
+#| msgid "Direction"
+msgid "Intersection"
+msgstr "Smjer"
+
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
 msgstr "Interval"
+
+#: mUI/ui[1].label
+#, fuzzy
+#| msgid "Interval"
+msgid "Interval Analysis"
+msgstr "Interval"
+
+#: mUI/options/UImethod.title
+#, fuzzy
+#| msgid "Agglomeration method"
+msgid "Interval determination method"
+msgstr "Metoda aglomeracije"
+
+#: mUI/results/stat.title
+msgid "Interval estimation"
+msgstr ""
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
@@ -532,8 +618,8 @@ msgstr "Tukeyeve granice interkvartilnog raspona"
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
-#: mCOR/options.menuGroup mMF/options.menuGroup mOUT/options.menuGroup
-#: mROC/options.menuGroup
+#: package/analyses/mUI.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
+#: mOUT/options.menuGroup mROC/options.menuGroup mUI/options.menuGroup
 msgid "jYS"
 msgstr "jYS"
 
@@ -568,6 +654,10 @@ msgstr "Donja granica"
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
 msgstr "Donji dio"
+
+#: R\mui.b.R
+msgid "Lower threshold"
+msgstr ""
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
@@ -630,7 +720,7 @@ msgstr "Medijan"
 msgid "Median Linkage"
 msgstr "Povezivanje s medijanom"
 
-#: mCOR/options/method.title mOUT/ui[1][0].label
+#: mCOR/options/method.title mOUT/ui[1][0].label mUI/ui[1][1].label
 msgid "Method"
 msgstr "Metoda"
 
@@ -682,9 +772,17 @@ msgstr "Nedostaju<br>strukture"
 msgid "missRanger (2021)"
 msgstr "missRanger (2021.)"
 
+#: mUI/options/isMD.title mUI/results/plotsMD.title
+msgid "Mixed Densities"
+msgstr ""
+
 #: mOUT/options/outlcheck/mZS.title
 msgid "Modified Z-score (Hampel filter)"
 msgstr "Promijenjen Z-rezultat (Hampel filtar)"
+
+#: mUI/results/stat/mcistat.title
+msgid "More Certain Interval"
+msgstr ""
 
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
@@ -712,6 +810,10 @@ msgstr "N – broj imputiranih vrijednosti;"
 msgid "N - number of missing values;"
 msgstr "N – broj nedostajućih vrijednosti;"
 
+#: mUI/options/model/none.title
+msgid "Non-parametric"
+msgstr ""
+
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
@@ -721,6 +823,10 @@ msgstr "Ništa"
 #: R\mout.b.R
 msgid "Normality<br>p-value"
 msgstr "Normalnost<br>p-vrijednost"
+
+#: R\mui.b.R
+msgid "NPV - Negative Predictive Value of the negative class TN/(TN+FN)"
+msgstr ""
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
@@ -799,10 +905,6 @@ msgstr "Uklanjanje odstupanja"
 msgid "Outliers<br>found"
 msgstr "Pronađena<br>odstupanja"
 
-#: R\mout.b.R
-msgid "Outliers<br>removed"
-msgstr "Uklonjena<br>odstupanja"
-
 #: mOUT/ui[1][1].label
 msgid "Output information"
 msgstr "Informacije rezultata"
@@ -858,6 +960,12 @@ msgstr ""
 msgid "Pie"
 msgstr "Kružni dijagram"
 
+#: mUI/options/isTGR.title
+#, fuzzy
+#| msgid "Plots"
+msgid "Plot"
+msgstr "Dijagrami"
+
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
 msgstr "Prikaži dijagram korelacija između varijabli"
@@ -870,7 +978,7 @@ msgstr "Opcije dijagrama"
 msgid "Plot the missing data patterns"
 msgstr "Prikaži dijagram struktura nedostajućih podataka"
 
-#: mCOR/ui[5].label mMF/ui[1][0][1].label
+#: mCOR/ui[5].label mMF/ui[1][0][1].label mUI/ui[1][2].label
 msgid "Plots"
 msgstr "Dijagrami"
 
@@ -878,13 +986,31 @@ msgstr "Dijagrami"
 msgid "Polygon"
 msgstr "Poligon"
 
+#: R\mui.b.R
+msgid "PPV - Positive Predictive Value of the positive class TP/(TN+FN)"
+msgstr ""
+
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
 msgstr "Koraci predviđajućih podudaranja srednjih vrijednosti (PMM)"
 
-#: mROC/options/vars.title mROC/ui[0][0].label
+#: mUI/results/stat/uistat.columns.title mUI/results/stat/mcistat.columns.title
+#, fuzzy
+#| msgid "Predictors"
+msgid "Predictor"
+msgstr "Prediktori"
+
+#: mROC/options/vars.title mROC/ui[0][0].label mUI/options/test.title
 msgid "Predictors"
 msgstr "Prediktori"
+
+#: R\mui.b.R
+msgid "Prevalence"
+msgstr ""
+
+#: mUI/options/decision.title mUI/results/decision.title
+msgid "Proposed decision"
+msgstr ""
 
 #: mCOR/options/plots.description.ui
 msgid "provide a correlation matrix plot."
@@ -894,6 +1020,10 @@ msgstr "priloži dijagram korelacijske matrice."
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
 msgstr "PVU – udio neobjašnjene varijance 1-R² (za kontinuirane varijable);"
+
+#: mUI/options/refval.title
+msgid "Reference level"
+msgstr ""
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
 msgid "Remove outliers"
@@ -932,6 +1062,12 @@ msgstr "ROC klasifikacija"
 msgid "ROC comparison"
 msgstr "ROC usporedba"
 
+#: mUI/options/isROC.title mUI/results/plotsROC.title
+#, fuzzy
+#| msgid "Split curves"
+msgid "ROC curves"
+msgstr "Rastavi krivulje"
+
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
 msgstr "ROC procjena za demonstraciju binomnih logističkih modela"
@@ -939,6 +1075,10 @@ msgstr "ROC procjena za demonstraciju binomnih logističkih modela"
 #: mROC/ui[1].label
 msgid "ROC graphs"
 msgstr "ROC grafikoni"
+
+#: mUI/ui[2].label
+msgid "Save"
+msgstr ""
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
@@ -948,17 +1088,34 @@ msgstr "Položaj skale"
 msgid "SDI ROC classification"
 msgstr "SDI ROC klasifikacija"
 
+#: R\mui.b.R
+msgid ""
+"Se - sensitivity of the positive and negative classifications TP/(TP+FN)"
+msgstr ""
+
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
 msgstr "Odaberi grupu"
 
-#: R\mroc.b.R
+#: R\mroc.b.R R\mui.b.R
 msgid "Sensitivity"
 msgstr "Osjetljivost"
 
 #: R\mroc.b.R
 msgid "Sensitivity (%)"
 msgstr "Osjetljivost (%)"
+
+#: mUI/options/uiSe.title
+#, fuzzy
+#| msgid "Sensitivity"
+msgid "Sensitivity inside UI <"
+msgstr "Osjetljivost"
+
+#: mUI/options/minSe.title
+#, fuzzy
+#| msgid "Sensitivity"
+msgid "Sensitivity outside UI >"
+msgstr "Osjetljivost"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
@@ -992,6 +1149,15 @@ msgstr "Najbliži susjed"
 msgid "Slanted Titles"
 msgstr "Ukošeni naslovi"
 
+#: R\mui.b.R
+msgid "SNPV - standardized negative predictive value of the negative class"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"Sp - specificity of the positive and negative classifications TN/(TN+FN)"
+msgstr ""
+
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
 msgstr "Spearman (ρ)"
@@ -1000,13 +1166,25 @@ msgstr "Spearman (ρ)"
 msgid "Spearman's Rho"
 msgstr "Spearmanov Rho"
 
-#: R\mroc.b.R
+#: R\mroc.b.R R\mui.b.R
 msgid "Specificity"
 msgstr "Specifičnost"
 
 #: R\mroc.b.R
 msgid "Specificity (%)"
 msgstr "Specifičnost (%)"
+
+#: mUI/options/uiSp.title
+#, fuzzy
+#| msgid "Specificity"
+msgid "Specificity inside UI <"
+msgstr "Specifičnost"
+
+#: mUI/options/minSp.title
+#, fuzzy
+#| msgid "Specificity"
+msgid "Specificity outside UI >"
+msgstr "Specifičnost"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
@@ -1019,6 +1197,10 @@ msgstr "Rastavi krivulje"
 #: mROC/results/splots.title
 msgid "Splitted ROC by predictors"
 msgstr "Rastavljena ROC krivulja po prediktorima"
+
+#: R\mui.b.R
+msgid "SPPV - standardized positive predictive value of the positive class"
+msgstr ""
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
@@ -1049,13 +1231,43 @@ msgstr ""
 "Klasifikacijska varijabla '{}' nema točno dvije razine; ROC klasifikacija se "
 "može izvesti samo na klasifikacijskim varijablama s dvije razine."
 
+#: package/datasets/Uncertain Interval.description
+msgid "Three-way threshold determination of medical tests"
+msgstr ""
+
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
+msgstr "Prag za Z rezultat"
+
+#: mUI/options/youden.title
+#, fuzzy
+#| msgid "Threshold for Z-score"
+msgid "Threshold on Youden"
 msgstr "Prag za Z rezultat"
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
 msgstr "Ukupan broj nedostajućih unosa {}"
+
+#: mUI/options/UImethod/TGR.title mUI/results/plotsTGR.title
+msgid "Two-graph ROC curves"
+msgstr ""
+
+#: package/datasets/Uncertain Interval.name mUI/options/UImethod/UI.title
+#: mUI/results/stat/uistat.title
+#, fuzzy
+#| msgid "Interval"
+msgid "Uncertain Interval"
+msgstr "Interval"
+
+#: package/analyses/mUI.title package/analyses/mUI.menuTitle mUI/options.title
+#: mUI/ui.title mUI/results.title
+msgid "Uncertain Interval (UI)"
+msgstr ""
+
+#: mUI/options/polygon.title
+msgid "Uncertainty interval polygon"
+msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
@@ -1069,6 +1281,10 @@ msgstr "Gornja granica"
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
 msgstr "Gornji dio"
+
+#: R\mui.b.R
+msgid "Upper threshold"
+msgstr ""
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
@@ -1126,3 +1342,6 @@ msgstr "Najbolji Youden (Specifičnost, osjetljivost)"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z-rezultat"
+
+#~ msgid "Outliers<br>removed"
+#~ msgstr "Uklonjena<br>odstupanja"

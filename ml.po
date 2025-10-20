@@ -3,8 +3,8 @@ msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
 "PO-Revision-Date: 2025-09-25 11:02+0000\n"
 "Last-Translator: \"Dr. Chinchu C.\" <chinchu.c@gmail.com>\n"
-"Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/"
-"jys-i18n/ml/>\n"
+"Language-Team: Malayalam <https://hosted.weblate.org/projects/jamovi/jys-"
+"i18n/ml/>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,6 +23,10 @@ msgstr "{ciWidth}% CI Lower"
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Upper"
 msgstr "{ciWidth}% CI ഉയർന്നത്"
+
+#: R\mui.b.R
+msgid "{varType} proposed decision"
+msgstr ""
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
@@ -82,6 +86,10 @@ msgstr ""
 msgid "0 - auto"
 msgstr "0 - ഓട്ടോ"
 
+#: mUI/ui[0][1]/refval.label
+msgid "0 ="
+msgstr ""
+
 #: R\mroc.b.R
 msgid "1 - Specificity"
 msgstr "1 - സ്പെസിഫിസിറ്റി"
@@ -92,6 +100,10 @@ msgstr ""
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
+msgstr ""
+
+#: mOUT/options/tholdZS/2.0.title mOUT/options/tholdmZS/2.0.title
+msgid "2.0"
 msgstr ""
 
 #: mOUT/options/fence/2.2.title
@@ -166,6 +178,15 @@ msgstr ""
 msgid "Average Linkage (UPGMA)"
 msgstr ""
 
+#: R\mui.b.R
+msgid "Balance"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"Balance - balance between correct and incorrect classified (TP+TN)/(FP+FN)"
+msgstr ""
+
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
 msgstr ""
@@ -181,6 +202,10 @@ msgstr "ബെഞ്ചമിനി-ഹോച്ച്ബെർഗ് (1995)"
 #: mCOR/options/adjust/BY.title
 msgid "Benjamini-Yekutieli (2001)"
 msgstr "ബെഞ്ചമിനി-യെകുറ്റിയേലി (2001)"
+
+#: mUI/options/model/binormal.title
+msgid "Binormal"
+msgstr ""
 
 #: mROC/options/BW.title
 msgid "Black & White"
@@ -208,6 +233,12 @@ msgstr ""
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"CCR - Correct Classification Rate or accuracy of the positive and negative "
+"classifications (TP+TN)/(TN+FP+FN+TP)"
 msgstr ""
 
 #: mCOR/options/clustMet/centroid.title
@@ -246,7 +277,8 @@ msgstr ""
 msgid "Classify missing completely at random (MCAR)"
 msgstr "Missing completely at random (MCAR) ആയി വർഗ്ഗീകരിക്കുക"
 
-#: mROC/options/class.title mROC/ui[0][1].label
+#: mROC/options/class.title mROC/ui[0][1].label mUI/options/ref.title
+#: mUI/ui[0][1].label
 msgid "Classifying variable"
 msgstr "വർഗ്ഗീകരിക്കുന്ന വേരിയബിൾ"
 
@@ -282,6 +314,18 @@ msgstr ""
 msgid "Complete variables in plots"
 msgstr ""
 
+#: R\mui.b.R
+msgid "Concordance"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"Concordance - C-Statistic or AUC. The probability that a random chosen "
+"patient with the condition is correctly ranked higher than a randomly chosen "
+"patient without the condition. Equal to AUC, with for the more certain "
+"interval a higher outcome than the overall concordance"
+msgstr ""
+
 #: mROC/results/text.title
 msgid "Conditions"
 msgstr ""
@@ -297,6 +341,10 @@ msgstr "കോൺഫിഡൻസ് ഇടവേള (Pearson മാത്രം)
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
 msgstr "കോൺഫിഡൻസ് ഇടവേള വലിപ്പം ശതമാനത്തിൽ"
+
+#: mUI/ui[0][0].label
+msgid "Continuous predictors"
+msgstr ""
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
@@ -349,13 +397,25 @@ msgstr "D²"
 msgid "Dark2"
 msgstr "Dark2"
 
+#: R\mui.b.R
+msgid "decision"
+msgstr ""
+
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
 msgstr "ഡിഗ്രി ഓഫ്<br>ഫ്രീഡം (df)"
 
-#: mROC/options/direction.title
+#: mUI/options/UImethod/noUI.title
+msgid "Dichotomization (no uncertainty)"
+msgstr ""
+
+#: mROC/options/direction.title mUI/results/stat/uistat.columns.title
 msgid "Direction"
 msgstr "ദിശ"
+
+#: mUI/options/model.title
+msgid "Distribution model"
+msgstr ""
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
@@ -507,9 +567,29 @@ msgstr "Influx*"
 msgid "Intercluster Matrices"
 msgstr "ഇന്റർക്ലസ്റ്റർ Matrices"
 
+#: mUI/results/stat/uistat.columns.title
+#, fuzzy
+#| msgid "Direction"
+msgid "Intersection"
+msgstr "ദിശ"
+
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
 msgstr "അകലം"
+
+#: mUI/ui[1].label
+#, fuzzy
+#| msgid "Interval"
+msgid "Interval Analysis"
+msgstr "അകലം"
+
+#: mUI/options/UImethod.title
+msgid "Interval determination method"
+msgstr ""
+
+#: mUI/results/stat.title
+msgid "Interval estimation"
+msgstr ""
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
@@ -521,8 +601,8 @@ msgstr ""
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
-#: mCOR/options.menuGroup mMF/options.menuGroup mOUT/options.menuGroup
-#: mROC/options.menuGroup
+#: package/analyses/mUI.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
+#: mOUT/options.menuGroup mROC/options.menuGroup mUI/options.menuGroup
 msgid "jYS"
 msgstr "jYS"
 
@@ -556,6 +636,10 @@ msgstr ""
 
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
+msgstr ""
+
+#: R\mui.b.R
+msgid "Lower threshold"
 msgstr ""
 
 #: mCOR/options/clustMan.title
@@ -618,7 +702,7 @@ msgstr "മീഡിയൻ ലിങ്കേജ്"
 msgid "Median Linkage"
 msgstr "മീഡിയൻ ലിങ്കേജ്"
 
-#: mCOR/options/method.title mOUT/ui[1][0].label
+#: mCOR/options/method.title mOUT/ui[1][0].label mUI/ui[1][1].label
 msgid "Method"
 msgstr ""
 
@@ -668,8 +752,16 @@ msgstr ""
 msgid "missRanger (2021)"
 msgstr ""
 
+#: mUI/options/isMD.title mUI/results/plotsMD.title
+msgid "Mixed Densities"
+msgstr ""
+
 #: mOUT/options/outlcheck/mZS.title
 msgid "Modified Z-score (Hampel filter)"
+msgstr ""
+
+#: mUI/results/stat/mcistat.title
+msgid "More Certain Interval"
 msgstr ""
 
 #: R\mmf.b.R
@@ -697,6 +789,10 @@ msgstr ""
 msgid "N - number of missing values;"
 msgstr ""
 
+#: mUI/options/model/none.title
+msgid "Non-parametric"
+msgstr ""
+
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
@@ -705,6 +801,10 @@ msgstr ""
 
 #: R\mout.b.R
 msgid "Normality<br>p-value"
+msgstr ""
+
+#: R\mui.b.R
+msgid "NPV - Negative Predictive Value of the negative class TN/(TN+FN)"
 msgstr ""
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
@@ -783,10 +883,6 @@ msgstr ""
 msgid "Outliers<br>found"
 msgstr ""
 
-#: R\mout.b.R
-msgid "Outliers<br>removed"
-msgstr ""
-
 #: mOUT/ui[1][1].label
 msgid "Output information"
 msgstr ""
@@ -841,6 +937,10 @@ msgstr "PFC - തെറ്റായി വർഗ്ഗീകരിച്ചത�
 msgid "Pie"
 msgstr "പൈ"
 
+#: mUI/options/isTGR.title
+msgid "Plot"
+msgstr ""
+
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
 msgstr "വേരിയബിളുകൾ തമ്മിലുള്ള കോറിലേഷൻ പ്ലോട്ട് ചെയ്യുക"
@@ -853,7 +953,7 @@ msgstr "പ്ലോട്ട് ഓപ്ഷനുകൾ"
 msgid "Plot the missing data patterns"
 msgstr ""
 
-#: mCOR/ui[5].label mMF/ui[1][0][1].label
+#: mCOR/ui[5].label mMF/ui[1][0][1].label mUI/ui[1][2].label
 msgid "Plots"
 msgstr ""
 
@@ -861,12 +961,28 @@ msgstr ""
 msgid "Polygon"
 msgstr ""
 
+#: R\mui.b.R
+msgid "PPV - Positive Predictive Value of the positive class TP/(TN+FN)"
+msgstr ""
+
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
 msgstr ""
 
-#: mROC/options/vars.title mROC/ui[0][0].label
+#: mUI/results/stat/uistat.columns.title mUI/results/stat/mcistat.columns.title
+msgid "Predictor"
+msgstr ""
+
+#: mROC/options/vars.title mROC/ui[0][0].label mUI/options/test.title
 msgid "Predictors"
+msgstr ""
+
+#: R\mui.b.R
+msgid "Prevalence"
+msgstr ""
+
+#: mUI/options/decision.title mUI/results/decision.title
+msgid "Proposed decision"
 msgstr ""
 
 #: mCOR/options/plots.description.ui
@@ -876,6 +992,10 @@ msgstr ""
 #: R\mmf.b.R
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
+msgstr ""
+
+#: mUI/options/refval.title
+msgid "Reference level"
 msgstr ""
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
@@ -915,12 +1035,22 @@ msgstr ""
 msgid "ROC comparison"
 msgstr ""
 
+#: mUI/options/isROC.title mUI/results/plotsROC.title
+#, fuzzy
+#| msgid "Split curves"
+msgid "ROC curves"
+msgstr "വിഭജിച്ച കർവുകൾ"
+
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
 msgstr ""
 
 #: mROC/ui[1].label
 msgid "ROC graphs"
+msgstr ""
+
+#: mUI/ui[2].label
+msgid "Save"
 msgstr ""
 
 #: mCOR/options/clPos.title
@@ -931,16 +1061,29 @@ msgstr ""
 msgid "SDI ROC classification"
 msgstr ""
 
+#: R\mui.b.R
+msgid ""
+"Se - sensitivity of the positive and negative classifications TP/(TP+FN)"
+msgstr ""
+
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
 msgstr ""
 
-#: R\mroc.b.R
+#: R\mroc.b.R R\mui.b.R
 msgid "Sensitivity"
 msgstr ""
 
 #: R\mroc.b.R
 msgid "Sensitivity (%)"
+msgstr ""
+
+#: mUI/options/uiSe.title
+msgid "Sensitivity inside UI <"
+msgstr ""
+
+#: mUI/options/minSe.title
+msgid "Sensitivity outside UI >"
 msgstr ""
 
 #: mROC/options/palBrewer/Set1.title
@@ -975,6 +1118,15 @@ msgstr "ഒറ്റ ലിങ്കേജ്"
 msgid "Slanted Titles"
 msgstr "ചരിഞ്ഞ തലക്കെട്ടുകൾ"
 
+#: R\mui.b.R
+msgid "SNPV - standardized negative predictive value of the negative class"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"Sp - specificity of the positive and negative classifications TN/(TN+FN)"
+msgstr ""
+
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
 msgstr "സ്പിയർമാൻ (ρ)"
@@ -983,13 +1135,25 @@ msgstr "സ്പിയർമാൻ (ρ)"
 msgid "Spearman's Rho"
 msgstr "സ്പിയർമാൻ Rho"
 
-#: R\mroc.b.R
+#: R\mroc.b.R R\mui.b.R
 msgid "Specificity"
 msgstr "സ്പെസിഫിസിറ്റി"
 
 #: R\mroc.b.R
 msgid "Specificity (%)"
 msgstr "സ്പെസിഫിസിറ്റി (%)"
+
+#: mUI/options/uiSp.title
+#, fuzzy
+#| msgid "Specificity"
+msgid "Specificity inside UI <"
+msgstr "സ്പെസിഫിസിറ്റി"
+
+#: mUI/options/minSp.title
+#, fuzzy
+#| msgid "Specificity"
+msgid "Specificity outside UI >"
+msgstr "സ്പെസിഫിസിറ്റി"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
@@ -1001,6 +1165,10 @@ msgstr "വിഭജിച്ച കർവുകൾ"
 
 #: mROC/results/splots.title
 msgid "Splitted ROC by predictors"
+msgstr ""
+
+#: R\mui.b.R
+msgid "SPPV - standardized positive predictive value of the positive class"
 msgstr ""
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
@@ -1030,12 +1198,40 @@ msgid ""
 "levels."
 msgstr ""
 
+#: package/datasets/Uncertain Interval.description
+msgid "Three-way threshold determination of medical tests"
+msgstr ""
+
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
 msgstr ""
 
+#: mUI/options/youden.title
+msgid "Threshold on Youden"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
+msgstr ""
+
+#: mUI/options/UImethod/TGR.title mUI/results/plotsTGR.title
+msgid "Two-graph ROC curves"
+msgstr ""
+
+#: package/datasets/Uncertain Interval.name mUI/options/UImethod/UI.title
+#: mUI/results/stat/uistat.title
+#, fuzzy
+#| msgid "Interval"
+msgid "Uncertain Interval"
+msgstr "അകലം"
+
+#: package/analyses/mUI.title package/analyses/mUI.menuTitle mUI/options.title
+#: mUI/ui.title mUI/results.title
+msgid "Uncertain Interval (UI)"
+msgstr ""
+
+#: mUI/options/polygon.title
+msgid "Uncertainty interval polygon"
 msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
@@ -1049,6 +1245,10 @@ msgstr ""
 
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
+msgstr ""
+
+#: R\mui.b.R
+msgid "Upper threshold"
 msgstr ""
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title

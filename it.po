@@ -24,6 +24,10 @@ msgstr "{ciWidth}% CI Inferiore"
 msgid "{ciWidth}% CI Upper"
 msgstr "{ciWidth}% CI Superiore"
 
+#: R\mui.b.R
+msgid "{varType} proposed decision"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
 msgstr "{varType} con valori imputati"
@@ -86,6 +90,10 @@ msgstr ""
 msgid "0 - auto"
 msgstr "0 - auto"
 
+#: mUI/ui[0][1]/refval.label
+msgid "0 ="
+msgstr ""
+
 #: R\mroc.b.R
 msgid "1 - Specificity"
 msgstr "1 - Specificità"
@@ -97,6 +105,12 @@ msgstr "1.5"
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
 msgstr "100 - Specificità (%)"
+
+#: mOUT/options/tholdZS/2.0.title mOUT/options/tholdmZS/2.0.title
+#, fuzzy
+#| msgid "2.2"
+msgid "2.0"
+msgstr "2.2"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
@@ -170,6 +184,15 @@ msgstr "Autovettori di ordine angolare"
 msgid "Average Linkage (UPGMA)"
 msgstr "Collegamento medio (UPGMA)"
 
+#: R\mui.b.R
+msgid "Balance"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"Balance - balance between correct and incorrect classified (TP+TN)/(FP+FN)"
+msgstr ""
+
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
 msgstr "Modelli BC Stima ROC"
@@ -185,6 +208,10 @@ msgstr "Benjamini-Hochberg (1995)"
 #: mCOR/options/adjust/BY.title
 msgid "Benjamini-Yekutieli (2001)"
 msgstr "Benjamini-Yekutieli (2001)"
+
+#: mUI/options/model/binormal.title
+msgid "Binormal"
+msgstr ""
 
 #: mROC/options/BW.title
 msgid "Black & White"
@@ -214,6 +241,12 @@ msgstr "La tavolozza qualitativa di Brewer"
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
 msgstr "Recinzioni calcolate per i valori anomali"
+
+#: R\mui.b.R
+msgid ""
+"CCR - Correct Classification Rate or accuracy of the positive and negative "
+"classifications (TP+TN)/(TN+FP+FN+TP)"
+msgstr ""
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -251,7 +284,8 @@ msgstr "Classificare i dispersi a caso (MAR)"
 msgid "Classify missing completely at random (MCAR)"
 msgstr "Classificare i mancanti completamente a caso (MCAR)"
 
-#: mROC/options/class.title mROC/ui[0][1].label
+#: mROC/options/class.title mROC/ui[0][1].label mUI/options/ref.title
+#: mUI/ui[0][1].label
 msgid "Classifying variable"
 msgstr "Variabile di classificazione"
 
@@ -287,6 +321,18 @@ msgstr "Variabili complete"
 msgid "Complete variables in plots"
 msgstr "Completare le variabili nei plots"
 
+#: R\mui.b.R
+msgid "Concordance"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"Concordance - C-Statistic or AUC. The probability that a random chosen "
+"patient with the condition is correctly ranked higher than a randomly chosen "
+"patient without the condition. Equal to AUC, with for the more certain "
+"interval a higher outcome than the overall concordance"
+msgstr ""
+
 #: mROC/results/text.title
 msgid "Conditions"
 msgstr "Le condizioni"
@@ -302,6 +348,10 @@ msgstr "Intervallo di confidenza (solo Pearson)"
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
 msgstr "Ampiezza dell'intervallo di fiducia"
+
+#: mUI/ui[0][0].label
+msgid "Continuous predictors"
+msgstr ""
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
@@ -354,13 +404,25 @@ msgstr "D²"
 msgid "Dark2"
 msgstr "Scuro2"
 
+#: R\mui.b.R
+msgid "decision"
+msgstr ""
+
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
 msgstr "Gradi di Libertà (df)"
 
-#: mROC/options/direction.title
+#: mUI/options/UImethod/noUI.title
+msgid "Dichotomization (no uncertainty)"
+msgstr ""
+
+#: mROC/options/direction.title mUI/results/stat/uistat.columns.title
 msgid "Direction"
 msgstr "Direzione"
+
+#: mUI/options/model.title
+msgid "Distribution model"
+msgstr ""
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
@@ -524,9 +586,31 @@ msgstr ""
 msgid "Intercluster Matrices"
 msgstr ""
 
+#: mUI/results/stat/uistat.columns.title
+#, fuzzy
+#| msgid "Direction"
+msgid "Intersection"
+msgstr "Direzione"
+
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
 msgstr "Intervallo"
+
+#: mUI/ui[1].label
+#, fuzzy
+#| msgid "Interval"
+msgid "Interval Analysis"
+msgstr "Intervallo"
+
+#: mUI/options/UImethod.title
+#, fuzzy
+#| msgid "Agglomeration method"
+msgid "Interval determination method"
+msgstr "Metodo di agglomerazione"
+
+#: mUI/results/stat.title
+msgid "Interval estimation"
+msgstr ""
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
@@ -538,8 +622,8 @@ msgstr ""
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
-#: mCOR/options.menuGroup mMF/options.menuGroup mOUT/options.menuGroup
-#: mROC/options.menuGroup
+#: package/analyses/mUI.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
+#: mOUT/options.menuGroup mROC/options.menuGroup mUI/options.menuGroup
 msgid "jYS"
 msgstr ""
 
@@ -573,6 +657,10 @@ msgstr ""
 
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
+msgstr ""
+
+#: R\mui.b.R
+msgid "Lower threshold"
 msgstr ""
 
 #: mCOR/options/clustMan.title
@@ -632,7 +720,7 @@ msgstr ""
 msgid "Median Linkage"
 msgstr ""
 
-#: mCOR/options/method.title mOUT/ui[1][0].label
+#: mCOR/options/method.title mOUT/ui[1][0].label mUI/ui[1][1].label
 msgid "Method"
 msgstr ""
 
@@ -682,8 +770,16 @@ msgstr ""
 msgid "missRanger (2021)"
 msgstr ""
 
+#: mUI/options/isMD.title mUI/results/plotsMD.title
+msgid "Mixed Densities"
+msgstr ""
+
 #: mOUT/options/outlcheck/mZS.title
 msgid "Modified Z-score (Hampel filter)"
+msgstr ""
+
+#: mUI/results/stat/mcistat.title
+msgid "More Certain Interval"
 msgstr ""
 
 #: R\mmf.b.R
@@ -711,6 +807,10 @@ msgstr ""
 msgid "N - number of missing values;"
 msgstr ""
 
+#: mUI/options/model/none.title
+msgid "Non-parametric"
+msgstr ""
+
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
@@ -719,6 +819,10 @@ msgstr ""
 
 #: R\mout.b.R
 msgid "Normality<br>p-value"
+msgstr ""
+
+#: R\mui.b.R
+msgid "NPV - Negative Predictive Value of the negative class TN/(TN+FN)"
 msgstr ""
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
@@ -795,10 +899,6 @@ msgstr ""
 msgid "Outliers<br>found"
 msgstr ""
 
-#: R\mout.b.R
-msgid "Outliers<br>removed"
-msgstr ""
-
 #: mOUT/ui[1][1].label
 msgid "Output information"
 msgstr ""
@@ -853,6 +953,10 @@ msgstr ""
 msgid "Pie"
 msgstr ""
 
+#: mUI/options/isTGR.title
+msgid "Plot"
+msgstr ""
+
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
 msgstr ""
@@ -865,7 +969,7 @@ msgstr ""
 msgid "Plot the missing data patterns"
 msgstr ""
 
-#: mCOR/ui[5].label mMF/ui[1][0][1].label
+#: mCOR/ui[5].label mMF/ui[1][0][1].label mUI/ui[1][2].label
 msgid "Plots"
 msgstr ""
 
@@ -873,12 +977,28 @@ msgstr ""
 msgid "Polygon"
 msgstr ""
 
+#: R\mui.b.R
+msgid "PPV - Positive Predictive Value of the positive class TP/(TN+FN)"
+msgstr ""
+
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
 msgstr ""
 
-#: mROC/options/vars.title mROC/ui[0][0].label
+#: mUI/results/stat/uistat.columns.title mUI/results/stat/mcistat.columns.title
+msgid "Predictor"
+msgstr ""
+
+#: mROC/options/vars.title mROC/ui[0][0].label mUI/options/test.title
 msgid "Predictors"
+msgstr ""
+
+#: R\mui.b.R
+msgid "Prevalence"
+msgstr ""
+
+#: mUI/options/decision.title mUI/results/decision.title
+msgid "Proposed decision"
 msgstr ""
 
 #: mCOR/options/plots.description.ui
@@ -888,6 +1008,10 @@ msgstr ""
 #: R\mmf.b.R
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
+msgstr ""
+
+#: mUI/options/refval.title
+msgid "Reference level"
 msgstr ""
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
@@ -927,12 +1051,20 @@ msgstr ""
 msgid "ROC comparison"
 msgstr ""
 
+#: mUI/options/isROC.title mUI/results/plotsROC.title
+msgid "ROC curves"
+msgstr ""
+
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
 msgstr ""
 
 #: mROC/ui[1].label
 msgid "ROC graphs"
+msgstr ""
+
+#: mUI/ui[2].label
+msgid "Save"
 msgstr ""
 
 #: mCOR/options/clPos.title
@@ -943,16 +1075,29 @@ msgstr ""
 msgid "SDI ROC classification"
 msgstr ""
 
+#: R\mui.b.R
+msgid ""
+"Se - sensitivity of the positive and negative classifications TP/(TP+FN)"
+msgstr ""
+
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
 msgstr ""
 
-#: R\mroc.b.R
+#: R\mroc.b.R R\mui.b.R
 msgid "Sensitivity"
 msgstr ""
 
 #: R\mroc.b.R
 msgid "Sensitivity (%)"
+msgstr ""
+
+#: mUI/options/uiSe.title
+msgid "Sensitivity inside UI <"
+msgstr ""
+
+#: mUI/options/minSe.title
+msgid "Sensitivity outside UI >"
 msgstr ""
 
 #: mROC/options/palBrewer/Set1.title
@@ -987,6 +1132,15 @@ msgstr ""
 msgid "Slanted Titles"
 msgstr ""
 
+#: R\mui.b.R
+msgid "SNPV - standardized negative predictive value of the negative class"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"Sp - specificity of the positive and negative classifications TN/(TN+FN)"
+msgstr ""
+
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
 msgstr ""
@@ -995,12 +1149,20 @@ msgstr ""
 msgid "Spearman's Rho"
 msgstr ""
 
-#: R\mroc.b.R
+#: R\mroc.b.R R\mui.b.R
 msgid "Specificity"
 msgstr ""
 
 #: R\mroc.b.R
 msgid "Specificity (%)"
+msgstr ""
+
+#: mUI/options/uiSp.title
+msgid "Specificity inside UI <"
+msgstr ""
+
+#: mUI/options/minSp.title
+msgid "Specificity outside UI >"
 msgstr ""
 
 #: package/datasets/SDI ROC classification.description
@@ -1013,6 +1175,10 @@ msgstr ""
 
 #: mROC/results/splots.title
 msgid "Splitted ROC by predictors"
+msgstr ""
+
+#: R\mui.b.R
+msgid "SPPV - standardized positive predictive value of the positive class"
 msgstr ""
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
@@ -1042,12 +1208,40 @@ msgid ""
 "levels."
 msgstr ""
 
+#: package/datasets/Uncertain Interval.description
+msgid "Three-way threshold determination of medical tests"
+msgstr ""
+
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
 msgstr ""
 
+#: mUI/options/youden.title
+msgid "Threshold on Youden"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
+msgstr ""
+
+#: mUI/options/UImethod/TGR.title mUI/results/plotsTGR.title
+msgid "Two-graph ROC curves"
+msgstr ""
+
+#: package/datasets/Uncertain Interval.name mUI/options/UImethod/UI.title
+#: mUI/results/stat/uistat.title
+#, fuzzy
+#| msgid "Interval"
+msgid "Uncertain Interval"
+msgstr "Intervallo"
+
+#: package/analyses/mUI.title package/analyses/mUI.menuTitle mUI/options.title
+#: mUI/ui.title mUI/results.title
+msgid "Uncertain Interval (UI)"
+msgstr ""
+
+#: mUI/options/polygon.title
+msgid "Uncertainty interval polygon"
 msgstr ""
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
@@ -1061,6 +1255,10 @@ msgstr ""
 
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
+msgstr ""
+
+#: R\mui.b.R
+msgid "Upper threshold"
 msgstr ""
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
