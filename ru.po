@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-09 05:01+0000\n"
+"PO-Revision-Date: 2025-10-21 07:02+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ru/>\n"
@@ -9,8 +9,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
 "X-Generator: Weblate 5.14-dev\n"
 
 #: R\mroc.b.R
@@ -27,7 +28,7 @@ msgstr "{ciWidth}% ДИ верхний"
 
 #: R\mui.b.R
 msgid "{varType} proposed decision"
-msgstr ""
+msgstr "{varType} рекомендованное решение"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
@@ -92,7 +93,7 @@ msgstr "0 - авто"
 
 #: mUI/ui[0][1]/refval.label
 msgid "0 ="
-msgstr ""
+msgstr "0 ="
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
@@ -107,10 +108,8 @@ msgid "100 - Specificity (%)"
 msgstr "100 - Специфичность (%)"
 
 #: mOUT/options/tholdZS/2.0.title mOUT/options/tholdmZS/2.0.title
-#, fuzzy
-#| msgid "2.2"
 msgid "2.0"
-msgstr "2.2"
+msgstr "2.0"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
@@ -186,12 +185,14 @@ msgstr "Средней связи"
 
 #: R\mui.b.R
 msgid "Balance"
-msgstr ""
+msgstr "Баланс"
 
 #: R\mui.b.R
 msgid ""
 "Balance - balance between correct and incorrect classified (TP+TN)/(FP+FN)"
 msgstr ""
+"Баланс - баланс между правильной и неправильной классификацией (TP+TN)/"
+"(FP+FN)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
@@ -211,7 +212,7 @@ msgstr "Бенджамини-Иекутиели (2001)"
 
 #: mUI/options/model/binormal.title
 msgid "Binormal"
-msgstr ""
+msgstr "Бинормальная"
 
 #: mROC/options/BW.title
 msgid "Black & White"
@@ -246,6 +247,8 @@ msgid ""
 "CCR - Correct Classification Rate or accuracy of the positive and negative "
 "classifications (TP+TN)/(TN+FP+FN+TP)"
 msgstr ""
+"CCR - Правильная классификация или точность положительных и отрицательных "
+"классификаций (TP+TN)/(TN+FP+FN+TP)"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -322,7 +325,7 @@ msgstr "Полные переменные в графиках"
 
 #: R\mui.b.R
 msgid "Concordance"
-msgstr ""
+msgstr "Конкордантность"
 
 #: R\mui.b.R
 msgid ""
@@ -331,6 +334,10 @@ msgid ""
 "patient without the condition. Equal to AUC, with for the more certain "
 "interval a higher outcome than the overall concordance"
 msgstr ""
+"Конкордантность - C-статистика или AUC. Вероятность того, что случайно "
+"выбранный пациент с данным заболеванием будет правильно ранжирован выше, чем "
+"случайно выбранный пациент без данного заболевания. Равна AUC, при этом для "
+"более определённого интервала результат выше, чем общая конкордантность"
 
 #: mROC/results/text.title
 msgid "Conditions"
@@ -349,10 +356,8 @@ msgid "Confidence interval width"
 msgstr "Ширина доверительного интервала"
 
 #: mUI/ui[0][0].label
-#, fuzzy
-#| msgid "ROC by predictors"
 msgid "Continuous predictors"
-msgstr "ROC по предикторам"
+msgstr "Непрерывные предикторы"
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
@@ -407,7 +412,7 @@ msgstr "Темная 2"
 
 #: R\mui.b.R
 msgid "decision"
-msgstr ""
+msgstr "решение"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
@@ -415,7 +420,7 @@ msgstr "Степени<br>свободы (df)"
 
 #: mUI/options/UImethod/noUI.title
 msgid "Dichotomization (no uncertainty)"
-msgstr ""
+msgstr "Дихотомизация (без неопределенности)"
 
 #: mROC/options/direction.title mUI/results/stat/uistat.columns.title
 msgid "Direction"
@@ -423,7 +428,7 @@ msgstr "Направление"
 
 #: mUI/options/model.title
 msgid "Distribution model"
-msgstr ""
+msgstr "Модель распределения"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
@@ -586,30 +591,24 @@ msgid "Intercluster Matrices"
 msgstr "Межкластерные матрицы"
 
 #: mUI/results/stat/uistat.columns.title
-#, fuzzy
-#| msgid "Direction"
 msgid "Intersection"
-msgstr "Направление"
+msgstr "Пересечение"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
 msgstr "Интервал"
 
 #: mUI/ui[1].label
-#, fuzzy
-#| msgid "Interval"
 msgid "Interval Analysis"
-msgstr "Интервал"
+msgstr "Анализ интервалов"
 
 #: mUI/options/UImethod.title
-#, fuzzy
-#| msgid "Outliers identification method"
 msgid "Interval determination method"
-msgstr "Метод выявления выбросов"
+msgstr "Метод определения интервалов"
 
 #: mUI/results/stat.title
 msgid "Interval estimation"
-msgstr ""
+msgstr "Оценка интервалов"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
@@ -660,7 +659,7 @@ msgstr "Нижняя часть"
 
 #: R\mui.b.R
 msgid "Lower threshold"
-msgstr ""
+msgstr "Нижний порог"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
@@ -777,7 +776,7 @@ msgstr "missRanger (2021)"
 
 #: mUI/options/isMD.title mUI/results/plotsMD.title
 msgid "Mixed Densities"
-msgstr ""
+msgstr "Смешанные плотности распределения"
 
 #: mOUT/options/outlcheck/mZS.title
 msgid "Modified Z-score (Hampel filter)"
@@ -785,7 +784,7 @@ msgstr "Модифицированная Z-оценка (фильтр Хампе
 
 #: mUI/results/stat/mcistat.title
 msgid "More Certain Interval"
-msgstr ""
+msgstr "Интервал большей определенности"
 
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
@@ -814,7 +813,7 @@ msgstr "N - количество пропущенных значений;"
 
 #: mUI/options/model/none.title
 msgid "Non-parametric"
-msgstr ""
+msgstr "Непараметрическая"
 
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
@@ -829,6 +828,7 @@ msgstr "Нормальность<br>p-значение"
 #: R\mui.b.R
 msgid "NPV - Negative Predictive Value of the negative class TN/(TN+FN)"
 msgstr ""
+"NPV - отрицательное прогностическое значение отрицательного класса TN/(TN+FN)"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
@@ -963,10 +963,8 @@ msgid "Pie"
 msgstr "Пицца"
 
 #: mUI/options/isTGR.title
-#, fuzzy
-#| msgid "Plots"
 msgid "Plot"
-msgstr "Графики"
+msgstr "График"
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
@@ -991,16 +989,15 @@ msgstr "Полигон"
 #: R\mui.b.R
 msgid "PPV - Positive Predictive Value of the positive class TP/(TN+FN)"
 msgstr ""
+"PPV - положительная прогностическая ценность положительного класса TP/(TN+FN)"
 
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
 msgstr "Шаги предиктивного<br>cреднего сопоставления (PMM)"
 
 #: mUI/results/stat/uistat.columns.title mUI/results/stat/mcistat.columns.title
-#, fuzzy
-#| msgid "Predictors"
 msgid "Predictor"
-msgstr "Предикторы"
+msgstr "Предиктор"
 
 #: mROC/options/vars.title mROC/ui[0][0].label mUI/options/test.title
 msgid "Predictors"
@@ -1008,11 +1005,11 @@ msgstr "Предикторы"
 
 #: R\mui.b.R
 msgid "Prevalence"
-msgstr ""
+msgstr "Распростра-<br>ненность"
 
 #: mUI/options/decision.title mUI/results/decision.title
 msgid "Proposed decision"
-msgstr ""
+msgstr "Рекомендуемое решение"
 
 #: mCOR/options/plots.description.ui
 msgid "provide a correlation matrix plot."
@@ -1025,7 +1022,7 @@ msgstr "PVU — доля необъясненной дисперсии 1-R² (д
 
 #: mUI/options/refval.title
 msgid "Reference level"
-msgstr ""
+msgstr "Эталонный уровень"
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
 msgid "Remove outliers"
@@ -1065,10 +1062,8 @@ msgid "ROC comparison"
 msgstr "Сравнение ROC"
 
 #: mUI/options/isROC.title mUI/results/plotsROC.title
-#, fuzzy
-#| msgid "Split curves"
 msgid "ROC curves"
-msgstr "Разделить кривые"
+msgstr "ROC кривые"
 
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
@@ -1080,7 +1075,7 @@ msgstr "ROC графики"
 
 #: mUI/ui[2].label
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
@@ -1094,6 +1089,7 @@ msgstr "ИТС ROC классификация"
 msgid ""
 "Se - sensitivity of the positive and negative classifications TP/(TP+FN)"
 msgstr ""
+"Se - чувствительность положительной и отрицательной классификаций TP/(TP+FN)"
 
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
@@ -1108,16 +1104,12 @@ msgid "Sensitivity (%)"
 msgstr "Чувствительность (%)"
 
 #: mUI/options/uiSe.title
-#, fuzzy
-#| msgid "Sensitivity"
 msgid "Sensitivity inside UI <"
-msgstr "Чувствительность"
+msgstr "Чувствительность внутри ИН <"
 
 #: mUI/options/minSe.title
-#, fuzzy
-#| msgid "Sensitivity"
 msgid "Sensitivity outside UI >"
-msgstr "Чувствительность"
+msgstr "Чувствительность вне ИН >"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
@@ -1156,11 +1148,13 @@ msgstr "Наклоненные надписи"
 #: R\mui.b.R
 msgid "SNPV - standardized negative predictive value of the negative class"
 msgstr ""
+"SNPV - стандартизированная отрицательная прогностическая ценность "
+"отрицательного класса"
 
 #: R\mui.b.R
 msgid ""
 "Sp - specificity of the positive and negative classifications TN/(TN+FN)"
-msgstr ""
+msgstr "Sp - специфичность позитивной и негативной классификаций TN/(TN+FN)"
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
@@ -1179,16 +1173,12 @@ msgid "Specificity (%)"
 msgstr "Специфичность (%)"
 
 #: mUI/options/uiSp.title
-#, fuzzy
-#| msgid "Specificity"
 msgid "Specificity inside UI <"
-msgstr "Специфичность"
+msgstr "Специфичность внутри ИН <"
 
 #: mUI/options/minSp.title
-#, fuzzy
-#| msgid "Specificity"
 msgid "Specificity outside UI >"
-msgstr "Специфичность"
+msgstr "Специфичность вне ИН >"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
@@ -1205,6 +1195,8 @@ msgstr "Раздельный ROC по предикторам"
 #: R\mui.b.R
 msgid "SPPV - standardized positive predictive value of the positive class"
 msgstr ""
+"SPPV - стандартизированная положительная прогностическая ценность "
+"положительного класса"
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
@@ -1237,17 +1229,15 @@ msgstr ""
 
 #: package/datasets/Uncertain Interval.description
 msgid "Three-way threshold determination of medical tests"
-msgstr ""
+msgstr "Трехфакторное определение порога медицинских тестов"
 
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
 msgstr "Порог для Z-оценки"
 
 #: mUI/options/youden.title
-#, fuzzy
-#| msgid "Threshold for Z-score"
 msgid "Threshold on Youden"
-msgstr "Порог для Z-оценки"
+msgstr "Порог по Юдену"
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
@@ -1255,23 +1245,21 @@ msgstr "Общее количество пропусков {}"
 
 #: mUI/options/UImethod/TGR.title mUI/results/plotsTGR.title
 msgid "Two-graph ROC curves"
-msgstr ""
+msgstr "Двойные ROC кривые"
 
 #: package/datasets/Uncertain Interval.name mUI/options/UImethod/UI.title
 #: mUI/results/stat/uistat.title
-#, fuzzy
-#| msgid "Interval"
 msgid "Uncertain Interval"
-msgstr "Интервал"
+msgstr "Интервал неопределенности"
 
 #: package/analyses/mUI.title package/analyses/mUI.menuTitle mUI/options.title
 #: mUI/ui.title mUI/results.title
 msgid "Uncertain Interval (UI)"
-msgstr ""
+msgstr "Интервал неопределенности (ИН)"
 
 #: mUI/options/polygon.title
 msgid "Uncertainty interval polygon"
-msgstr ""
+msgstr "Полигон интервала неопределенности"
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
@@ -1288,7 +1276,7 @@ msgstr "Верхняя часть"
 
 #: R\mui.b.R
 msgid "Upper threshold"
-msgstr ""
+msgstr "Верхний порог"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
