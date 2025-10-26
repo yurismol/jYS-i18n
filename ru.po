@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-10-21 07:02+0000\n"
+"PO-Revision-Date: 2025-10-27 04:02+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ru/>\n"
@@ -9,9 +9,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.14-dev\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -327,12 +328,6 @@ msgid "Concordance"
 msgstr "Конкордантность"
 
 #: R\mui.b.R
-#, fuzzy
-#| msgid ""
-#| "Concordance - C-Statistic or AUC. The probability that a random chosen "
-#| "patient with the condition is correctly ranked higher than a randomly "
-#| "chosen patient without the condition. Equal to AUC, with for the more "
-#| "certain interval a higher outcome than the overall concordance"
 msgid ""
 "Concordance - C-Statistic or AUC. The probability that a random chosen "
 "patient with the condition is correctly ranked higher than a randomly chosen "
@@ -340,8 +335,7 @@ msgid ""
 msgstr ""
 "Конкордантность - C-статистика или AUC. Вероятность того, что случайно "
 "выбранный пациент с данным заболеванием будет правильно ранжирован выше, чем "
-"случайно выбранный пациент без данного заболевания. Равна AUC, при этом для "
-"более определённого интервала результат выше, чем общая конкордантность"
+"случайно выбранный пациент без данного заболевания"
 
 #: mROC/results/text.title
 msgid "Conditions"
@@ -603,8 +597,6 @@ msgid "Interval determination method"
 msgstr "Метод определения интервалов"
 
 #: mUI/ui[1].label mUI/results/stat.title
-#, fuzzy
-#| msgid "Interval estimation"
 msgid "Intervals Estimation"
 msgstr "Оценка интервалов"
 
@@ -645,7 +637,7 @@ msgstr "Фон легенды"
 
 #: mUI/results/stat/intstat.columns.title
 msgid "Level"
-msgstr ""
+msgstr "Уровень"
 
 #: mROC/options/lwd.title
 msgid "Line width"
@@ -710,11 +702,11 @@ msgstr "Оценка MCAR (полностью случайные пропуск�
 
 #: R\mui.b.R
 msgid "MCI=0"
-msgstr ""
+msgstr "ИБО=0"
 
 #: R\mui.b.R
 msgid "MCI=1"
-msgstr ""
+msgstr "ИБО=1"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
@@ -793,16 +785,16 @@ msgid "Modified Z-score (Hampel filter)"
 msgstr "Модифицированная Z-оценка (фильтр Хампеля)"
 
 #: mUI/options/isMCI.title mUI/results/stat/mcistat.title
-#, fuzzy
-#| msgid "More Certain Interval"
 msgid "More Certain Interval (MCI)"
-msgstr "Интервал большей определенности"
+msgstr "Интервал большей определенности (ИБО)"
 
 #: R\mui.b.R
 msgid ""
 "More Certain Interval (MCI) is interval outside the Uncertain Interval and "
 "divide into low and high parts."
 msgstr ""
+"Интервал большей определенности (ИБО) - это интервал за пределами интервала "
+"неопределенности, разделенный на нижнюю и верхнюю части."
 
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
@@ -1028,10 +1020,8 @@ msgid "Prevalence"
 msgstr "Распростра-<br>ненность"
 
 #: mUI/options/isProp.title mUI/results/stat/intstat.title
-#, fuzzy
-#| msgid "More Certain Interval"
 msgid "Proportions of Intervals"
-msgstr "Интервал большей определенности"
+msgstr "Пропорции в интервалах"
 
 #: mUI/options/decision.title mUI/results/decision.title
 msgid "Proposed decision"
@@ -1234,7 +1224,7 @@ msgstr "Последовательно"
 
 #: R\mui.b.R
 msgid "Sum"
-msgstr ""
+msgstr "Сумма"
 
 #: mCOR/ui[4].label
 msgid "Tables"
@@ -1258,10 +1248,8 @@ msgstr ""
 "может быть выполнена только для классифицирующих переменных с двумя уровнями."
 
 #: package/datasets/Uncertain Interval.description
-#, fuzzy
-#| msgid "Three-way threshold determination of medical tests"
 msgid "Three-Way threshold determination in test results"
-msgstr "Трехфакторное определение порога медицинских тестов"
+msgstr "Трихотомическое определение порогов в результатах теста"
 
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
@@ -1281,7 +1269,7 @@ msgstr "Двойные ROC кривые"
 
 #: R\mui.b.R
 msgid "UI"
-msgstr ""
+msgstr "ИН"
 
 #: package/datasets/Uncertain Interval.name
 msgid "Uncertain Interval"
@@ -1298,12 +1286,16 @@ msgid ""
 "Uncertain Interval (UI) is placed around the point of intersection between "
 "the two distributions with and without the targeted state."
 msgstr ""
+"Интервал неопределенности (ИН) размещается вокруг точки пересечения двух "
+"распределений с целевым состоянием и без него."
 
 #: R\mui.b.R
 msgid ""
 "Uncertain Interval is considered to be a range of test scores that is "
 "inconclusive and does not warrant a right decision."
 msgstr ""
+"Интервал неопределенности — это диапазон результатов теста, который не "
+"гарантирует принятия правильного решения."
 
 #: mUI/options/polygon.title
 msgid "Uncertainty interval polygon"
