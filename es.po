@@ -322,8 +322,7 @@ msgstr ""
 msgid ""
 "Concordance - C-Statistic or AUC. The probability that a random chosen "
 "patient with the condition is correctly ranked higher than a randomly chosen "
-"patient without the condition. Equal to AUC, with for the more certain "
-"interval a higher outcome than the overall concordance"
+"patient without the condition"
 msgstr ""
 
 #: mROC/results/text.title
@@ -340,10 +339,6 @@ msgstr ""
 
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
-msgstr ""
-
-#: mUI/ui[0][0].label
-msgid "Continuous predictors"
 msgstr ""
 
 #: mCOR/options/hyp/corr.title
@@ -567,7 +562,7 @@ msgstr ""
 msgid "Intercluster Matrices"
 msgstr ""
 
-#: mUI/results/stat/uistat.columns.title
+#: R\mui.b.R mUI/results/stat/uistat.columns.title
 #, fuzzy
 #| msgid "Direction"
 msgid "Intersection"
@@ -577,19 +572,17 @@ msgstr "Dirección"
 msgid "Interval"
 msgstr ""
 
-#: mUI/ui[1].label
-msgid "Interval Analysis"
-msgstr ""
-
 #: mUI/options/UImethod.title
 #, fuzzy
 #| msgid "Agglomeration method"
 msgid "Interval determination method"
 msgstr "Método de aglomeración"
 
-#: mUI/results/stat.title
-msgid "Interval estimation"
-msgstr ""
+#: mUI/ui[1].label mUI/results/stat.title
+#, fuzzy
+#| msgid "Agglomeration method"
+msgid "Intervals Estimation"
+msgstr "Método de aglomeración"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
@@ -624,6 +617,10 @@ msgstr ""
 
 #: mROC/options/legBox.title
 msgid "Legend Box"
+msgstr ""
+
+#: mUI/results/stat/intstat.columns.title
+msgid "Level"
 msgstr ""
 
 #: mROC/options/lwd.title
@@ -683,6 +680,14 @@ msgid ""
 "MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
 msgstr ""
 
+#: R\mui.b.R
+msgid "MCI=0"
+msgstr ""
+
+#: R\mui.b.R
+msgid "MCI=1"
+msgstr ""
+
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
 msgstr ""
@@ -699,7 +704,7 @@ msgstr "Mediana"
 msgid "Median Linkage"
 msgstr ""
 
-#: mCOR/options/method.title mOUT/ui[1][0].label mUI/ui[1][1].label
+#: mCOR/options/method.title mOUT/ui[1][0].label mUI/ui[1][3].label
 msgid "Method"
 msgstr "Método"
 
@@ -757,8 +762,14 @@ msgstr ""
 msgid "Modified Z-score (Hampel filter)"
 msgstr "Puntuación-Z modificada (filtro Hampel)"
 
-#: mUI/results/stat/mcistat.title
-msgid "More Certain Interval"
+#: mUI/options/isMCI.title mUI/results/stat/mcistat.title
+msgid "More Certain Interval (MCI)"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"More Certain Interval (MCI) is interval outside the Uncertain Interval and "
+"divide into low and high parts."
 msgstr ""
 
 #: R\mmf.b.R
@@ -948,7 +959,7 @@ msgstr ""
 msgid "Plot the missing data patterns"
 msgstr ""
 
-#: mCOR/ui[5].label mMF/ui[1][0][1].label mUI/ui[1][2].label
+#: mCOR/ui[5].label mMF/ui[1][0][1].label mUI/ui[1][4].label
 msgid "Plots"
 msgstr ""
 
@@ -965,15 +976,21 @@ msgid "Predictive Mean Matching (PMM) steps"
 msgstr ""
 
 #: mUI/results/stat/uistat.columns.title mUI/results/stat/mcistat.columns.title
+#: mUI/results/stat/intstat.columns.title
 msgid "Predictor"
 msgstr ""
 
 #: mROC/options/vars.title mROC/ui[0][0].label mUI/options/test.title
+#: mUI/ui[0][0].label
 msgid "Predictors"
 msgstr ""
 
 #: R\mui.b.R
 msgid "Prevalence"
+msgstr ""
+
+#: mUI/options/isProp.title mUI/results/stat/intstat.title
+msgid "Proportions of Intervals"
 msgstr ""
 
 #: mUI/options/decision.title mUI/results/decision.title
@@ -1176,6 +1193,10 @@ msgstr ""
 msgid "Successively"
 msgstr ""
 
+#: R\mui.b.R
+msgid "Sum"
+msgstr ""
+
 #: mCOR/ui[4].label
 msgid "Tables"
 msgstr "Tablas"
@@ -1196,14 +1217,14 @@ msgid ""
 msgstr ""
 
 #: package/datasets/Uncertain Interval.description
-msgid "Three-way threshold determination of medical tests"
+msgid "Three-Way threshold determination in test results"
 msgstr ""
 
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
 msgstr ""
 
-#: mUI/options/youden.title
+#: R\mui.b.R mUI/options/youden.title
 msgid "Threshold on Youden"
 msgstr ""
 
@@ -1215,14 +1236,30 @@ msgstr ""
 msgid "Two-graph ROC curves"
 msgstr ""
 
-#: package/datasets/Uncertain Interval.name mUI/options/UImethod/UI.title
-#: mUI/results/stat/uistat.title
+#: R\mui.b.R
+msgid "UI"
+msgstr ""
+
+#: package/datasets/Uncertain Interval.name
 msgid "Uncertain Interval"
 msgstr ""
 
 #: package/analyses/mUI.title package/analyses/mUI.menuTitle mUI/options.title
-#: mUI/ui.title mUI/results.title
+#: mUI/options/UImethod/UI.title mUI/ui.title mUI/results.title
+#: mUI/results/text.title mUI/results/stat/uistat.title
 msgid "Uncertain Interval (UI)"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"Uncertain Interval (UI) is placed around the point of intersection between "
+"the two distributions with and without the targeted state."
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"Uncertain Interval is considered to be a range of test scores that is "
+"inconclusive and does not warrant a right decision."
 msgstr ""
 
 #: mUI/options/polygon.title

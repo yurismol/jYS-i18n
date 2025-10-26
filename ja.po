@@ -326,8 +326,7 @@ msgstr ""
 msgid ""
 "Concordance - C-Statistic or AUC. The probability that a random chosen "
 "patient with the condition is correctly ranked higher than a randomly chosen "
-"patient without the condition. Equal to AUC, with for the more certain "
-"interval a higher outcome than the overall concordance"
+"patient without the condition"
 msgstr ""
 
 #: mROC/results/text.title
@@ -345,12 +344,6 @@ msgstr "信頼区間（ピアソンのみ）"
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
 msgstr "信頼区間幅"
-
-#: mUI/ui[0][0].label
-#, fuzzy
-#| msgid "ROC by predictors"
-msgid "Continuous predictors"
-msgstr "予測変数別ROC"
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
@@ -578,7 +571,7 @@ msgstr "流入*"
 msgid "Intercluster Matrices"
 msgstr "クラスター間行列"
 
-#: mUI/results/stat/uistat.columns.title
+#: R\mui.b.R mUI/results/stat/uistat.columns.title
 #, fuzzy
 #| msgid "Direction"
 msgid "Intersection"
@@ -588,21 +581,17 @@ msgstr "向き"
 msgid "Interval"
 msgstr "間隔"
 
-#: mUI/ui[1].label
-#, fuzzy
-#| msgid "Interval"
-msgid "Interval Analysis"
-msgstr "間隔"
-
 #: mUI/options/UImethod.title
 #, fuzzy
 #| msgid "Outliers identifying method"
 msgid "Interval determination method"
 msgstr "外れ値の同定法"
 
-#: mUI/results/stat.title
-msgid "Interval estimation"
-msgstr ""
+#: mUI/ui[1].label mUI/results/stat.title
+#, fuzzy
+#| msgid "Missing Values Estimation"
+msgid "Intervals Estimation"
+msgstr "欠損値推定"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
@@ -638,6 +627,10 @@ msgstr "従来形式の特異度軸"
 #: mROC/options/legBox.title
 msgid "Legend Box"
 msgstr "凡例枠"
+
+#: mUI/results/stat/intstat.columns.title
+msgid "Level"
+msgstr ""
 
 #: mROC/options/lwd.title
 msgid "Line width"
@@ -700,6 +693,14 @@ msgid ""
 "MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
 msgstr "MCAR（完全無作為欠損）およびMAR（無作為欠損）推定"
 
+#: R\mui.b.R
+msgid "MCI=0"
+msgstr ""
+
+#: R\mui.b.R
+msgid "MCI=1"
+msgstr ""
+
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
 msgstr "マクイッティ連結法（WPGMA）"
@@ -716,7 +717,7 @@ msgstr "中央値"
 msgid "Median Linkage"
 msgstr "中央値連結法"
 
-#: mCOR/options/method.title mOUT/ui[1][0].label mUI/ui[1][1].label
+#: mCOR/options/method.title mOUT/ui[1][0].label mUI/ui[1][3].label
 msgid "Method"
 msgstr "方法"
 
@@ -774,8 +775,16 @@ msgstr ""
 msgid "Modified Z-score (Hampel filter)"
 msgstr "修正Z得点（ハンペル・フィルター）"
 
-#: mUI/results/stat/mcistat.title
-msgid "More Certain Interval"
+#: mUI/options/isMCI.title mUI/results/stat/mcistat.title
+#, fuzzy
+#| msgid "Interval"
+msgid "More Certain Interval (MCI)"
+msgstr "間隔"
+
+#: R\mui.b.R
+msgid ""
+"More Certain Interval (MCI) is interval outside the Uncertain Interval and "
+"divide into low and high parts."
 msgstr ""
 
 #: R\mmf.b.R
@@ -969,7 +978,7 @@ msgstr "作図オプション"
 msgid "Plot the missing data patterns"
 msgstr "欠損パターンを図示"
 
-#: mCOR/ui[5].label mMF/ui[1][0][1].label mUI/ui[1][2].label
+#: mCOR/ui[5].label mMF/ui[1][0][1].label mUI/ui[1][4].label
 msgid "Plots"
 msgstr "作図"
 
@@ -986,18 +995,26 @@ msgid "Predictive Mean Matching (PMM) steps"
 msgstr "予測平均マッチング（PMM）のステップ"
 
 #: mUI/results/stat/uistat.columns.title mUI/results/stat/mcistat.columns.title
+#: mUI/results/stat/intstat.columns.title
 #, fuzzy
 #| msgid "Predictors"
 msgid "Predictor"
 msgstr "予測変数"
 
 #: mROC/options/vars.title mROC/ui[0][0].label mUI/options/test.title
+#: mUI/ui[0][0].label
 msgid "Predictors"
 msgstr "予測変数"
 
 #: R\mui.b.R
 msgid "Prevalence"
 msgstr ""
+
+#: mUI/options/isProp.title mUI/results/stat/intstat.title
+#, fuzzy
+#| msgid "Interval"
+msgid "Proportions of Intervals"
+msgstr "間隔"
 
 #: mUI/options/decision.title mUI/results/decision.title
 msgid "Proposed decision"
@@ -1201,6 +1218,10 @@ msgstr "四角"
 msgid "Successively"
 msgstr "逐次的"
 
+#: R\mui.b.R
+msgid "Sum"
+msgstr ""
+
 #: mCOR/ui[4].label
 msgid "Tables"
 msgstr "表"
@@ -1223,14 +1244,14 @@ msgstr ""
 "てのみ実行できます。"
 
 #: package/datasets/Uncertain Interval.description
-msgid "Three-way threshold determination of medical tests"
+msgid "Three-Way threshold determination in test results"
 msgstr ""
 
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
 msgstr "Z得点の閾値"
 
-#: mUI/options/youden.title
+#: R\mui.b.R mUI/options/youden.title
 #, fuzzy
 #| msgid "Threshold for Z-score"
 msgid "Threshold on Youden"
@@ -1244,16 +1265,32 @@ msgstr "欠損値 {} の総数"
 msgid "Two-graph ROC curves"
 msgstr ""
 
-#: package/datasets/Uncertain Interval.name mUI/options/UImethod/UI.title
-#: mUI/results/stat/uistat.title
+#: R\mui.b.R
+msgid "UI"
+msgstr ""
+
+#: package/datasets/Uncertain Interval.name
 #, fuzzy
 #| msgid "Interval"
 msgid "Uncertain Interval"
 msgstr "間隔"
 
 #: package/analyses/mUI.title package/analyses/mUI.menuTitle mUI/options.title
-#: mUI/ui.title mUI/results.title
+#: mUI/options/UImethod/UI.title mUI/ui.title mUI/results.title
+#: mUI/results/text.title mUI/results/stat/uistat.title
 msgid "Uncertain Interval (UI)"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"Uncertain Interval (UI) is placed around the point of intersection between "
+"the two distributions with and without the targeted state."
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"Uncertain Interval is considered to be a range of test scores that is "
+"inconclusive and does not warrant a right decision."
 msgstr ""
 
 #: mUI/options/polygon.title
@@ -1333,6 +1370,16 @@ msgstr "ユーデン指数最大（特異度・感度）"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z得点"
+
+#, fuzzy
+#~| msgid "ROC by predictors"
+#~ msgid "Continuous predictors"
+#~ msgstr "予測変数別ROC"
+
+#, fuzzy
+#~| msgid "Interval"
+#~ msgid "Interval Analysis"
+#~ msgstr "間隔"
 
 #~ msgid "Outliers<br>removed"
 #~ msgstr "除去された<br>外れ値"
