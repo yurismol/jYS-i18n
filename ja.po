@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-24 02:01+0000\n"
-"Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
+"PO-Revision-Date: 2025-10-29 01:05+0000\n"
+"Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ja/>\n"
 "Language: ja\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -26,7 +26,7 @@ msgstr "{ciWidth}%信頼区間上限"
 
 #: R\mui.b.R
 msgid "{varType} proposed decision"
-msgstr ""
+msgstr "{varType} 決定案"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
@@ -90,7 +90,7 @@ msgstr "0 − 自動"
 
 #: mUI/ui[0][1]/refval.label
 msgid "0 ="
-msgstr ""
+msgstr "0 ="
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
@@ -105,10 +105,8 @@ msgid "100 - Specificity (%)"
 msgstr "100 − 特異度 (%)"
 
 #: mOUT/options/tholdZS/2.0.title mOUT/options/tholdmZS/2.0.title
-#, fuzzy
-#| msgid "2.2"
 msgid "2.0"
-msgstr "2.2"
+msgstr "2.0"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
@@ -184,12 +182,12 @@ msgstr "平均連結法（UPGMA）"
 
 #: R\mui.b.R
 msgid "Balance"
-msgstr ""
+msgstr "バランス"
 
 #: R\mui.b.R
 msgid ""
 "Balance - balance between correct and incorrect classified (TP+TN)/(FP+FN)"
-msgstr ""
+msgstr "バランス　正・誤分類のバランス (TP+TN)/(FP+FN)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
@@ -209,7 +207,7 @@ msgstr "Benjamini-Yekutieli (2001)"
 
 #: mUI/options/model/binormal.title
 msgid "Binormal"
-msgstr ""
+msgstr "二変量正規分布"
 
 #: mROC/options/BW.title
 msgid "Black & White"
@@ -243,7 +241,7 @@ msgstr "外れ値のフェンス"
 msgid ""
 "CCR - Correct Classification Rate or accuracy of the positive and negative "
 "classifications (TP+TN)/(TN+FP+FN+TP)"
-msgstr ""
+msgstr "CCR 　正答率、または陽性・陰性の分類精度 (TP+TN)/(TN+FP+FN+TP)"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -320,14 +318,15 @@ msgstr "完全変数をプロット"
 
 #: R\mui.b.R
 msgid "Concordance"
-msgstr ""
+msgstr "適合指数"
 
 #: R\mui.b.R
 msgid ""
 "Concordance - C-Statistic or AUC. The probability that a random chosen "
 "patient with the condition is correctly ranked higher than a randomly chosen "
 "patient without the condition"
-msgstr ""
+msgstr "適合指数　C統計量またはAUC。ランダムに選ばれた疾患を持つ患者が、ランダムに選"
+"ばれた疾患を持たない患者よりも正しく高い順位にランクされる確率"
 
 #: mROC/results/text.title
 msgid "Conditions"
@@ -398,7 +397,7 @@ msgstr "ダーク2"
 
 #: R\mui.b.R
 msgid "decision"
-msgstr ""
+msgstr "判断"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
@@ -406,7 +405,7 @@ msgstr "自由度 (df)"
 
 #: mUI/options/UImethod/noUI.title
 msgid "Dichotomization (no uncertainty)"
-msgstr ""
+msgstr "二分法（不確実性なし）"
 
 #: mROC/options/direction.title mUI/results/stat/uistat.columns.title
 msgid "Direction"
@@ -414,7 +413,7 @@ msgstr "向き"
 
 #: mUI/options/model.title
 msgid "Distribution model"
-msgstr ""
+msgstr "分布モデル"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
@@ -572,26 +571,20 @@ msgid "Intercluster Matrices"
 msgstr "クラスター間行列"
 
 #: R\mui.b.R mUI/results/stat/uistat.columns.title
-#, fuzzy
-#| msgid "Direction"
 msgid "Intersection"
-msgstr "向き"
+msgstr "交差"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
 msgstr "間隔"
 
 #: mUI/options/UImethod.title
-#, fuzzy
-#| msgid "Outliers identifying method"
 msgid "Interval determination method"
-msgstr "外れ値の同定法"
+msgstr "区間決定法"
 
 #: mUI/ui[1].label mUI/results/stat.title
-#, fuzzy
-#| msgid "Missing Values Estimation"
 msgid "Intervals Estimation"
-msgstr "欠損値推定"
+msgstr "区間推定"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
@@ -630,7 +623,7 @@ msgstr "凡例枠"
 
 #: mUI/results/stat/intstat.columns.title
 msgid "Level"
-msgstr ""
+msgstr "レベル"
 
 #: mROC/options/lwd.title
 msgid "Line width"
@@ -646,7 +639,7 @@ msgstr "下部"
 
 #: R\mui.b.R
 msgid "Lower threshold"
-msgstr ""
+msgstr "下限値"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
@@ -695,11 +688,11 @@ msgstr "MCAR（完全無作為欠損）およびMAR（無作為欠損）推定"
 
 #: R\mui.b.R
 msgid "MCI=0"
-msgstr ""
+msgstr "MCI=0"
 
 #: R\mui.b.R
 msgid "MCI=1"
-msgstr ""
+msgstr "MCI=1"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
@@ -769,23 +762,22 @@ msgstr "missRanger (2021)"
 
 #: mUI/options/isMD.title mUI/results/plotsMD.title
 msgid "Mixed Densities"
-msgstr ""
+msgstr "混合密度"
 
 #: mOUT/options/outlcheck/mZS.title
 msgid "Modified Z-score (Hampel filter)"
 msgstr "修正Z得点（ハンペル・フィルター）"
 
 #: mUI/options/isMCI.title mUI/results/stat/mcistat.title
-#, fuzzy
-#| msgid "Interval"
 msgid "More Certain Interval (MCI)"
-msgstr "間隔"
+msgstr "より確実な区間（MCI）"
 
 #: R\mui.b.R
 msgid ""
 "More Certain Interval (MCI) is interval outside the Uncertain Interval and "
 "divide into low and high parts."
-msgstr ""
+msgstr "より確実な区間（MCI）は、不確実な区間（Uncertain Interval）の外側にあり、低い"
+"部分と高い部分を分割する区間を指します。"
 
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
@@ -814,7 +806,7 @@ msgstr "N　欠損値の個数"
 
 #: mUI/options/model/none.title
 msgid "Non-parametric"
-msgstr ""
+msgstr "ノンパラメトリック"
 
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
@@ -828,7 +820,8 @@ msgstr "正規性<br>p値"
 
 #: R\mui.b.R
 msgid "NPV - Negative Predictive Value of the negative class TN/(TN+FN)"
-msgstr ""
+msgstr "陰性予測値 (NPV)　陰性と予測された場合に、それが実際に陰性である確率 TN/"
+"(TN+FN)"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
@@ -961,10 +954,8 @@ msgid "Pie"
 msgstr "円グラフ"
 
 #: mUI/options/isTGR.title
-#, fuzzy
-#| msgid "Plots"
 msgid "Plot"
-msgstr "作図"
+msgstr "グラフ"
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
@@ -988,7 +979,8 @@ msgstr "ポリゴン"
 
 #: R\mui.b.R
 msgid "PPV - Positive Predictive Value of the positive class TP/(TN+FN)"
-msgstr ""
+msgstr "陽性予測値 (PPV)　陽性と予測された場合に、それが実際に陽性である確率 TP/"
+"(TN+FN)"
 
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
@@ -996,8 +988,6 @@ msgstr "予測平均マッチング（PMM）のステップ"
 
 #: mUI/results/stat/uistat.columns.title mUI/results/stat/mcistat.columns.title
 #: mUI/results/stat/intstat.columns.title
-#, fuzzy
-#| msgid "Predictors"
 msgid "Predictor"
 msgstr "予測変数"
 
@@ -1008,17 +998,15 @@ msgstr "予測変数"
 
 #: R\mui.b.R
 msgid "Prevalence"
-msgstr ""
+msgstr "有病率"
 
 #: mUI/options/isProp.title mUI/results/stat/intstat.title
-#, fuzzy
-#| msgid "Interval"
 msgid "Proportions of Intervals"
-msgstr "間隔"
+msgstr "区間の割合"
 
 #: mUI/options/decision.title mUI/results/decision.title
 msgid "Proposed decision"
-msgstr ""
+msgstr "決定案"
 
 #: mCOR/options/plots.description.ui
 msgid "provide a correlation matrix plot."
@@ -1031,7 +1019,7 @@ msgstr "PVU（未説明分散比率）　連続変数に対する未説明な分
 
 #: mUI/options/refval.title
 msgid "Reference level"
-msgstr ""
+msgstr "基準レベル"
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
 msgid "Remove outliers"
@@ -1071,10 +1059,8 @@ msgid "ROC comparison"
 msgstr "ROC比較"
 
 #: mUI/options/isROC.title mUI/results/plotsROC.title
-#, fuzzy
-#| msgid "Split curves"
 msgid "ROC curves"
-msgstr "曲線分割"
+msgstr "ROC曲線"
 
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
@@ -1086,7 +1072,7 @@ msgstr "ROCグラフ"
 
 #: mUI/ui[2].label
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
@@ -1099,7 +1085,7 @@ msgstr "SDIのROC分類"
 #: R\mui.b.R
 msgid ""
 "Se - sensitivity of the positive and negative classifications TP/(TP+FN)"
-msgstr ""
+msgstr "感度 (Se)　陽性のものを正しく陽性と予測する割合 TP/(TP+FN)"
 
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
@@ -1114,16 +1100,12 @@ msgid "Sensitivity (%)"
 msgstr "感度（％）"
 
 #: mUI/options/uiSe.title
-#, fuzzy
-#| msgid "Sensitivity"
 msgid "Sensitivity inside UI <"
-msgstr "感度"
+msgstr "不確実区間内の感度"
 
 #: mUI/options/minSe.title
-#, fuzzy
-#| msgid "Sensitivity"
 msgid "Sensitivity outside UI >"
-msgstr "感度"
+msgstr "不確実区間外の感度"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
@@ -1159,12 +1141,12 @@ msgstr "タイトル斜め表示"
 
 #: R\mui.b.R
 msgid "SNPV - standardized negative predictive value of the negative class"
-msgstr ""
+msgstr "SNPV　標準化陰性予測値"
 
 #: R\mui.b.R
 msgid ""
 "Sp - specificity of the positive and negative classifications TN/(TN+FN)"
-msgstr ""
+msgstr "特異度 (Sp)　陰性のものを正しく陰性と予測する割合 TN/(TN+FN)"
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
@@ -1183,16 +1165,12 @@ msgid "Specificity (%)"
 msgstr "特異性（％）"
 
 #: mUI/options/uiSp.title
-#, fuzzy
-#| msgid "Specificity"
 msgid "Specificity inside UI <"
-msgstr "特異性"
+msgstr "不確実区間内の特異度"
 
 #: mUI/options/minSp.title
-#, fuzzy
-#| msgid "Specificity"
 msgid "Specificity outside UI >"
-msgstr "特異性"
+msgstr "不確実区間外の特異度"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
@@ -1208,7 +1186,7 @@ msgstr "予測変数別ROC曲線"
 
 #: R\mui.b.R
 msgid "SPPV - standardized positive predictive value of the positive class"
-msgstr ""
+msgstr "SPPV　標準化陽性予測値"
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
@@ -1220,7 +1198,7 @@ msgstr "逐次的"
 
 #: R\mui.b.R
 msgid "Sum"
-msgstr ""
+msgstr "合計"
 
 #: mCOR/ui[4].label
 msgid "Tables"
@@ -1245,17 +1223,15 @@ msgstr ""
 
 #: package/datasets/Uncertain Interval.description
 msgid "Three-Way threshold determination in test results"
-msgstr ""
+msgstr "テスト結果における3方向閾値決定"
 
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
 msgstr "Z得点の閾値"
 
 #: R\mui.b.R mUI/options/youden.title
-#, fuzzy
-#| msgid "Threshold for Z-score"
 msgid "Threshold on Youden"
-msgstr "Z得点の閾値"
+msgstr "ユーデン指数に基づく閾値"
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
@@ -1263,39 +1239,39 @@ msgstr "欠損値 {} の総数"
 
 #: mUI/options/UImethod/TGR.title mUI/results/plotsTGR.title
 msgid "Two-graph ROC curves"
-msgstr ""
+msgstr "2つのROC曲線"
 
 #: R\mui.b.R
 msgid "UI"
-msgstr ""
+msgstr "不確実区間"
 
 #: package/datasets/Uncertain Interval.name
-#, fuzzy
-#| msgid "Interval"
 msgid "Uncertain Interval"
-msgstr "間隔"
+msgstr "不確実区間"
 
 #: package/analyses/mUI.title package/analyses/mUI.menuTitle mUI/options.title
 #: mUI/options/UImethod/UI.title mUI/ui.title mUI/results.title
 #: mUI/results/text.title mUI/results/stat/uistat.title
 msgid "Uncertain Interval (UI)"
-msgstr ""
+msgstr "不確実区間 (UI)"
 
 #: R\mui.b.R
 msgid ""
 "Uncertain Interval (UI) is placed around the point of intersection between "
 "the two distributions with and without the targeted state."
-msgstr ""
+msgstr "不確実な区間 (UI) は、標的状態（例：疾患）がある分布とない分布の交差点の周囲"
+"に配置される区間です。"
 
 #: R\mui.b.R
 msgid ""
 "Uncertain Interval is considered to be a range of test scores that is "
 "inconclusive and does not warrant a right decision."
-msgstr ""
+msgstr "不確実区間は、テストスコアの範囲で、結果が決定的でなく、適切な判断を下すこと"
+"ができないと見なされる区間です。"
 
 #: mUI/options/polygon.title
 msgid "Uncertainty interval polygon"
-msgstr ""
+msgstr "不確実区間のポリゴン"
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
@@ -1312,7 +1288,7 @@ msgstr "上部"
 
 #: R\mui.b.R
 msgid "Upper threshold"
-msgstr ""
+msgstr "上限値"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
