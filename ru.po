@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-10-27 04:02+0000\n"
+"PO-Revision-Date: 2025-11-02 16:51+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ru/>\n"
@@ -9,8 +9,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
 "X-Generator: Weblate 5.14.1-dev\n"
 
 #: R\mroc.b.R
@@ -660,6 +661,10 @@ msgid ""
 "person with the condition receiving a negative classification / probability "
 "of a person without the condition receiving a negative classification"
 msgstr ""
+"LR- - отрицательное отношение правдоподобия P(-|D+))/(P(-|D-)). Вероятность "
+"того, что человек с заболеванием получит отрицательную классификацию / "
+"вероятность того, что человек без заболевания получит отрицательную "
+"классификацию"
 
 #: R\mui.b.R
 msgid ""
@@ -667,6 +672,10 @@ msgid ""
 "person with the condition receiving a positive classification / probability "
 "of a person without the condition receiving a positive classification"
 msgstr ""
+"LR+ - Положительное отношение правдоподобия (P(+|D+))/(P(+|D-)). Вероятность "
+"того, что человек с заболеванием получит положительную классификацию / "
+"вероятность того, что человек без заболевания получит положительную "
+"классификацию"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
@@ -1285,10 +1294,8 @@ msgid "UI"
 msgstr "ИН"
 
 #: package/datasets/UI for binomial logistis models.name
-#, fuzzy
-#| msgid "ROC estimation for binomial logistis models demonstration"
 msgid "UI for binomial logistis models"
-msgstr "Оценка ROC в демонстрации биномиальных логистических моделей"
+msgstr "ИН для биномиальных логистических моделей"
 
 #: package/analyses/mUI.title package/analyses/mUI.menuTitle
 #: package/datasets/Uncertain Interval (UI).name mUI/options.title
@@ -1306,10 +1313,9 @@ msgstr ""
 "распределений с целевым состоянием и без него."
 
 #: package/datasets/UI for binomial logistis models.description
-#, fuzzy
-#| msgid "ROC estimation for binomial logistis models demonstration"
 msgid "Uncertain Interval estimation for binomial logistis models"
-msgstr "Оценка ROC в демонстрации биномиальных логистических моделей"
+msgstr ""
+"Оценка интервала неопределенности для биномиальных логистических моделей"
 
 #: R\mui.b.R
 msgid ""
