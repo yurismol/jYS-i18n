@@ -48,7 +48,7 @@ msgstr "**bir değişkenin gözlemlenmiş verilerinin bağlantısı"
 msgid "*connection of a variable's missingness indicator"
 msgstr "*bir değişkenin eksiklik göstergesinin bağlantısı"
 
-#: R\mout.b.R
+#: R\mout.b.R R\mui.b.R
 msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
@@ -649,6 +649,20 @@ msgstr "Alt kısım"
 msgid "Lower threshold"
 msgstr ""
 
+#: R\mui.b.R
+msgid ""
+"LR- - Negative Likelihood Ratio P(-|D+))/(P(-|D-)). The probability of a "
+"person with the condition receiving a negative classification / probability "
+"of a person without the condition receiving a negative classification"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"LR+ - Positive Likelihood Ratio (P(+|D+))/(P(+|D-)) The probability of a "
+"person with the condition receiving a positive classification / probability "
+"of a person without the condition receiving a positive classification"
+msgstr ""
+
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
 msgstr "Manuel Kümeler"
@@ -1247,7 +1261,7 @@ msgstr ""
 "sınıflandırması yalnızca iki seviyeli sınıflandırma değişkenlerinde "
 "yapılabilir."
 
-#: package/datasets/Uncertain Interval.description
+#: package/datasets/Uncertain Interval (UI).description
 msgid "Three-Way threshold determination in test results"
 msgstr ""
 
@@ -1273,15 +1287,16 @@ msgstr ""
 msgid "UI"
 msgstr ""
 
-#: package/datasets/Uncertain Interval.name
+#: package/datasets/UI for binomial logistis models.name
 #, fuzzy
-#| msgid "Interval"
-msgid "Uncertain Interval"
-msgstr "Aralık"
+#| msgid "ROC estimation for binomial logistis models demonstration"
+msgid "UI for binomial logistis models"
+msgstr "Binom lojistik modelleri için ROC tahmini demonstrasyonu"
 
-#: package/analyses/mUI.title package/analyses/mUI.menuTitle mUI/options.title
+#: package/analyses/mUI.title package/analyses/mUI.menuTitle
+#: package/datasets/Uncertain Interval (UI).name mUI/options.title
 #: mUI/options/UImethod/UI.title mUI/ui.title mUI/results.title
-#: mUI/results/text.title mUI/results/stat/uistat.title
+#: mUI/results/stat/uistat.title
 msgid "Uncertain Interval (UI)"
 msgstr ""
 
@@ -1290,6 +1305,12 @@ msgid ""
 "Uncertain Interval (UI) is placed around the point of intersection between "
 "the two distributions with and without the targeted state."
 msgstr ""
+
+#: package/datasets/UI for binomial logistis models.description
+#, fuzzy
+#| msgid "ROC estimation for binomial logistis models demonstration"
+msgid "Uncertain Interval estimation for binomial logistis models"
+msgstr "Binom lojistik modelleri için ROC tahmini demonstrasyonu"
 
 #: R\mui.b.R
 msgid ""
@@ -1374,6 +1395,11 @@ msgstr "Youden En İyi (Öz, Duy)"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z-skoru"
+
+#, fuzzy
+#~| msgid "Interval"
+#~ msgid "Uncertain Interval"
+#~ msgstr "Aralık"
 
 #, fuzzy
 #~| msgid "ROC by predictors"

@@ -48,7 +48,7 @@ msgstr "** 観測データの接続"
 msgid "*connection of a variable's missingness indicator"
 msgstr "*欠損値指標の接続"
 
-#: R\mout.b.R
+#: R\mout.b.R R\mui.b.R
 msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
@@ -325,7 +325,8 @@ msgid ""
 "Concordance - C-Statistic or AUC. The probability that a random chosen "
 "patient with the condition is correctly ranked higher than a randomly chosen "
 "patient without the condition"
-msgstr "適合指数　C統計量またはAUC。ランダムに選ばれた疾患を持つ患者が、ランダムに選"
+msgstr ""
+"適合指数　C統計量またはAUC。ランダムに選ばれた疾患を持つ患者が、ランダムに選"
 "ばれた疾患を持たない患者よりも正しく高い順位にランクされる確率"
 
 #: mROC/results/text.title
@@ -641,6 +642,20 @@ msgstr "下部"
 msgid "Lower threshold"
 msgstr "下限値"
 
+#: R\mui.b.R
+msgid ""
+"LR- - Negative Likelihood Ratio P(-|D+))/(P(-|D-)). The probability of a "
+"person with the condition receiving a negative classification / probability "
+"of a person without the condition receiving a negative classification"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"LR+ - Positive Likelihood Ratio (P(+|D+))/(P(+|D-)) The probability of a "
+"person with the condition receiving a positive classification / probability "
+"of a person without the condition receiving a positive classification"
+msgstr ""
+
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
 msgstr "手動クラスタ"
@@ -776,7 +791,8 @@ msgstr "より確実な区間（MCI）"
 msgid ""
 "More Certain Interval (MCI) is interval outside the Uncertain Interval and "
 "divide into low and high parts."
-msgstr "より確実な区間（MCI）は、不確実な区間（Uncertain Interval）の外側にあり、低い"
+msgstr ""
+"より確実な区間（MCI）は、不確実な区間（Uncertain Interval）の外側にあり、低い"
 "部分と高い部分を分割する区間を指します。"
 
 #: R\mmf.b.R
@@ -820,7 +836,8 @@ msgstr "正規性<br>p値"
 
 #: R\mui.b.R
 msgid "NPV - Negative Predictive Value of the negative class TN/(TN+FN)"
-msgstr "陰性予測値 (NPV)　陰性と予測された場合に、それが実際に陰性である確率 TN/"
+msgstr ""
+"陰性予測値 (NPV)　陰性と予測された場合に、それが実際に陰性である確率 TN/"
 "(TN+FN)"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
@@ -979,7 +996,8 @@ msgstr "ポリゴン"
 
 #: R\mui.b.R
 msgid "PPV - Positive Predictive Value of the positive class TP/(TN+FN)"
-msgstr "陽性予測値 (PPV)　陽性と予測された場合に、それが実際に陽性である確率 TP/"
+msgstr ""
+"陽性予測値 (PPV)　陽性と予測された場合に、それが実際に陽性である確率 TP/"
 "(TN+FN)"
 
 #: mMF/options/pmmk.title
@@ -1221,7 +1239,7 @@ msgstr ""
 "分類変数 '{}' のが2水準になっていません。ROC分類は、水準数が2の分類変数に対し"
 "てのみ実行できます。"
 
-#: package/datasets/Uncertain Interval.description
+#: package/datasets/Uncertain Interval (UI).description
 msgid "Three-Way threshold determination in test results"
 msgstr "テスト結果における3方向閾値決定"
 
@@ -1245,13 +1263,16 @@ msgstr "2つのROC曲線"
 msgid "UI"
 msgstr "不確実区間"
 
-#: package/datasets/Uncertain Interval.name
-msgid "Uncertain Interval"
-msgstr "不確実区間"
+#: package/datasets/UI for binomial logistis models.name
+#, fuzzy
+#| msgid "ROC estimation for binomial logistis models demonstration"
+msgid "UI for binomial logistis models"
+msgstr "二項ロジスティックモデルにおけるROC推定のデモ"
 
-#: package/analyses/mUI.title package/analyses/mUI.menuTitle mUI/options.title
+#: package/analyses/mUI.title package/analyses/mUI.menuTitle
+#: package/datasets/Uncertain Interval (UI).name mUI/options.title
 #: mUI/options/UImethod/UI.title mUI/ui.title mUI/results.title
-#: mUI/results/text.title mUI/results/stat/uistat.title
+#: mUI/results/stat/uistat.title
 msgid "Uncertain Interval (UI)"
 msgstr "不確実区間 (UI)"
 
@@ -1259,14 +1280,22 @@ msgstr "不確実区間 (UI)"
 msgid ""
 "Uncertain Interval (UI) is placed around the point of intersection between "
 "the two distributions with and without the targeted state."
-msgstr "不確実な区間 (UI) は、標的状態（例：疾患）がある分布とない分布の交差点の周囲"
+msgstr ""
+"不確実な区間 (UI) は、標的状態（例：疾患）がある分布とない分布の交差点の周囲"
 "に配置される区間です。"
+
+#: package/datasets/UI for binomial logistis models.description
+#, fuzzy
+#| msgid "ROC estimation for binomial logistis models demonstration"
+msgid "Uncertain Interval estimation for binomial logistis models"
+msgstr "二項ロジスティックモデルにおけるROC推定のデモ"
 
 #: R\mui.b.R
 msgid ""
 "Uncertain Interval is considered to be a range of test scores that is "
 "inconclusive and does not warrant a right decision."
-msgstr "不確実区間は、テストスコアの範囲で、結果が決定的でなく、適切な判断を下すこと"
+msgstr ""
+"不確実区間は、テストスコアの範囲で、結果が決定的でなく、適切な判断を下すこと"
 "ができないと見なされる区間です。"
 
 #: mUI/options/polygon.title
@@ -1346,6 +1375,9 @@ msgstr "ユーデン指数最大（特異度・感度）"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z得点"
+
+#~ msgid "Uncertain Interval"
+#~ msgstr "不確実区間"
 
 #, fuzzy
 #~| msgid "ROC by predictors"

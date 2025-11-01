@@ -9,9 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural="
-"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
-"1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.1-dev\n"
 
 #: R\mroc.b.R
@@ -50,7 +49,7 @@ msgstr "**veza opaženih podataka varijable"
 msgid "*connection of a variable's missingness indicator"
 msgstr "*veza indikatora nedostajanja varijable"
 
-#: R\mout.b.R
+#: R\mout.b.R R\mui.b.R
 msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
@@ -651,6 +650,20 @@ msgstr "Donji dio"
 msgid "Lower threshold"
 msgstr "Niži prag"
 
+#: R\mui.b.R
+msgid ""
+"LR- - Negative Likelihood Ratio P(-|D+))/(P(-|D-)). The probability of a "
+"person with the condition receiving a negative classification / probability "
+"of a person without the condition receiving a negative classification"
+msgstr ""
+
+#: R\mui.b.R
+msgid ""
+"LR+ - Positive Likelihood Ratio (P(+|D+))/(P(+|D-)) The probability of a "
+"person with the condition receiving a positive classification / probability "
+"of a person without the condition receiving a positive classification"
+msgstr ""
+
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
 msgstr "Ručni skupvi podataka"
@@ -1155,7 +1168,8 @@ msgstr "Ukošeni naslovi"
 
 #: R\mui.b.R
 msgid "SNPV - standardized negative predictive value of the negative class"
-msgstr "SNPV – standardizirana negativna prediktivna vrijednost negativne klase"
+msgstr ""
+"SNPV – standardizirana negativna prediktivna vrijednost negativne klase"
 
 #: R\mui.b.R
 msgid ""
@@ -1200,7 +1214,8 @@ msgstr "Rastavljena ROC krivulja po prediktorima"
 
 #: R\mui.b.R
 msgid "SPPV - standardized positive predictive value of the positive class"
-msgstr "SPPV – standardizirana pozitivna prediktivna vrijednost pozitivne klase"
+msgstr ""
+"SPPV – standardizirana pozitivna prediktivna vrijednost pozitivne klase"
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
@@ -1235,7 +1250,7 @@ msgstr ""
 "Klasifikacijska varijabla '{}' nema točno dvije razine; ROC klasifikacija se "
 "može izvesti samo na klasifikacijskim varijablama s dvije razine."
 
-#: package/datasets/Uncertain Interval.description
+#: package/datasets/Uncertain Interval (UI).description
 msgid "Three-Way threshold determination in test results"
 msgstr "Određivanje trostrukog praga u rezultatima testa"
 
@@ -1259,13 +1274,16 @@ msgstr "Dijagram dviju ROC krivulja"
 msgid "UI"
 msgstr "Korisničko sučelje"
 
-#: package/datasets/Uncertain Interval.name
-msgid "Uncertain Interval"
-msgstr "Interval nesigurnosti"
+#: package/datasets/UI for binomial logistis models.name
+#, fuzzy
+#| msgid "ROC estimation for binomial logistis models demonstration"
+msgid "UI for binomial logistis models"
+msgstr "ROC procjena za demonstraciju binomnih logističkih modela"
 
-#: package/analyses/mUI.title package/analyses/mUI.menuTitle mUI/options.title
+#: package/analyses/mUI.title package/analyses/mUI.menuTitle
+#: package/datasets/Uncertain Interval (UI).name mUI/options.title
 #: mUI/options/UImethod/UI.title mUI/ui.title mUI/results.title
-#: mUI/results/text.title mUI/results/stat/uistat.title
+#: mUI/results/stat/uistat.title
 msgid "Uncertain Interval (UI)"
 msgstr "Interval nesigurnosti (korisničko sučelje)"
 
@@ -1276,6 +1294,12 @@ msgid ""
 msgstr ""
 "Interval nesigurnosti (korisničko sučelje) postavlja se oko točke sjecišta "
 "dviju distribucija sa i bez ciljanog stanja."
+
+#: package/datasets/UI for binomial logistis models.description
+#, fuzzy
+#| msgid "ROC estimation for binomial logistis models demonstration"
+msgid "Uncertain Interval estimation for binomial logistis models"
+msgstr "ROC procjena za demonstraciju binomnih logističkih modela"
 
 #: R\mui.b.R
 msgid ""
@@ -1362,6 +1386,9 @@ msgstr "Najbolji Youden (Specifičnost, osjetljivost)"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z-rezultat"
+
+#~ msgid "Uncertain Interval"
+#~ msgstr "Interval nesigurnosti"
 
 #, fuzzy
 #~| msgid "ROC by predictors"
