@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-10-30 21:02+0000\n"
+"PO-Revision-Date: 2025-11-07 17:51+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "hr/>\n"
@@ -9,9 +9,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -656,6 +657,9 @@ msgid ""
 "person with the condition receiving a negative classification / probability "
 "of a person without the condition receiving a negative classification"
 msgstr ""
+"LR− – Negativni omjer vjerojatnosti (P(-|D+))/(P(-|D-)). Vjerojatnosti da se "
+"osoba s oboljenjem pogrešno klasificirana kao negativna u odnosu na "
+"vjerojatnost da se osoba bez oboljenja klasificira kao negativna"
 
 #: R\mui.b.R
 msgid ""
@@ -663,6 +667,9 @@ msgid ""
 "person with the condition receiving a positive classification / probability "
 "of a person without the condition receiving a positive classification"
 msgstr ""
+"LR+ – Pozitivni omjer vjerojatnosti (P(+|D+))/(P(+|D-)). Vjerojatnosti da se "
+"osoba s oboljenjem klasificira kao pozitivna u odnosu na vjerojatnost da se "
+"osoba bez oboljenja klasificira kao pozitivna"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
@@ -1275,10 +1282,8 @@ msgid "UI"
 msgstr "Korisničko sučelje"
 
 #: package/datasets/UI for binomial logistis models.name
-#, fuzzy
-#| msgid "ROC estimation for binomial logistis models demonstration"
 msgid "UI for binomial logistis models"
-msgstr "ROC procjena za demonstraciju binomnih logističkih modela"
+msgstr "Korisničko sučelje za binomne logističke modele"
 
 #: package/analyses/mUI.title package/analyses/mUI.menuTitle
 #: package/datasets/Uncertain Interval (UI).name mUI/options.title
@@ -1296,10 +1301,8 @@ msgstr ""
 "dviju distribucija sa i bez ciljanog stanja."
 
 #: package/datasets/UI for binomial logistis models.description
-#, fuzzy
-#| msgid "ROC estimation for binomial logistis models demonstration"
 msgid "Uncertain Interval estimation for binomial logistis models"
-msgstr "ROC procjena za demonstraciju binomnih logističkih modela"
+msgstr "Procjena intervala nesigurnosti za binomne logističke modele"
 
 #: R\mui.b.R
 msgid ""
