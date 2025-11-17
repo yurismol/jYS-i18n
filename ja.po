@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-10-29 01:05+0000\n"
+"PO-Revision-Date: 2025-11-18 10:51+0000\n"
 "Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ja/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -648,6 +648,8 @@ msgid ""
 "person with the condition receiving a negative classification / probability "
 "of a person without the condition receiving a negative classification"
 msgstr ""
+"LR-（陰性尤度比） P(−｜D+) / P(−｜D−)　状態（疾患など）を有する人が「陰性」と"
+"判定される確率を、状態を有さない人が「陰性」と判定される確率で割った値"
 
 #: R\mui.b.R
 msgid ""
@@ -655,6 +657,8 @@ msgid ""
 "person with the condition receiving a positive classification / probability "
 "of a person without the condition receiving a positive classification"
 msgstr ""
+"LR+（陽性尤度比） P(+｜D+) / P(+｜D−)　状態（疾患など）を有する人が「陽性」と"
+"判定される確率を、状態を有さない人が「陽性」と判定される確率で割った値"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
@@ -1264,10 +1268,8 @@ msgid "UI"
 msgstr "不確実区間"
 
 #: package/datasets/UI for binomial logistis models.name
-#, fuzzy
-#| msgid "ROC estimation for binomial logistis models demonstration"
 msgid "UI for binomial logistis models"
-msgstr "二項ロジスティックモデルにおけるROC推定のデモ"
+msgstr "二項ロジスティックモデルのUI"
 
 #: package/analyses/mUI.title package/analyses/mUI.menuTitle
 #: package/datasets/Uncertain Interval (UI).name mUI/options.title
@@ -1285,10 +1287,8 @@ msgstr ""
 "に配置される区間です。"
 
 #: package/datasets/UI for binomial logistis models.description
-#, fuzzy
-#| msgid "ROC estimation for binomial logistis models demonstration"
 msgid "Uncertain Interval estimation for binomial logistis models"
-msgstr "二項ロジスティックモデルにおけるROC推定のデモ"
+msgstr "二項ロジスティックモデルにおける「不確実区間」の推定"
 
 #: R\mui.b.R
 msgid ""
