@@ -1,16 +1,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-08-15 18:01+0000\n"
-"Last-Translator: Tomi Sifa <yuzurukotomi0@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/jamovi/jys-"
-"i18n/id/>\n"
+"PO-Revision-Date: 2025-11-20 06:56+0000\n"
+"Last-Translator: anju <anju@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/jamovi/"
+"jys-i18n/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -92,7 +92,7 @@ msgstr ""
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 - Spesifisitas"
 
 #: mOUT/options/fence/1.5.title
 msgid "1.5"
@@ -144,7 +144,7 @@ msgstr ""
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "Tabel matriks korelasi"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
