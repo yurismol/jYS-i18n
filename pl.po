@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-11-23 07:51+0000\n"
+"PO-Revision-Date: 2025-11-25 11:51+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "pl/>\n"
@@ -106,10 +106,8 @@ msgid "100 - Specificity (%)"
 msgstr "100 - Swoistość (%)"
 
 #: mOUT/options/tholdZS/2.0.title mOUT/options/tholdmZS/2.0.title
-#, fuzzy
-#| msgid "2.2"
 msgid "2.0"
-msgstr "2.2"
+msgstr "2,0"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
@@ -185,7 +183,7 @@ msgstr "Średnie powiązanie (UPGMA)"
 
 #: R\mui.b.R
 msgid "Balance"
-msgstr ""
+msgstr "Balans"
 
 #: R\mui.b.R
 msgid ""
@@ -210,7 +208,7 @@ msgstr "Benjamini-Yekutieli (2001)"
 
 #: mUI/options/model/binormal.title
 msgid "Binormal"
-msgstr ""
+msgstr "Binormalny"
 
 #: mROC/options/BW.title
 msgid "Black & White"
@@ -317,11 +315,11 @@ msgstr "Kompletne zmienne"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
-msgstr ""
+msgstr "Uzupełnianie zmiennych na wykresach"
 
 #: R\mui.b.R
 msgid "Concordance"
-msgstr ""
+msgstr "Zgodność"
 
 #: R\mui.b.R
 msgid ""
@@ -399,7 +397,7 @@ msgstr "Ciemny2"
 
 #: R\mui.b.R
 msgid "decision"
-msgstr ""
+msgstr "decyzja"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of<br>Freedom (df)"
@@ -407,7 +405,7 @@ msgstr "Stopień <br>swobody (df)"
 
 #: mUI/options/UImethod/noUI.title
 msgid "Dichotomization (no uncertainty)"
-msgstr ""
+msgstr "Dychotomizacja (bez niepewności)"
 
 #: mROC/options/direction.title mUI/results/stat/uistat.columns.title
 msgid "Direction"
@@ -415,7 +413,7 @@ msgstr "Kierunek"
 
 #: mUI/options/model.title
 msgid "Distribution model"
-msgstr ""
+msgstr "Model rozkładu"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
@@ -469,7 +467,7 @@ msgstr ""
 
 #: R\mout.b.R
 msgid "Group"
-msgstr ""
+msgstr "Grupa"
 
 #: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
 #: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
@@ -478,7 +476,7 @@ msgstr "Zmienna grupująca"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
-msgstr ""
+msgstr "Hₐ wskazuje na korelację ujemną"
 
 #: R\mcor.b.R
 msgid "Hₐ is positive correlation"
@@ -494,11 +492,11 @@ msgstr ""
 
 #: mCOR/options/hclust.title
 msgid "Hierarchical clustering"
-msgstr ""
+msgstr "Analiza hierarchiczna"
 
 #: mCOR/results/treeplot.title
 msgid "Hierarchical clustering tree"
-msgstr ""
+msgstr "Dendrogram"
 
 #: mCOR/options/adjust/hochberg.title
 msgid "Hochberg (1988)"
@@ -529,7 +527,7 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "imp"
-msgstr ""
+msgstr "imp"
 
 #: R\mmf.b.R
 msgid "Imputation model predictor"
@@ -537,7 +535,7 @@ msgstr ""
 
 #: mMF/results/imputeOV.title
 msgid "Imputed misses"
-msgstr ""
+msgstr "Imputowane braki"
 
 #: mROC/options/perc.title
 msgid "In percent"
@@ -568,26 +566,20 @@ msgid "Intercluster Matrices"
 msgstr ""
 
 #: R\mui.b.R mUI/results/stat/uistat.columns.title
-#, fuzzy
-#| msgid "Direction"
 msgid "Intersection"
-msgstr "Kierunek"
+msgstr ""
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
-msgstr ""
+msgstr "Przedział"
 
 #: mUI/options/UImethod.title
-#, fuzzy
-#| msgid "Agglomeration method"
 msgid "Interval determination method"
-msgstr "Metoda aglomeracji"
+msgstr "Metoda wyznaczania przedziałów"
 
 #: mUI/ui[1].label mUI/results/stat.title
-#, fuzzy
-#| msgid "Missing Values Estimation"
 msgid "Intervals Estimation"
-msgstr "Estymacja braków danych"
+msgstr "Estymacja przedziałów"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
@@ -614,7 +606,7 @@ msgstr ""
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Kendall Tau"
-msgstr ""
+msgstr "tau Kendalla"
 
 #: mROC/options/legacy.title
 msgid "Legacy format of Specificity axis"
@@ -626,7 +618,7 @@ msgstr "Legenda"
 
 #: mUI/results/stat/intstat.columns.title
 msgid "Level"
-msgstr ""
+msgstr "Poziom"
 
 #: mROC/options/lwd.title
 msgid "Line width"
@@ -642,7 +634,7 @@ msgstr "Dolna część"
 
 #: R\mui.b.R
 msgid "Lower threshold"
-msgstr ""
+msgstr "Dolny próg"
 
 #: R\mui.b.R
 msgid ""
@@ -715,11 +707,11 @@ msgstr ""
 
 #: R\mout.b.R
 msgid "Mean"
-msgstr ""
+msgstr "Średnia"
 
 #: R\mout.b.R
 msgid "Median"
-msgstr ""
+msgstr "Mediana"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
@@ -799,7 +791,7 @@ msgstr ""
 
 #: mCOR/options/adjust.title
 msgid "Multiple comparison correction"
-msgstr ""
+msgstr "Korekta na porównania wielokrotne"
 
 #: mMF/options/imputeOV.title
 msgid "Multiple imputation for missing data"
@@ -820,7 +812,7 @@ msgstr ""
 
 #: mUI/options/model/none.title
 msgid "Non-parametric"
-msgstr ""
+msgstr "Nieparametryczny"
 
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
