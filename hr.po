@@ -9,9 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural="
-"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
-"1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.15-dev\n"
 
 #: R\mroc.b.R
@@ -406,7 +405,9 @@ msgid "decision"
 msgstr "odluka"
 
 #: mMF/results/estim/mcar.columns.title
-msgid "Degree of<br>Freedom (df)"
+#, fuzzy
+#| msgid "Degree of<br>Freedom (df)"
+msgid "Degree of Freedom (df)"
 msgstr "Stupanj <br>slobode (df)"
 
 #: mUI/options/UImethod/noUI.title
@@ -764,6 +765,12 @@ msgstr "nedostaje"
 msgid "Missing data patterns"
 msgstr "Nedostaju strukture podataka"
 
+#: mMF/results/estim/mcar.columns.title
+#, fuzzy
+#| msgid "Missing<br>Patterns"
+msgid "Missing Patterns"
+msgstr "Nedostaju<br>strukture"
+
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
 msgstr "Procjena nedostajućih vrijednosti"
@@ -783,10 +790,6 @@ msgid "Missing values imputation using the prediction power of Random Forests"
 msgstr ""
 "Imputacija nedostajućih vrijednosti korištenjem moći predviđanja slučajne "
 "šume (Random Forests)"
-
-#: mMF/results/estim/mcar.columns.title
-msgid "Missing<br>Patterns"
-msgstr "Nedostaju<br>strukture"
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
@@ -849,7 +852,9 @@ msgid "None"
 msgstr "Ništa"
 
 #: R\mout.b.R
-msgid "Normality<br>p-value"
+#, fuzzy
+#| msgid "Normality<br>p-value"
+msgid "Normality p-value"
 msgstr "Normalnost<br>p-vrijednost"
 
 #: R\mui.b.R
@@ -909,6 +914,12 @@ msgstr "outl"
 msgid "Outliers fences"
 msgstr "Granice odstupanja"
 
+#: R\mout.b.R
+#, fuzzy
+#| msgid "Outliers<br>found"
+msgid "Outliers found"
+msgstr "Pronađena<br>odstupanja"
+
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
 msgstr "Identicikacija odstupanja"
@@ -928,10 +939,6 @@ msgstr "Indeksi odstupanja"
 #: mOUT/ui[2].label
 msgid "Outliers removal"
 msgstr "Uklanjanje odstupanja"
-
-#: R\mout.b.R
-msgid "Outliers<br>found"
-msgstr "Pronađena<br>odstupanja"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"

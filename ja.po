@@ -401,7 +401,9 @@ msgid "decision"
 msgstr "判断"
 
 #: mMF/results/estim/mcar.columns.title
-msgid "Degree of<br>Freedom (df)"
+#, fuzzy
+#| msgid "Degree of<br>Freedom (df)"
+msgid "Degree of Freedom (df)"
 msgstr "自由度 (df)"
 
 #: mUI/options/UImethod/noUI.title
@@ -753,6 +755,12 @@ msgstr "欠損"
 msgid "Missing data patterns"
 msgstr "欠損値パターン"
 
+#: mMF/results/estim/mcar.columns.title
+#, fuzzy
+#| msgid "Missing<br>Patterns"
+msgid "Missing Patterns"
+msgstr "欠損パターン"
+
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
 msgstr "欠損値推定"
@@ -770,10 +778,6 @@ msgstr "欠損値補完"
 #: package/datasets/Missing Values Imputation.description
 msgid "Missing values imputation using the prediction power of Random Forests"
 msgstr "ランダムフォレストによる欠損値補完"
-
-#: mMF/results/estim/mcar.columns.title
-msgid "Missing<br>Patterns"
-msgstr "欠損パターン"
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
@@ -835,7 +839,9 @@ msgid "None"
 msgstr "なし"
 
 #: R\mout.b.R
-msgid "Normality<br>p-value"
+#, fuzzy
+#| msgid "Normality<br>p-value"
+msgid "Normality p-value"
 msgstr "正規性<br>p値"
 
 #: R\mui.b.R
@@ -896,6 +902,12 @@ msgstr "外れ値除去済"
 msgid "Outliers fences"
 msgstr "外れ値のフェンス"
 
+#: R\mout.b.R
+#, fuzzy
+#| msgid "Outliers fences"
+msgid "Outliers found"
+msgstr "外れ値のフェンス"
+
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
 msgstr "外れ値の同定"
@@ -915,10 +927,6 @@ msgstr "外れ値のインデックス"
 #: mOUT/ui[2].label
 msgid "Outliers removal"
 msgstr "外れ値の除去"
-
-#: R\mout.b.R
-msgid "Outliers<br>found"
-msgstr "同定された<br>外れ値"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"
@@ -1376,6 +1384,9 @@ msgstr "ユーデン指数最大（特異度・感度）"
 msgid "Z-score"
 msgstr "Z得点"
 
+#~ msgid "Outliers<br>found"
+#~ msgstr "同定された<br>外れ値"
+
 #~ msgid "Uncertain Interval"
 #~ msgstr "不確実区間"
 
@@ -1391,11 +1402,6 @@ msgstr "Z得点"
 
 #~ msgid "Outliers<br>removed"
 #~ msgstr "除去された<br>外れ値"
-
-#, fuzzy
-#~| msgid "Outliers fences"
-#~ msgid "Outliers found"
-#~ msgstr "外れ値のフェンス"
 
 #~ msgid "Variables with outliers"
 #~ msgstr "外れ値つき変数"

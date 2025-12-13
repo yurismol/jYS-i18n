@@ -397,7 +397,9 @@ msgid "decision"
 msgstr ""
 
 #: mMF/results/estim/mcar.columns.title
-msgid "Degree of<br>Freedom (df)"
+#, fuzzy
+#| msgid "Degree of<br>Freedom (df)"
+msgid "Degree of Freedom (df)"
 msgstr "ഡിഗ്രി ഓഫ്<br>ഫ്രീഡം (df)"
 
 #: mUI/options/UImethod/noUI.title
@@ -743,6 +745,12 @@ msgstr "മിസ്സിങ്ങ്"
 msgid "Missing data patterns"
 msgstr "കാണാനില്ലാത്ത ഡേറ്റാ പാറ്റേണുകൾ"
 
+#: mMF/results/estim/mcar.columns.title
+#, fuzzy
+#| msgid "Missing data patterns"
+msgid "Missing Patterns"
+msgstr "കാണാനില്ലാത്ത ഡേറ്റാ പാറ്റേണുകൾ"
+
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
 msgstr "ഇല്ലാത്ത മൂല്യങ്ങൾ കണക്കാക്കൽ"
@@ -760,10 +768,6 @@ msgstr "ഇല്ലാത്ത മൂല്യങ്ങളുടെ ഇംപ�
 #: package/datasets/Missing Values Imputation.description
 msgid "Missing values imputation using the prediction power of Random Forests"
 msgstr "Random Forests പ്രവചനം ഉപയോഗിച്ചുള്ള ഇല്ലാത്ത മൂല്യങ്ങളുടെ ഇംപ്യൂട്ടേഷൻ"
-
-#: mMF/results/estim/mcar.columns.title
-msgid "Missing<br>Patterns"
-msgstr ""
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
@@ -825,7 +829,7 @@ msgid "None"
 msgstr ""
 
 #: R\mout.b.R
-msgid "Normality<br>p-value"
+msgid "Normality p-value"
 msgstr ""
 
 #: R\mui.b.R
@@ -884,6 +888,10 @@ msgstr ""
 msgid "Outliers fences"
 msgstr ""
 
+#: R\mout.b.R
+msgid "Outliers found"
+msgstr ""
+
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
 msgstr ""
@@ -902,10 +910,6 @@ msgstr ""
 
 #: mOUT/ui[2].label
 msgid "Outliers removal"
-msgstr ""
-
-#: R\mout.b.R
-msgid "Outliers<br>found"
 msgstr ""
 
 #: mOUT/ui[1][1].label

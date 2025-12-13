@@ -403,7 +403,9 @@ msgid "decision"
 msgstr ""
 
 #: mMF/results/estim/mcar.columns.title
-msgid "Degree of<br>Freedom (df)"
+#, fuzzy
+#| msgid "Degree of<br>Freedom (df)"
+msgid "Degree of Freedom (df)"
 msgstr "Grau de<br>Llibertat (df)"
 
 #: mUI/options/UImethod/noUI.title
@@ -763,6 +765,12 @@ msgstr "perdut"
 msgid "Missing data patterns"
 msgstr "Patrons de dades perdudes"
 
+#: mMF/results/estim/mcar.columns.title
+#, fuzzy
+#| msgid "Missing<br>Patterns"
+msgid "Missing Patterns"
+msgstr "Patrons<br>Perduts"
+
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
 msgstr "Estimació de Valors perduts"
@@ -782,10 +790,6 @@ msgid "Missing values imputation using the prediction power of Random Forests"
 msgstr ""
 "Imputació de Valors perduts utilitzant el poder predictiu de Boscos "
 "Aleatoris (RF)"
-
-#: mMF/results/estim/mcar.columns.title
-msgid "Missing<br>Patterns"
-msgstr "Patrons<br>Perduts"
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
@@ -847,7 +851,9 @@ msgid "None"
 msgstr "Cap"
 
 #: R\mout.b.R
-msgid "Normality<br>p-value"
+#, fuzzy
+#| msgid "Normality<br>p-value"
+msgid "Normality p-value"
 msgstr "Normalitat<br>p-valor"
 
 #: R\mui.b.R
@@ -906,6 +912,10 @@ msgstr "outl"
 msgid "Outliers fences"
 msgstr "Bandes de valors extrems"
 
+#: R\mout.b.R
+msgid "Outliers found"
+msgstr "Valors extrems trobats"
+
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
 msgstr "Identificació de valors extrems"
@@ -925,10 +935,6 @@ msgstr "Indexes de valors extrems"
 #: mOUT/ui[2].label
 msgid "Outliers removal"
 msgstr "Eliminació de valors extrems"
-
-#: R\mout.b.R
-msgid "Outliers<br>found"
-msgstr "Atípics<br>trobats"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"
@@ -1408,6 +1414,9 @@ msgstr "Òptim de Youden (Sp, Se)"
 msgid "Z-score"
 msgstr "Puntuació-Z"
 
+#~ msgid "Outliers<br>found"
+#~ msgstr "Atípics<br>trobats"
+
 #, fuzzy
 #~| msgid "Interval"
 #~ msgid "Uncertain Interval"
@@ -1425,9 +1434,6 @@ msgstr "Puntuació-Z"
 
 #~ msgid "Outliers<br>removed"
 #~ msgstr "Atípics<br>eliminats"
-
-#~ msgid "Outliers found"
-#~ msgstr "Valors extrems trobats"
 
 #~ msgid "Variables with outliers"
 #~ msgstr "Variables amb valors extrems"

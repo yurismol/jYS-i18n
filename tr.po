@@ -399,7 +399,9 @@ msgid "decision"
 msgstr ""
 
 #: mMF/results/estim/mcar.columns.title
-msgid "Degree of<br>Freedom (df)"
+#, fuzzy
+#| msgid "Degree of<br>Freedom (df)"
+msgid "Degree of Freedom (df)"
 msgstr "Serbestlik<br>Derecesi (sd)"
 
 #: mUI/options/UImethod/noUI.title
@@ -756,6 +758,12 @@ msgstr "eksik"
 msgid "Missing data patterns"
 msgstr "Eksik veri desenleri"
 
+#: mMF/results/estim/mcar.columns.title
+#, fuzzy
+#| msgid "Missing<br>Patterns"
+msgid "Missing Patterns"
+msgstr "Eksik<br>Desenler"
+
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
 msgstr "Eksik Değerler Tahmini"
@@ -774,10 +782,6 @@ msgstr "Eksik Değerler Doldurma"
 msgid "Missing values imputation using the prediction power of Random Forests"
 msgstr ""
 "Rastgele Ormanların tahmin gücü kullanılarak eksik değerlerin doldurulması"
-
-#: mMF/results/estim/mcar.columns.title
-msgid "Missing<br>Patterns"
-msgstr "Eksik<br>Desenler"
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
@@ -839,7 +843,9 @@ msgid "None"
 msgstr "Hiçbiri"
 
 #: R\mout.b.R
-msgid "Normality<br>p-value"
+#, fuzzy
+#| msgid "Normality<br>p-value"
+msgid "Normality p-value"
 msgstr "Normallik<br>p-değeri"
 
 #: R\mui.b.R
@@ -898,6 +904,12 @@ msgstr "aykırı"
 msgid "Outliers fences"
 msgstr "Aykırı değer sınırları"
 
+#: R\mout.b.R
+#, fuzzy
+#| msgid "Outliers<br>found"
+msgid "Outliers found"
+msgstr "Bulunan<br>aykırı değerler"
+
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
 msgstr "Aykırı değer tanımlama"
@@ -917,10 +929,6 @@ msgstr "Aykırı değer indeksleri"
 #: mOUT/ui[2].label
 msgid "Outliers removal"
 msgstr "Aykırı değer kaldırma"
-
-#: R\mout.b.R
-msgid "Outliers<br>found"
-msgstr "Bulunan<br>aykırı değerler"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"

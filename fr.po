@@ -397,7 +397,7 @@ msgid "decision"
 msgstr ""
 
 #: mMF/results/estim/mcar.columns.title
-msgid "Degree of<br>Freedom (df)"
+msgid "Degree of Freedom (df)"
 msgstr ""
 
 #: mUI/options/UImethod/noUI.title
@@ -740,6 +740,12 @@ msgstr ""
 msgid "Missing data patterns"
 msgstr ""
 
+#: mMF/results/estim/mcar.columns.title
+#, fuzzy
+#| msgid "Plot the missing data patterns"
+msgid "Missing Patterns"
+msgstr "Tracer les motifs de données manquants"
+
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
 msgstr ""
@@ -756,10 +762,6 @@ msgstr ""
 
 #: package/datasets/Missing Values Imputation.description
 msgid "Missing values imputation using the prediction power of Random Forests"
-msgstr ""
-
-#: mMF/results/estim/mcar.columns.title
-msgid "Missing<br>Patterns"
 msgstr ""
 
 #: mMF/options/alg/mR.title
@@ -822,7 +824,7 @@ msgid "None"
 msgstr "Aucun(e)"
 
 #: R\mout.b.R
-msgid "Normality<br>p-value"
+msgid "Normality p-value"
 msgstr ""
 
 #: R\mui.b.R
@@ -881,6 +883,10 @@ msgstr ""
 msgid "Outliers fences"
 msgstr ""
 
+#: R\mout.b.R
+msgid "Outliers found"
+msgstr ""
+
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
 msgstr ""
@@ -899,10 +905,6 @@ msgstr ""
 
 #: mOUT/ui[2].label
 msgid "Outliers removal"
-msgstr ""
-
-#: R\mout.b.R
-msgid "Outliers<br>found"
 msgstr ""
 
 #: mOUT/ui[1][1].label
