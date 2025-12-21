@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-11-07 17:51+0000\n"
-"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"PO-Revision-Date: 2025-12-22 09:00+0000\n"
+"Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "hr/>\n"
 "Language: hr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -405,10 +405,8 @@ msgid "decision"
 msgstr "odluka"
 
 #: mMF/results/estim/mcar.columns.title
-#, fuzzy
-#| msgid "Degree of<br>Freedom (df)"
 msgid "Degree of Freedom (df)"
-msgstr "Stupanj <br>slobode (df)"
+msgstr "Stupanj slobode (df)"
 
 #: mUI/options/UImethod/noUI.title
 msgid "Dichotomization (no uncertainty)"
@@ -766,10 +764,8 @@ msgid "Missing data patterns"
 msgstr "Nedostaju strukture podataka"
 
 #: mMF/results/estim/mcar.columns.title
-#, fuzzy
-#| msgid "Missing<br>Patterns"
 msgid "Missing Patterns"
-msgstr "Nedostaju<br>strukture"
+msgstr "Nedostaju strukture"
 
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
@@ -852,10 +848,8 @@ msgid "None"
 msgstr "Ništa"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Normality<br>p-value"
 msgid "Normality p-value"
-msgstr "Normalnost<br>p-vrijednost"
+msgstr "Normalnost p-vrijednost"
 
 #: R\mui.b.R
 msgid "NPV - Negative Predictive Value of the negative class TN/(TN+FN)"
@@ -915,10 +909,8 @@ msgid "Outliers fences"
 msgstr "Granice odstupanja"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Outliers<br>found"
 msgid "Outliers found"
-msgstr "Pronađena<br>odstupanja"
+msgstr "Pronađena odstupanja"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
