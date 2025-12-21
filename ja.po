@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-11-18 10:51+0000\n"
-"Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
+"PO-Revision-Date: 2025-12-22 09:00+0000\n"
+"Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ja/>\n"
 "Language: ja\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -401,8 +401,6 @@ msgid "decision"
 msgstr "判断"
 
 #: mMF/results/estim/mcar.columns.title
-#, fuzzy
-#| msgid "Degree of<br>Freedom (df)"
 msgid "Degree of Freedom (df)"
 msgstr "自由度 (df)"
 
@@ -756,8 +754,6 @@ msgid "Missing data patterns"
 msgstr "欠損値パターン"
 
 #: mMF/results/estim/mcar.columns.title
-#, fuzzy
-#| msgid "Missing<br>Patterns"
 msgid "Missing Patterns"
 msgstr "欠損パターン"
 
@@ -839,10 +835,8 @@ msgid "None"
 msgstr "なし"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Normality<br>p-value"
 msgid "Normality p-value"
-msgstr "正規性<br>p値"
+msgstr "正規性 p値"
 
 #: R\mui.b.R
 msgid "NPV - Negative Predictive Value of the negative class TN/(TN+FN)"
