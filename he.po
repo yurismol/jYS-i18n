@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-16 03:02+0000\n"
+"PO-Revision-Date: 2025-12-23 17:00+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "he/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -34,10 +34,8 @@ msgid "{varType} with imputed values"
 msgstr "{varType} עם ערכים מוחלפים"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "{varType} with imputed values"
 msgid "{varType} without outliers"
-msgstr "{varType} עם ערכי ייחוס"
+msgstr "{varType} ללא חריגות"
 
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
@@ -55,7 +53,7 @@ msgstr "*חיבור של מחוון הנעלמות של משתנה"
 msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
-msgstr ""
+msgstr "*p<0.05 – השערת ההתפלגות הנורמלית נדחתה על ידי מבחן שפירו–וילק"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
@@ -83,7 +81,7 @@ msgstr "< 0.1"
 
 #: R\mmf.b.R
 msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
-msgstr ""
+msgstr "<h2>עזרה</h2><div>נא לבחור משתנים מושלמים ומשתנים לא מושלמים</div>"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
@@ -91,7 +89,7 @@ msgstr "0 – אוטומטי"
 
 #: mUI/ui[0][1]/refval.label
 msgid "0 ="
-msgstr ""
+msgstr "0 ="
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
@@ -106,10 +104,8 @@ msgid "100 - Specificity (%)"
 msgstr "100 – סגוליות (%)"
 
 #: mOUT/options/tholdZS/2.0.title mOUT/options/tholdmZS/2.0.title
-#, fuzzy
-#| msgid "2.2"
 msgid "2.0"
-msgstr "2.2"
+msgstr "2.0"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
@@ -129,7 +125,7 @@ msgstr "3.0 (standard)"
 
 #: mOUT/options/tholdZS/3.5.title
 msgid "3.5"
-msgstr ""
+msgstr "3.5"
 
 #: mOUT/options/tholdmZS/3.5.title
 msgid "3.5 (standard)"
@@ -230,7 +226,7 @@ msgstr "תחתון"
 
 #: mOUT/options/boxpl.title mOUT/results/plots.title
 msgid "Boxplots with outliers"
-msgstr ""
+msgstr "תרשימי קופסות עם חריגות"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
@@ -399,13 +395,11 @@ msgstr "חשוך2"
 
 #: R\mui.b.R
 msgid "decision"
-msgstr ""
+msgstr "החלטה"
 
 #: mMF/results/estim/mcar.columns.title
-#, fuzzy
-#| msgid "Degree of<br>Freedom (df)"
 msgid "Degree of Freedom (df)"
-msgstr "דרגות<br>חופש (df)"
+msgstr "דרגות חופש (df)"
 
 #: mUI/options/UImethod/noUI.title
 msgid "Dichotomization (no uncertainty)"
@@ -417,7 +411,7 @@ msgstr "כיוון"
 
 #: mUI/options/model.title
 msgid "Distribution model"
-msgstr ""
+msgstr "מודל ההתפלגות"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
@@ -520,7 +514,7 @@ msgstr "השערה"
 
 #: package/datasets/Outliers identification and removal.description
 msgid "Identification, analysis and removal of data outliers by groups"
-msgstr ""
+msgstr "זיהוי חריגות נתונים לפי קבוצות, ניתוחן והסרתן"
 
 #: R\mmf.b.R
 msgid ""
@@ -553,7 +547,7 @@ msgstr "משתנים לא מושלמים"
 
 #: R\mout.b.R
 msgid "Indices (Rows)"
-msgstr ""
+msgstr "מדדים (שורות)"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
@@ -572,26 +566,20 @@ msgid "Intercluster Matrices"
 msgstr "מטריצות בין־אשכולות"
 
 #: R\mui.b.R mUI/results/stat/uistat.columns.title
-#, fuzzy
-#| msgid "Direction"
 msgid "Intersection"
-msgstr "כיוון"
+msgstr "חיתוך"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
 msgstr "רווח"
 
 #: mUI/options/UImethod.title
-#, fuzzy
-#| msgid "Agglomeration method"
 msgid "Interval determination method"
-msgstr "שיטת הליכוד"
+msgstr "שיטת קביעת הרווח"
 
 #: mUI/ui[1].label mUI/results/stat.title
-#, fuzzy
-#| msgid "Missing Values Estimation"
 msgid "Intervals Estimation"
-msgstr "תבניות ערכים חסרים"
+msgstr "הערכת הרווחים"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
@@ -630,7 +618,7 @@ msgstr ""
 
 #: mUI/results/stat/intstat.columns.title
 msgid "Level"
-msgstr ""
+msgstr "רמה"
 
 #: mROC/options/lwd.title
 msgid "Line width"
@@ -707,11 +695,11 @@ msgstr "אומדן MCAR (חסרים לחלוטין באקראי) ו־MAR (חסר
 
 #: R\mui.b.R
 msgid "MCI=0"
-msgstr ""
+msgstr "MCI=0"
 
 #: R\mui.b.R
 msgid "MCI=1"
-msgstr ""
+msgstr "MCI=1"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
@@ -754,10 +742,8 @@ msgid "Missing data patterns"
 msgstr "תבניות נתונים חסרים"
 
 #: mMF/results/estim/mcar.columns.title
-#, fuzzy
-#| msgid "Missing<br>Patterns"
 msgid "Missing Patterns"
-msgstr "תבניות<br>החסרים"
+msgstr "תבניות החסרים"
 
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
@@ -783,17 +769,15 @@ msgstr ""
 
 #: mUI/options/isMD.title mUI/results/plotsMD.title
 msgid "Mixed Densities"
-msgstr ""
+msgstr "צפיפויות מעורבות"
 
 #: mOUT/options/outlcheck/mZS.title
 msgid "Modified Z-score (Hampel filter)"
-msgstr ""
+msgstr "ציוני Z מותאמים (סנן המפל)"
 
 #: mUI/options/isMCI.title mUI/results/stat/mcistat.title
-#, fuzzy
-#| msgid "Interval"
 msgid "More Certain Interval (MCI)"
-msgstr "רווח"
+msgstr ""
 
 #: R\mui.b.R
 msgid ""
@@ -828,7 +812,7 @@ msgstr "N – מספר הערכים החסרים;"
 
 #: mUI/options/model/none.title
 msgid "Non-parametric"
-msgstr ""
+msgstr "לא פרמטרי"
 
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
@@ -838,7 +822,7 @@ msgstr "כלום"
 
 #: R\mout.b.R
 msgid "Normality p-value"
-msgstr ""
+msgstr "ערך p לנורמליות"
 
 #: R\mui.b.R
 msgid "NPV - Negative Predictive Value of the negative class TN/(TN+FN)"
