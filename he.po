@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-12-23 17:00+0000\n"
+"PO-Revision-Date: 2025-12-25 08:00+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "he/>\n"
@@ -634,7 +634,7 @@ msgstr "החלק התחתון"
 
 #: R\mui.b.R
 msgid "Lower threshold"
-msgstr ""
+msgstr "הסף התחתון"
 
 #: R\mui.b.R
 msgid ""
@@ -723,7 +723,7 @@ msgstr "שיטה"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
-msgstr ""
+msgstr "צריך לפחות {minVar} משתנים (מושלמים + לא מושלמים)"
 
 #: R\mmf.b.R
 msgid "Minimum 2 impute variables are required"
@@ -881,8 +881,9 @@ msgid "Outliers fences"
 msgstr ""
 
 #: R\mout.b.R
+#, fuzzy
 msgid "Outliers found"
-msgstr ""
+msgstr "החריגות שנמצאו"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
@@ -894,7 +895,7 @@ msgstr ""
 
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
-msgstr ""
+msgstr "שיטת זיהוי החריגות"
 
 #: mOUT/options/outind.title mOUT/results/oind.title
 msgid "Outliers indices"
@@ -905,8 +906,9 @@ msgid "Outliers removal"
 msgstr ""
 
 #: mOUT/ui[1][1].label
+#, fuzzy
 msgid "Output information"
-msgstr ""
+msgstr "מידע על הפלט"
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
@@ -959,10 +961,8 @@ msgid "Pie"
 msgstr "עיגולי"
 
 #: mUI/options/isTGR.title
-#, fuzzy
-#| msgid "Plots"
 msgid "Plot"
-msgstr "תרשימים"
+msgstr "תרשים"
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
@@ -994,10 +994,8 @@ msgstr "שלבי התאמת הממוצע המנבא (PMM)"
 
 #: mUI/results/stat/uistat.columns.title mUI/results/stat/mcistat.columns.title
 #: mUI/results/stat/intstat.columns.title
-#, fuzzy
-#| msgid "Predictors"
 msgid "Predictor"
-msgstr "מנבאים"
+msgstr "מנבא"
 
 #: mROC/options/vars.title mROC/ui[0][0].label mUI/options/test.title
 #: mUI/ui[0][0].label
@@ -1009,10 +1007,8 @@ msgid "Prevalence"
 msgstr ""
 
 #: mUI/options/isProp.title mUI/results/stat/intstat.title
-#, fuzzy
-#| msgid "Interval"
 msgid "Proportions of Intervals"
-msgstr "רווח"
+msgstr "יחסים של רווחים"
 
 #: mUI/options/decision.title mUI/results/decision.title
 msgid "Proposed decision"
@@ -1029,11 +1025,11 @@ msgstr "PVU – יחס השונות הבלתי מוסברת 1-R² (למשתני�
 
 #: mUI/options/refval.title
 msgid "Reference level"
-msgstr ""
+msgstr "רמת ייחוס"
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
 msgid "Remove outliers"
-msgstr ""
+msgstr "הסרת החריגות"
 
 #: mCOR/options/plotOrder.title
 msgid "Reorder"
@@ -1069,10 +1065,8 @@ msgid "ROC comparison"
 msgstr "השוואת ROC"
 
 #: mUI/options/isROC.title mUI/results/plotsROC.title
-#, fuzzy
-#| msgid "Split curves"
 msgid "ROC curves"
-msgstr "פיצול העקומות"
+msgstr "עקומות ROC"
 
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
@@ -1084,7 +1078,7 @@ msgstr "גרפי ROC"
 
 #: mUI/ui[2].label
 msgid "Save"
-msgstr ""
+msgstr "שמירה"
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
@@ -1112,16 +1106,12 @@ msgid "Sensitivity (%)"
 msgstr "רגישות (%)"
 
 #: mUI/options/uiSe.title
-#, fuzzy
-#| msgid "Sensitivity"
 msgid "Sensitivity inside UI <"
-msgstr "רגישות"
+msgstr ""
 
 #: mUI/options/minSe.title
-#, fuzzy
-#| msgid "Sensitivity"
 msgid "Sensitivity outside UI >"
-msgstr "רגישות"
+msgstr ""
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
@@ -1181,16 +1171,12 @@ msgid "Specificity (%)"
 msgstr "סגוליות (%)"
 
 #: mUI/options/uiSp.title
-#, fuzzy
-#| msgid "Specificity"
 msgid "Specificity inside UI <"
-msgstr "סגוליות"
+msgstr ""
 
 #: mUI/options/minSp.title
-#, fuzzy
-#| msgid "Specificity"
 msgid "Specificity outside UI >"
-msgstr "סגוליות"
+msgstr ""
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
@@ -1218,7 +1204,7 @@ msgstr "ברצף"
 
 #: R\mui.b.R
 msgid "Sum"
-msgstr ""
+msgstr "סכום"
 
 #: mCOR/ui[4].label
 msgid "Tables"
@@ -1250,10 +1236,8 @@ msgid "Threshold for Z-score"
 msgstr "סף לציון Z"
 
 #: R\mui.b.R mUI/options/youden.title
-#, fuzzy
-#| msgid "Threshold for Z-score"
 msgid "Threshold on Youden"
-msgstr "סף לציון Z"
+msgstr ""
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
@@ -1268,10 +1252,8 @@ msgid "UI"
 msgstr ""
 
 #: package/datasets/UI for binomial logistis models.name
-#, fuzzy
-#| msgid "ROC estimation for binomial logistis models demonstration"
 msgid "UI for binomial logistis models"
-msgstr "הדגמת אומדן ROC למודלים לוגיטיים בינומיים"
+msgstr ""
 
 #: package/analyses/mUI.title package/analyses/mUI.menuTitle
 #: package/datasets/Uncertain Interval (UI).name mUI/options.title
@@ -1287,10 +1269,8 @@ msgid ""
 msgstr ""
 
 #: package/datasets/UI for binomial logistis models.description
-#, fuzzy
-#| msgid "ROC estimation for binomial logistis models demonstration"
 msgid "Uncertain Interval estimation for binomial logistis models"
-msgstr "הדגמת אומדן ROC למודלים לוגיטיים בינומיים"
+msgstr ""
 
 #: R\mui.b.R
 msgid ""
@@ -1317,7 +1297,7 @@ msgstr "החלק העליון"
 
 #: R\mui.b.R
 msgid "Upper threshold"
-msgstr ""
+msgstr "הסף העליון"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
