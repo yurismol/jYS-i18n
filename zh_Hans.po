@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-12-15 20:00+0000\n"
-"Last-Translator: Jietian Meng <tiankong975310@yahoo.com>\n"
+"PO-Revision-Date: 2025-12-27 10:00+0000\n"
+"Last-Translator: Song Dee <sd4w07@googlemail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jys-i18n/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -10,11 +10,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15.1-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
-msgstr ""
+msgstr " [{prc}% CI置信区间]"
 
 #: R\mcor.b.R
 msgid "{ciWidth}% CI Lower"
@@ -56,7 +56,7 @@ msgstr "*p<0.05 - Shapiro-Wilk检验拒绝了正态性假设"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
-msgstr ""
+msgstr "*成对完整观测值"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 #, fuzzy
