@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-16 03:01+0000\n"
+"PO-Revision-Date: 2025-12-30 19:00+0000\n"
 "Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ca/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -26,7 +26,7 @@ msgstr "{ciWidth}% IC superior"
 
 #: R\mui.b.R
 msgid "{varType} proposed decision"
-msgstr ""
+msgstr "{varType} proposta com a decisió"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
@@ -92,7 +92,7 @@ msgstr "0 - auto"
 
 #: mUI/ui[0][1]/refval.label
 msgid "0 ="
-msgstr ""
+msgstr "0 ="
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
@@ -107,10 +107,8 @@ msgid "100 - Specificity (%)"
 msgstr "100 - Especificitat (%)"
 
 #: mOUT/options/tholdZS/2.0.title mOUT/options/tholdmZS/2.0.title
-#, fuzzy
-#| msgid "2.2"
 msgid "2.0"
-msgstr "2,2"
+msgstr "2,0"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
@@ -186,12 +184,13 @@ msgstr "Vinculació Mitjana (UPGMA)"
 
 #: R\mui.b.R
 msgid "Balance"
-msgstr ""
+msgstr "Balanç"
 
 #: R\mui.b.R
 msgid ""
 "Balance - balance between correct and incorrect classified (TP+TN)/(FP+FN)"
 msgstr ""
+"Balanç - balanç entre classificacions correctes i incorrectes (TP+TN)/(FP+FN)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
@@ -211,7 +210,7 @@ msgstr "Benjamini-Yekutieli (2001)"
 
 #: mUI/options/model/binormal.title
 msgid "Binormal"
-msgstr ""
+msgstr "Binormal"
 
 #: mROC/options/BW.title
 msgid "Black & White"
@@ -246,6 +245,8 @@ msgid ""
 "CCR - Correct Classification Rate or accuracy of the positive and negative "
 "classifications (TP+TN)/(TN+FP+FN+TP)"
 msgstr ""
+"CCR - Raó de Classificació Correcta or Exactitud de les classificacions "
+"positives i negatives (TP+TN)/(TN+FP+FN+TP)"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -322,7 +323,7 @@ msgstr "Variables Completes als gràfics"
 
 #: R\mui.b.R
 msgid "Concordance"
-msgstr ""
+msgstr "Concordança"
 
 #: R\mui.b.R
 msgid ""
@@ -330,6 +331,9 @@ msgid ""
 "patient with the condition is correctly ranked higher than a randomly chosen "
 "patient without the condition"
 msgstr ""
+"Concordança - Estadístic-C or AUC. La probabilitat de que un pacient triat a "
+"l'atzar amb la condició sigui correctament avaluat per sobre d'un altre "
+"pacient triat a l'atzar sense la condició"
 
 #: mROC/results/text.title
 msgid "Conditions"
@@ -400,17 +404,15 @@ msgstr "Dark2"
 
 #: R\mui.b.R
 msgid "decision"
-msgstr ""
+msgstr "decisió"
 
 #: mMF/results/estim/mcar.columns.title
-#, fuzzy
-#| msgid "Degree of<br>Freedom (df)"
 msgid "Degree of Freedom (df)"
-msgstr "Grau de<br>Llibertat (df)"
+msgstr "Grau de Llibertat (df)"
 
 #: mUI/options/UImethod/noUI.title
 msgid "Dichotomization (no uncertainty)"
-msgstr ""
+msgstr "Dicotomització (sense incertesa)"
 
 #: mROC/options/direction.title mUI/results/stat/uistat.columns.title
 msgid "Direction"
@@ -418,7 +420,7 @@ msgstr "Direcció"
 
 #: mUI/options/model.title
 msgid "Distribution model"
-msgstr ""
+msgstr "Model de Distribució"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
@@ -581,26 +583,20 @@ msgid "Intercluster Matrices"
 msgstr "Matrius Intergrupals"
 
 #: R\mui.b.R mUI/results/stat/uistat.columns.title
-#, fuzzy
-#| msgid "Direction"
 msgid "Intersection"
-msgstr "Direcció"
+msgstr "Intersecció"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
 msgstr "Interval"
 
 #: mUI/options/UImethod.title
-#, fuzzy
-#| msgid "Outliers identification method"
 msgid "Interval determination method"
-msgstr "Mètode d'identificació de valors extrems"
+msgstr "Mètode de determinació d'intervals"
 
 #: mUI/ui[1].label mUI/results/stat.title
-#, fuzzy
-#| msgid "Missing Values Estimation"
 msgid "Intervals Estimation"
-msgstr "Estimació de Valors perduts"
+msgstr "Estimació d'Intervals"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
@@ -639,7 +635,7 @@ msgstr "Caixa de Legenda"
 
 #: mUI/results/stat/intstat.columns.title
 msgid "Level"
-msgstr ""
+msgstr "Nivel"
 
 #: mROC/options/lwd.title
 msgid "Line width"
@@ -655,7 +651,7 @@ msgstr "Part inferior"
 
 #: R\mui.b.R
 msgid "Lower threshold"
-msgstr ""
+msgstr "LIindar inferior"
 
 #: R\mui.b.R
 msgid ""
@@ -663,6 +659,9 @@ msgid ""
 "person with the condition receiving a negative classification / probability "
 "of a person without the condition receiving a negative classification"
 msgstr ""
+"LR- - Raó de Versemblança Negativa P(-|D+))/(P(-|D-)). La probabilitat d'una "
+"persona amb la condició que rep una classificació negativa / probabilitat "
+"d'una persona sense la condició que rep una classificació negativa"
 
 #: R\mui.b.R
 msgid ""
@@ -670,6 +669,10 @@ msgid ""
 "person with the condition receiving a positive classification / probability "
 "of a person without the condition receiving a positive classification"
 msgstr ""
+"LR+ - Raó de Versemblança Positiva (P(+|D+))/(P(+|D-)). La probabilitat "
+"d'una persona amb la condició que rep una classificació positiva / "
+"probabilitat d'una persona sense la condició que rep una classificació "
+"positiva"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
@@ -719,11 +722,11 @@ msgstr ""
 
 #: R\mui.b.R
 msgid "MCI=0"
-msgstr ""
+msgstr "MCI=0"
 
 #: R\mui.b.R
 msgid "MCI=1"
-msgstr ""
+msgstr "MCI=1"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
@@ -766,10 +769,8 @@ msgid "Missing data patterns"
 msgstr "Patrons de dades perdudes"
 
 #: mMF/results/estim/mcar.columns.title
-#, fuzzy
-#| msgid "Missing<br>Patterns"
 msgid "Missing Patterns"
-msgstr "Patrons<br>Perduts"
+msgstr "Patrons Perduts"
 
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
@@ -797,23 +798,23 @@ msgstr "missRanger (2021)"
 
 #: mUI/options/isMD.title mUI/results/plotsMD.title
 msgid "Mixed Densities"
-msgstr ""
+msgstr "Mescla de Densitats"
 
 #: mOUT/options/outlcheck/mZS.title
 msgid "Modified Z-score (Hampel filter)"
 msgstr "Puntuació-Z modificada (filtre Hampel)"
 
 #: mUI/options/isMCI.title mUI/results/stat/mcistat.title
-#, fuzzy
-#| msgid "Interval"
 msgid "More Certain Interval (MCI)"
-msgstr "Interval"
+msgstr "Interval de més certesa (MCI)"
 
 #: R\mui.b.R
 msgid ""
 "More Certain Interval (MCI) is interval outside the Uncertain Interval and "
 "divide into low and high parts."
 msgstr ""
+"Interval de més certesa (MCI) es l'interval fora de l'Interval d'Incertesa i "
+"divideix en parts superior i inferior."
 
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
@@ -842,7 +843,7 @@ msgstr "N - nombre de valors perduts;"
 
 #: mUI/options/model/none.title
 msgid "Non-parametric"
-msgstr ""
+msgstr "No-paramètric"
 
 #: mCOR/options/adjust/none.title mCOR/options/clPos/n.title
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
@@ -851,14 +852,12 @@ msgid "None"
 msgstr "Cap"
 
 #: R\mout.b.R
-#, fuzzy
-#| msgid "Normality<br>p-value"
 msgid "Normality p-value"
-msgstr "Normalitat<br>p-valor"
+msgstr "p-valor de Normalitat"
 
 #: R\mui.b.R
 msgid "NPV - Negative Predictive Value of the negative class TN/(TN+FN)"
-msgstr ""
+msgstr "NPV - Valor Predictiu Negatiu de la clase negativa TN/(TN+FN)"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
@@ -993,10 +992,8 @@ msgid "Pie"
 msgstr "Sectors"
 
 #: mUI/options/isTGR.title
-#, fuzzy
-#| msgid "Plots"
 msgid "Plot"
-msgstr "Gràfiques"
+msgstr "Gràfic"
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
@@ -1020,7 +1017,7 @@ msgstr "Polígon"
 
 #: R\mui.b.R
 msgid "PPV - Positive Predictive Value of the positive class TP/(TN+FN)"
-msgstr ""
+msgstr "PPV - Valor Predictiu Positivo de la clase positiva TP/(TN+FN)"
 
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
@@ -1028,10 +1025,8 @@ msgstr "Pasos de Emparellament Predictiu de Mitjanes (PMM)"
 
 #: mUI/results/stat/uistat.columns.title mUI/results/stat/mcistat.columns.title
 #: mUI/results/stat/intstat.columns.title
-#, fuzzy
-#| msgid "Predictors"
 msgid "Predictor"
-msgstr "Predictors"
+msgstr "Predictor"
 
 #: mROC/options/vars.title mROC/ui[0][0].label mUI/options/test.title
 #: mUI/ui[0][0].label
@@ -1040,17 +1035,15 @@ msgstr "Predictors"
 
 #: R\mui.b.R
 msgid "Prevalence"
-msgstr ""
+msgstr "Prevalença"
 
 #: mUI/options/isProp.title mUI/results/stat/intstat.title
-#, fuzzy
-#| msgid "Interval"
 msgid "Proportions of Intervals"
-msgstr "Interval"
+msgstr "Proporcions d'Intervals"
 
 #: mUI/options/decision.title mUI/results/decision.title
 msgid "Proposed decision"
-msgstr ""
+msgstr "Decisió Proposada"
 
 #: mCOR/options/plots.description.ui
 msgid "provide a correlation matrix plot."
@@ -1064,7 +1057,7 @@ msgstr ""
 
 #: mUI/options/refval.title
 msgid "Reference level"
-msgstr ""
+msgstr "Nivel de referencia"
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
 msgid "Remove outliers"
@@ -1105,10 +1098,8 @@ msgid "ROC comparison"
 msgstr "Comparació ROC"
 
 #: mUI/options/isROC.title mUI/results/plotsROC.title
-#, fuzzy
-#| msgid "Split curves"
 msgid "ROC curves"
-msgstr "Divideix les curves"
+msgstr "Corbes ROC"
 
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
@@ -1120,7 +1111,7 @@ msgstr "Gràfiques ROC"
 
 #: mUI/ui[2].label
 msgid "Save"
-msgstr ""
+msgstr "Desa"
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
@@ -1134,6 +1125,7 @@ msgstr "Classificació ROC tipus SDI"
 msgid ""
 "Se - sensitivity of the positive and negative classifications TP/(TP+FN)"
 msgstr ""
+"Se - sensitivitat de las classificacions positives i negatives TP/(TP+FN)"
 
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
@@ -1148,16 +1140,12 @@ msgid "Sensitivity (%)"
 msgstr "Sensibilitat (%)"
 
 #: mUI/options/uiSe.title
-#, fuzzy
-#| msgid "Sensitivity"
 msgid "Sensitivity inside UI <"
-msgstr "Sensibilitat"
+msgstr "Sensibilitat dins de UI<"
 
 #: mUI/options/minSe.title
-#, fuzzy
-#| msgid "Sensitivity"
 msgid "Sensitivity outside UI >"
-msgstr "Sensibilitat"
+msgstr "Sensibilitat fora UI>"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
@@ -1194,12 +1182,13 @@ msgstr "Títols girats"
 
 #: R\mui.b.R
 msgid "SNPV - standardized negative predictive value of the negative class"
-msgstr ""
+msgstr "SNPV - valor estandarditzat predictiu negatiu de la clase negativa"
 
 #: R\mui.b.R
 msgid ""
 "Sp - specificity of the positive and negative classifications TN/(TN+FN)"
 msgstr ""
+"Sp - especificitat de les classificacions positives i negatives TN/(TN+FN)"
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
@@ -1218,16 +1207,12 @@ msgid "Specificity (%)"
 msgstr "Especificitat (%)"
 
 #: mUI/options/uiSp.title
-#, fuzzy
-#| msgid "Specificity"
 msgid "Specificity inside UI <"
-msgstr "Especificitat"
+msgstr "Especificitat dins UI <"
 
 #: mUI/options/minSp.title
-#, fuzzy
-#| msgid "Specificity"
 msgid "Specificity outside UI >"
-msgstr "Especificitat"
+msgstr "Especificitat fora UI >"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
@@ -1243,7 +1228,7 @@ msgstr "ROC dividit per predictors"
 
 #: R\mui.b.R
 msgid "SPPV - standardized positive predictive value of the positive class"
-msgstr ""
+msgstr "SPPV - valor estandarditzat predictiu positiu de la clase positiva"
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
@@ -1255,7 +1240,7 @@ msgstr "Successivament"
 
 #: R\mui.b.R
 msgid "Sum"
-msgstr ""
+msgstr "Suma"
 
 #: mCOR/ui[4].label
 msgid "Tables"
@@ -1281,17 +1266,15 @@ msgstr ""
 
 #: package/datasets/Uncertain Interval (UI).description
 msgid "Three-Way threshold determination in test results"
-msgstr ""
+msgstr "Determinació de llindars de tres vies en els resultats de les proves"
 
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
-msgstr "Umbral per a Puntuació-Z"
+msgstr "Llindar per a Puntuació-Z"
 
 #: R\mui.b.R mUI/options/youden.title
-#, fuzzy
-#| msgid "Threshold for Z-score"
 msgid "Threshold on Youden"
-msgstr "Umbral per a Puntuació-Z"
+msgstr "Llindar a Youden"
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
@@ -1299,46 +1282,46 @@ msgstr "Nombre total d'entrades perdudes {}"
 
 #: mUI/options/UImethod/TGR.title mUI/results/plotsTGR.title
 msgid "Two-graph ROC curves"
-msgstr ""
+msgstr "Corbes ROC de dues gràfiques"
 
 #: R\mui.b.R
 msgid "UI"
-msgstr ""
+msgstr "UI"
 
 #: package/datasets/UI for binomial logistis models.name
-#, fuzzy
-#| msgid "ROC estimation for binomial logistis models demonstration"
 msgid "UI for binomial logistis models"
-msgstr "Demostració d'estimació ROC per a models logistics binomials"
+msgstr "UI per a models logistics binomials"
 
 #: package/analyses/mUI.title package/analyses/mUI.menuTitle
 #: package/datasets/Uncertain Interval (UI).name mUI/options.title
 #: mUI/options/UImethod/UI.title mUI/ui.title mUI/results.title
 #: mUI/results/stat/uistat.title
 msgid "Uncertain Interval (UI)"
-msgstr ""
+msgstr "Interval d'Incertesa (UI)"
 
 #: R\mui.b.R
 msgid ""
 "Uncertain Interval (UI) is placed around the point of intersection between "
 "the two distributions with and without the targeted state."
 msgstr ""
+"Interval d'Incertesa (UI) s'ubica al voltant del punt d'intersecció entre "
+"les dues distribucions amb i sense l'estat considerat."
 
 #: package/datasets/UI for binomial logistis models.description
-#, fuzzy
-#| msgid "ROC estimation for binomial logistis models demonstration"
 msgid "Uncertain Interval estimation for binomial logistis models"
-msgstr "Demostració d'estimació ROC per a models logistics binomials"
+msgstr "Estimació d'Interval d'Incertesa per a models logistics binomials"
 
 #: R\mui.b.R
 msgid ""
 "Uncertain Interval is considered to be a range of test scores that is "
 "inconclusive and does not warrant a right decision."
 msgstr ""
+"L'Interval d'Incertesa es considera un rang de puntuacions de prova que no "
+"es conclusiva i no garanteix una decisió correcta."
 
 #: mUI/options/polygon.title
 msgid "Uncertainty interval polygon"
-msgstr ""
+msgstr "Polígon d'interval d'incertesa"
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
@@ -1355,7 +1338,7 @@ msgstr "Part superior"
 
 #: R\mui.b.R
 msgid "Upper threshold"
-msgstr ""
+msgstr "Llindar Superior"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
