@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-01-05 13:05+0000\n"
+"PO-Revision-Date: 2026-01-06 14:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "hr/>\n"
@@ -746,7 +746,7 @@ msgstr "Metoda"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
-msgstr "Potrebne su barem {minVar} varijable (Potpune + Nepotpune)"
+msgstr "Potrebne su barem {minVar} varijable (potpune + nepotpune)"
 
 #: R\mmf.b.R
 msgid "Minimum 2 impute variables are required"
