@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-11-25 11:51+0000\n"
+"PO-Revision-Date: 2026-01-12 16:24+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "pl/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.2-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -91,7 +91,7 @@ msgstr "0 - auto"
 
 #: mUI/ui[0][1]/refval.label
 msgid "0 ="
-msgstr ""
+msgstr "0 ="
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
@@ -175,7 +175,7 @@ msgstr "tablica MAR"
 
 #: mCOR/options/plotOrder/AOE.title
 msgid "Angular order eigenvectors"
-msgstr ""
+msgstr "Uporządkowanie wektorów według kąta"
 
 #: mCOR/options/clustMet/average.title
 msgid "Average Linkage (UPGMA)"
@@ -189,6 +189,8 @@ msgstr "Balans"
 msgid ""
 "Balance - balance between correct and incorrect classified (TP+TN)/(FP+FN)"
 msgstr ""
+"Balans – równowaga między poprawnymi a niepoprawnymi klasyfikacjami (TP+TN)/"
+"(FP+FN)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
@@ -232,7 +234,7 @@ msgstr "Wykresy skrzynkowe z przypadkami odstającymi"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
-msgstr ""
+msgstr "Paleta jakościowa Brewera"
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
@@ -243,6 +245,8 @@ msgid ""
 "CCR - Correct Classification Rate or accuracy of the positive and negative "
 "classifications (TP+TN)/(TN+FP+FN+TP)"
 msgstr ""
+"CCR – współczynnik poprawnej klasyfikacji (dokładność klasyfikacji "
+"pozytywnej i negatywnej (TP+TN)/(TN+FP+FN+TP))"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -327,6 +331,9 @@ msgid ""
 "patient with the condition is correctly ranked higher than a randomly chosen "
 "patient without the condition"
 msgstr ""
+"Zgodność – statystyka C (C-Statistic) lub AUC. Prawdopodobieństwo, że losowo "
+"wybrany pacjent ze schorzeniem zostanie poprawnie uszeregowany wyżej niż "
+"losowo wybrany pacjent bez schorzenia"
 
 #: mROC/results/text.title
 msgid "Conditions"
@@ -372,7 +379,7 @@ msgstr "Klastrowanie korelacji"
 
 #: package/datasets/Correlation clustering.description
 msgid "Correlation Clustering demonstration"
-msgstr ""
+msgstr "Przykład klasteryzacji korelacyjnej"
 
 #: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
 #: mCOR/results/matrix.title mCOR/results/plot.title
@@ -400,10 +407,8 @@ msgid "decision"
 msgstr "decyzja"
 
 #: mMF/results/estim/mcar.columns.title
-#, fuzzy
-#| msgid "Degree of<br>Freedom (df)"
 msgid "Degree of Freedom (df)"
-msgstr "Stopień <br>swobody (df)"
+msgstr "Stopień swobody (df)"
 
 #: mUI/options/UImethod/noUI.title
 msgid "Dichotomization (no uncertainty)"
@@ -435,29 +440,31 @@ msgstr "Puste"
 
 #: mMF/results/imput/errors.title
 msgid "Estimated out-of-bag (OOB) imputation error"
-msgstr ""
+msgstr "Oszacowany błąd imputacji OOB"
 
 #: mMF/options/fullmars.title mMF/results/estim/fMARtab.title
 msgid "Evaluation of MAR explainers"
-msgstr ""
+msgstr "Ocena metod wyjaśniających MAR"
 
 #: mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "Explanatory"
-msgstr ""
+msgstr "Wyjaśniająca"
 
 #: R\mmf.b.R
 msgid ""
 "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
 msgstr ""
+"Wyjaśniająca – zmienna odpowiadająca brakowi danych typu MAR o najmniejszej "
+"wartości <sub>p</sub>."
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
-msgstr ""
+msgstr "Pierwsza główna składowa"
 
 #: mCOR/options/flag.title
 msgid "Flag significant correlations"
-msgstr ""
+msgstr "Oznacz istotne korelacje"
 
 #: package.description
 msgid ""
@@ -466,6 +473,10 @@ msgid ""
 "matrix, multidimensional ROC classification curves, missing data estimation "
 "and imputation, outliers identificatioon and removal etc."
 msgstr ""
+"Graficzne rozszerzenia funkcjonalności popularnych metod analizy danych: "
+"drzewo klastrów skorelowanych zmiennych, wieloczynnikowa adaptacyjna macierz "
+"korelacji, wielowymiarowe krzywe ROC, estymacja i imputacja braków danych, "
+"identyfikacja i usuwanie wartości odstających itd."
 
 #: R\mout.b.R
 msgid "Group"
@@ -486,11 +497,11 @@ msgstr "Hₐ: zmienne są skorelowane dodatnio"
 
 #: package/datasets/HI ROC classification.description
 msgid "Healthy/Ill ROC Classification demonstration"
-msgstr ""
+msgstr "Przykład klasyfikacji ROC: zdrowi i chorzy"
 
 #: package/datasets/HI ROC classification.name
 msgid "HI ROC classification"
-msgstr ""
+msgstr "Klasyfikacja ROC – zdrowi/chorzy"
 
 #: mCOR/options/hclust.title
 msgid "Hierarchical clustering"
@@ -519,6 +530,7 @@ msgstr "Hipoteza"
 #: package/datasets/Outliers identification and removal.description
 msgid "Identification, analysis and removal of data outliers by groups"
 msgstr ""
+"Identyfikacja, analiza i usuwanie wartości odstających w podziale na grupy"
 
 #: R\mmf.b.R
 msgid ""
@@ -526,6 +538,9 @@ msgid ""
 "p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not "
 "At Random)."
 msgstr ""
+"Jeżeli przynajmniej jedna wartość <sub>p</sub> dla MAR jest nieistotna, a "
+"wartość <sub>p</sub> dla MCAR jest istotna, to dane są MNAR (Missing Not At "
+"Random – brakujące nie losowo)."
 
 #: R\mmf.b.R
 msgid "imp"
@@ -533,7 +548,7 @@ msgstr "imp"
 
 #: R\mmf.b.R
 msgid "Imputation model predictor"
-msgstr ""
+msgstr "Predyktor imputacji"
 
 #: mMF/results/imputeOV.title
 msgid "Imputed misses"
@@ -541,23 +556,23 @@ msgstr "Imputowane braki"
 
 #: mROC/options/perc.title
 msgid "In percent"
-msgstr ""
+msgstr "W procentach"
 
 #: mMF/options/imputevar.title mMF/ui[0][0].label
 msgid "Incomplete Variables"
-msgstr ""
+msgstr "Niekompletne zmienne"
 
 #: R\mout.b.R
 msgid "Indices (Rows)"
-msgstr ""
+msgstr "Indeksy (wiersze)"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
-msgstr ""
+msgstr "Wykres przepływu danych"
 
 #: mMF/options/fluxplot.title
 msgid "Influx-outflux plot for missing data patterns"
-msgstr ""
+msgstr "Wykres przepływu wzorców braków danych"
 
 #: R\mmf.b.R
 msgid "Influx*"
@@ -697,11 +712,11 @@ msgstr ""
 
 #: R\mui.b.R
 msgid "MCI=0"
-msgstr ""
+msgstr "MCI=0"
 
 #: R\mui.b.R
 msgid "MCI=1"
-msgstr ""
+msgstr "MCI=1"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
@@ -729,7 +744,7 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Minimum 2 impute variables are required"
-msgstr ""
+msgstr "Wymagane są co najmniej 2 zmienne"
 
 #: mMF/options/alg/mF.title
 msgid "missForest (2012)"
@@ -744,10 +759,8 @@ msgid "Missing data patterns"
 msgstr "Wzorce braków danych"
 
 #: mMF/results/estim/mcar.columns.title
-#, fuzzy
-#| msgid "Missing data patterns"
 msgid "Missing Patterns"
-msgstr "Wzorce braków danych"
+msgstr "Wzorce braków"
 
 #: mMF/ui[1].label mMF/results/estim.title
 msgid "Missing Values Estimation"
@@ -766,6 +779,7 @@ msgstr "Imputacja braków danych"
 #: package/datasets/Missing Values Imputation.description
 msgid "Missing values imputation using the prediction power of Random Forests"
 msgstr ""
+"Imputacja braków danych z wykorzystaniem mocy predykcyjnej lasów losowych"
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
@@ -773,25 +787,27 @@ msgstr "missRanger (2021)"
 
 #: mUI/options/isMD.title mUI/results/plotsMD.title
 msgid "Mixed Densities"
-msgstr ""
+msgstr "Mieszane rozkłady gęstości"
 
 #: mOUT/options/outlcheck/mZS.title
 msgid "Modified Z-score (Hampel filter)"
-msgstr ""
+msgstr "Zmodyfikowany wynik Z (filtr Hampela)"
 
 #: mUI/options/isMCI.title mUI/results/stat/mcistat.title
 msgid "More Certain Interval (MCI)"
-msgstr ""
+msgstr "Przedział o zwiększonej pewności (MCI)"
 
 #: R\mui.b.R
 msgid ""
 "More Certain Interval (MCI) is interval outside the Uncertain Interval and "
 "divide into low and high parts."
 msgstr ""
+"Przedział o zwiększonej pewności (MCI) to przedział leżący poza Przedziałem "
+"Niepewności, podzielony na część dolną i górną."
 
 #: R\mmf.b.R
 msgid "MSE - mean squared error (for Continuous variables);"
-msgstr ""
+msgstr "MSE – błąd średniokwadratowy (dla zmiennych ciągłych);"
 
 #: mCOR/options/adjust.title
 msgid "Multiple comparison correction"
@@ -799,20 +815,20 @@ msgstr "Korekta na porównania wielokrotne"
 
 #: mMF/options/imputeOV.title
 msgid "Multiple imputation for missing data"
-msgstr ""
+msgstr "Wielokrotna imputacja braków danych"
 
 #: mCOR/options/n.title mCOR/results/matrix.columns.content
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: R\mmf.b.R
 msgid "N - number of imputted values;"
-msgstr ""
+msgstr "N – liczba imputowanych wartości;"
 
 #: R\mmf.b.R
 msgid "N - number of missing values;"
-msgstr ""
+msgstr "N – liczba braków danych;"
 
 #: mUI/options/model/none.title
 msgid "Non-parametric"
@@ -826,89 +842,91 @@ msgstr "Żadne"
 
 #: R\mout.b.R
 msgid "Normality p-value"
-msgstr ""
+msgstr "Wartość p testu normalności"
 
 #: R\mui.b.R
 msgid "NPV - Negative Predictive Value of the negative class TN/(TN+FN)"
-msgstr ""
+msgstr "NPV – ujemna wartość predykcyjna dla klasy negatywnej (TN/(TN + FN))"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
-msgstr ""
+msgstr "Liczba"
 
 #: mMF/options/pmmk.description.ui
 msgid ""
 "Number of candidate non-missing values to sample from in the predictive mean "
 "matching steps. 0 to avoid this step"
 msgstr ""
+"Liczba kandydatów (niebrakujących wartości) do losowania w krokach "
+"dopasowania średniej predykcyjnej. Wartość 0 powoduje pominięcie tego kroku"
 
 #: R\mmf.b.R
 msgid "Number of missing entries"
-msgstr ""
+msgstr "Liczba brakujących wpisów"
 
 #: R\mmf.b.R
 msgid "Number of missing entries per variable"
-msgstr ""
+msgstr "Liczba brakujących wpisów dla każdej zmiennej"
 
 #: mMF/options/npat.title
 msgid "Number of patterns"
-msgstr ""
+msgstr "Liczba wzorców"
 
 #: mMF/options/ntree.title
 msgid "Number of trees to grow in each forest"
-msgstr ""
+msgstr "Liczba drzew w każdym lesie"
 
 #: R\mmf.b.R
 msgid "observed"
-msgstr ""
+msgstr "Obserwowane"
 
 #: mMF/results/imput/errors.description
 msgid "OOB errors table"
-msgstr ""
+msgstr "Tabela błędów OOB"
 
 #: mCOR/options/plotOrder/original.title
 msgid "Original"
-msgstr ""
+msgstr "Oryginalne"
 
 #: R\mmf.b.R
 msgid "OutFlux**"
-msgstr ""
+msgstr "Wartości wyjściowe (OutFlux)**"
 
 #: R\mout.b.R
 msgid "outl"
-msgstr ""
+msgstr "odstające"
 
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
-msgstr ""
+msgstr "Granice wartości odstających"
 
 #: R\mout.b.R
 msgid "Outliers found"
-msgstr ""
+msgstr "Wartości odstające"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
-msgstr ""
+msgstr "Identyfikacja wartości odstających"
 
 #: package/datasets/Outliers identification and removal.name
 msgid "Outliers identification and removal"
-msgstr ""
+msgstr "Identyfikacja i usuwanie wartości odstających"
 
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
-msgstr ""
+msgstr "Metoda identyfikacji wartości odstających"
 
 #: mOUT/options/outind.title mOUT/results/oind.title
 msgid "Outliers indices"
-msgstr ""
+msgstr "Indeksy wartości odstających"
 
 #: mOUT/ui[2].label
 msgid "Outliers removal"
-msgstr ""
+msgstr "Usuwanie wartości odstających"
 
 #: mOUT/ui[1][1].label
 msgid "Output information"
-msgstr ""
+msgstr "Informacje wyjściowe"
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
@@ -929,7 +947,7 @@ msgstr "Pastelowy1"
 
 #: R\mmf.b.R
 msgid "Pattern frequency"
-msgstr ""
+msgstr "Częstość wzorców"
 
 #: mCOR/options/method/pearson.title
 msgid "Pearson (r)"
@@ -937,7 +955,7 @@ msgstr "Pearson (r)"
 
 #: R\mcor.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr ""
+msgstr "Korelacji Pearsona nie może być obliczona dla wartości nienumerycznych"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Pearson's r"
@@ -945,7 +963,7 @@ msgstr "r Pearsona"
 
 #: R\mmf.b.R
 msgid "per pattern"
-msgstr ""
+msgstr "Dla każdego wzorca"
 
 #: mMF/results/imput/errors.columns.title
 msgid "PFC"
@@ -955,16 +973,16 @@ msgstr "PFC"
 msgid ""
 "PFC - proportion of falsely classified (for Nominal and Ordinal variables);"
 msgstr ""
+"PFC – odsetek błędnie sklasyfikowanych (dla zmiennych nominalnych i "
+"porządkowych);"
 
 #: mCOR/options/plotMetU/pie.title mCOR/options/plotMetL/pie.title
 msgid "Pie"
-msgstr ""
+msgstr "Wykres kołowy"
 
 #: mUI/options/isTGR.title
-#, fuzzy
-#| msgid "Plots"
 msgid "Plot"
-msgstr "Wykresy"
+msgstr "Wykres"
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
@@ -976,7 +994,7 @@ msgstr "Opcje wykresów"
 
 #: mMF/options/patplot.title
 msgid "Plot the missing data patterns"
-msgstr ""
+msgstr "Wykres wzorców braków danych"
 
 #: mCOR/ui[5].label mMF/ui[1][0][1].label mUI/ui[1][4].label
 msgid "Plots"
@@ -984,22 +1002,20 @@ msgstr "Wykresy"
 
 #: mROC/options/polygon.title
 msgid "Polygon"
-msgstr ""
+msgstr "Wielokąt"
 
 #: R\mui.b.R
 msgid "PPV - Positive Predictive Value of the positive class TP/(TN+FN)"
-msgstr ""
+msgstr "PPV – dodatnia wartość predykcyjna dla klasy pozytywnej TP/(TN+FN)"
 
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
-msgstr ""
+msgstr "Kroki metody dopasowania średniej predykcyjnej (PMM)"
 
 #: mUI/results/stat/uistat.columns.title mUI/results/stat/mcistat.columns.title
 #: mUI/results/stat/intstat.columns.title
-#, fuzzy
-#| msgid "Predictors"
 msgid "Predictor"
-msgstr "Predyktory"
+msgstr "Predyktor"
 
 #: mROC/options/vars.title mROC/ui[0][0].label mUI/options/test.title
 #: mUI/ui[0][0].label
@@ -1008,15 +1024,15 @@ msgstr "Predyktory"
 
 #: R\mui.b.R
 msgid "Prevalence"
-msgstr ""
+msgstr "Wystąpienia"
 
 #: mUI/options/isProp.title mUI/results/stat/intstat.title
 msgid "Proportions of Intervals"
-msgstr ""
+msgstr "Proporcje przedziałów"
 
 #: mUI/options/decision.title mUI/results/decision.title
 msgid "Proposed decision"
-msgstr ""
+msgstr "Sugerowana decyzja"
 
 #: mCOR/options/plots.description.ui
 msgid "provide a correlation matrix plot."
@@ -1025,15 +1041,15 @@ msgstr "utwórz wykres macierzy korelacji."
 #: R\mmf.b.R
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
-msgstr ""
+msgstr "PVU – proporcja niewyjaśnionej wariancji 1‑R² (dla zmiennych ciągłych);"
 
 #: mUI/options/refval.title
 msgid "Reference level"
-msgstr ""
+msgstr "Poziom referencyjny"
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
 msgid "Remove outliers"
-msgstr ""
+msgstr "Usuń wartości odstające"
 
 #: mCOR/options/plotOrder.title
 msgid "Reorder"
@@ -1041,7 +1057,7 @@ msgstr "Zmień kolejności"
 
 #: mMF/options/setseed.title
 msgid "Reproducible random number generation (RNG) results"
-msgstr ""
+msgstr "Powtarzalne generowanie liczb losowych (RNG)"
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
@@ -1049,40 +1065,40 @@ msgstr "Z prawej"
 
 #: mMF/options/seed.title
 msgid "RNG seed value"
-msgstr ""
+msgstr "Wartość ziarna RNG"
 
 #: mROC/options/sepROC.title mROC/results/plots.title
 msgid "ROC by groups"
-msgstr ""
+msgstr "ROC dla grup"
 
 #: mROC/results/plot.title
 msgid "ROC by predictors"
-msgstr ""
+msgstr "ROC dla predyktorów"
 
 #: package/analyses/mROC.title package/analyses/mROC.menuTitle
 #: mROC/options.title mROC/ui.title mROC/results.title
 msgid "ROC classification"
-msgstr ""
+msgstr "Klasyfikacja ROC"
 
 #: mROC/options/cmpDeLong.title
 msgid "ROC comparison"
-msgstr ""
+msgstr "Porównanie krzywych ROC"
 
 #: mUI/options/isROC.title mUI/results/plotsROC.title
 msgid "ROC curves"
-msgstr ""
+msgstr "Krzywe ROC"
 
 #: package/datasets/BC Models ROC Estimation.description package/datasets/CHD
 msgid "ROC estimation for binomial logistis models demonstration"
-msgstr ""
+msgstr "Przykład estymacji ROC w binarnych modelach logistycznych"
 
 #: mROC/ui[1].label
 msgid "ROC graphs"
-msgstr ""
+msgstr "Wykresy krzywych ROC"
 
 #: mUI/ui[2].label
 msgid "Save"
-msgstr ""
+msgstr "Zapisz"
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
@@ -1090,12 +1106,12 @@ msgstr "Pozycja skali"
 
 #: package/datasets/SDI ROC classification.name
 msgid "SDI ROC classification"
-msgstr ""
+msgstr "Klasyfikacja ROC z SDI"
 
 #: R\mui.b.R
 msgid ""
 "Se - sensitivity of the positive and negative classifications TP/(TP+FN)"
-msgstr ""
+msgstr "Se – czułość klasyfikacji pozytywnej i negatywnej (TP/(TP+FN)"
 
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
@@ -1110,16 +1126,12 @@ msgid "Sensitivity (%)"
 msgstr "Czułość (%)"
 
 #: mUI/options/uiSe.title
-#, fuzzy
-#| msgid "Sensitivity"
 msgid "Sensitivity inside UI <"
-msgstr "Czułość"
+msgstr "Czułość w PN <"
 
 #: mUI/options/minSe.title
-#, fuzzy
-#| msgid "Sensitivity"
 msgid "Sensitivity outside UI >"
-msgstr "Czułość"
+msgstr "Czułość poza PN >"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
@@ -1143,15 +1155,15 @@ msgstr "Istotność"
 
 #: R\mcor.b.R
 msgid "Simultaneous multiple correlation comparisons using {n} method"
-msgstr ""
+msgstr "Jednoczesne porównanie wielu korelacji z wykorzystaniem metody {n}"
 
 #: mCOR/options/clustMet/single.title
 msgid "Single Linkage"
-msgstr ""
+msgstr "Pojedyncze łączenie"
 
 #: mMF/options/anghead.title
 msgid "Slanted Titles"
-msgstr ""
+msgstr "Pochylone tytuły"
 
 #: R\mui.b.R
 msgid "SNPV - standardized negative predictive value of the negative class"
