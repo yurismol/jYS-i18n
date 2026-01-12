@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-01-12 16:24+0000\n"
+"PO-Revision-Date: 2026-01-13 15:47+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "pl/>\n"
@@ -576,15 +576,15 @@ msgstr "Wykres przepływu wzorców braków danych"
 
 #: R\mmf.b.R
 msgid "Influx*"
-msgstr ""
+msgstr "Dopływ (Influx)*"
 
 #: mCOR/options/clustMat.title mCOR/results/rplots.title
 msgid "Intercluster Matrices"
-msgstr ""
+msgstr "Macierze międzyklastrowe"
 
 #: R\mui.b.R mUI/results/stat/uistat.columns.title
 msgid "Intersection"
-msgstr ""
+msgstr "Intersekcja"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
