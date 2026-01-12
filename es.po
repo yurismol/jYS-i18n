@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-12-30 19:00+0000\n"
-"Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
+"PO-Revision-Date: 2026-01-12 16:24+0000\n"
+"Last-Translator: José Ángel Iranzo Sanz <joseani@unizar.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "es/>\n"
 "Language: es\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.15.2-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -26,7 +26,7 @@ msgstr "{ciWidth}% IC superior"
 
 #: R\mui.b.R
 msgid "{varType} proposed decision"
-msgstr ""
+msgstr "{varType} decisión propuesta"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
@@ -53,6 +53,8 @@ msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
 msgstr ""
+"*p<0.05 - La hipótesis de normalidad ha sido rechazada por el test Shapiro-"
+"Wilk"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
@@ -81,26 +83,31 @@ msgstr "< 0,1"
 #: R\mmf.b.R
 msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
 msgstr ""
+"<h2>Ayuda</h2><div>Por favor, selecciona las variables completas e "
+"incompletas</div>"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
+#, fuzzy
 msgid "0 - auto"
-msgstr ""
+msgstr "0 - auto"
 
 #: mUI/ui[0][1]/refval.label
 msgid "0 ="
 msgstr ""
 
 #: R\mroc.b.R
+#, fuzzy
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 - Especificidad"
 
 #: mOUT/options/fence/1.5.title
 msgid "1.5"
 msgstr ""
 
 #: R\mroc.b.R
+#, fuzzy
 msgid "100 - Specificity (%)"
-msgstr ""
+msgstr "100 - Especificidad (%)"
 
 #: mOUT/options/tholdZS/2.0.title mOUT/options/tholdmZS/2.0.title
 msgid "2.0"
@@ -120,7 +127,7 @@ msgstr ""
 
 #: mOUT/options/tholdZS/3.0.title
 msgid "3.0 (standard)"
-msgstr ""
+msgstr "3.0 (estándar)"
 
 #: mOUT/options/tholdZS/3.5.title
 msgid "3.5"
@@ -128,23 +135,26 @@ msgstr ""
 
 #: mOUT/options/tholdmZS/3.5.title
 msgid "3.5 (standard)"
-msgstr ""
+msgstr "3.5 (estándar)"
 
 #: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
+#, fuzzy
 msgid "4.0"
-msgstr ""
+msgstr "4.0"
 
 #: mOUT/options/tholdZS/4.5.title mOUT/options/tholdmZS/4.5.title
+#, fuzzy
 msgid "4.5"
-msgstr ""
+msgstr "4.5"
 
 #: mOUT/options/tholdZS/5.0.title mOUT/options/tholdmZS/5.0.title
+#, fuzzy
 msgid "5.0"
-msgstr ""
+msgstr "5.0"
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "una matriz de correlaciones"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
@@ -164,15 +174,15 @@ msgstr "Todo"
 
 #: mCOR/options/plotOrder/alphabet.title
 msgid "Alphabetical"
-msgstr ""
+msgstr "Alfabético"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
-msgstr ""
+msgstr "un conjunto de MAR"
 
 #: mCOR/options/plotOrder/AOE.title
 msgid "Angular order eigenvectors"
-msgstr ""
+msgstr "Autovectores ordenados angularmente"
 
 #: mCOR/options/clustMet/average.title
 msgid "Average Linkage (UPGMA)"
