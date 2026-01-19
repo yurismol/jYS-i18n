@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-01-12 16:24+0000\n"
-"Last-Translator: José Ángel Iranzo Sanz <joseani@unizar.es>\n"
+"PO-Revision-Date: 2026-01-20 05:01+0000\n"
+"Last-Translator: Diego Huamantica Vilches <diegohv_25@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "es/>\n"
 "Language: es\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -111,19 +111,19 @@ msgstr "100 - Especificidad (%)"
 
 #: mOUT/options/tholdZS/2.0.title mOUT/options/tholdmZS/2.0.title
 msgid "2.0"
-msgstr ""
+msgstr "2.0"
 
 #: mOUT/options/fence/2.2.title
 msgid "2.2"
-msgstr ""
+msgstr "2.2"
 
 #: mOUT/options/tholdZS/2.5.title mOUT/options/tholdmZS/2.5.title
 msgid "2.5"
-msgstr ""
+msgstr "2.5"
 
 #: mOUT/options/fence/3.0.title mOUT/options/tholdmZS/3.0.title
 msgid "3.0"
-msgstr ""
+msgstr "3.0"
 
 #: mOUT/options/tholdZS/3.0.title
 msgid "3.0 (standard)"
@@ -131,7 +131,7 @@ msgstr "3.0 (estándar)"
 
 #: mOUT/options/tholdZS/3.5.title
 msgid "3.5"
-msgstr ""
+msgstr "3.5"
 
 #: mOUT/options/tholdmZS/3.5.title
 msgid "3.5 (standard)"
@@ -177,10 +177,12 @@ msgid "Alphabetical"
 msgstr "Alfabético"
 
 #: mMF/results/estim/fMARtab.description
+#, fuzzy
 msgid "an array of MARs"
 msgstr "un conjunto de MAR"
 
 #: mCOR/options/plotOrder/AOE.title
+#, fuzzy
 msgid "Angular order eigenvectors"
 msgstr "Autovectores ordenados angularmente"
 
