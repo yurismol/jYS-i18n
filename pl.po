@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-01-13 15:47+0000\n"
+"PO-Revision-Date: 2026-01-22 08:01+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "pl/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15.2-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -600,26 +600,26 @@ msgstr "Estymacja przedziałów"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
-msgstr ""
+msgstr "Wysokość granicy IQR"
 
 #: mOUT/options/outlcheck/IQR.title
 msgid "IQR Tukey's fences"
-msgstr ""
+msgstr "Granice IQR Tukeya"
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
 #: package/analyses/mUI.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
 #: mOUT/options.menuGroup mROC/options.menuGroup mUI/options.menuGroup
 msgid "jYS"
-msgstr ""
+msgstr "jYS"
 
 #: package.title
 msgid "jYS Extended Functions"
-msgstr ""
+msgstr "jYS - funkcje rozszerzone"
 
 #: mCOR/options/method/kendall.title
 msgid "Kendall (τ)"
-msgstr ""
+msgstr "Kendall (τ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Kendall Tau"
@@ -627,7 +627,7 @@ msgstr "tau Kendalla"
 
 #: mROC/options/legacy.title
 msgid "Legacy format of Specificity axis"
-msgstr ""
+msgstr "Stary tryb osi specyficzności"
 
 #: mROC/options/legBox.title
 msgid "Legend Box"
@@ -681,7 +681,7 @@ msgstr ""
 
 #: mMF/results/estim/mcar.description mMF/results/estim/mars.description
 msgid "MAR classification table"
-msgstr ""
+msgstr "Tabela klasyfikacji MAR"
 
 #: mROC/options/mAst.title
 msgid "Mark significance *<0.05, **<0.01, ***<0.001"
@@ -732,7 +732,7 @@ msgstr "Mediana"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
-msgstr ""
+msgstr "Metoda medianowa"
 
 #: mCOR/options/method.title mOUT/ui[1][0].label mUI/ui[1][3].label
 msgid "Method"
@@ -1167,7 +1167,7 @@ msgstr "Pochylone tytuły"
 
 #: R\mui.b.R
 msgid "SNPV - standardized negative predictive value of the negative class"
-msgstr ""
+msgstr "SNPV – standaryzowana ujemna wartość predykcyjna klasy negatywnej"
 
 #: R\mui.b.R
 msgid ""
@@ -1176,11 +1176,11 @@ msgstr ""
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
-msgstr ""
+msgstr "Spearman (ρ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Spearman's Rho"
-msgstr ""
+msgstr "rho Spearmana"
 
 #: R\mroc.b.R R\mui.b.R
 msgid "Specificity"
