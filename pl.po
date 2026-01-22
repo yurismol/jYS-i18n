@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-01-22 08:01+0000\n"
+"PO-Revision-Date: 2026-01-23 09:17+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "pl/>\n"
@@ -659,6 +659,9 @@ msgid ""
 "person with the condition receiving a negative classification / probability "
 "of a person without the condition receiving a negative classification"
 msgstr ""
+"LR- - ujemny wskaźnik wiarygodności (P(-|D+)) / (P(-|D-)). "
+"Prawdopodobieństwo, że osoba z chorobą otrzyma wynik negatywny / "
+"prawdopodobieństwo, że osoba bez choroby otrzyma wynik negatywny"
 
 #: R\mui.b.R
 msgid ""
@@ -666,6 +669,9 @@ msgid ""
 "person with the condition receiving a positive classification / probability "
 "of a person without the condition receiving a positive classification"
 msgstr ""
+"LR+ – dodatni wskaźnik wiarygodności (P(+|D+) / P(+|D-)). "
+"Prawdopodobieństwo, że osoba z chorobą otrzyma wynik pozytywny / "
+"prawdopodobieństwo, że osoba bez choroby otrzyma wynik pozytywny"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
@@ -704,11 +710,14 @@ msgid ""
 "MCAR - missing completely at random (if the p<sub>value</sub> is not "
 "significant, there is evidence the data is MCAR)."
 msgstr ""
+"MCAR – brak danych całkowicie losowy (Missing Completely At Random) (jeśli "
+"wartość <sub>p</sub> nie jest istotna, istnieją przesłanki, że dane są MCAR)."
 
 #: mMF/options/isMAR.title
 msgid ""
 "MCAR (Missing Completely at Random) and MAR (Missing at Random) estimation"
 msgstr ""
+"Oszacowanie MCAR (Missing Completely at Random) i MAR (Missing at Random)"
 
 #: R\mui.b.R
 msgid "MCI=0"
@@ -720,7 +729,7 @@ msgstr "MCI=1"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
-msgstr ""
+msgstr "McQuitty (WPGMA)"
 
 #: R\mout.b.R
 msgid "Mean"
@@ -740,7 +749,7 @@ msgstr "Metoda"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
-msgstr ""
+msgstr "Potrzebnych jest co najmniej {minVar} zmiennych (pełnych i niepełnych)"
 
 #: R\mmf.b.R
 msgid "Minimum 2 impute variables are required"
@@ -1172,7 +1181,7 @@ msgstr "SNPV – standaryzowana ujemna wartość predykcyjna klasy negatywnej"
 #: R\mui.b.R
 msgid ""
 "Sp - specificity of the positive and negative classifications TN/(TN+FN)"
-msgstr ""
+msgstr "Sp – swoistość klasyfikacji pozytywnej i negatywnej TN/(TN+FN)"
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
@@ -1184,59 +1193,59 @@ msgstr "rho Spearmana"
 
 #: R\mroc.b.R R\mui.b.R
 msgid "Specificity"
-msgstr ""
+msgstr "Swoistość"
 
 #: R\mroc.b.R
 msgid "Specificity (%)"
-msgstr ""
+msgstr "Swoistość (%)"
 
 #: mUI/options/uiSp.title
 msgid "Specificity inside UI <"
-msgstr ""
+msgstr "Swoistość w PN <"
 
 #: mUI/options/minSp.title
 msgid "Specificity outside UI >"
-msgstr ""
+msgstr "Swoistość poza PN >"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
-msgstr ""
+msgstr "Przykład klasyfikacji ROC dla wskaźnika deformacji"
 
 #: mROC/options/splitROC.title
 msgid "Split curves"
-msgstr ""
+msgstr "Oddzielne krzywe"
 
 #: mROC/results/splots.title
 msgid "Splitted ROC by predictors"
-msgstr ""
+msgstr "ROC według predyktorów"
 
 #: R\mui.b.R
 msgid "SPPV - standardized positive predictive value of the positive class"
-msgstr ""
+msgstr "SPPV – standaryzowana dodatnia wartość predykcyjna klasy pozytywnej"
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
-msgstr ""
+msgstr "Kwadrat"
 
 #: mROC/options/cmpDeLong/succ.title
 msgid "Successively"
-msgstr ""
+msgstr "Kolejno"
 
 #: R\mui.b.R
 msgid "Sum"
-msgstr ""
+msgstr "Suma"
 
 #: mCOR/ui[4].label
 msgid "Tables"
-msgstr ""
+msgstr "Tabele"
 
 #: mOUT/options/norm.title
 msgid "Test for normality"
-msgstr ""
+msgstr "Test normalności"
 
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
-msgstr ""
+msgstr "Najlepszy punkt na ROC"
 
 #: R\mroc.b.R
 msgid ""
@@ -1244,70 +1253,77 @@ msgid ""
 "classification can only be performed on classifying variables with two "
 "levels."
 msgstr ""
+"Zmienna klasyfikująca '{}' nie ma dokładnie dwóch poziomów; klasyfikacja ROC "
+"może być wykonywana wyłącznie dla zmiennych klasyfikujących posiadających "
+"dwa poziomy."
 
 #: package/datasets/Uncertain Interval (UI).description
 msgid "Three-Way threshold determination in test results"
-msgstr ""
+msgstr "Trójwartościowe wyznaczanie progów w wynikach testu"
 
 #: mOUT/options/tholdZS.title mOUT/options/tholdmZS.title
 msgid "Threshold for Z-score"
-msgstr ""
+msgstr "Próg dla wartości Z"
 
 #: R\mui.b.R mUI/options/youden.title
 msgid "Threshold on Youden"
-msgstr ""
+msgstr "Próg Youdena"
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
-msgstr ""
+msgstr "Łączna liczba brakujących wartości {}"
 
 #: mUI/options/UImethod/TGR.title mUI/results/plotsTGR.title
 msgid "Two-graph ROC curves"
-msgstr ""
+msgstr "ROC w dwóch wykresach"
 
 #: R\mui.b.R
 msgid "UI"
-msgstr ""
+msgstr "PN"
 
 #: package/datasets/UI for binomial logistis models.name
 msgid "UI for binomial logistis models"
-msgstr ""
+msgstr "PN dla modeli logistycznych dwumianowych"
 
 #: package/analyses/mUI.title package/analyses/mUI.menuTitle
 #: package/datasets/Uncertain Interval (UI).name mUI/options.title
 #: mUI/options/UImethod/UI.title mUI/ui.title mUI/results.title
 #: mUI/results/stat/uistat.title
 msgid "Uncertain Interval (UI)"
-msgstr ""
+msgstr "Przedział Niepewności (PN)"
 
 #: R\mui.b.R
 msgid ""
 "Uncertain Interval (UI) is placed around the point of intersection between "
 "the two distributions with and without the targeted state."
 msgstr ""
+"Przedział niepewności (PN) jest umieszczany wokół punktu przecięcia dwóch "
+"rozkładów – z i bez badanego stanu."
 
 #: package/datasets/UI for binomial logistis models.description
 msgid "Uncertain Interval estimation for binomial logistis models"
-msgstr ""
+msgstr "Szacowanie przedziału niepewności dla modeli logistycznych dwumianowych"
 
 #: R\mui.b.R
 msgid ""
 "Uncertain Interval is considered to be a range of test scores that is "
 "inconclusive and does not warrant a right decision."
 msgstr ""
+"Przedział niepewności to zakres wyników testu, który jest nierozstrzygający "
+"i nie pozwala na podjęcie prawidłowej decyzji."
 
 #: mUI/options/polygon.title
 msgid "Uncertainty interval polygon"
-msgstr ""
+msgstr "Wielokąt przedziału niepewności"
 
 #: package/analyses/mOUT.title package/analyses/mOUT.menuTitle
 #: mOUT/options.title mOUT/ui.title mOUT/results.title
 msgid "Univariate outliers identification and removal"
-msgstr ""
+msgstr "Identyfikacja i usuwanie jednowymiarowych obserwacji odstających"
 
 #: R\mout.b.R
 msgid "Upper fence"
-msgstr ""
+msgstr "Górna granica"
 
 #: mCOR/options/plotMetU.title
 msgid "Upper part"
@@ -1315,7 +1331,7 @@ msgstr "Górna część"
 
 #: R\mui.b.R
 msgid "Upper threshold"
-msgstr ""
+msgstr "Górny próg"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
@@ -1332,37 +1348,35 @@ msgstr "Nazwa zmiennej"
 
 #: mCOR/ui[5][0]/plots/clustMan.suffix
 msgid "variable numbers by commas"
-msgstr ""
+msgstr "Numery zmiennych po przecinku"
 
 #: R\mmf.b.R
 msgid "Variable to impute"
 msgstr "Zmienna do imputacji"
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
-#, fuzzy
-#| msgid "Variable"
 msgid "Variables"
-msgstr "Zmienna"
+msgstr "Zmienne"
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
-msgstr ""
+msgstr "Ward D2"
 
 #: mCOR/options/clustMet/ward.D.title
 msgid "Ward´s Linkage"
-msgstr ""
+msgstr "Ward"
 
 #: mROC/options/cmpDeLong/wcontr.title
 msgid "With control"
-msgstr ""
+msgstr "Z kontrolą"
 
 #: R\mmf.b.R
 msgid "with missing data on other variables"
-msgstr ""
+msgstr "przy brakach danych w innych zmiennych"
 
 #: R\mmf.b.R
 msgid "with observed data on other variables"
-msgstr ""
+msgstr "przy obserwowanych danych w innych zmiennych"
 
 #: mROC/options/theBest/bestY.title
 msgid "Youden Best"
@@ -1374,7 +1388,7 @@ msgstr "Youden Best (Sp, Se)"
 
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
-msgstr ""
+msgstr "Z"
 
 #, fuzzy
 #~| msgid "Variable to impute"
