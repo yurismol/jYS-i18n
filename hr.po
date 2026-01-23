@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-01-06 14:01+0000\n"
+"PO-Revision-Date: 2026-01-23 14:48+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "hr/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -244,8 +244,8 @@ msgid ""
 "CCR - Correct Classification Rate or accuracy of the positive and negative "
 "classifications (TP+TN)/(TN+FP+FN+TP)"
 msgstr ""
-"CCR – Correct Classification Rate (Stopa ispravne klasifikacije) ili točnost "
-"pozitivnih i negativnih klasifikacija (TP+TN)/(TN+FP+FN+TP)"
+"CCR – Correct Classification Rate (učestalost točne klasifikacije) ili "
+"točnost pozitivnih i negativnih klasifikacija (TP+TN)/(TN+FP+FN+TP)"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
