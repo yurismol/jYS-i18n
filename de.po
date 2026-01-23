@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-09-09 05:01+0000\n"
-"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"PO-Revision-Date: 2026-01-23 14:48+0000\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "de/>\n"
 "Language: de\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -353,7 +353,7 @@ msgstr ""
 
 #: mCOR/options/hyp/neg.title
 msgid "Correlated negatively"
-msgstr ""
+msgstr "Negativ korreliert"
 
 #: mCOR/options/hyp/pos.title
 msgid "Correlated positively"
@@ -380,7 +380,7 @@ msgstr ""
 #: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
 #: mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation matrix"
-msgstr ""
+msgstr "Korrelationsmatrix"
 
 #: mCOR/results/text.title
 msgid "Correlations"
@@ -576,7 +576,7 @@ msgstr "Richtung"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
-msgstr ""
+msgstr "Intervall"
 
 #: mUI/options/UImethod.title
 #, fuzzy
@@ -941,6 +941,7 @@ msgstr ""
 #: R\mcor.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
 msgstr ""
+"Die Pearson-Korrelation kann nur für nicht-numerische Werte berechnet werden"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Pearson's r"
