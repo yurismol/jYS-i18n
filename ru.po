@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-12-14 09:00+0000\n"
+"PO-Revision-Date: 2026-02-07 01:01+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ru/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -227,7 +227,7 @@ msgstr "Бонферрони (1961)"
 
 #: mCOR/options/clPos/b.title
 msgid "Bottom"
-msgstr "Внизу"
+msgstr "Нижний"
 
 #: mOUT/options/boxpl.title mOUT/results/plots.title
 msgid "Boxplots with outliers"
@@ -640,7 +640,7 @@ msgstr "Уровень"
 
 #: mROC/options/lwd.title
 msgid "Line width"
-msgstr "Толщина линии"
+msgstr "Ширина линии"
 
 #: R\mout.b.R
 msgid "Lower fence"
@@ -735,11 +735,11 @@ msgstr "МакКитти связи"
 
 #: R\mout.b.R
 msgid "Mean"
-msgstr "Среднее"
+msgstr "Иметь в виду"
 
 #: R\mout.b.R
 msgid "Median"
-msgstr "Медиана"
+msgstr "медиана"
 
 #: mCOR/options/clustMet/median.title
 msgid "Median Linkage"
@@ -850,7 +850,7 @@ msgstr "Непараметрическая"
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
 msgid "None"
-msgstr "Нет"
+msgstr "Никто"
 
 #: R\mout.b.R
 msgid "Normality p-value"
@@ -952,7 +952,7 @@ msgstr "p<sub>значение</sub>"
 
 #: mROC/options/palBrewer/Paired.title
 msgid "Paired"
-msgstr "Парная"
+msgstr "Парный"
 
 #: mROC/options/palBrewer/Pastel1.title
 msgid "Pastel1"
@@ -1011,7 +1011,7 @@ msgstr "График паттернов пропущенных данных"
 
 #: mCOR/ui[5].label mMF/ui[1][0][1].label mUI/ui[1][4].label
 msgid "Plots"
-msgstr "Графики"
+msgstr "Участки"
 
 #: mROC/options/polygon.title
 msgid "Polygon"
@@ -1075,7 +1075,7 @@ msgstr "Воспроизводимые результаты генерации �
 
 #: mCOR/options/clPos/r.title
 msgid "Right"
-msgstr "Справа"
+msgstr "Верно"
 
 #: mMF/options/seed.title
 msgid "RNG seed value"
@@ -1112,7 +1112,7 @@ msgstr "ROC графики"
 
 #: mUI/ui[2].label
 msgid "Save"
-msgstr "Сохранить"
+msgstr "Сохранять"
 
 #: mCOR/options/clPos.title
 msgid "Scale position"
