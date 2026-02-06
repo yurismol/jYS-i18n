@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-01-23 14:48+0000\n"
+"PO-Revision-Date: 2026-02-07 01:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "hr/>\n"
@@ -151,7 +151,7 @@ msgstr "tablica korelacijske matrice"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
-msgstr "Istaknuto"
+msgstr "Isticanje"
 
 #: mCOR/options/clustMet.title
 msgid "Agglomeration method"
@@ -484,7 +484,7 @@ msgstr "Grupa"
 #: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
 #: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
 msgid "Grouping Variable"
-msgstr "Vrijabla grupiranja"
+msgstr "Varijabla grupiranja"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
@@ -633,11 +633,11 @@ msgstr "Okvir legende"
 
 #: mUI/results/stat/intstat.columns.title
 msgid "Level"
-msgstr "Razina"
+msgstr "Level"
 
 #: mROC/options/lwd.title
 msgid "Line width"
-msgstr "Širina linije"
+msgstr "Širina linija"
 
 #: R\mout.b.R
 msgid "Lower fence"
@@ -948,7 +948,7 @@ msgstr "p<sub>vrijednost</sub>"
 
 #: mROC/options/palBrewer/Paired.title
 msgid "Paired"
-msgstr "Spareni"
+msgstr "u parovima"
 
 #: mROC/options/palBrewer/Pastel1.title
 msgid "Pastel1"
