@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-12 02:09+0000\n"
+"PO-Revision-Date: 2026-02-13 10:09+0000\n"
 "Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ja/>\n"
@@ -628,7 +628,7 @@ msgstr "レベル"
 
 #: mROC/options/lwd.title
 msgid "Line width"
-msgstr "線の太さ"
+msgstr "線幅"
 
 #: R\mout.b.R
 msgid "Lower fence"
@@ -976,7 +976,7 @@ msgstr "円グラフ"
 
 #: mUI/options/isTGR.title
 msgid "Plot"
-msgstr "グラフ"
+msgstr "プロット"
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
@@ -992,7 +992,7 @@ msgstr "欠損パターンを図示"
 
 #: mCOR/ui[5].label mMF/ui[1][0][1].label mUI/ui[1][4].label
 msgid "Plots"
-msgstr "作図"
+msgstr "プロット"
 
 #: mROC/options/polygon.title
 msgid "Polygon"
