@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-18 13:10+0000\n"
+"PO-Revision-Date: 2026-02-20 13:09+0000\n"
 "Last-Translator: Francisco Serrador <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "es/>\n"
@@ -466,7 +466,6 @@ msgid "Flag significant correlations"
 msgstr "Indicador de correlación significante"
 
 #: package.description
-#, fuzzy
 msgid ""
 "Graphic extensions of the functionality of popular data analysis methods: "
 "cluster tree of correlating variables, multifactor adaptive correlation "
@@ -476,7 +475,7 @@ msgstr ""
 "Extensiones gráficas de la funcionalidad de los métodos de análisis de datos "
 "más populares: árbol de conglomerados de variables correlacionadas, matriz "
 "de correlación adaptativa multifactorial, curvas de clasificación ROC "
-"multidimensionales, estimación e imputación de datos faltantes, "
+"multidimensionales, estimación e imputación de datos ausentes, "
 "identificación y eliminación de valores atípicos, etc."
 
 #: R\mout.b.R
@@ -831,7 +830,6 @@ msgstr "Imputación múltiple para datos ausentes"
 
 #: mCOR/options/n.title mCOR/results/matrix.columns.content
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
-#, fuzzy
 msgid "N"
 msgstr "N"
 
@@ -955,7 +953,6 @@ msgid "Paired"
 msgstr "Emparejado"
 
 #: mROC/options/palBrewer/Pastel1.title
-#, fuzzy
 msgid "Pastel1"
 msgstr "Pastel1"
 
@@ -981,7 +978,6 @@ msgid "per pattern"
 msgstr "por patrón"
 
 #: mMF/results/imput/errors.columns.title
-#, fuzzy
 msgid "PFC"
 msgstr "PFC"
 
@@ -1030,7 +1026,6 @@ msgstr "Pasos del método de coincidencia predictiva de medias (PMM)"
 
 #: mUI/results/stat/uistat.columns.title mUI/results/stat/mcistat.columns.title
 #: mUI/results/stat/intstat.columns.title
-#, fuzzy
 msgid "Predictor"
 msgstr "Predictor"
 
