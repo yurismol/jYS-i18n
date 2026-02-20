@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-13 10:09+0000\n"
+"PO-Revision-Date: 2026-02-20 13:09+0000\n"
 "Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ja/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -890,7 +890,7 @@ msgstr "流出**"
 
 #: R\mout.b.R
 msgid "outl"
-msgstr "外れ値除去済"
+msgstr "除去済"
 
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
