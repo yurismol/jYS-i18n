@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-12 02:09+0000\n"
-"Last-Translator: yeyeye <m15658453017@163.com>\n"
+"PO-Revision-Date: 2026-02-20 13:09+0000\n"
+"Last-Translator: reducedradius <feixiang512@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jys-i18n/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -376,7 +376,7 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Correlation"
-msgstr ""
+msgstr "相关性"
 
 #: package/analyses/mCOR.title package/analyses/mCOR.menuTitle
 #: package/datasets/Correlation clustering.name mCOR/options.title
@@ -680,11 +680,11 @@ msgstr ""
 
 #: mROC/options/mAst.title
 msgid "Mark significance *<0.05, **<0.01, ***<0.001"
-msgstr ""
+msgstr "标记的显著性水平 *<0.05, **<0.01, ***<0.001"
 
 #: R\mcor.b.R
 msgid "Matrix #{i}"
-msgstr ""
+msgstr "矩阵 #{i}"
 
 #: mMF/options/maxiter.title
 msgid "Maximum number of iterations"
@@ -1212,7 +1212,7 @@ msgstr ""
 
 #: R\mui.b.R
 msgid "Sum"
-msgstr ""
+msgstr "求和"
 
 #: mCOR/ui[4].label
 msgid "Tables"
@@ -1255,7 +1255,7 @@ msgstr ""
 
 #: R\mui.b.R
 msgid "UI"
-msgstr ""
+msgstr "用户界面"
 
 #: package/datasets/UI for binomial logistis models.name
 msgid "UI for binomial logistis models"
