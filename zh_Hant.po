@@ -1,14 +1,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-02-27 00:16+0000\n"
+"Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/jamovi/jys-i18n/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -28,33 +30,33 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
-msgstr ""
+msgstr "{varType} 含有插補值"
 
 #: R\mout.b.R
 msgid "{varType} without outliers"
-msgstr ""
+msgstr "{varType} 沒有離異值"
 
 #: R\mcor.b.R
 msgid "* p < .05, ** p < .01, *** p < .001, one-tailed"
-msgstr ""
+msgstr "* p < .05, ** p < .01, *** p < .001, 單尾"
 
 #: R\mmf.b.R
 msgid "**connection of a variable's observed data"
-msgstr ""
+msgstr "**變數觀測資料的關聯"
 
 #: R\mmf.b.R
 msgid "*connection of a variable's missingness indicator"
-msgstr ""
+msgstr "*變數缺失指標之間的關聯"
 
 #: R\mout.b.R R\mui.b.R
 msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
-msgstr ""
+msgstr "*p < 0.05－Shapiro–Wilk 檢定拒絕了常態分配的虛無假設"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
-msgstr ""
+msgstr "*成對完整觀測值"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
@@ -78,11 +80,11 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
-msgstr ""
+msgstr "<h2>幫助</h2><div>請選擇完整變項與不完整變項</div>"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
-msgstr ""
+msgstr "0 - 自動"
 
 #: mUI/ui[0][1]/refval.label
 msgid "0 ="
@@ -90,7 +92,7 @@ msgstr ""
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
-msgstr ""
+msgstr "1 - 特異性"
 
 #: mOUT/options/fence/1.5.title
 msgid "1.5"
@@ -98,7 +100,7 @@ msgstr ""
 
 #: R\mroc.b.R
 msgid "100 - Specificity (%)"
-msgstr ""
+msgstr "100 - 特異性 (%)"
 
 #: mOUT/options/tholdZS/2.0.title mOUT/options/tholdmZS/2.0.title
 msgid "2.0"
@@ -118,7 +120,7 @@ msgstr ""
 
 #: mOUT/options/tholdZS/3.0.title
 msgid "3.0 (standard)"
-msgstr ""
+msgstr "3.0 (標準)"
 
 #: mOUT/options/tholdZS/3.5.title
 msgid "3.5"
@@ -126,7 +128,7 @@ msgstr ""
 
 #: mOUT/options/tholdmZS/3.5.title
 msgid "3.5 (standard)"
-msgstr ""
+msgstr "3.5 (標準)"
 
 #: mOUT/options/tholdZS/4.0.title mOUT/options/tholdmZS/4.0.title
 msgid "4.0"
@@ -142,19 +144,19 @@ msgstr ""
 
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
-msgstr ""
+msgstr "相關矩陣表"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
-msgstr ""
+msgstr "強調色"
 
 #: mCOR/options/clustMet.title
 msgid "Agglomeration method"
-msgstr ""
+msgstr "聚合方法"
 
 #: mMF/options/alg.title
 msgid "Algorythm"
-msgstr ""
+msgstr "演算法"
 
 #: mCOR/options/signif/all.title
 msgid "All"
@@ -162,36 +164,36 @@ msgstr ""
 
 #: mCOR/options/plotOrder/alphabet.title
 msgid "Alphabetical"
-msgstr ""
+msgstr "依字母順序排列"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
-msgstr ""
+msgstr "一組 MAR（隨機缺失資料）陣列"
 
 #: mCOR/options/plotOrder/AOE.title
 msgid "Angular order eigenvectors"
-msgstr ""
+msgstr "特徵向量的角度順序排列"
 
 #: mCOR/options/clustMet/average.title
 msgid "Average Linkage (UPGMA)"
-msgstr ""
+msgstr "平均連結法（UPGMA）"
 
 #: R\mui.b.R
 msgid "Balance"
-msgstr ""
+msgstr "平衡"
 
 #: R\mui.b.R
 msgid ""
 "Balance - balance between correct and incorrect classified (TP+TN)/(FP+FN)"
-msgstr ""
+msgstr "平衡－正確與錯誤分類之間的平衡，計算公式為 (TP+TN)/(FP+FN)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
-msgstr ""
+msgstr "BC 模型 ROC 評估"
 
 #: package/datasets/BC ROC classification.name
 msgid "BC ROC classification"
-msgstr ""
+msgstr "BC ROC 分類"
 
 #: mCOR/options/adjust/BH.title
 msgid "Benjamini-Hochberg (1995)"
@@ -203,15 +205,15 @@ msgstr ""
 
 #: mUI/options/model/binormal.title
 msgid "Binormal"
-msgstr ""
+msgstr "雙常態分布"
 
 #: mROC/options/BW.title
 msgid "Black & White"
-msgstr ""
+msgstr "黑白"
 
 #: package/datasets/BC ROC classification.description
 msgid "Blood cells multiple ROC Classification demonstration"
-msgstr ""
+msgstr "血球多重 ROC 分類示範"
 
 #: mCOR/options/adjust/bonferroni.title
 msgid "Bonferroni (1961)"
@@ -219,102 +221,102 @@ msgstr ""
 
 #: mCOR/options/clPos/b.title
 msgid "Bottom"
-msgstr ""
+msgstr "底部"
 
 #: mOUT/options/boxpl.title mOUT/results/plots.title
 msgid "Boxplots with outliers"
-msgstr ""
+msgstr "含離異值的箱形圖"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
-msgstr ""
+msgstr "Brewer 質性色盤"
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
-msgstr ""
+msgstr "離異值的計算柵欄"
 
 #: R\mui.b.R
 msgid ""
 "CCR - Correct Classification Rate or accuracy of the positive and negative "
 "classifications (TP+TN)/(TN+FP+FN+TP)"
-msgstr ""
+msgstr "CCR - 正確分類率，即正向與負向分類的準確度 (TP+TN)/(TN+FP+FN+TP)"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
-msgstr ""
+msgstr "形心連結法 (UPGMC)"
 
 #: package/datasets/CHD Models ROC Estimation.name
 msgid "CHD Models ROC Estimation"
-msgstr ""
+msgstr "CHD 模型 ROC 估計"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Lower"
-msgstr ""
+msgstr "信賴區間下界"
 
 #: mROC/options/ciMark.title
 msgid "CI Mark"
-msgstr ""
+msgstr "信賴區間標記"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Upper"
-msgstr ""
+msgstr "信賴區間上界"
 
 #: mROC/options/ciWidth.title
 msgid "CI width"
-msgstr ""
+msgstr "信賴區間寬度"
 
 #: mCOR/options/plotMetU/circle.title mCOR/options/plotMetL/circle.title
 msgid "Circle"
-msgstr ""
+msgstr "圓形"
 
 #: mMF/results/estim/mars.title
 msgid "Classify missing at random (MAR)"
-msgstr ""
+msgstr "分類為隨機遺漏 (MAR)"
 
 #: mMF/results/estim/mcar.title
 msgid "Classify missing completely at random (MCAR)"
-msgstr ""
+msgstr "分類為完全隨機遺漏 (MCAR)"
 
 #: mROC/options/class.title mROC/ui[0][1].label mUI/options/ref.title
 #: mUI/ui[0][1].label
 msgid "Classifying variable"
-msgstr ""
+msgstr "分類變項"
 
 #: mROC/options/theBest/bestC.title
 msgid "Closest Best"
-msgstr ""
+msgstr "最接近最佳"
 
 #: mROC/options/theBest/bssC.title
 msgid "Closest Best (Sp, Se)"
-msgstr ""
+msgstr "最接近最佳 (Sp, Se)"
 
 #: mCOR/options/numClust.title
 msgid "Clusters"
-msgstr ""
+msgstr "叢集"
 
 #: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
-msgstr ""
+msgstr "顏色"
 
 #: mCOR/options/clustCol.title
 msgid "Colored Clusters"
-msgstr ""
+msgstr "彩色叢集"
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
-msgstr ""
+msgstr "完全連結法"
 
 #: mMF/options/learnvar.title mMF/ui[0][1].label
 msgid "Complete Variables"
-msgstr ""
+msgstr "完整變項"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
-msgstr ""
+msgstr "圖表中的完整變數"
 
 #: R\mui.b.R
 msgid "Concordance"
-msgstr ""
+msgstr "和諧性"
 
 #: R\mui.b.R
 msgid ""
@@ -322,14 +324,16 @@ msgid ""
 "patient with the condition is correctly ranked higher than a randomly chosen "
 "patient without the condition"
 msgstr ""
+"一致性－C 統計量或 AUC（曲線下面積）。表示隨機選取一位有疾病的患者，其風險評"
+"分被正確排在隨機選取的一位無疾病患者之上之機率"
 
 #: mROC/results/text.title
 msgid "Conditions"
-msgstr ""
+msgstr "條件"
 
 #: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
-msgstr ""
+msgstr "信賴區間"
 
 #: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
@@ -404,7 +408,7 @@ msgstr ""
 
 #: mROC/options/direction.title mUI/results/stat/uistat.columns.title
 msgid "Direction"
-msgstr ""
+msgstr "方向"
 
 #: mUI/options/model.title
 msgid "Distribution model"
@@ -467,7 +471,7 @@ msgstr ""
 #: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
 #: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
 msgid "Grouping Variable"
-msgstr ""
+msgstr "分組變數"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
