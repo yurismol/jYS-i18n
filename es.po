@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-20 13:09+0000\n"
+"PO-Revision-Date: 2026-02-26 11:54+0000\n"
 "Last-Translator: Francisco Serrador <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "es/>\n"
@@ -1119,7 +1119,7 @@ msgstr "Posición escalada"
 
 #: package/datasets/SDI ROC classification.name
 msgid "SDI ROC classification"
-msgstr "Clasificación ROC SDI"
+msgstr "Clasificación ROC DSI"
 
 #: R\mui.b.R
 msgid ""
