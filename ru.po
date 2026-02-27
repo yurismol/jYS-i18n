@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-26 11:54+0000\n"
+"PO-Revision-Date: 2026-02-28 01:09+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ru/>\n"
@@ -227,7 +227,7 @@ msgstr "Бонферрони (1961)"
 
 #: mCOR/options/clPos/b.title
 msgid "Bottom"
-msgstr "Нижний"
+msgstr "Снизу"
 
 #: mOUT/options/boxpl.title mOUT/results/plots.title
 msgid "Boxplots with outliers"
@@ -850,7 +850,7 @@ msgstr "Непараметрическая"
 #: mROC/options/theBest/none.title mROC/options/cmpDeLong/none.title
 #: mROC/options/palBrewer/none.title
 msgid "None"
-msgstr "Никто"
+msgstr "Отсутствует"
 
 #: R\mout.b.R
 msgid "Normality p-value"
