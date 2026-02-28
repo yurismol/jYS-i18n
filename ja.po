@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-20 13:09+0000\n"
+"PO-Revision-Date: 2026-02-28 11:21+0000\n"
 "Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ja/>\n"
@@ -448,7 +448,7 @@ msgstr "説明変数"
 #: R\mmf.b.R
 msgid ""
 "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
-msgstr "説明変数　最小のp<sub>値</sub>をもつMARに対応する変数です。"
+msgstr "説明変数　最小のp<sub>値</sub> をもつMARに対応する変数です。"
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
@@ -528,8 +528,8 @@ msgid ""
 "p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not "
 "At Random)."
 msgstr ""
-"少なくとも1つのMARのp<sub>値</sub>が有意でなく、かつMCARのp<sub>値</sub>が有"
-"意である場合、そのデータはMNAR（非無作為欠損）となります。"
+"少なくとも1つのMARのp<sub>値</sub> が有意でなく、かつMCARのp<sub>値</sub> が"
+"有意である場合、そのデータはMNAR（非無作為欠損）となります。"
 
 #: R\mmf.b.R
 msgid "imp"
@@ -669,7 +669,7 @@ msgid ""
 "MAR - missing at random (if each p<sub>value</sub> is significant, there is "
 "evidence the data is MAR);"
 msgstr ""
-"MAR　すべてのp<sub>値</sub>が有意であれば、データがMAR（無作為欠損）である証"
+"MAR　すべてのp<sub>値</sub> が有意であれば、データがMAR（無作為欠損）である証"
 "拠となります。"
 
 #: mMF/results/estim/mcar.description mMF/results/estim/mars.description
@@ -697,7 +697,7 @@ msgid ""
 "MCAR - missing completely at random (if the p<sub>value</sub> is not "
 "significant, there is evidence the data is MCAR)."
 msgstr ""
-"MCAR　p<sub>値</sub>が有意でない場合、データがMCAR（完全無作為欠損）である証"
+"MCAR　p<sub>値</sub> が有意でない場合、データがMCAR（完全無作為欠損）である証"
 "拠となります。"
 
 #: mMF/options/isMAR.title
