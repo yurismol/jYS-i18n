@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-28 11:21+0000\n"
+"PO-Revision-Date: 2026-03-01 12:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jys-i18n/zh_Hant/>\n"
@@ -52,7 +52,7 @@ msgstr "*變項缺失指標之間的關聯"
 msgid ""
 "*p<0.05 - The hypothesis of normal distribution was rejected by the Shapiro-"
 "Wilk test"
-msgstr "*p < 0.05－Shapiro–Wilk 檢定拒絕了常態分配的虛無假設"
+msgstr "*p < 0.05－Shapiro–Wilk 檢定拒絕了常態分布的虛無假設"
 
 #: R\mmf.b.R
 msgid "*pairwise complete observations"
@@ -217,7 +217,7 @@ msgstr "血球多重 ROC 分類示範"
 
 #: mCOR/options/adjust/bonferroni.title
 msgid "Bonferroni (1961)"
-msgstr ""
+msgstr "Bonferroni (1961)"
 
 #: mCOR/options/clPos/b.title
 msgid "Bottom"
@@ -239,7 +239,7 @@ msgstr "離群值的計算柵欄"
 msgid ""
 "CCR - Correct Classification Rate or accuracy of the positive and negative "
 "classifications (TP+TN)/(TN+FP+FN+TP)"
-msgstr "CCR - 正確分類率，即正向與負向分類的準確度 (TP+TN)/(TN+FP+FN+TP)"
+msgstr "CCR - 正確分類率或陽性和陰性分類的準確度 (TP+TN)/(TN+FP+FN+TP)"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
@@ -388,11 +388,11 @@ msgstr "變項間的相關"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "D²"
-msgstr ""
+msgstr "D²"
 
 #: mROC/options/palBrewer/Dark2.title
 msgid "Dark2"
-msgstr ""
+msgstr "暗色系2"
 
 #: R\mui.b.R
 msgid "decision"
@@ -412,7 +412,7 @@ msgstr "方向"
 
 #: mUI/options/model.title
 msgid "Distribution model"
-msgstr "分配模型"
+msgstr "分布模型"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
@@ -501,15 +501,15 @@ msgstr "階層式集群樹狀圖"
 
 #: mCOR/options/adjust/hochberg.title
 msgid "Hochberg (1988)"
-msgstr ""
+msgstr "Hochberg (1988)"
 
 #: mCOR/options/adjust/holm.title
 msgid "Holm (1979)"
-msgstr ""
+msgstr "Holm (1979)"
 
 #: mCOR/options/adjust/hommel.title
 msgid "Hommel (1988)"
-msgstr ""
+msgstr "Hommel (1988)"
 
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
@@ -530,7 +530,7 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "imp"
-msgstr ""
+msgstr "imp"
 
 #: R\mmf.b.R
 msgid "Imputation model predictor"
@@ -597,7 +597,7 @@ msgstr "IQR Tukey圍籬"
 #: package/analyses/mUI.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
 #: mOUT/options.menuGroup mROC/options.menuGroup mUI/options.menuGroup
 msgid "jYS"
-msgstr ""
+msgstr "jYS"
 
 #: package.title
 msgid "jYS Extended Functions"
@@ -605,11 +605,11 @@ msgstr "jYS 擴充功能"
 
 #: mCOR/options/method/kendall.title
 msgid "Kendall (τ)"
-msgstr ""
+msgstr "Kendall (τ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Kendall Tau"
-msgstr ""
+msgstr "Kendall Tau"
 
 #: mROC/options/legacy.title
 msgid "Legacy format of Specificity axis"
@@ -685,7 +685,7 @@ msgstr "最大疊代次數"
 
 #: mMF/results/estim/mcar.columns.content
 msgid "MCAR"
-msgstr ""
+msgstr "MCAR"
 
 #: R\mmf.b.R
 msgid ""
@@ -700,11 +700,11 @@ msgstr "MCAR (Missing Completely at Random) 與 MAR (Missing at Random) 估計"
 
 #: R\mui.b.R
 msgid "MCI=0"
-msgstr ""
+msgstr "MCI=0"
 
 #: R\mui.b.R
 msgid "MCI=1"
-msgstr ""
+msgstr "MCI=1"
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
@@ -736,7 +736,7 @@ msgstr "至少需要 2 個插補變項"
 
 #: mMF/options/alg/mF.title
 msgid "missForest (2012)"
-msgstr ""
+msgstr "missForest (2012)"
 
 #: R\mmf.b.R
 msgid "missing"
@@ -770,7 +770,7 @@ msgstr "使用隨機森林預測力進行缺失值插補"
 
 #: mMF/options/alg/mR.title
 msgid "missRanger (2021)"
-msgstr ""
+msgstr "missRanger (2021)"
 
 #: mUI/options/isMD.title mUI/results/plotsMD.title
 msgid "Mixed Densities"
@@ -831,7 +831,7 @@ msgstr "常態性 p 值"
 
 #: R\mui.b.R
 msgid "NPV - Negative Predictive Value of the negative class TN/(TN+FN)"
-msgstr "NPV - 陰性預測值 (陰性類別 TN/(TN+FN))"
+msgstr "NPV - 陰性類別的陰性預測值 (陰性類別 TN/(TN+FN))"
 
 #: mCOR/options/plotMetU/number.title mCOR/options/plotMetL/number.title
 msgid "Number"
@@ -845,15 +845,15 @@ msgstr "在預測平均數配對步驟中，用於抽樣的候選非缺失值個
 
 #: R\mmf.b.R
 msgid "Number of missing entries"
-msgstr "缺失項目數"
+msgstr "缺失值個數"
 
 #: R\mmf.b.R
 msgid "Number of missing entries per variable"
-msgstr "各變項的缺失項目數"
+msgstr "各變項的缺失值個數"
 
 #: mMF/options/npat.title
 msgid "Number of patterns"
-msgstr "型態數"
+msgstr "型態個數"
 
 #: mMF/options/ntree.title
 msgid "Number of trees to grow in each forest"
@@ -877,7 +877,7 @@ msgstr "流出量**"
 
 #: R\mout.b.R
 msgid "outl"
-msgstr ""
+msgstr "outl"
 
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
@@ -934,7 +934,7 @@ msgstr "型態頻率"
 
 #: mCOR/options/method/pearson.title
 msgid "Pearson (r)"
-msgstr ""
+msgstr "Pearson 相關 (r)"
 
 #: R\mcor.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
@@ -946,11 +946,11 @@ msgstr "Pearson's r 相關係數"
 
 #: R\mmf.b.R
 msgid "per pattern"
-msgstr ""
+msgstr "per pattern"
 
 #: mMF/results/imput/errors.columns.title
 msgid "PFC"
-msgstr ""
+msgstr "PFC"
 
 #: R\mmf.b.R
 msgid ""
@@ -987,7 +987,7 @@ msgstr "多邊形"
 
 #: R\mui.b.R
 msgid "PPV - Positive Predictive Value of the positive class TP/(TN+FN)"
-msgstr "PPV - 陽性預測值 TP/(TN+FN)"
+msgstr "PPV - 陽性類別的陽性預測值 TP/(TN+FN)"
 
 #: mMF/options/pmmk.title
 msgid "Predictive Mean Matching (PMM) steps"
@@ -1092,7 +1092,7 @@ msgstr "SDI ROC 分類"
 #: R\mui.b.R
 msgid ""
 "Se - sensitivity of the positive and negative classifications TP/(TP+FN)"
-msgstr "Se - 敏感性（陽性與陰性分類 TP/(TP+FN)）"
+msgstr "Se - 陽性和陰性分類的敏感性 TP/(TP+FN)"
 
 #: mCOR/options/selgroup.title mROC/options/selgroup.title
 msgid "Select group"
@@ -1116,15 +1116,15 @@ msgstr "UI 外敏感性 >"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
-msgstr ""
+msgstr "第1組"
 
 #: mROC/options/palBrewer/Set2.title
 msgid "Set2"
-msgstr ""
+msgstr "第2組"
 
 #: mROC/options/palBrewer/Set3.title
 msgid "Set3"
-msgstr ""
+msgstr "第3組"
 
 #: mCOR/options/plotMetU/shade.title mCOR/options/plotMetL/shade.title
 msgid "Shade"
@@ -1148,7 +1148,7 @@ msgstr "傾斜標題"
 
 #: R\mui.b.R
 msgid "SNPV - standardized negative predictive value of the negative class"
-msgstr "SNPV - 標準化陰性預測值 (陰性類別)"
+msgstr "SNPV - 陰性類別的標準化陰性預測值"
 
 #: R\mui.b.R
 msgid ""
@@ -1157,11 +1157,11 @@ msgstr "Sp - 陽性和陰性分類的特異性 TN/(TN+FN)"
 
 #: mCOR/options/method/spearman.title
 msgid "Spearman (ρ)"
-msgstr ""
+msgstr "Spearman 等級相關 (ρ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Spearman's Rho"
-msgstr ""
+msgstr "Spearman's 等級相關 Rho"
 
 #: R\mroc.b.R R\mui.b.R
 msgid "Specificity"
@@ -1193,7 +1193,7 @@ msgstr "依預測變項分割 ROC"
 
 #: R\mui.b.R
 msgid "SPPV - standardized positive predictive value of the positive class"
-msgstr "SPPV - 標準化陽性預測值 (陽性類別)"
+msgstr "SPPV - 陽性類別的標準化陽性預測值"
 
 #: mCOR/options/plotMetU/square.title mCOR/options/plotMetL/square.title
 msgid "Square"
@@ -1224,7 +1224,7 @@ msgid ""
 "The classifying variable '{}' does not have exactly two levels; ROC "
 "classification can only be performed on classifying variables with two "
 "levels."
-msgstr "分類變數 '{}' 並非恰好兩個水準；ROC 分類僅能在具有兩個水準的分類變數上執行。"
+msgstr "分類變數 '{}' 並非恰好二個水準；ROC 分類僅能在具有二個水準的分類變數上執行。"
 
 #: package/datasets/Uncertain Interval (UI).description
 msgid "Three-Way threshold determination in test results"
@@ -1240,7 +1240,7 @@ msgstr "Youden閾值"
 
 #: R\mmf.b.R
 msgid "Total number of missing entries {}"
-msgstr "缺失項目總數 {}"
+msgstr "缺失值總數 {}"
 
 #: mUI/options/UImethod/TGR.title mUI/results/plotsTGR.title
 msgid "Two-graph ROC curves"
@@ -1248,7 +1248,7 @@ msgstr "雙圖 ROC 曲線"
 
 #: R\mui.b.R
 msgid "UI"
-msgstr ""
+msgstr "不確定信賴區間"
 
 #: package/datasets/UI for binomial logistis models.name
 msgid "UI for binomial logistis models"
@@ -1265,7 +1265,7 @@ msgstr "不確定區間 (UI)"
 msgid ""
 "Uncertain Interval (UI) is placed around the point of intersection between "
 "the two distributions with and without the targeted state."
-msgstr "不確定區間 (UI) 置於有與無目標狀態的兩個分配交點周圍。"
+msgstr "不確定區間 (UI) 置於有與無目標狀態的兩個分布交點周圍。"
 
 #: package/datasets/UI for binomial logistis models.description
 msgid "Uncertain Interval estimation for binomial logistis models"
