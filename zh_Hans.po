@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-20 13:09+0000\n"
-"Last-Translator: reducedradius <feixiang512@outlook.com>\n"
+"PO-Revision-Date: 2026-03-03 01:09+0000\n"
+"Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jys-i18n/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -173,44 +173,44 @@ msgstr "聚合方法"
 
 #: mMF/options/alg.title
 msgid "Algorythm"
-msgstr ""
+msgstr "演算法"
 
 #: mCOR/options/signif/all.title
 msgid "All"
-msgstr ""
+msgstr "所有"
 
 #: mCOR/options/plotOrder/alphabet.title
 msgid "Alphabetical"
-msgstr ""
+msgstr "依字母排列"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
-msgstr ""
+msgstr "MARs 阵列"
 
 #: mCOR/options/plotOrder/AOE.title
 msgid "Angular order eigenvectors"
-msgstr ""
+msgstr "按角度排序特征向量"
 
 #: mCOR/options/clustMet/average.title
 msgid "Average Linkage (UPGMA)"
-msgstr ""
+msgstr "平均连结法（UPGMA）"
 
 #: R\mui.b.R
 msgid "Balance"
-msgstr ""
+msgstr "平衡"
 
 #: R\mui.b.R
 msgid ""
 "Balance - balance between correct and incorrect classified (TP+TN)/(FP+FN)"
-msgstr ""
+msgstr "平衡 - 正确分类与错误分类之间的平衡 (TP+TN)/(FP+FN)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
-msgstr ""
+msgstr "BC 模型 ROC 估计"
 
 #: package/datasets/BC ROC classification.name
 msgid "BC ROC classification"
-msgstr ""
+msgstr "BC 模型下的ROC曲线分类"
 
 #: mCOR/options/adjust/BH.title
 msgid "Benjamini-Hochberg (1995)"
@@ -226,11 +226,11 @@ msgstr ""
 
 #: mROC/options/BW.title
 msgid "Black & White"
-msgstr ""
+msgstr "黑白"
 
 #: package/datasets/BC ROC classification.description
 msgid "Blood cells multiple ROC Classification demonstration"
-msgstr ""
+msgstr "血细胞多类ROC分类演示"
 
 #: mCOR/options/adjust/bonferroni.title
 msgid "Bonferroni (1961)"
@@ -242,45 +242,45 @@ msgstr "底部"
 
 #: mOUT/options/boxpl.title mOUT/results/plots.title
 msgid "Boxplots with outliers"
-msgstr ""
+msgstr "含离群值的箱线图"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
-msgstr ""
+msgstr "Brewer 定性调色板"
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
-msgstr ""
+msgstr "离群值计算界限"
 
 #: R\mui.b.R
 msgid ""
 "CCR - Correct Classification Rate or accuracy of the positive and negative "
 "classifications (TP+TN)/(TN+FP+FN+TP)"
-msgstr ""
+msgstr "CCR - 正确分类率或正负分类准确率 (TP+TN)/(TN+FP+FN+TP)"
 
 #: mCOR/options/clustMet/centroid.title
 msgid "Centroid Linkage (UPGMC)"
-msgstr ""
+msgstr "质心连结法 (UPGMC)"
 
 #: package/datasets/CHD Models ROC Estimation.name
 msgid "CHD Models ROC Estimation"
-msgstr ""
+msgstr "CHD 模型 ROC 估计"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Lower"
-msgstr ""
+msgstr "置信区间下限"
 
 #: mROC/options/ciMark.title
 msgid "CI Mark"
-msgstr ""
+msgstr "置信区间符号"
 
 #: mCOR/results/matrix.columns.content
 msgid "CI Upper"
-msgstr ""
+msgstr "置信区间上限"
 
 #: mROC/options/ciWidth.title
 msgid "CI width"
-msgstr ""
+msgstr "置信区间宽度"
 
 #: mCOR/options/plotMetU/circle.title mCOR/options/plotMetL/circle.title
 msgid "Circle"
@@ -288,52 +288,52 @@ msgstr ""
 
 #: mMF/results/estim/mars.title
 msgid "Classify missing at random (MAR)"
-msgstr ""
+msgstr "随机缺失分类 (MAR)"
 
 #: mMF/results/estim/mcar.title
 msgid "Classify missing completely at random (MCAR)"
-msgstr ""
+msgstr "完全随机缺失分类 (MCAR)"
 
 #: mROC/options/class.title mROC/ui[0][1].label mUI/options/ref.title
 #: mUI/ui[0][1].label
 msgid "Classifying variable"
-msgstr ""
+msgstr "分类变量"
 
 #: mROC/options/theBest/bestC.title
 msgid "Closest Best"
-msgstr ""
+msgstr "最近最优"
 
 #: mROC/options/theBest/bssC.title
 msgid "Closest Best (Sp, Se)"
-msgstr ""
+msgstr "最近最优 (Sp, Se)"
 
 #: mCOR/options/numClust.title
 msgid "Clusters"
-msgstr ""
+msgstr "聚类"
 
 #: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
-msgstr ""
+msgstr "颜色"
 
 #: mCOR/options/clustCol.title
 msgid "Colored Clusters"
-msgstr ""
+msgstr "彩色聚类"
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
-msgstr ""
+msgstr "完全连结法"
 
 #: mMF/options/learnvar.title mMF/ui[0][1].label
 msgid "Complete Variables"
-msgstr ""
+msgstr "完整变量"
 
 #: mMF/options/compinres.title
 msgid "Complete variables in plots"
-msgstr ""
+msgstr "图中的完整变量"
 
 #: R\mui.b.R
 msgid "Concordance"
-msgstr ""
+msgstr "一致性"
 
 #: R\mui.b.R
 msgid ""
@@ -341,10 +341,12 @@ msgid ""
 "patient with the condition is correctly ranked higher than a randomly chosen "
 "patient without the condition"
 msgstr ""
+"一致性 - C统计量或AUC。即随机选取的一名患病者被正确排序高于随机选取的一名非患"
+"病者的概率"
 
 #: mROC/results/text.title
 msgid "Conditions"
-msgstr ""
+msgstr "条件"
 
 #: mROC/options/ciAUC.title mROC/ui[1]/ciAUC.label
 msgid "Confidence interval"
@@ -352,27 +354,27 @@ msgstr "置信区间"
 
 #: mCOR/options/ci.title mCOR/ui[4][0]/tables/ci.label
 msgid "Confidence interval (Pearson only)"
-msgstr ""
+msgstr "置信区间（仅限Pearson）"
 
 #: mCOR/options/ciWidth.title
 msgid "Confidence interval width"
-msgstr ""
+msgstr "置信区间宽度"
 
 #: mCOR/options/hyp/corr.title
 msgid "Correlated"
-msgstr ""
+msgstr "有相关"
 
 #: mCOR/options/hyp/neg.title
 msgid "Correlated negatively"
-msgstr ""
+msgstr "负相关"
 
 #: mCOR/options/hyp/pos.title
 msgid "Correlated positively"
-msgstr ""
+msgstr "正相关"
 
 #: mCOR/options/vars.title mCOR/ui[0][0].label
 msgid "Correlating Variables"
-msgstr ""
+msgstr "相关变量"
 
 #: R\mmf.b.R
 msgid "Correlation"
@@ -382,24 +384,24 @@ msgstr "相关性"
 #: package/datasets/Correlation clustering.name mCOR/options.title
 #: mCOR/results.title
 msgid "Correlation clustering"
-msgstr ""
+msgstr "相关聚类"
 
 #: package/datasets/Correlation clustering.description
 msgid "Correlation Clustering demonstration"
-msgstr ""
+msgstr "相关聚类演示"
 
 #: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
 #: mCOR/results/matrix.title mCOR/results/plot.title
 msgid "Correlation matrix"
-msgstr ""
+msgstr "相关矩阵"
 
 #: mCOR/results/text.title
 msgid "Correlations"
-msgstr ""
+msgstr "相关"
 
 #: mMF/results/estim/cplot.title
 msgid "Correlations between variables"
-msgstr ""
+msgstr "变量间的相关"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "D²"
@@ -415,61 +417,61 @@ msgstr ""
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of Freedom (df)"
-msgstr ""
+msgstr "自由度 (df)"
 
 #: mUI/options/UImethod/noUI.title
 msgid "Dichotomization (no uncertainty)"
-msgstr ""
+msgstr "二分法（无不确定性）"
 
 #: mROC/options/direction.title mUI/results/stat/uistat.columns.title
 msgid "Direction"
-msgstr ""
+msgstr "方向"
 
 #: mUI/options/model.title
 msgid "Distribution model"
-msgstr ""
+msgstr "分布模型"
 
 #: mROC/options/dotline.title
 msgid "Dotted line"
-msgstr ""
+msgstr "虚线"
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
-msgstr ""
+msgstr "椭圆"
 
 #: R\mmf.b.R
 msgid "Empty data table"
-msgstr ""
+msgstr "空数据表"
 
 #: mCOR/options/plotMetU/empty.title mCOR/options/plotMetL/empty.title
 msgid "Emtpy"
-msgstr ""
+msgstr "空的"
 
 #: mMF/results/imput/errors.title
 msgid "Estimated out-of-bag (OOB) imputation error"
-msgstr ""
+msgstr "估计的袋外 (OOB) 插补误差"
 
 #: mMF/options/fullmars.title mMF/results/estim/fMARtab.title
 msgid "Evaluation of MAR explainers"
-msgstr ""
+msgstr "MAR 解释器评估"
 
 #: mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "Explanatory"
-msgstr ""
+msgstr "解释变量"
 
 #: R\mmf.b.R
 msgid ""
 "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
-msgstr ""
+msgstr "解释变量 - 对应于具有最小<sub>p</sub>值之MAR的变量。"
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
-msgstr ""
+msgstr "第一主成分"
 
 #: mCOR/options/flag.title
 msgid "Flag significant correlations"
-msgstr ""
+msgstr "标记显著相关"
 
 #: package.description
 msgid ""
@@ -478,6 +480,8 @@ msgid ""
 "matrix, multidimensional ROC classification curves, missing data estimation "
 "and imputation, outliers identificatioon and removal etc."
 msgstr ""
+"流行数据分析方法功能的图形化扩展：相关变量聚类树、多因子自适应相关矩阵、多维"
+"ROC分类曲线、缺失数据估计与插补、离群值识别与剔除等。"
 
 #: R\mout.b.R
 msgid "Group"
@@ -486,31 +490,31 @@ msgstr "分组"
 #: mCOR/options/group.title mCOR/ui[0][1].label mOUT/options/group.title
 #: mOUT/ui[0][1].label mROC/options/groups.title mROC/ui[0][2].label
 msgid "Grouping Variable"
-msgstr ""
+msgstr "分组变量"
 
 #: R\mcor.b.R
 msgid "Hₐ is negative correlation"
-msgstr ""
+msgstr "Hₐ 为负相关"
 
 #: R\mcor.b.R
 msgid "Hₐ is positive correlation"
-msgstr ""
+msgstr "Hₐ 为正相关"
 
 #: package/datasets/HI ROC classification.description
 msgid "Healthy/Ill ROC Classification demonstration"
-msgstr ""
+msgstr "健康/患病 ROC 分类演示"
 
 #: package/datasets/HI ROC classification.name
 msgid "HI ROC classification"
-msgstr ""
+msgstr "HI ROC 分类"
 
 #: mCOR/options/hclust.title
 msgid "Hierarchical clustering"
-msgstr ""
+msgstr "层次聚类"
 
 #: mCOR/results/treeplot.title
 msgid "Hierarchical clustering tree"
-msgstr ""
+msgstr "层次聚类树"
 
 #: mCOR/options/adjust/hochberg.title
 msgid "Hochberg (1988)"
@@ -526,11 +530,11 @@ msgstr ""
 
 #: mCOR/options/hyp.title
 msgid "Hypothesis"
-msgstr ""
+msgstr "假设"
 
 #: package/datasets/Outliers identification and removal.description
 msgid "Identification, analysis and removal of data outliers by groups"
-msgstr ""
+msgstr "按组进行数据离群值的识别、分析与剔除"
 
 #: R\mmf.b.R
 msgid ""
@@ -538,6 +542,8 @@ msgid ""
 "p<sub>value</sub> in MCAR is significant then the data is MNAR (Missing Not "
 "At Random)."
 msgstr ""
+"若至少有一个MAR的<sub>p</sub>值不显著，且MCAR的p<sub>值</sub>显著，则数据为"
+"MNAR（非随机缺失）。"
 
 #: R\mmf.b.R
 msgid "imp"
