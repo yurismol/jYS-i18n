@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-03-01 12:09+0000\n"
+"PO-Revision-Date: 2026-03-04 16:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jys-i18n/zh_Hant/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -229,7 +229,7 @@ msgstr "含離群值的箱形圖"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
-msgstr "Brewer 類別調色盤"
+msgstr "Brewer's 分類色盤"
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
@@ -590,7 +590,7 @@ msgstr "IQR 圍籬高度"
 
 #: mOUT/options/outlcheck/IQR.title
 msgid "IQR Tukey's fences"
-msgstr "IQR Tukey圍籬"
+msgstr "IQR Tukey's 圍籬"
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
@@ -938,7 +938,7 @@ msgstr "Pearson 相關 (r)"
 
 #: R\mcor.b.R
 msgid "Pearson correlation cannot be calculated for non-numeric values"
-msgstr "無法為非數值計算Pearson相關"
+msgstr "無法為非數值計算 Pearson 相關"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Pearson's r"
@@ -1116,7 +1116,7 @@ msgstr "UI 外敏感性 >"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
-msgstr "第1組"
+msgstr "集合1"
 
 #: mROC/options/palBrewer/Set2.title
 msgid "Set2"
