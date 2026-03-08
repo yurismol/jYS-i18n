@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-03-03 01:09+0000\n"
+"PO-Revision-Date: 2026-03-09 01:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jys-i18n/zh_Hans/>\n"
@@ -26,7 +26,7 @@ msgstr "{ciWidth}% CI上限"
 
 #: R\mui.b.R
 msgid "{varType} proposed decision"
-msgstr ""
+msgstr "{varType} 拟定的決策"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
@@ -42,11 +42,11 @@ msgstr "* p < .05, ** p < .01, *** p < .001, 单尾"
 
 #: R\mmf.b.R
 msgid "**connection of a variable's observed data"
-msgstr ""
+msgstr "**变量观测数据的连接"
 
 #: R\mmf.b.R
 msgid "*connection of a variable's missingness indicator"
-msgstr ""
+msgstr "*变量缺失指示器的连接"
 
 #: R\mout.b.R R\mui.b.R
 msgid ""
@@ -222,7 +222,7 @@ msgstr ""
 
 #: mUI/options/model/binormal.title
 msgid "Binormal"
-msgstr ""
+msgstr "双正态"
 
 #: mROC/options/BW.title
 msgid "Black & White"
@@ -284,7 +284,7 @@ msgstr "置信区间宽度"
 
 #: mCOR/options/plotMetU/circle.title mCOR/options/plotMetL/circle.title
 msgid "Circle"
-msgstr ""
+msgstr "圆形"
 
 #: mMF/results/estim/mars.title
 msgid "Classify missing at random (MAR)"
@@ -413,7 +413,7 @@ msgstr ""
 
 #: R\mui.b.R
 msgid "decision"
-msgstr ""
+msgstr "决策"
 
 #: mMF/results/estim/mcar.columns.title
 msgid "Degree of Freedom (df)"
@@ -551,63 +551,63 @@ msgstr ""
 
 #: R\mmf.b.R
 msgid "Imputation model predictor"
-msgstr ""
+msgstr "插补模型预测变量"
 
 #: mMF/results/imputeOV.title
 msgid "Imputed misses"
-msgstr ""
+msgstr "已插补的缺失值"
 
 #: mROC/options/perc.title
 msgid "In percent"
-msgstr ""
+msgstr "百分比"
 
 #: mMF/options/imputevar.title mMF/ui[0][0].label
 msgid "Incomplete Variables"
-msgstr ""
+msgstr "不完整变量"
 
 #: R\mout.b.R
 msgid "Indices (Rows)"
-msgstr ""
+msgstr "索引（行）"
 
 #: mMF/results/estim/fplot.title
 msgid "Influx-outflux plot"
-msgstr ""
+msgstr "流入-流出图"
 
 #: mMF/options/fluxplot.title
 msgid "Influx-outflux plot for missing data patterns"
-msgstr ""
+msgstr "缺失数据模式的流入-流出图"
 
 #: R\mmf.b.R
 msgid "Influx*"
-msgstr ""
+msgstr "流入*"
 
 #: mCOR/options/clustMat.title mCOR/results/rplots.title
 msgid "Intercluster Matrices"
-msgstr ""
+msgstr "群间矩阵"
 
 #: R\mui.b.R mUI/results/stat/uistat.columns.title
 msgid "Intersection"
-msgstr ""
+msgstr "交集"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.label mROC/ui[1]/ciAUC/ciWidth.label
 msgid "Interval"
-msgstr ""
+msgstr "区间"
 
 #: mUI/options/UImethod.title
 msgid "Interval determination method"
-msgstr ""
+msgstr "区间确定方法"
 
 #: mUI/ui[1].label mUI/results/stat.title
 msgid "Intervals Estimation"
-msgstr ""
+msgstr "区间估计"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
-msgstr ""
+msgstr "四分位距围栏高度"
 
 #: mOUT/options/outlcheck/IQR.title
 msgid "IQR Tukey's fences"
-msgstr ""
+msgstr "四分位距 Tukey 围栏"
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
@@ -618,7 +618,7 @@ msgstr ""
 
 #: package.title
 msgid "jYS Extended Functions"
-msgstr ""
+msgstr "jYS 扩展功能"
 
 #: mCOR/options/method/kendall.title
 msgid "Kendall (τ)"
@@ -630,11 +630,11 @@ msgstr ""
 
 #: mROC/options/legacy.title
 msgid "Legacy format of Specificity axis"
-msgstr ""
+msgstr "特异性轴的旧版格式"
 
 #: mROC/options/legBox.title
 msgid "Legend Box"
-msgstr ""
+msgstr "图例框"
 
 #: mUI/results/stat/intstat.columns.title
 msgid "Level"
@@ -642,19 +642,19 @@ msgstr "水平"
 
 #: mROC/options/lwd.title
 msgid "Line width"
-msgstr ""
+msgstr "线宽"
 
 #: R\mout.b.R
 msgid "Lower fence"
-msgstr ""
+msgstr "下围栏"
 
 #: mCOR/options/plotMetL.title
 msgid "Lower part"
-msgstr ""
+msgstr "下部"
 
 #: R\mui.b.R
 msgid "Lower threshold"
-msgstr ""
+msgstr "下阈值"
 
 #: R\mui.b.R
 msgid ""
@@ -662,6 +662,8 @@ msgid ""
 "person with the condition receiving a negative classification / probability "
 "of a person without the condition receiving a negative classification"
 msgstr ""
+"LR- – 负似然比 P(-|D+) / P(-|D-)。即患有该病的人被判定为阴性的概率 ÷ 未患该病"
+"的人被判定为阴性的概率"
 
 #: R\mui.b.R
 msgid ""
@@ -669,16 +671,18 @@ msgid ""
 "person with the condition receiving a positive classification / probability "
 "of a person without the condition receiving a positive classification"
 msgstr ""
+"LR+ – 正似然比 (P(+|D+)) / (P(+|D-))。即患有该病的人被判定为阳性的概率 ÷ 未患"
+"该病的人被判定为阳性的概率"
 
 #: mCOR/options/clustMan.title
 msgid "Manual Clusters"
-msgstr ""
+msgstr "手动簇"
 
 #: R\mmf.b.R
 msgid ""
 "MAR - missing at random (if each p<sub>value</sub> is significant, there is "
 "evidence the data is MAR);"
-msgstr ""
+msgstr "MAR – 随机缺失 (如果每个p<sub>值</sub>显著，则有证据表明数据为 MAR);"
 
 #: mMF/results/estim/mcar.description mMF/results/estim/mars.description
 msgid "MAR classification table"
