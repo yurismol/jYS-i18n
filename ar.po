@@ -1,15 +1,17 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2021-07-29 16:59:59+01000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-03-12 21:09+0000\n"
+"Last-Translator: Dib Radouane <dibradouane8@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
+"ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -25,7 +27,7 @@ msgstr ""
 
 #: R\mui.b.R
 msgid "{varType} proposed decision"
-msgstr ""
+msgstr "{varType} القرار المقترح"
 
 #: R\mmf.b.R
 msgid "{varType} with imputed values"
@@ -58,8 +60,9 @@ msgid "*pairwise complete observations"
 msgstr ""
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
+#, fuzzy
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: mCOR/options/signif/0.001.title
 msgid "< 0.001"
