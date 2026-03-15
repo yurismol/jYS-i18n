@@ -58,6 +58,14 @@ msgstr "*p < 0.05－Shapiro–Wilk 檢定拒絕了常態分布的虛無假設"
 msgid "*pairwise complete observations"
 msgstr "*成對完整觀測值"
 
+#: mPWR/results/powerTable.columns.title
+msgid "&alpha;"
+msgstr ""
+
+#: mPWR/options/alpha.title mPWR/ui[1]/alpha.label
+msgid "&alpha; (type I error rate)"
+msgstr ""
+
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
 msgstr "%"
@@ -166,6 +174,10 @@ msgstr "全部"
 msgid "Alphabetical"
 msgstr "依字母順序排列"
 
+#: mPWR/results/powerTable.columns.title
+msgid "Alternative"
+msgstr ""
+
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
 msgstr "一組 MAR（隨機缺失資料）陣列"
@@ -234,6 +246,14 @@ msgstr "Brewer's 分類色盤"
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
 msgstr "離群值的計算柵欄"
+
+#: R\mpwr.b.R
+msgid "Calculated parameter: "
+msgstr ""
+
+#: R\mpwr.b.R
+msgid "Calculation error:\n"
+msgstr ""
 
 #: R\mui.b.R
 msgid ""
@@ -365,7 +385,7 @@ msgstr "相關"
 
 #: package/analyses/mCOR.title package/analyses/mCOR.menuTitle
 #: package/datasets/Correlation clustering.name mCOR/options.title
-#: mCOR/results.title
+#: mCOR/ui.title mCOR/results.title
 msgid "Correlation clustering"
 msgstr "相關聚類"
 
@@ -373,8 +393,8 @@ msgstr "相關聚類"
 msgid "Correlation Clustering demonstration"
 msgstr "相關聚類示範"
 
-#: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
-#: mCOR/results/matrix.title mCOR/results/plot.title
+#: mCOR/options/tables.title mCOR/options/plots.title mCOR/results/matrix.title
+#: mCOR/results/plot.title
 msgid "Correlation matrix"
 msgstr "相關矩陣"
 
@@ -402,6 +422,14 @@ msgstr "決策"
 msgid "Degree of Freedom (df)"
 msgstr "自由度 (df)"
 
+#: mPWR/options/design.title
+msgid "Design"
+msgstr ""
+
+#: R\mpwr.b.R
+msgid "Design: "
+msgstr ""
+
 #: mUI/options/UImethod/noUI.title
 msgid "Dichotomization (no uncertainty)"
 msgstr "二分法（無不確定性）"
@@ -417,6 +445,14 @@ msgstr "分布模型"
 #: mROC/options/dotline.title
 msgid "Dotted line"
 msgstr "虛線"
+
+#: mPWR/options/calc/es.title
+msgid "Effect size"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/results/powerTable.columns.title
+msgid "Effect Size (d)"
+msgstr ""
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
@@ -548,6 +584,18 @@ msgstr "以百分比表示"
 msgid "Incomplete Variables"
 msgstr "不完整變項"
 
+#: R\mpwr.b.R mPWR/options/design/independent.title
+msgid "Independent Samples (Student)"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/options/design/welch.title
+msgid "Independent Samples (Welch)"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/options/design/independent_np.title
+msgid "Independent Samples (Wilcoxon)"
+msgstr ""
+
 #: R\mout.b.R
 msgid "Indices (Rows)"
 msgstr "索引 (列)"
@@ -594,8 +642,9 @@ msgstr "IQR Tukey's 圍籬"
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
-#: package/analyses/mUI.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
-#: mOUT/options.menuGroup mROC/options.menuGroup mUI/options.menuGroup
+#: package/analyses/mUI.menuGroup package/analyses/mPWR.menuGroup
+#: mCOR/options.menuGroup mMF/options.menuGroup mOUT/options.menuGroup
+#: mPWR/options.menuGroup mROC/options.menuGroup mUI/options.menuGroup
 msgid "jYS"
 msgstr "jYS"
 
@@ -626,6 +675,10 @@ msgstr "水準"
 #: mROC/options/lwd.title
 msgid "Line width"
 msgstr "線條寬度"
+
+#: mPWR/results/text.title
+msgid "Log / Errors"
+msgstr ""
 
 #: R\mout.b.R
 msgid "Lower fence"
@@ -665,7 +718,8 @@ msgstr "手動集群"
 msgid ""
 "MAR - missing at random (if each p<sub>value</sub> is significant, there is "
 "evidence the data is MAR);"
-msgstr "MAR - 隨機缺失（若每個 p<sub>值</sub> 皆顯著，則有證據顯示資料為 MAR）;"
+msgstr ""
+"MAR - 隨機缺失（若每個 p<sub>值</sub> 皆顯著，則有證據顯示資料為 MAR）;"
 
 #: mMF/results/estim/mcar.description mMF/results/estim/mars.description
 msgid "MAR classification table"
@@ -691,7 +745,8 @@ msgstr "MCAR"
 msgid ""
 "MCAR - missing completely at random (if the p<sub>value</sub> is not "
 "significant, there is evidence the data is MCAR)."
-msgstr "MCAR - 完全隨機缺失 (若 p<sub> 值</sub>未達顯著，則有證據顯示資料為 MCAR)。"
+msgstr ""
+"MCAR - 完全隨機缺失 (若 p<sub> 值</sub>未達顯著，則有證據顯示資料為 MCAR)。"
 
 #: mMF/options/isMAR.title
 msgid ""
@@ -699,11 +754,15 @@ msgid ""
 msgstr "MCAR (Missing Completely at Random) 與 MAR (Missing at Random) 估計"
 
 #: R\mui.b.R
-msgid "MCI=0"
+#, fuzzy
+#| msgid "MCI=0"
+msgid "MCI=0 ("
 msgstr "MCI=0"
 
 #: R\mui.b.R
-msgid "MCI=1"
+#, fuzzy
+#| msgid "MCI=1"
+msgid "MCI=1 ("
 msgstr "MCI=1"
 
 #: mCOR/options/clustMet/mcquitty.title
@@ -726,6 +785,10 @@ msgstr "中位數連結法"
 msgid "Method"
 msgstr "方法"
 
+#: mPWR/options/es.title mPWR/ui[1]/es.label
+msgid "Minimally-interesting effect size (&delta;)"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
 msgstr "至少需要 {minVar} 個變數（完整 + 不完整）"
@@ -733,6 +796,10 @@ msgstr "至少需要 {minVar} 個變數（完整 + 不完整）"
 #: R\mmf.b.R
 msgid "Minimum 2 impute variables are required"
 msgstr "至少需要 2 個插補變項"
+
+#: mPWR/options/power.title mPWR/ui[1]/power.label
+msgid "Minimum desired power"
+msgstr ""
 
 #: mMF/options/alg/mF.title
 msgid "missForest (2012)"
@@ -815,6 +882,40 @@ msgstr "N - 插補值個數;"
 msgid "N - number of missing values;"
 msgstr "N - 缺失值個數;"
 
+#: R\mpwr.b.R mPWR/results/nEsCurve.title
+msgid "N by Effect Size"
+msgstr ""
+
+#: mPWR/options/n_es_curve.title
+msgid "N by Effect Size Curve"
+msgstr ""
+
+#: mPWR/ui[1]/n.label
+msgid "N for group 1"
+msgstr ""
+
+#: mPWR/options/calc/n.title
+#, fuzzy
+#| msgid "Select group"
+msgid "N per group"
+msgstr "選擇組別"
+
+#: mPWR/options/n.title
+msgid "N per group (or pairs/sample)"
+msgstr ""
+
+#: mPWR/results/powerTable.columns.title
+#, fuzzy
+#| msgid "N"
+msgid "N1"
+msgstr "樣本數"
+
+#: mPWR/results/powerTable.columns.title
+#, fuzzy
+#| msgid "N"
+msgid "N2"
+msgstr "樣本數"
+
 #: mUI/options/model/none.title
 msgid "Non-parametric"
 msgstr "無母數"
@@ -841,7 +942,8 @@ msgstr "數值"
 msgid ""
 "Number of candidate non-missing values to sample from in the predictive mean "
 "matching steps. 0 to avoid this step"
-msgstr "在預測平均數配對步驟中，用於抽樣的候選非缺失值個數。設為 0 則跳過此步驟"
+msgstr ""
+"在預測平均數配對步驟中，用於抽樣的候選非缺失值個數。設為 0 則跳過此步驟"
 
 #: R\mmf.b.R
 msgid "Number of missing entries"
@@ -862,6 +964,18 @@ msgstr "每個森林中成長的樹木數量"
 #: R\mmf.b.R
 msgid "observed"
 msgstr "觀察值"
+
+#: R\mpwr.b.R mPWR/options/design/one.sample.title
+msgid "One Sample (Student)"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/options/design/one.sample_np.title
+msgid "One Sample (Wilcoxon)"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/ui[1]/alt/one.sided.title
+msgid "one-tailed"
+msgstr ""
 
 #: mMF/results/imput/errors.description
 msgid "OOB errors table"
@@ -924,6 +1038,14 @@ msgstr "p<sub>值</sub>"
 msgid "Paired"
 msgstr "成對"
 
+#: R\mpwr.b.R mPWR/options/design/paired.title
+msgid "Paired Samples (Student)"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/options/design/paired_np.title
+msgid "Paired Samples (Wilcoxon)"
+msgstr ""
+
 #: mROC/options/palBrewer/Pastel1.title
 msgid "Pastel1"
 msgstr "粉彩1"
@@ -977,13 +1099,45 @@ msgstr "圖選項"
 msgid "Plot the missing data patterns"
 msgstr "繪製缺失資料型態圖"
 
-#: mCOR/ui[5].label mMF/ui[1][0][1].label mUI/ui[1][4].label
+#: mCOR/ui[5].label mMF/ui[1][0][1].label mPWR/ui[2].label mUI/ui[1][4].label
 msgid "Plots"
 msgstr "圖"
 
 #: mROC/options/polygon.title
 msgid "Polygon"
 msgstr "多邊形"
+
+#: R\mpwr.b.R mPWR/options/calc/power.title
+#: mPWR/results/powerTable.columns.title
+#, fuzzy
+#| msgid "CI Lower"
+msgid "Power"
+msgstr "信賴區間下界"
+
+#: package/analyses/mPWR.title package/analyses/mPWR.menuTitle
+#: mPWR/options.title mPWR/ui.title mPWR/results.title
+msgid "Power Analysis"
+msgstr ""
+
+#: mPWR/results/powerTable.title
+msgid "Power Analysis Results"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/results/powerEsCurve.title
+msgid "Power by Effect Size"
+msgstr ""
+
+#: mPWR/options/power_es_curve.title
+msgid "Power by Effect Size Curve"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/results/powerCurve.title
+msgid "Power Curve"
+msgstr ""
+
+#: mPWR/options/power_curve.title
+msgid "Power Curve (Power by N)"
+msgstr ""
 
 #: R\mui.b.R
 msgid "PPV - Positive Predictive Value of the positive class TP/(TN+FN)"
@@ -1019,6 +1173,10 @@ msgstr "建議決策"
 msgid "provide a correlation matrix plot."
 msgstr "提供相關矩陣圖。"
 
+#: mPWR/options/calc.title
+msgid "Purpose of Calculation"
+msgstr ""
+
 #: R\mmf.b.R
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
@@ -1027,6 +1185,10 @@ msgstr "PVU - 未解釋變異比例 1-R² (用於連續變數);"
 #: mUI/options/refval.title
 msgid "Reference level"
 msgstr "參照基準"
+
+#: mPWR/ui[1]/n_ratio.label
+msgid "Relative size of group 2 to group 1"
+msgstr ""
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
 msgid "Remove outliers"
@@ -1076,6 +1238,18 @@ msgstr "二元邏輯斯模型之 ROC 估計示範"
 #: mROC/ui[1].label
 msgid "ROC graphs"
 msgstr "ROC 圖"
+
+#: R\mpwr.b.R
+msgid "Sample Size (N)"
+msgstr ""
+
+#: R\mpwr.b.R
+msgid "Sample Size (N1)"
+msgstr ""
+
+#: mPWR/options/n_ratio.title
+msgid "Sample size ratio (N<sub>2</sub>/N<sub>1</sub>)"
+msgstr ""
 
 #: mUI/ui[2].label
 msgid "Save"
@@ -1211,9 +1385,17 @@ msgstr "總和"
 msgid "Tables"
 msgstr "表"
 
+#: mPWR/options/alt.title mPWR/ui[1]/alt.label
+msgid "Tails"
+msgstr ""
+
 #: mOUT/options/norm.title
 msgid "Test for normality"
 msgstr "常態性檢定"
+
+#: R\mpwr.b.R
+msgid "The 'pwrss' package is not installed. Please install it in R."
+msgstr ""
 
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
@@ -1224,7 +1406,8 @@ msgid ""
 "The classifying variable '{}' does not have exactly two levels; ROC "
 "classification can only be performed on classifying variables with two "
 "levels."
-msgstr "分類變數 '{}' 並非恰好二個水準；ROC 分類僅能在具有二個水準的分類變數上執行。"
+msgstr ""
+"分類變數 '{}' 並非恰好二個水準；ROC 分類僅能在具有二個水準的分類變數上執行。"
 
 #: package/datasets/Uncertain Interval (UI).description
 msgid "Three-Way threshold determination in test results"
@@ -1242,9 +1425,25 @@ msgstr "Youden閾值"
 msgid "Total number of missing entries {}"
 msgstr "缺失值總數 {}"
 
+#: R\mpwr.b.R
+msgid "two one-tailed"
+msgstr ""
+
 #: mUI/options/UImethod/TGR.title mUI/results/plotsTGR.title
 msgid "Two-graph ROC curves"
 msgstr "雙圖 ROC 曲線"
+
+#: R\mpwr.b.R mPWR/ui[1]/alt/two.sided.title
+msgid "two-tailed"
+msgstr ""
+
+#: mPWR/results/plot.title
+msgid "Type 1 and Type 2 Error Plots"
+msgstr ""
+
+#: mPWR/options/plot_err.title
+msgid "Type 1 and Type 2 error plots"
+msgstr ""
 
 #: R\mui.b.R
 msgid "UI"
@@ -1322,6 +1521,10 @@ msgstr "插補目標變項"
 #: mOUT/options/vars.title mOUT/ui[0][0].label
 msgid "Variables"
 msgstr "變項"
+
+#: mPWR/options/var_ratio.title mPWR/ui[1]/var_ratio.label
+msgid "Variance ratio (SD₁² / SD₂²)"
+msgstr ""
 
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"

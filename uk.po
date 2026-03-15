@@ -60,6 +60,14 @@ msgstr ""
 msgid "*pairwise complete observations"
 msgstr "*попарно повні спостереження"
 
+#: mPWR/results/powerTable.columns.title
+msgid "&alpha;"
+msgstr ""
+
+#: mPWR/options/alpha.title mPWR/ui[1]/alpha.label
+msgid "&alpha; (type I error rate)"
+msgstr ""
+
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
 msgstr "%"
@@ -169,6 +177,10 @@ msgstr "Усі"
 msgid "Alphabetical"
 msgstr "Алфавітний"
 
+#: mPWR/results/powerTable.columns.title
+msgid "Alternative"
+msgstr ""
+
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
 msgstr "масив MAR"
@@ -238,6 +250,14 @@ msgstr "Якісна палітра Брюера"
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
 msgstr "Розраховані межі для викидів"
+
+#: R\mpwr.b.R
+msgid "Calculated parameter: "
+msgstr ""
+
+#: R\mpwr.b.R
+msgid "Calculation error:\n"
+msgstr ""
 
 #: R\mui.b.R
 msgid ""
@@ -372,7 +392,7 @@ msgstr "Кореляція"
 
 #: package/analyses/mCOR.title package/analyses/mCOR.menuTitle
 #: package/datasets/Correlation clustering.name mCOR/options.title
-#: mCOR/results.title
+#: mCOR/ui.title mCOR/results.title
 msgid "Correlation clustering"
 msgstr "Кореляційна кластеризація"
 
@@ -380,8 +400,8 @@ msgstr "Кореляційна кластеризація"
 msgid "Correlation Clustering demonstration"
 msgstr "Демонстрація кореляційної кластеризації"
 
-#: mCOR/options/tables.title mCOR/options/plots.title mCOR/ui.title
-#: mCOR/results/matrix.title mCOR/results/plot.title
+#: mCOR/options/tables.title mCOR/options/plots.title mCOR/results/matrix.title
+#: mCOR/results/plot.title
 msgid "Correlation matrix"
 msgstr "Кореляційна матриця"
 
@@ -409,6 +429,14 @@ msgstr "рішення"
 msgid "Degree of Freedom (df)"
 msgstr "Ступінь свободи (df)"
 
+#: mPWR/options/design.title
+msgid "Design"
+msgstr ""
+
+#: R\mpwr.b.R
+msgid "Design: "
+msgstr ""
+
 #: mUI/options/UImethod/noUI.title
 msgid "Dichotomization (no uncertainty)"
 msgstr "Дихотомізація (без невизначеності)"
@@ -424,6 +452,14 @@ msgstr "Модель розподілу"
 #: mROC/options/dotline.title
 msgid "Dotted line"
 msgstr "Пунктирна лінія"
+
+#: mPWR/options/calc/es.title
+msgid "Effect size"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/results/powerTable.columns.title
+msgid "Effect Size (d)"
+msgstr ""
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
@@ -558,6 +594,18 @@ msgstr "У відсотках"
 msgid "Incomplete Variables"
 msgstr "Неповні змінні"
 
+#: R\mpwr.b.R mPWR/options/design/independent.title
+msgid "Independent Samples (Student)"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/options/design/welch.title
+msgid "Independent Samples (Welch)"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/options/design/independent_np.title
+msgid "Independent Samples (Wilcoxon)"
+msgstr ""
+
 #: R\mout.b.R
 msgid "Indices (Rows)"
 msgstr "Індекси (рядки)"
@@ -604,8 +652,9 @@ msgstr "Паркани IQR Tukey"
 
 #: package/analyses/mCOR.menuGroup package/analyses/mROC.menuGroup
 #: package/analyses/mMF.menuGroup package/analyses/mOUT.menuGroup
-#: package/analyses/mUI.menuGroup mCOR/options.menuGroup mMF/options.menuGroup
-#: mOUT/options.menuGroup mROC/options.menuGroup mUI/options.menuGroup
+#: package/analyses/mUI.menuGroup package/analyses/mPWR.menuGroup
+#: mCOR/options.menuGroup mMF/options.menuGroup mOUT/options.menuGroup
+#: mPWR/options.menuGroup mROC/options.menuGroup mUI/options.menuGroup
 msgid "jYS"
 msgstr "jYS"
 
@@ -636,6 +685,10 @@ msgstr "Рівень"
 #: mROC/options/lwd.title
 msgid "Line width"
 msgstr "Ширина лінії"
+
+#: mPWR/results/text.title
+msgid "Log / Errors"
+msgstr ""
 
 #: R\mout.b.R
 msgid "Lower fence"
@@ -716,11 +769,15 @@ msgstr ""
 "Оцінка MCAR (повна випадкова відсутність) та MAR (випадкова відсутність)"
 
 #: R\mui.b.R
-msgid "MCI=0"
+#, fuzzy
+#| msgid "MCI=0"
+msgid "MCI=0 ("
 msgstr "MCI=0"
 
 #: R\mui.b.R
-msgid "MCI=1"
+#, fuzzy
+#| msgid "MCI=1"
+msgid "MCI=1 ("
 msgstr "MCI=1"
 
 #: mCOR/options/clustMet/mcquitty.title
@@ -743,6 +800,10 @@ msgstr "Медіанний зв'язок"
 msgid "Method"
 msgstr "Метод"
 
+#: mPWR/options/es.title mPWR/ui[1]/es.label
+msgid "Minimally-interesting effect size (&delta;)"
+msgstr ""
+
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
 msgstr "Потрібна мінімальна кількість змінних {minVar} (повні + неповні)"
@@ -750,6 +811,10 @@ msgstr "Потрібна мінімальна кількість змінних 
 #: R\mmf.b.R
 msgid "Minimum 2 impute variables are required"
 msgstr "Потрібно щонайменше 2 змінні імпутації"
+
+#: mPWR/options/power.title mPWR/ui[1]/power.label
+msgid "Minimum desired power"
+msgstr ""
 
 #: mMF/options/alg/mF.title
 msgid "missForest (2012)"
@@ -836,6 +901,40 @@ msgstr "N - кількість імпутованих значень;"
 msgid "N - number of missing values;"
 msgstr "N - кількість відсутніх значень;"
 
+#: R\mpwr.b.R mPWR/results/nEsCurve.title
+msgid "N by Effect Size"
+msgstr ""
+
+#: mPWR/options/n_es_curve.title
+msgid "N by Effect Size Curve"
+msgstr ""
+
+#: mPWR/ui[1]/n.label
+msgid "N for group 1"
+msgstr ""
+
+#: mPWR/options/calc/n.title
+#, fuzzy
+#| msgid "Select group"
+msgid "N per group"
+msgstr "Виберіть групу"
+
+#: mPWR/options/n.title
+msgid "N per group (or pairs/sample)"
+msgstr ""
+
+#: mPWR/results/powerTable.columns.title
+#, fuzzy
+#| msgid "N"
+msgid "N1"
+msgstr "N"
+
+#: mPWR/results/powerTable.columns.title
+#, fuzzy
+#| msgid "N"
+msgid "N2"
+msgstr "N"
+
 #: mUI/options/model/none.title
 msgid "Non-parametric"
 msgstr "Не-параметричний"
@@ -885,6 +984,18 @@ msgstr "Кількість дерев, які потрібно вирощува�
 #: R\mmf.b.R
 msgid "observed"
 msgstr "спостерігається"
+
+#: R\mpwr.b.R mPWR/options/design/one.sample.title
+msgid "One Sample (Student)"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/options/design/one.sample_np.title
+msgid "One Sample (Wilcoxon)"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/ui[1]/alt/one.sided.title
+msgid "one-tailed"
+msgstr ""
 
 #: mMF/results/imput/errors.description
 msgid "OOB errors table"
@@ -947,6 +1058,14 @@ msgstr "p<sub>значення</sub>"
 msgid "Paired"
 msgstr "Парні"
 
+#: R\mpwr.b.R mPWR/options/design/paired.title
+msgid "Paired Samples (Student)"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/options/design/paired_np.title
+msgid "Paired Samples (Wilcoxon)"
+msgstr ""
+
 #: mROC/options/palBrewer/Pastel1.title
 msgid "Pastel1"
 msgstr "Пастель1"
@@ -1001,13 +1120,47 @@ msgstr "Варіанти сюжету"
 msgid "Plot the missing data patterns"
 msgstr "Побудуйте шаблони відсутніх даних"
 
-#: mCOR/ui[5].label mMF/ui[1][0][1].label mUI/ui[1][4].label
+#: mCOR/ui[5].label mMF/ui[1][0][1].label mPWR/ui[2].label mUI/ui[1][4].label
 msgid "Plots"
 msgstr "Ділянки"
 
 #: mROC/options/polygon.title
 msgid "Polygon"
 msgstr "Багатокутник"
+
+#: R\mpwr.b.R mPWR/options/calc/power.title
+#: mPWR/results/powerTable.columns.title
+#, fuzzy
+#| msgid "CI Lower"
+msgid "Power"
+msgstr "CI Нижній"
+
+#: package/analyses/mPWR.title package/analyses/mPWR.menuTitle
+#: mPWR/options.title mPWR/ui.title mPWR/results.title
+#, fuzzy
+#| msgid "Interval Analysis"
+msgid "Power Analysis"
+msgstr "Інтервальний аналіз"
+
+#: mPWR/results/powerTable.title
+msgid "Power Analysis Results"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/results/powerEsCurve.title
+msgid "Power by Effect Size"
+msgstr ""
+
+#: mPWR/options/power_es_curve.title
+msgid "Power by Effect Size Curve"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/results/powerCurve.title
+msgid "Power Curve"
+msgstr ""
+
+#: mPWR/options/power_curve.title
+msgid "Power Curve (Power by N)"
+msgstr ""
 
 #: R\mui.b.R
 msgid "PPV - Positive Predictive Value of the positive class TP/(TN+FN)"
@@ -1043,6 +1196,10 @@ msgstr "Пропоноване рішення"
 msgid "provide a correlation matrix plot."
 msgstr "надайте графік матриці кореляції."
 
+#: mPWR/options/calc.title
+msgid "Purpose of Calculation"
+msgstr ""
+
 #: R\mmf.b.R
 msgid ""
 "PVU - proportion of variance unexplained 1-R² (for Continuous variables);"
@@ -1051,6 +1208,10 @@ msgstr "PVU - частка непоясненої дисперсії 1-R² (дл
 #: mUI/options/refval.title
 msgid "Reference level"
 msgstr "Довідковий рівень"
+
+#: mPWR/ui[1]/n_ratio.label
+msgid "Relative size of group 2 to group 1"
+msgstr ""
 
 #: mOUT/options/remOut.title mOUT/results/remOut.title
 msgid "Remove outliers"
@@ -1100,6 +1261,18 @@ msgstr "ROC Демонстрація оцінки для біноміальни�
 #: mROC/ui[1].label
 msgid "ROC graphs"
 msgstr "ROC графіки"
+
+#: R\mpwr.b.R
+msgid "Sample Size (N)"
+msgstr ""
+
+#: R\mpwr.b.R
+msgid "Sample Size (N1)"
+msgstr ""
+
+#: mPWR/options/n_ratio.title
+msgid "Sample size ratio (N<sub>2</sub>/N<sub>1</sub>)"
+msgstr ""
 
 #: mUI/ui[2].label
 msgid "Save"
@@ -1237,9 +1410,17 @@ msgstr "Сума"
 msgid "Tables"
 msgstr "Столи"
 
+#: mPWR/options/alt.title mPWR/ui[1]/alt.label
+msgid "Tails"
+msgstr ""
+
 #: mOUT/options/norm.title
 msgid "Test for normality"
 msgstr "Перевірка на нормальність"
+
+#: R\mpwr.b.R
+msgid "The 'pwrss' package is not installed. Please install it in R."
+msgstr ""
 
 #: mROC/options/theBest.title
 msgid "The Best point on ROC"
@@ -1270,9 +1451,25 @@ msgstr "Поріг на Юдені"
 msgid "Total number of missing entries {}"
 msgstr "Загальна кількість відсутніх записів {}"
 
+#: R\mpwr.b.R
+msgid "two one-tailed"
+msgstr ""
+
 #: mUI/options/UImethod/TGR.title mUI/results/plotsTGR.title
 msgid "Two-graph ROC curves"
 msgstr "Двографічні ROC-криві"
+
+#: R\mpwr.b.R mPWR/ui[1]/alt/two.sided.title
+msgid "two-tailed"
+msgstr ""
+
+#: mPWR/results/plot.title
+msgid "Type 1 and Type 2 Error Plots"
+msgstr ""
+
+#: mPWR/options/plot_err.title
+msgid "Type 1 and Type 2 error plots"
+msgstr ""
 
 #: R\mui.b.R
 msgid "UI"
@@ -1355,6 +1552,10 @@ msgstr "Змінна для імпутування"
 msgid "Variables"
 msgstr "Змінні"
 
+#: mPWR/options/var_ratio.title mPWR/ui[1]/var_ratio.label
+msgid "Variance ratio (SD₁² / SD₂²)"
+msgstr ""
+
 #: mCOR/options/clustMet/ward.D2.title
 msgid "Ward´s D2 Linkage"
 msgstr "Зв'язок Варда D2"
@@ -1395,9 +1596,6 @@ msgstr "Z-оцінка"
 
 #~ msgid "Continuous predictors"
 #~ msgstr "Безперервні предиктори"
-
-#~ msgid "Interval Analysis"
-#~ msgstr "Інтервальний аналіз"
 
 #~ msgid "Outliers<br>removed"
 #~ msgstr "Вилучено<br>викиди"
