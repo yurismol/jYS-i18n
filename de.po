@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-01-23 14:48+0000\n"
+"PO-Revision-Date: 2026-03-19 10:09+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "de/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -92,7 +92,7 @@ msgstr "< 0.1"
 msgid "<h2>Help</h2><div>Please select complete and incomplete variables</div>"
 msgstr ""
 "<h2>Hilfe</h2><div>Bitte wählen Sie vollständige und unvollständige "
-"Variablen aus.</div>"
+"Variablen aus</div>"
 
 #: mMF/ui[1][0][1]/patplot/npat.suffix
 msgid "0 - auto"
