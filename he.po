@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-12-25 08:00+0000\n"
+"PO-Revision-Date: 2026-03-19 10:09+0000\n"
 "Last-Translator: Kfir Pshititsky <Kfir4321@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "he/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -177,7 +177,7 @@ msgstr "בסדר אלף–ביתי"
 
 #: mPWR/results/powerTable.columns.title
 msgid "Alternative"
-msgstr ""
+msgstr "חלופי"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
@@ -193,12 +193,12 @@ msgstr "הצמדה ממוצעת (UPGMA)"
 
 #: R\mui.b.R
 msgid "Balance"
-msgstr ""
+msgstr "איזון"
 
 #: R\mui.b.R
 msgid ""
 "Balance - balance between correct and incorrect classified (TP+TN)/(FP+FN)"
-msgstr ""
+msgstr "איזון – איזון בין סיווג נכון ולא נכון ‭(TP+TN)/(FP+FN)"
 
 #: package/datasets/BC Models ROC Estimation.name
 msgid "BC Models ROC Estimation"
@@ -246,15 +246,15 @@ msgstr "לוח הצבעים האיכותני של ברואר"
 
 #: mOUT/results/stat/outstat.description
 msgid "Calculated fences for outliers"
-msgstr ""
+msgstr "גדרות המחושבות לחריגות"
 
 #: R\mpwr.b.R
 msgid "Calculated parameter: "
-msgstr ""
+msgstr "פרמטר מחושב: "
 
 #: R\mpwr.b.R
 msgid "Calculation error:\n"
-msgstr ""
+msgstr "שגיאת החישוב:\n"
 
 #: R\mui.b.R
 msgid ""
@@ -423,15 +423,15 @@ msgstr "דרגות חופש (df)"
 
 #: mPWR/options/design.title
 msgid "Design"
-msgstr ""
+msgstr "מערך"
 
 #: R\mpwr.b.R
 msgid "Design: "
-msgstr ""
+msgstr "מערך: "
 
 #: mUI/options/UImethod/noUI.title
 msgid "Dichotomization (no uncertainty)"
-msgstr ""
+msgstr "דיכוטומיזציה (ללא חוסר ודאות)"
 
 #: mROC/options/direction.title mUI/results/stat/uistat.columns.title
 msgid "Direction"
@@ -447,11 +447,11 @@ msgstr "קו נקודות"
 
 #: mPWR/options/calc/es.title
 msgid "Effect size"
-msgstr ""
+msgstr "גודל האפקט"
 
 #: R\mpwr.b.R mPWR/results/powerTable.columns.title
 msgid "Effect Size (d)"
-msgstr ""
+msgstr "גודל האפקט (d)"
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
@@ -583,15 +583,15 @@ msgstr "משתנים לא מושלמים"
 
 #: R\mpwr.b.R mPWR/options/design/independent.title
 msgid "Independent Samples (Student)"
-msgstr ""
+msgstr "מדגמים בלתי תלויים (סטודנט)"
 
 #: R\mpwr.b.R mPWR/options/design/welch.title
 msgid "Independent Samples (Welch)"
-msgstr ""
+msgstr "מדגמים בלתי תלויים (ולץ׳)"
 
 #: R\mpwr.b.R mPWR/options/design/independent_np.title
 msgid "Independent Samples (Wilcoxon)"
-msgstr ""
+msgstr "מדגמים בלתי תלויים (וילקוקסון)"
 
 #: R\mout.b.R
 msgid "Indices (Rows)"
@@ -631,7 +631,7 @@ msgstr "הערכת הרווחים"
 
 #: mOUT/options/fence.title
 msgid "IQR fence height"
-msgstr ""
+msgstr "גודל הגדר של הטווח הבין רבעוני"
 
 #: mOUT/options/outlcheck/IQR.title
 msgid "IQR Tukey's fences"
