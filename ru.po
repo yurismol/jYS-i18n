@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-03-15 02:34+0000\n"
+"PO-Revision-Date: 2026-03-22 01:09+0000\n"
 "Last-Translator: Yuri Smolyakov <smolyakov@rambler.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ru/>\n"
@@ -75,7 +75,7 @@ msgstr "%"
 
 #: mCOR/options/signif/0.001.title
 msgid "< 0.001"
-msgstr "< 0.001"
+msgstr "< 0,001"
 
 #: mCOR/options/signif/0.01.title
 msgid "< 0.01"
@@ -103,28 +103,20 @@ msgid "0 ="
 msgstr "0 ="
 
 #: mPWR/options/alpha/0.001.title
-#, fuzzy
-#| msgid "< 0.001"
 msgid "0.001"
-msgstr "< 0.001"
+msgstr "0,001"
 
 #: mPWR/options/alpha/0.01.title
-#, fuzzy
-#| msgid "< 0.01"
 msgid "0.01"
-msgstr "< 0.01"
+msgstr "< 0,01"
 
 #: mPWR/options/alpha/0.05.title
-#, fuzzy
-#| msgid "< 0.05"
 msgid "0.05"
-msgstr "< 0.05"
+msgstr "< 0,05"
 
 #: mPWR/options/alpha/0.1.title
-#, fuzzy
-#| msgid "< 0.1"
 msgid "0.1"
-msgstr "< 0.1"
+msgstr "< 0,1"
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
@@ -184,16 +176,12 @@ msgstr "таблица корреляционной матрицы"
 
 #: package/analyses/mPWR.title package/analyses/mPWR.menuTitle
 #: mPWR/options.title mPWR/ui.title mPWR/results.title
-#, fuzzy
-#| msgid "Power Analysis"
 msgid "A Priori Power Analysis"
-msgstr "Анализ мощности"
+msgstr "Априорный анализ мощности"
 
 #: mPWR/results/powerTable.title
-#, fuzzy
-#| msgid "Power Analysis Results"
 msgid "A Priori Power Analysis Results"
-msgstr "Результаты анализа мощности"
+msgstr "Результаты априорного анализа мощности"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
@@ -295,10 +283,8 @@ msgid "Calculated parameter: "
 msgstr "Рассчитанный параметр: "
 
 #: R\mpwr.b.R
-#, fuzzy
-#| msgid "Calculation error:\n"
 msgid "Calculation error:"
-msgstr "Ошибка расчета:\\n\n"
+msgstr "Ошибка расчета:"
 
 #: R\mui.b.R
 msgid ""
@@ -499,18 +485,16 @@ msgid "Effect size"
 msgstr "Размер эффекта"
 
 #: R\mpwr.b.R mPWR/results/powerTable.columns.title
-#, fuzzy
-#| msgid "Effect size"
 msgid "Effect Size"
 msgstr "Размер эффекта"
 
 #: R\mpwr.b.R
 msgid "Effect size measure: Cohen's d"
-msgstr ""
+msgstr "Показатель размера эффекта: d Коэна"
 
 #: R\mpwr.b.R
 msgid "Effect size measure: correlation coefficient (r)"
-msgstr ""
+msgstr "Показатель размера эффекта: коэффициент корреляции (r)"
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
@@ -852,10 +836,8 @@ msgid "Method"
 msgstr "Метод"
 
 #: mPWR/options/es.title mPWR/ui[1]/es.label
-#, fuzzy
-#| msgid "Minimally-interesting effect size (&delta;)"
 msgid "Minimally-interesting effect size"
-msgstr "Минимально интересующий размер эффекта (&delta;)"
+msgstr "Минимально интересующий размер эффекта"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
@@ -1042,16 +1024,12 @@ msgid "One Sample (Wilcoxon)"
 msgstr "Одна выборка (Вилкоксон)"
 
 #: R\mpwr.b.R mPWR/options/design/onecor.title
-#, fuzzy
-#| msgid "One Sample (Wilcoxon)"
 msgid "One Sample Correlation (Pearson)"
-msgstr "Одна выборка (Вилкоксон)"
+msgstr "Корреляция одной выборки (Пирсон)"
 
 #: R\mpwr.b.R mPWR/options/design/onecor_np.title
-#, fuzzy
-#| msgid "One Sample (Student)"
 msgid "One Sample Correlation (Spearman)"
-msgstr "Одна выборка (Стьюдент)"
+msgstr "Корреляция одной выборки (Спирмен)"
 
 #: R\mpwr.b.R mPWR/ui[1]/alt/one.sided.title
 msgid "one-tailed"
@@ -1207,6 +1185,8 @@ msgid ""
 "Power calculation for Spearman's correlation is a penalized asymptotic "
 "approximation based on Fisher's Z-transformation (ARE = 0.912)."
 msgstr ""
+"Расчет мощности для корреляции Спирмена является пенализированным "
+"асимптотическим приближением на основе Z-преобразования Фишера (ARE = 0.912)."
 
 #: R\mpwr.b.R mPWR/results/powerCurve.title
 msgid "Power Curve"
@@ -1590,7 +1570,7 @@ msgstr "Верхний порог"
 
 #: mPWR/results/powerTable.columns.superTitle
 msgid "User Defined"
-msgstr ""
+msgstr "Задано пользователем"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
