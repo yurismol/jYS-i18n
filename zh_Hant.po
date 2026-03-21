@@ -98,6 +98,30 @@ msgstr "0 - 自動"
 msgid "0 ="
 msgstr "0 ="
 
+#: mPWR/options/alpha/0.001.title
+#, fuzzy
+#| msgid "< 0.001"
+msgid "0.001"
+msgstr "< 0.001"
+
+#: mPWR/options/alpha/0.01.title
+#, fuzzy
+#| msgid "< 0.01"
+msgid "0.01"
+msgstr "< 0.01"
+
+#: mPWR/options/alpha/0.05.title
+#, fuzzy
+#| msgid "< 0.05"
+msgid "0.05"
+msgstr "< 0.05"
+
+#: mPWR/options/alpha/0.1.title
+#, fuzzy
+#| msgid "< 0.1"
+msgid "0.1"
+msgstr "< 0.1"
+
 #: R\mroc.b.R
 msgid "1 - Specificity"
 msgstr "1 - 特異性"
@@ -153,6 +177,19 @@ msgstr "5.0"
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
 msgstr "相關矩陣表"
+
+#: package/analyses/mPWR.title package/analyses/mPWR.menuTitle
+#: mPWR/options.title mPWR/ui.title mPWR/results.title
+#, fuzzy
+#| msgid "Power Analysis"
+msgid "A Priori Power Analysis"
+msgstr "檢定力分析"
+
+#: mPWR/results/powerTable.title
+#, fuzzy
+#| msgid "Power Analysis Results"
+msgid "A Priori Power Analysis Results"
+msgstr "檢定力分析結果"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
@@ -252,7 +289,9 @@ msgid "Calculated parameter: "
 msgstr "計算參數： "
 
 #: R\mpwr.b.R
-msgid "Calculation error:\n"
+#, fuzzy
+#| msgid "Calculation error:\n"
+msgid "Calculation error:"
 msgstr "計算錯誤：\n"
 
 #: R\mui.b.R
@@ -451,8 +490,18 @@ msgid "Effect size"
 msgstr "效果量"
 
 #: R\mpwr.b.R mPWR/results/powerTable.columns.title
-msgid "Effect Size (d)"
-msgstr "效果量 (d)"
+#, fuzzy
+#| msgid "Effect size"
+msgid "Effect Size"
+msgstr "效果量"
+
+#: R\mpwr.b.R
+msgid "Effect size measure: Cohen's d"
+msgstr ""
+
+#: R\mpwr.b.R
+msgid "Effect size measure: correlation coefficient (r)"
+msgstr ""
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
@@ -782,7 +831,9 @@ msgid "Method"
 msgstr "方法"
 
 #: mPWR/options/es.title mPWR/ui[1]/es.label
-msgid "Minimally-interesting effect size (&delta;)"
+#, fuzzy
+#| msgid "Minimally-interesting effect size (&delta;)"
+msgid "Minimally-interesting effect size"
 msgstr "最小有意義效果量 (&delta;)"
 
 #: R\mmf.b.R
@@ -963,6 +1014,18 @@ msgstr "單一樣本 (Student)"
 msgid "One Sample (Wilcoxon)"
 msgstr "單一樣本 (Wilcoxon)"
 
+#: R\mpwr.b.R mPWR/options/design/onecor.title
+#, fuzzy
+#| msgid "One Sample (Wilcoxon)"
+msgid "One Sample Correlation (Pearson)"
+msgstr "單一樣本 (Wilcoxon)"
+
+#: R\mpwr.b.R mPWR/options/design/onecor_np.title
+#, fuzzy
+#| msgid "One Sample (Student)"
+msgid "One Sample Correlation (Spearman)"
+msgstr "單一樣本 (Student)"
+
 #: R\mpwr.b.R mPWR/ui[1]/alt/one.sided.title
 msgid "one-tailed"
 msgstr "單尾"
@@ -1102,15 +1165,6 @@ msgstr "多邊形"
 msgid "Power"
 msgstr "檢定力"
 
-#: package/analyses/mPWR.title package/analyses/mPWR.menuTitle
-#: mPWR/options.title mPWR/ui.title mPWR/results.title
-msgid "Power Analysis"
-msgstr "檢定力分析"
-
-#: mPWR/results/powerTable.title
-msgid "Power Analysis Results"
-msgstr "檢定力分析結果"
-
 #: R\mpwr.b.R mPWR/results/powerEsCurve.title
 msgid "Power by Effect Size"
 msgstr "檢定力對效果量"
@@ -1118,6 +1172,12 @@ msgstr "檢定力對效果量"
 #: mPWR/options/power_es_curve.title
 msgid "Power by Effect Size Curve"
 msgstr "檢定力對效果量曲線"
+
+#: R\mpwr.b.R
+msgid ""
+"Power calculation for Spearman's correlation is a penalized asymptotic "
+"approximation based on Fisher's Z-transformation (ARE = 0.912)."
+msgstr ""
 
 #: R\mpwr.b.R mPWR/results/powerCurve.title
 msgid "Power Curve"
@@ -1485,6 +1545,10 @@ msgstr "上半部"
 msgid "Upper threshold"
 msgstr "上閾值"
 
+#: mPWR/results/powerTable.columns.superTitle
+msgid "User Defined"
+msgstr ""
+
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
 msgid "Variable"
@@ -1545,3 +1609,6 @@ msgstr "Youden 最佳點 (Sp, Se)"
 #: mOUT/options/outlcheck/ZS.title
 msgid "Z-score"
 msgstr "Z分數"
+
+#~ msgid "Effect Size (d)"
+#~ msgstr "效果量 (d)"

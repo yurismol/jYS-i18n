@@ -102,6 +102,30 @@ msgstr "0 - automatisch"
 msgid "0 ="
 msgstr ""
 
+#: mPWR/options/alpha/0.001.title
+#, fuzzy
+#| msgid "< 0.001"
+msgid "0.001"
+msgstr "< 0.001"
+
+#: mPWR/options/alpha/0.01.title
+#, fuzzy
+#| msgid "< 0.01"
+msgid "0.01"
+msgstr "< 0.01"
+
+#: mPWR/options/alpha/0.05.title
+#, fuzzy
+#| msgid "< 0.05"
+msgid "0.05"
+msgstr "< 0.05"
+
+#: mPWR/options/alpha/0.1.title
+#, fuzzy
+#| msgid "< 0.1"
+msgid "0.1"
+msgstr "< 0.1"
+
 #: R\mroc.b.R
 msgid "1 - Specificity"
 msgstr "1 - Spezifität"
@@ -159,6 +183,15 @@ msgstr "5,0"
 #: mCOR/results/matrix.description
 msgid "a correlation matrix table"
 msgstr "eine Korrelationstabelle"
+
+#: package/analyses/mPWR.title package/analyses/mPWR.menuTitle
+#: mPWR/options.title mPWR/ui.title mPWR/results.title
+msgid "A Priori Power Analysis"
+msgstr ""
+
+#: mPWR/results/powerTable.title
+msgid "A Priori Power Analysis Results"
+msgstr ""
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
@@ -258,7 +291,7 @@ msgid "Calculated parameter: "
 msgstr ""
 
 #: R\mpwr.b.R
-msgid "Calculation error:\n"
+msgid "Calculation error:"
 msgstr ""
 
 #: R\mui.b.R
@@ -455,7 +488,15 @@ msgid "Effect size"
 msgstr ""
 
 #: R\mpwr.b.R mPWR/results/powerTable.columns.title
-msgid "Effect Size (d)"
+msgid "Effect Size"
+msgstr ""
+
+#: R\mpwr.b.R
+msgid "Effect size measure: Cohen's d"
+msgstr ""
+
+#: R\mpwr.b.R
+msgid "Effect size measure: correlation coefficient (r)"
 msgstr ""
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
@@ -782,7 +823,7 @@ msgid "Method"
 msgstr "Methode"
 
 #: mPWR/options/es.title mPWR/ui[1]/es.label
-msgid "Minimally-interesting effect size (&delta;)"
+msgid "Minimally-interesting effect size"
 msgstr ""
 
 #: R\mmf.b.R
@@ -962,6 +1003,14 @@ msgstr ""
 msgid "One Sample (Wilcoxon)"
 msgstr ""
 
+#: R\mpwr.b.R mPWR/options/design/onecor.title
+msgid "One Sample Correlation (Pearson)"
+msgstr ""
+
+#: R\mpwr.b.R mPWR/options/design/onecor_np.title
+msgid "One Sample Correlation (Spearman)"
+msgstr ""
+
 #: R\mpwr.b.R mPWR/ui[1]/alt/one.sided.title
 msgid "one-tailed"
 msgstr ""
@@ -1102,21 +1151,18 @@ msgstr ""
 msgid "Power"
 msgstr ""
 
-#: package/analyses/mPWR.title package/analyses/mPWR.menuTitle
-#: mPWR/options.title mPWR/ui.title mPWR/results.title
-msgid "Power Analysis"
-msgstr ""
-
-#: mPWR/results/powerTable.title
-msgid "Power Analysis Results"
-msgstr ""
-
 #: R\mpwr.b.R mPWR/results/powerEsCurve.title
 msgid "Power by Effect Size"
 msgstr ""
 
 #: mPWR/options/power_es_curve.title
 msgid "Power by Effect Size Curve"
+msgstr ""
+
+#: R\mpwr.b.R
+msgid ""
+"Power calculation for Spearman's correlation is a penalized asymptotic "
+"approximation based on Fisher's Z-transformation (ARE = 0.912)."
 msgstr ""
 
 #: R\mpwr.b.R mPWR/results/powerCurve.title
@@ -1482,6 +1528,10 @@ msgstr ""
 
 #: R\mui.b.R
 msgid "Upper threshold"
+msgstr ""
+
+#: mPWR/results/powerTable.columns.superTitle
+msgid "User Defined"
 msgstr ""
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
