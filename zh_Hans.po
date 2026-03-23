@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-03-09 01:09+0000\n"
-"Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
+"PO-Revision-Date: 2026-03-24 13:09+0000\n"
+"Last-Translator: yeyeye <m15658453017@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jys-i18n/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -1429,7 +1429,7 @@ msgstr "求和"
 
 #: mCOR/ui[4].label
 msgid "Tables"
-msgstr ""
+msgstr "表格"
 
 #: mPWR/options/alt.title mPWR/ui[1]/alt.label
 msgid "Tails"
@@ -1549,7 +1549,7 @@ msgstr ""
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
 msgid "Variable"
-msgstr ""
+msgstr "变量"
 
 #: mMF/results/estim/fMARtab.template.title
 msgid "Variable - $key"
@@ -1569,7 +1569,7 @@ msgstr ""
 
 #: mOUT/options/vars.title mOUT/ui[0][0].label
 msgid "Variables"
-msgstr ""
+msgstr "变量"
 
 #: mPWR/options/var_ratio.title mPWR/ui[1]/var_ratio.label
 msgid "Variance ratio (SD₁² / SD₂²)"
