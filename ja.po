@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-02-28 11:21+0000\n"
+"PO-Revision-Date: 2026-03-26 05:09+0000\n"
 "Last-Translator: SHIBATA Seiji <contact@sbtseiji.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ja/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -62,11 +62,11 @@ msgstr "*ペアごとの完全な観測値"
 
 #: mPWR/results/powerTable.columns.title
 msgid "&alpha;"
-msgstr ""
+msgstr "&alpha;"
 
 #: mPWR/options/alpha.title mPWR/ui[1]/alpha.label
 msgid "&alpha; (type I error rate)"
-msgstr ""
+msgstr "&alpha; (タイプＩエラー率)"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
@@ -101,28 +101,20 @@ msgid "0 ="
 msgstr "0 ="
 
 #: mPWR/options/alpha/0.001.title
-#, fuzzy
-#| msgid "< 0.001"
 msgid "0.001"
-msgstr "< 0.001"
+msgstr "0.001"
 
 #: mPWR/options/alpha/0.01.title
-#, fuzzy
-#| msgid "< 0.01"
 msgid "0.01"
-msgstr "< 0.01"
+msgstr "0.01"
 
 #: mPWR/options/alpha/0.05.title
-#, fuzzy
-#| msgid "< 0.05"
 msgid "0.05"
-msgstr "< 0.05"
+msgstr "0.05"
 
 #: mPWR/options/alpha/0.1.title
-#, fuzzy
-#| msgid "< 0.1"
 msgid "0.1"
-msgstr "< 0.1"
+msgstr "0.1"
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
@@ -182,16 +174,12 @@ msgstr "相関行列"
 
 #: package/analyses/mPWR.title package/analyses/mPWR.menuTitle
 #: mPWR/options.title mPWR/ui.title mPWR/results.title
-#, fuzzy
-#| msgid "Interval"
 msgid "A Priori Power Analysis"
-msgstr "間隔"
+msgstr "アプリオリ・パワー分析"
 
 #: mPWR/results/powerTable.title
-#, fuzzy
-#| msgid "Interval"
 msgid "A Priori Power Analysis Results"
-msgstr "間隔"
+msgstr "アプリオリ・パワー分析結果"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
@@ -288,11 +276,11 @@ msgstr "外れ値のフェンス"
 
 #: R\mpwr.b.R
 msgid "Calculated parameter: "
-msgstr ""
+msgstr "計算済パラメタ "
 
 #: R\mpwr.b.R
 msgid "Calculation error:"
-msgstr ""
+msgstr "計算エラー："
 
 #: R\mui.b.R
 msgid ""
@@ -463,11 +451,11 @@ msgstr "自由度 (df)"
 
 #: mPWR/options/design.title
 msgid "Design"
-msgstr ""
+msgstr "デザイン"
 
 #: R\mpwr.b.R
 msgid "Design: "
-msgstr ""
+msgstr "デザイン： "
 
 #: mUI/options/UImethod/noUI.title
 msgid "Dichotomization (no uncertainty)"
@@ -487,19 +475,19 @@ msgstr "点線"
 
 #: mPWR/options/calc/es.title
 msgid "Effect size"
-msgstr ""
+msgstr "効果量"
 
 #: R\mpwr.b.R mPWR/results/powerTable.columns.title
 msgid "Effect Size"
-msgstr ""
+msgstr "効果量"
 
 #: R\mpwr.b.R
 msgid "Effect size measure: Cohen's d"
-msgstr ""
+msgstr "効果量指標：コーエンのd"
 
 #: R\mpwr.b.R
 msgid "Effect size measure: correlation coefficient (r)"
-msgstr ""
+msgstr "効果量指標：相関係数 (r)"
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
@@ -634,15 +622,15 @@ msgstr "欠損変数"
 
 #: R\mpwr.b.R mPWR/options/design/independent.title
 msgid "Independent Samples (Student)"
-msgstr ""
+msgstr "独立標本（スチューデント）"
 
 #: R\mpwr.b.R mPWR/options/design/welch.title
 msgid "Independent Samples (Welch)"
-msgstr ""
+msgstr "独立標本（ウェルチ）"
 
 #: R\mpwr.b.R mPWR/options/design/independent_np.title
 msgid "Independent Samples (Wilcoxon)"
-msgstr ""
+msgstr "独立標本（ウィルコクソン）"
 
 #: R\mout.b.R
 msgid "Indices (Rows)"
@@ -804,16 +792,12 @@ msgid ""
 msgstr "MCAR（完全無作為欠損）およびMAR（無作為欠損）推定"
 
 #: R\mui.b.R
-#, fuzzy
-#| msgid "MCI=0"
 msgid "MCI=0 ("
-msgstr "MCI=0"
+msgstr "MCI=0 ("
 
 #: R\mui.b.R
-#, fuzzy
-#| msgid "MCI=1"
 msgid "MCI=1 ("
-msgstr "MCI=1"
+msgstr "MCI=1 ("
 
 #: mCOR/options/clustMet/mcquitty.title
 msgid "McQuitty Linkage (WPGMA)"
@@ -837,7 +821,7 @@ msgstr "方法"
 
 #: mPWR/options/es.title mPWR/ui[1]/es.label
 msgid "Minimally-interesting effect size"
-msgstr ""
+msgstr "最小関心効果量"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
@@ -849,7 +833,7 @@ msgstr "最低でも2つの補完変数が必要です"
 
 #: mPWR/options/power.title mPWR/ui[1]/power.label
 msgid "Minimum desired power"
-msgstr ""
+msgstr "最小希望検出力"
 
 #: mMF/options/alg/mF.title
 msgid "missForest (2012)"
@@ -936,37 +920,32 @@ msgstr "N　欠損値の個数"
 
 #: R\mpwr.b.R mPWR/results/nEsCurve.title
 msgid "N by Effect Size"
-msgstr ""
+msgstr "効果量ごとのN"
 
 #: mPWR/options/n_es_curve.title
+#, fuzzy
 msgid "N by Effect Size Curve"
-msgstr ""
+msgstr "効果量ごとのN曲線"
 
 #: mPWR/ui[1]/n.label
 msgid "N for group 1"
-msgstr ""
+msgstr "グループ1のN"
 
 #: mPWR/options/calc/n.title
-#, fuzzy
-#| msgid "Select group"
 msgid "N per group"
-msgstr "グループ選択"
+msgstr "グループごとのN"
 
 #: mPWR/options/n.title
 msgid "N per group (or pairs/sample)"
-msgstr ""
+msgstr "グループ（またはペア/サンプル）ごとのN"
 
 #: mPWR/results/powerTable.columns.title
-#, fuzzy
-#| msgid "N"
 msgid "N1"
-msgstr "N"
+msgstr "N1"
 
 #: mPWR/results/powerTable.columns.title
-#, fuzzy
-#| msgid "N"
 msgid "N2"
-msgstr "N"
+msgstr "N2"
 
 #: mUI/options/model/none.title
 msgid "Non-parametric"
@@ -1022,23 +1001,23 @@ msgstr "観測値"
 
 #: R\mpwr.b.R mPWR/options/design/one.sample.title
 msgid "One Sample (Student)"
-msgstr ""
+msgstr "1標本（スチューデント）"
 
 #: R\mpwr.b.R mPWR/options/design/one.sample_np.title
 msgid "One Sample (Wilcoxon)"
-msgstr ""
+msgstr "1標本（ウィルコクソン）"
 
 #: R\mpwr.b.R mPWR/options/design/onecor.title
 msgid "One Sample Correlation (Pearson)"
-msgstr ""
+msgstr "1標本相関（ピアソン）"
 
 #: R\mpwr.b.R mPWR/options/design/onecor_np.title
 msgid "One Sample Correlation (Spearman)"
-msgstr ""
+msgstr "1標本相関（スピアマン）"
 
 #: R\mpwr.b.R mPWR/ui[1]/alt/one.sided.title
 msgid "one-tailed"
-msgstr ""
+msgstr "片側"
 
 #: mMF/results/imput/errors.description
 msgid "OOB errors table"
@@ -1103,11 +1082,11 @@ msgstr "ペア"
 
 #: R\mpwr.b.R mPWR/options/design/paired.title
 msgid "Paired Samples (Student)"
-msgstr ""
+msgstr "対応あり（スチューデント）"
 
 #: R\mpwr.b.R mPWR/options/design/paired_np.title
 msgid "Paired Samples (Wilcoxon)"
-msgstr ""
+msgstr "対応あり（ウィルコクソン）"
 
 #: mROC/options/palBrewer/Pastel1.title
 msgid "Pastel1"
@@ -1172,18 +1151,17 @@ msgstr "ポリゴン"
 
 #: R\mpwr.b.R mPWR/options/calc/power.title
 #: mPWR/results/powerTable.columns.title
-#, fuzzy
-#| msgid "CI Lower"
 msgid "Power"
-msgstr "信頼区間下限"
+msgstr "検出力"
 
 #: R\mpwr.b.R mPWR/results/powerEsCurve.title
 msgid "Power by Effect Size"
-msgstr ""
+msgstr "効果量ごとの検出力"
 
 #: mPWR/options/power_es_curve.title
+#, fuzzy
 msgid "Power by Effect Size Curve"
-msgstr ""
+msgstr "効果量曲線ごとの検出力"
 
 #: R\mpwr.b.R
 msgid ""
