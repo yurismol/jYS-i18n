@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2025-12-30 19:00+0000\n"
+"PO-Revision-Date: 2026-04-04 00:09+0000\n"
 "Last-Translator: \"Francisco J. Miguel Quesada\" <fxmiguel@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "ca/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -62,11 +62,11 @@ msgstr "*observacions completes aparellades"
 
 #: mPWR/results/powerTable.columns.title
 msgid "&alpha;"
-msgstr ""
+msgstr "&alpha;"
 
 #: mPWR/options/alpha.title mPWR/ui[1]/alpha.label
 msgid "&alpha; (type I error rate)"
-msgstr ""
+msgstr "&alpha; (taxa d'error tipus I)"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
 msgid "%"
@@ -217,7 +217,7 @@ msgstr "Alfabètic"
 
 #: mPWR/results/powerTable.columns.title
 msgid "Alternative"
-msgstr ""
+msgstr "Alternativa"
 
 #: mMF/results/estim/fMARtab.description
 msgid "an array of MARs"
@@ -1165,7 +1165,7 @@ msgstr "Sectors"
 
 #: mUI/options/isTGR.title
 msgid "Plot"
-msgstr "Gràfic"
+msgstr "Punts"
 
 #: mMF/options/corplot.title
 msgid "Plot correlations between variables"
