@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-04-04 00:09+0000\n"
+"PO-Revision-Date: 2026-04-05 02:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jys-i18n/zh_Hant/>\n"
@@ -1310,11 +1310,11 @@ msgstr "敏感性 (%)"
 
 #: mUI/options/uiSe.title
 msgid "Sensitivity inside UI <"
-msgstr "UI 內敏感性 <"
+msgstr "不確定區間內敏感性 <"
 
 #: mUI/options/minSe.title
 msgid "Sensitivity outside UI >"
-msgstr "UI 外敏感性 >"
+msgstr "不確定區間外敏感性 >"
 
 #: mROC/options/palBrewer/Set1.title
 msgid "Set1"
@@ -1375,11 +1375,11 @@ msgstr "特異性 (%)"
 
 #: mUI/options/uiSp.title
 msgid "Specificity inside UI <"
-msgstr "UI 內特異性 <"
+msgstr "不確定區間內特異性 <"
 
 #: mUI/options/minSp.title
 msgid "Specificity outside UI >"
-msgstr "UI 外特異性 >"
+msgstr "不確定區間外特異性 >"
 
 #: package/datasets/SDI ROC classification.description
 msgid "Sperm Deformity Index ROC Classification demonstration"
@@ -1474,11 +1474,11 @@ msgstr "型一與型二錯誤圖"
 
 #: R\mui.b.R
 msgid "UI"
-msgstr "不確定信賴區間"
+msgstr "不確定區間"
 
 #: package/datasets/UI for binomial logistis models.name
 msgid "UI for binomial logistis models"
-msgstr "二元邏輯斯模型的 UI"
+msgstr "二元邏輯斯模型的不確定區間"
 
 #: package/analyses/mUI.title package/analyses/mUI.menuTitle
 #: package/datasets/Uncertain Interval (UI).name mUI/options.title
