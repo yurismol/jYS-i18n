@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-04-01 15:09+0000\n"
-"Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
+"PO-Revision-Date: 2026-04-05 02:09+0000\n"
+"Last-Translator: konno_he <h3114931694@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jys-i18n/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -67,7 +67,6 @@ msgid "&alpha; (type I error rate)"
 msgstr "&α; (第Ⅰ类错误率)"
 
 #: mCOR/ui[4][0]/tables/ci/ciWidth.suffix mROC/ui[1]/ciAUC/ciWidth.suffix
-#, fuzzy
 msgid "%"
 msgstr "%"
 
