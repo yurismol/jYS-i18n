@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-04-05 02:09+0000\n"
+"PO-Revision-Date: 2026-04-05 09:34+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jys-i18n/zh_Hant/>\n"
@@ -262,7 +262,7 @@ msgstr "底部"
 
 #: mOUT/options/boxpl.title mOUT/results/plots.title
 msgid "Boxplots with outliers"
-msgstr "含離群值的箱形圖"
+msgstr "含離群值的盒狀圖"
 
 #: mROC/options/palBrewer.title
 msgid "Brewer's qualitative palette"
@@ -337,7 +337,7 @@ msgstr "最接近最佳 (Sp, Se)"
 
 #: mCOR/options/numClust.title
 msgid "Clusters"
-msgstr "叢集"
+msgstr "集群"
 
 #: mCOR/options/plotMetU/color.title mCOR/options/plotMetL/color.title
 msgid "Color"
@@ -345,7 +345,7 @@ msgstr "顏色"
 
 #: mCOR/options/clustCol.title
 msgid "Colored Clusters"
-msgstr "彩色叢集"
+msgstr "彩色集群"
 
 #: mCOR/options/clustMet/complete.title
 msgid "Complete Linkage"
@@ -412,11 +412,11 @@ msgstr "相關"
 #: package/datasets/Correlation clustering.name mCOR/options.title
 #: mCOR/ui.title mCOR/results.title
 msgid "Correlation clustering"
-msgstr "相關聚類"
+msgstr "相關集群"
 
 #: package/datasets/Correlation clustering.description
 msgid "Correlation Clustering demonstration"
-msgstr "相關聚類示範"
+msgstr "相關集群示範"
 
 #: mCOR/options/tables.title mCOR/options/plots.title mCOR/results/matrix.title
 #: mCOR/results/plot.title
@@ -515,7 +515,7 @@ msgstr "解釋性"
 #: R\mmf.b.R
 msgid ""
 "Explanatory - variable corresponding to MAR with minimal p<sub>value</sub>."
-msgstr "解釋性 - 對應於最小 p <sub>值</sub>之 MAR 的變項。"
+msgstr "解釋性 - 對應於最小 p<sub>值</sub>之 MAR 的變項。"
 
 #: mCOR/options/plotOrder/FPC.title
 msgid "First principal component"
@@ -532,7 +532,7 @@ msgid ""
 "matrix, multidimensional ROC classification curves, missing data estimation "
 "and imputation, outliers identificatioon and removal etc."
 msgstr ""
-"熱門資料分析方法的功能圖形擴充：相關變項的聚類樹、多因子適應性相關矩陣、多維"
+"熱門資料分析方法的功能圖形擴充：相關變項的集群樹、多因子適應性相關矩陣、多維"
 "度 ROC 分類曲線、缺失資料估計與插補、離群值識別與移除等。"
 
 #: R\mout.b.R
@@ -1363,7 +1363,7 @@ msgstr "Spearman 等級相關 (ρ)"
 
 #: mCOR/results/matrix.columns.title mCOR/results/matrix.columns.content
 msgid "Spearman's Rho"
-msgstr "Spearman's 等級相關 Rho"
+msgstr "Spearman's Rho 等級相關"
 
 #: R\mroc.b.R R\mui.b.R
 msgid "Specificity"
