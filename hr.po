@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-03-17 12:09+0000\n"
+"PO-Revision-Date: 2026-04-09 18:09+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/jamovi/jys-i18n/"
 "hr/>\n"
@@ -102,28 +102,20 @@ msgid "0 ="
 msgstr "0 ="
 
 #: mPWR/options/alpha/0.001.title
-#, fuzzy
-#| msgid "< 0.001"
 msgid "0.001"
-msgstr "< 0,001"
+msgstr "0,001"
 
 #: mPWR/options/alpha/0.01.title
-#, fuzzy
-#| msgid "< 0.01"
 msgid "0.01"
-msgstr "< 0,01"
+msgstr "0,01"
 
 #: mPWR/options/alpha/0.05.title
-#, fuzzy
-#| msgid "< 0.05"
 msgid "0.05"
-msgstr "< 0,05"
+msgstr "0,05"
 
 #: mPWR/options/alpha/0.1.title
-#, fuzzy
-#| msgid "< 0.1"
 msgid "0.1"
-msgstr "< 0,1"
+msgstr "0,1"
 
 #: R\mroc.b.R
 msgid "1 - Specificity"
@@ -183,16 +175,12 @@ msgstr "tablica korelacijske matrice"
 
 #: package/analyses/mPWR.title package/analyses/mPWR.menuTitle
 #: mPWR/options.title mPWR/ui.title mPWR/results.title
-#, fuzzy
-#| msgid "Power Analysis"
 msgid "A Priori Power Analysis"
-msgstr "Analiza snage"
+msgstr "A priori analiza snage"
 
 #: mPWR/results/powerTable.title
-#, fuzzy
-#| msgid "Power Analysis Results"
 msgid "A Priori Power Analysis Results"
-msgstr "Rezultati analize snage"
+msgstr "Rezultati a priori analize snage"
 
 #: mROC/options/palBrewer/Accent.title
 msgid "Accent"
@@ -293,10 +281,8 @@ msgid "Calculated parameter: "
 msgstr "Izračunati parametar: "
 
 #: R\mpwr.b.R
-#, fuzzy
-#| msgid "Calculation error:\n"
 msgid "Calculation error:"
-msgstr "Greška izračuna:\n"
+msgstr "Greška izračuna:"
 
 #: R\mui.b.R
 msgid ""
@@ -497,18 +483,16 @@ msgid "Effect size"
 msgstr "Veličina učinka"
 
 #: R\mpwr.b.R mPWR/results/powerTable.columns.title
-#, fuzzy
-#| msgid "Effect size"
 msgid "Effect Size"
 msgstr "Veličina učinka"
 
 #: R\mpwr.b.R
 msgid "Effect size measure: Cohen's d"
-msgstr ""
+msgstr "Mjera veličine učinka: Cohenov d"
 
 #: R\mpwr.b.R
 msgid "Effect size measure: correlation coefficient (r)"
-msgstr ""
+msgstr "Mjera veličine učinka: koeficijent korelacije (r)"
 
 #: mCOR/options/plotMetU/ellipse.title mCOR/options/plotMetL/ellipse.title
 msgid "Ellipse"
@@ -848,10 +832,8 @@ msgid "Method"
 msgstr "Metoda"
 
 #: mPWR/options/es.title mPWR/ui[1]/es.label
-#, fuzzy
-#| msgid "Minimally-interesting effect size (&delta;)"
 msgid "Minimally-interesting effect size"
-msgstr "Najmanja zanimljiva veličina učinka (&delta;)"
+msgstr "Najmanja zanimljiva veličina učinka"
 
 #: R\mmf.b.R
 msgid "Minimum {minVar} variables (Complete + Incomplete) are required"
@@ -1039,16 +1021,12 @@ msgid "One Sample (Wilcoxon)"
 msgstr "Jedan uzorak (Wilcoxon)"
 
 #: R\mpwr.b.R mPWR/options/design/onecor.title
-#, fuzzy
-#| msgid "One Sample (Wilcoxon)"
 msgid "One Sample Correlation (Pearson)"
-msgstr "Jedan uzorak (Wilcoxon)"
+msgstr "Korelacija jednog uzorka (Pearson)"
 
 #: R\mpwr.b.R mPWR/options/design/onecor_np.title
-#, fuzzy
-#| msgid "One Sample (Student)"
 msgid "One Sample Correlation (Spearman)"
-msgstr "Jedan uzorak (Student)"
+msgstr "Korelacija jednog uzorka (Spearman)"
 
 #: R\mpwr.b.R mPWR/ui[1]/alt/one.sided.title
 msgid "one-tailed"
@@ -1203,6 +1181,8 @@ msgid ""
 "Power calculation for Spearman's correlation is a penalized asymptotic "
 "approximation based on Fisher's Z-transformation (ARE = 0.912)."
 msgstr ""
+"Izračun snage Spearmanove korelacije je penalizirana asimptotska "
+"aproksimacija temeljena na Fisherovoj Z-transformaciji (ARE = 0,912)."
 
 #: R\mpwr.b.R mPWR/results/powerCurve.title
 msgid "Power Curve"
@@ -1579,7 +1559,7 @@ msgstr "Gornji prag"
 
 #: mPWR/results/powerTable.columns.superTitle
 msgid "User Defined"
-msgstr ""
+msgstr "Korisnički definirano"
 
 #: mMF/results/estim/mars.columns.title mMF/results/imput/errors.columns.title
 #: mOUT/results/stat/outstat.columns.title
