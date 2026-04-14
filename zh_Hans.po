@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-26 12:08:06+01000\n"
-"PO-Revision-Date: 2026-04-05 02:09+0000\n"
+"PO-Revision-Date: 2026-04-15 17:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/jamovi/jys-i18n/zh_Hans/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: R\mroc.b.R
 msgid " [{prc}% CI]"
@@ -1018,20 +1018,21 @@ msgid "One Sample Correlation (Spearman)"
 msgstr "单样本相关（Spearman）"
 
 #: R\mpwr.b.R mPWR/ui[1]/alt/one.sided.title
+#, fuzzy
 msgid "one-tailed"
-msgstr ""
+msgstr "单尾"
 
 #: mMF/results/imput/errors.description
 msgid "OOB errors table"
-msgstr ""
+msgstr "OOB误差表"
 
 #: mCOR/options/plotOrder/original.title
 msgid "Original"
-msgstr ""
+msgstr "原始"
 
 #: R\mmf.b.R
 msgid "OutFlux**"
-msgstr ""
+msgstr "流出量**"
 
 #: R\mout.b.R
 msgid "outl"
@@ -1039,56 +1040,61 @@ msgstr ""
 
 #: mOUT/options/outfence.title mOUT/results/stat/outstat.title
 msgid "Outliers fences"
-msgstr ""
+msgstr "离群值围篱"
 
 #: R\mout.b.R
 msgid "Outliers found"
-msgstr ""
+msgstr "发现离群值"
 
 #: mOUT/ui[1].label mOUT/results/stat.title
 msgid "Outliers identification"
-msgstr ""
+msgstr "离群值识别"
 
 #: package/datasets/Outliers identification and removal.name
 msgid "Outliers identification and removal"
-msgstr ""
+msgstr "离群值识别与移除"
 
 #: mOUT/options/outlcheck.title
 msgid "Outliers identifying method"
-msgstr ""
+msgstr "离群值识别方法"
 
 #: mOUT/options/outind.title mOUT/results/oind.title
+#, fuzzy
 msgid "Outliers indices"
-msgstr ""
+msgstr "离群值索引"
 
 #: mOUT/ui[2].label
+#, fuzzy
 msgid "Outliers removal"
-msgstr ""
+msgstr "离群值移除"
 
 #: mOUT/ui[1][1].label
+#, fuzzy
 msgid "Output information"
-msgstr ""
+msgstr "输出信息"
 
 #: mCOR/options/pval.title mCOR/results/matrix.columns.content
 msgid "p-value"
-msgstr ""
+msgstr "p 值"
 
 #: mMF/results/estim/mcar.columns.title mMF/results/estim/mars.columns.title
 #: mMF/results/estim/fMARtab.template.columns.title
 msgid "p<sub>value</sub>"
-msgstr ""
+msgstr "p<sub>值</sub>"
 
 #: mROC/options/palBrewer/Paired.title
 msgid "Paired"
 msgstr "配对"
 
 #: R\mpwr.b.R mPWR/options/design/paired.title
+#, fuzzy
 msgid "Paired Samples (Student)"
-msgstr ""
+msgstr "成对样本 (Student)"
 
 #: R\mpwr.b.R mPWR/options/design/paired_np.title
+#, fuzzy
 msgid "Paired Samples (Wilcoxon)"
-msgstr ""
+msgstr "成对样本 (Wilcoxon)"
 
 #: mROC/options/palBrewer/Pastel1.title
 msgid "Pastel1"
